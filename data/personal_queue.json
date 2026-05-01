@@ -22,5 +22,13 @@
     "stage": "TOF",
     "title": "Most AI projects fail because of bad data, not bad models",
     "body": "Here's what nobody talks about: the companies winning with AI aren't winning because they bought better models. They're winning because they have cleaner data pipelines.\n\nYour data is probably a mess. Factory sensors that drift. Missing timestamps. Inconsistent labeling across shifts. Outliers nobody bothered to flag. A model trained on garbage will confidently produce garbage.\n\nThe unsexy truth is that 80% of an AI project is data work. Standardization. Validation. Finding what's actually broken in your existing systems. Most teams want to skip to the fun part—training models—and wonder why nothing works in production.\n\nThe real competitive advantage isn't in the algorithm. It's in the discipline to treat your data like infrastructure, not an afterthought."
+  },
+  {
+    "id": "157a3003025a",
+    "ts": "2026-05-01T06:36:25.158588+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why your digitalization roadmap sits in a drawer",
+    "body": "You built a solid digitalization roadmap. It's technically sound. It sits on a shelf.\n\nThe roadmap dies not because the plan is bad, but because it doesn't map to how your organization actually makes decisions. You've spec'd a three-year digital transformation, but your operations team approves capex on a quarterly cycle. Your IT team owns the infrastructure roadmap. Your business units own the budget. Nobody owns the seam between them.\n\nThe mechanism is simple: digitalization requires sustained cross-functional commitment, but most organizations have siloed approval gates that don't speak to each other.\n\nHere's the fix. Instead of one roadmap, build three.\n\nFirst, a technical roadmap (IT's domain). Second, a capability roadmap tied to business outcomes (operations/finance). Third, a governance roadmap that explicitly names who approves what and when. Make the third one tiny—just the decision nodes and the people in the room.\n\nThen socialize it backwards. Start with governance. Get agreement on the approval framework first. Everything else follows.\n\nYour roadmap doesn't fail because the vision was wrong. It fails because the decision structure wasn't explicit."
   }
 ]
