@@ -110,5 +110,15 @@
     "body": "Most AI teams optimize for model accuracy. They run validation splits, tune hyperparameters, chase SOTA benchmarks. Then the model ships and nobody uses it.\n\nThe disconnect isn't about engineering rigor. It's that accuracy measures what the model predicts well, not what the business needs predicted. A model can be 94% accurate and still worthless if it's predicting the wrong target variable or at the wrong frequency for the decision it's supposed to support.\n\nThis happens because accuracy is decoupled from the actual failure cost. In manufacturing, predicting equipment failure with 90% precision might be useless if false positives trigger expensive maintenance. In supply chain, a forecast 95% accurate at weekly granularity doesn't help if you need daily decisions.\n\nThe reframe: Stop treating the model as the unit of work. Treat the decision as the unit of work. Ask first: what choice does this model inform, and how wrong can it be before the choice breaks? That backwards constraint — decision first, model second — changes what you optimize for entirely.\n\nAccuracy is a technical detail. Decision quality is the product.",
     "image_url": "",
     "image_prompt": ""
+  },
+  {
+    "id": "54a40df5e83b",
+    "ts": "2026-05-01T12:04:14.309153+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why your digitalization stalls between pilot and scale",
+    "body": "You get the pilot working. Three months in, the sensor data flows, the model trains, stakeholders nod. Then you try to roll it to the second production line and everything fractures.\n\nThis happens because pilots optimize for proof, not pattern. You hand-tune data pipelines for one environment, hard-code thresholds for one machine, build dashboards for one audience. It all works because you're close to it. Scale demands abstraction — and most teams don't abstract until they have to, which is already too late.\n\nThe fix is simple: treat your pilot as a template, not a prototype. Before you celebrate, force yourself to document three things: What assumptions did you bake in? What would break if you moved to a different line? What would a stranger need to know to rebuild this from scratch?\n\nThen actually rebuild it on paper first, using only that documentation. If you can't, you're not ready to scale.\n\nPilots that abstract early don't stall.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/54a40df5e83b.png",
+    "image_prompt": "A problem-vs-solution side-by-side infographic. LEFT SIDE titled PILOT MINDSET in muted red: three short lines stacked — 'Hand-tune for one machine', 'Optimize for proof', 'Hard-code thresholds'. RIGHT SIDE titled TEMPLATE MINDSET in muted forest green: three corresponding lines — 'Parameterize across variants', 'Optimize for pattern', 'Config-driven logic'. Dividing line in the center, clean sans-serif (Inter or similar), all-caps section headers, bone background, no icons, spare layout. Both sides left-aligned, equal white space. Text in dark charcoal, 6-8 words per line maximum."
   }
 ]

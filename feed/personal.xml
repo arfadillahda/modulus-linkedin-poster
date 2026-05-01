@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 01 May 2026 12:03:40 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 12:04:29 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization stalls between pilot and scale</title>
+<guid isPermaLink="false">54a40df5e83b</guid>
+<pubDate>Fri, 01 May 2026 12:04:14 +0000</pubDate>
+<description><![CDATA[You get the pilot working. Three months in, the sensor data flows, the model trains, stakeholders nod. Then you try to roll it to the second production line and everything fractures.
+
+This happens because pilots optimize for proof, not pattern. You hand-tune data pipelines for one environment, hard-code thresholds for one machine, build dashboards for one audience. It all works because you're close to it. Scale demands abstraction — and most teams don't abstract until they have to, which is already too late.
+
+The fix is simple: treat your pilot as a template, not a prototype. Before you celebrate, force yourself to document three things: What assumptions did you bake in? What would break if you moved to a different line? What would a stranger need to know to rebuild this from scratch?
+
+Then actually rebuild it on paper first, using only that documentation. If you can't, you're not ready to scale.
+
+Pilots that abstract early don't stall.]]></description>
+<content:encoded><![CDATA[You get the pilot working. Three months in, the sensor data flows, the model trains, stakeholders nod. Then you try to roll it to the second production line and everything fractures.
+
+This happens because pilots optimize for proof, not pattern. You hand-tune data pipelines for one environment, hard-code thresholds for one machine, build dashboards for one audience. It all works because you're close to it. Scale demands abstraction — and most teams don't abstract until they have to, which is already too late.
+
+The fix is simple: treat your pilot as a template, not a prototype. Before you celebrate, force yourself to document three things: What assumptions did you bake in? What would break if you moved to a different line? What would a stranger need to know to rebuild this from scratch?
+
+Then actually rebuild it on paper first, using only that documentation. If you can't, you're not ready to scale.
+
+Pilots that abstract early don't stall.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/54a40df5e83b.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/54a40df5e83b.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your AI team keeps building the wrong thing</title>
 <guid isPermaLink="false">cfb8f0a62aff</guid>
