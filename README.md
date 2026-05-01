@@ -1,6 +1,48 @@
 # modulus-linkedin-poster
 
-Auto-poster that publishes the latest article from
+Two pipelines living in one repo:
+
+### 1. Personal-content pipeline (active)
+Generates one evergreen LinkedIn post per day — topics rotate over
+**artificial intelligence**, **sustainability**, **digitalization**; framing
+rotates over **TOF / MOF / BOF** (personal-profile reframe — see
+`scripts/generate_personal.py`). Output is appended to `data/personal_queue.json`
+and republished as `feed/personal.xml`. A third-party (Make.com / Buffer / Zapier)
+polls that RSS and posts to LinkedIn — **no LinkedIn dev app needed**, which
+is what unblocks us while LinkedIn requires a Company Page for direct API access.
+
+### 2. Direct-API pipeline (shelved)
+The original direct-LinkedIn-API path (`fetch_insights.py` + `post_linkedin.py`
++ company / personal / refresh-token workflows) — kept in place for the future
+when LinkedIn's Marketing Developer Platform approves a Company Page. Not
+running today.
+
+---
+
+## Personal-content pipeline
+
+### How it works (active path)
+1. `scripts/generate_personal.py` calls Claude Haiku once per run, picks the
+   least-recently-used (topic, stage) cell out of the 9 combinations, and
+   generates `{title, body}` for one post.
+2. `scripts/build_rss.py` rebuilds `feed/personal.xml` from the queue.
+3. `generate-personal.yml` workflow runs daily at 06:00 UTC, commits the
+   updated queue + feed back to the repo, push.
+4. **You** point Make.com / Buffer at the public RSS URL and authorize it
+   against your LinkedIn personal account. It posts on your behalf using
+   their pre-approved LinkedIn integration.
+
+### Required secret
+- `ANTHROPIC_API_KEY` — Claude API key (uses `claude-haiku-4-5-20251001`).
+
+### Cost
+~$0.30/month at one post/day with Haiku.
+
+---
+
+## Direct-API pipeline (shelved — leave alone for now)
+
+Original goal: publish the latest article from
 [modulus1.co/insights.html](https://modulus1.co/insights.html) to LinkedIn on
 a cron — both the **Modulus1 Company Page** and **Dam's personal profile**.
 
