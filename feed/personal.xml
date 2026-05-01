@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 01 May 2026 11:58:55 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 12:03:40 +0000</lastBuildDate>
+<item>
+<title>Why your AI team keeps building the wrong thing</title>
+<guid isPermaLink="false">cfb8f0a62aff</guid>
+<pubDate>Fri, 01 May 2026 12:03:40 +0000</pubDate>
+<description><![CDATA[Most AI teams optimize for model accuracy. They run validation splits, tune hyperparameters, chase SOTA benchmarks. Then the model ships and nobody uses it.
+
+The disconnect isn't about engineering rigor. It's that accuracy measures what the model predicts well, not what the business needs predicted. A model can be 94% accurate and still worthless if it's predicting the wrong target variable or at the wrong frequency for the decision it's supposed to support.
+
+This happens because accuracy is decoupled from the actual failure cost. In manufacturing, predicting equipment failure with 90% precision might be useless if false positives trigger expensive maintenance. In supply chain, a forecast 95% accurate at weekly granularity doesn't help if you need daily decisions.
+
+The reframe: Stop treating the model as the unit of work. Treat the decision as the unit of work. Ask first: what choice does this model inform, and how wrong can it be before the choice breaks? That backwards constraint — decision first, model second — changes what you optimize for entirely.
+
+Accuracy is a technical detail. Decision quality is the product.]]></description>
+<content:encoded><![CDATA[Most AI teams optimize for model accuracy. They run validation splits, tune hyperparameters, chase SOTA benchmarks. Then the model ships and nobody uses it.
+
+The disconnect isn't about engineering rigor. It's that accuracy measures what the model predicts well, not what the business needs predicted. A model can be 94% accurate and still worthless if it's predicting the wrong target variable or at the wrong frequency for the decision it's supposed to support.
+
+This happens because accuracy is decoupled from the actual failure cost. In manufacturing, predicting equipment failure with 90% precision might be useless if false positives trigger expensive maintenance. In supply chain, a forecast 95% accurate at weekly granularity doesn't help if you need daily decisions.
+
+The reframe: Stop treating the model as the unit of work. Treat the decision as the unit of work. Ask first: what choice does this model inform, and how wrong can it be before the choice breaks? That backwards constraint — decision first, model second — changes what you optimize for entirely.
+
+Accuracy is a technical detail. Decision quality is the product.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your digitalization feels disconnected from reality</title>
 <guid isPermaLink="false">a3b80dcc4d5f</guid>
