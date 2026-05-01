@@ -1,0 +1,41 @@
+name: refresh-token
+
+on:
+  schedule:
+    # Every Sunday 02:00 UTC — well inside LinkedIn's 60-day window
+    - cron: "0 2 * * 0"
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install requests
+
+      - name: Refresh LinkedIn token
+        id: refresh
+        env:
+          LI_CLIENT_ID:     ${{ secrets.LI_CLIENT_ID }}
+          LI_CLIENT_SECRET: ${{ secrets.LI_CLIENT_SECRET }}
+          LI_REFRESH_TOKEN: ${{ secrets.LI_REFRESH_TOKEN }}
+        run: |
+          python scripts/refresh_token.py > token.json
+          echo "access_token=$(jq -r .access_token token.json)"   >> "$GITHUB_OUTPUT"
+          echo "refresh_token=$(jq -r .refresh_token token.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Write tokens back to repo secrets
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT_REPO_ADMIN }}
+        run: |
+          gh secret set LI_ACCESS_TOKEN  --body "${{ steps.refresh.outputs.access_token }}"
+          gh secret set LI_REFRESH_TOKEN --body "${{ steps.refresh.outputs.refresh_token }}"
+
+      - name: Cleanup
+        if: always()
+        run: rm -f token.json

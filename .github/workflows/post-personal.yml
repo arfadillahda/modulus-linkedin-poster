@@ -1,0 +1,39 @@
+name: post-personal
+
+on:
+  schedule:
+    # Tue/Thu at 10:00 UTC — offset from company posts
+    - cron: "0 10 * * 2,4"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Post next insight (personal)
+        env:
+          LI_MODE: personal
+          LI_ACCESS_TOKEN: ${{ secrets.LI_ACCESS_TOKEN }}
+          LI_PERSON_ID: ${{ secrets.LI_PERSON_ID }}
+        run: python scripts/post_linkedin.py
+
+      - name: Commit state
+        run: |
+          if [ -n "$(git status --porcelain state/)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add state/
+            git commit -m "chore: update personal poster state"
+            git push
+          fi

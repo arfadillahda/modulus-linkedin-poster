@@ -1,0 +1,39 @@
+name: post-company
+
+on:
+  schedule:
+    # Mon/Wed/Fri at 09:00 UTC (~16:00 WIB / morning US)
+    - cron: "0 9 * * 1,3,5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Post next insight (company)
+        env:
+          LI_MODE: company
+          LI_ACCESS_TOKEN: ${{ secrets.LI_ACCESS_TOKEN }}
+          LI_ORG_ID: ${{ secrets.LI_ORG_ID }}
+        run: python scripts/post_linkedin.py
+
+      - name: Commit state
+        run: |
+          if [ -n "$(git status --porcelain state/)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add state/
+            git commit -m "chore: update company poster state"
+            git push
+          fi
