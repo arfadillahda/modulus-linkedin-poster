@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 01 May 2026 13:11:39 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 13:26:54 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization consultant keeps missing the real constraint</title>
+<guid isPermaLink="false">318423aab616</guid>
+<pubDate>Fri, 01 May 2026 13:26:54 +0000</pubDate>
+<description><![CDATA[Your manufacturing digitalization project has perfect data architecture, a shiny MES, and a vendor who promises 30% efficiency gains. Three months in, nothing changed on the plant floor.
+
+This happens because digitalization gets sold as a technology problem. It isn't. It's a *capability problem* — your operators, maintenance teams, and floor supervisors don't have the mental models to interpret what the system is telling them, or the authority to act on it. A dashboard showing you that OEE dropped 8% means nothing if the person watching it can't diagnose *why* or call the shots to fix it.
+
+Your consultant optimized the data layer. They didn't optimize the decision-making layer.
+
+Start by mapping who needs to make which decisions, and what information they actually need (not what's technically convenient to show them). Then ask: do they have that info? Do they have permission to use it? That reframe splits digitalization into two separate problems — the tech is just one of them.
+
+Your system's ceiling is set by the least empowered person in the loop.]]></description>
+<content:encoded><![CDATA[Your manufacturing digitalization project has perfect data architecture, a shiny MES, and a vendor who promises 30% efficiency gains. Three months in, nothing changed on the plant floor.
+
+This happens because digitalization gets sold as a technology problem. It isn't. It's a *capability problem* — your operators, maintenance teams, and floor supervisors don't have the mental models to interpret what the system is telling them, or the authority to act on it. A dashboard showing you that OEE dropped 8% means nothing if the person watching it can't diagnose *why* or call the shots to fix it.
+
+Your consultant optimized the data layer. They didn't optimize the decision-making layer.
+
+Start by mapping who needs to make which decisions, and what information they actually need (not what's technically convenient to show them). Then ask: do they have that info? Do they have permission to use it? That reframe splits digitalization into two separate problems — the tech is just one of them.
+
+Your system's ceiling is set by the least empowered person in the loop.]]></content:encoded>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your AI vendor won't commit to a timeline</title>
 <guid isPermaLink="false">62a8ab288743</guid>
