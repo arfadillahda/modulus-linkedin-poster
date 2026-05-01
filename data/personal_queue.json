@@ -30,5 +30,15 @@
     "stage": "MOF",
     "title": "Why your digitalization roadmap sits in a drawer",
     "body": "You built a solid digitalization roadmap. It's technically sound. It sits on a shelf.\n\nThe roadmap dies not because the plan is bad, but because it doesn't map to how your organization actually makes decisions. You've spec'd a three-year digital transformation, but your operations team approves capex on a quarterly cycle. Your IT team owns the infrastructure roadmap. Your business units own the budget. Nobody owns the seam between them.\n\nThe mechanism is simple: digitalization requires sustained cross-functional commitment, but most organizations have siloed approval gates that don't speak to each other.\n\nHere's the fix. Instead of one roadmap, build three.\n\nFirst, a technical roadmap (IT's domain). Second, a capability roadmap tied to business outcomes (operations/finance). Third, a governance roadmap that explicitly names who approves what and when. Make the third one tiny—just the decision nodes and the people in the room.\n\nThen socialize it backwards. Start with governance. Get agreement on the approval framework first. Everything else follows.\n\nYour roadmap doesn't fail because the vision was wrong. It fails because the decision structure wasn't explicit."
+  },
+  {
+    "id": "a5290268afcf",
+    "ts": "2026-05-01T06:51:23.448831+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability scorecards fail at the plant level",
+    "body": "Most manufacturers report their emissions to corporate HQ using spreadsheets compiled weeks after month-end close. By then, the production decisions that created those emissions are already locked in.\n\nThe gap exists because sustainability metrics live in the finance and ESG silo, not in operations. A plant manager optimizing for throughput and cost sees sustainability as a reporting checkbox, not a real-time constraint. So they make production calls in a vacuum. Corporate discovers the damage when it hits the scorecard.\n\nThe reframe: treat emissions and energy the same way you treat scrap rate or OEE. Visibility at decision time, not audit time.\n\nWhen a scheduler sees their carbon footprint for a production sequence before they commit to it, the incentives flip. Sustainability becomes baked into daily trade-offs instead of bolted on after the fact. You don't need a perfect carbon accounting model to start. You need the number at the moment it matters.\n\nReal-time operational transparency is the missing link between sustainability targets and actual results.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/a5290268afcf.png",
+    "image_prompt": "Minimalist illustration of a factory floor split into two halves: left side shows a timeline arrow moving left (past) with a spreadsheet and checkmark, right side shows a live dashboard with green and red gauges in real-time, representing the shift from retrospective reporting to operational visibility."
   }
 ]

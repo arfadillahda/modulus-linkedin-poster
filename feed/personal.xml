@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 01 May 2026 06:36:25 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 06:51:39 +0000</lastBuildDate>
+<item>
+<title>Why sustainability scorecards fail at the plant level</title>
+<guid isPermaLink="false">a5290268afcf</guid>
+<pubDate>Fri, 01 May 2026 06:51:23 +0000</pubDate>
+<description><![CDATA[Most manufacturers report their emissions to corporate HQ using spreadsheets compiled weeks after month-end close. By then, the production decisions that created those emissions are already locked in.
+
+The gap exists because sustainability metrics live in the finance and ESG silo, not in operations. A plant manager optimizing for throughput and cost sees sustainability as a reporting checkbox, not a real-time constraint. So they make production calls in a vacuum. Corporate discovers the damage when it hits the scorecard.
+
+The reframe: treat emissions and energy the same way you treat scrap rate or OEE. Visibility at decision time, not audit time.
+
+When a scheduler sees their carbon footprint for a production sequence before they commit to it, the incentives flip. Sustainability becomes baked into daily trade-offs instead of bolted on after the fact. You don't need a perfect carbon accounting model to start. You need the number at the moment it matters.
+
+Real-time operational transparency is the missing link between sustainability targets and actual results.]]></description>
+<content:encoded><![CDATA[Most manufacturers report their emissions to corporate HQ using spreadsheets compiled weeks after month-end close. By then, the production decisions that created those emissions are already locked in.
+
+The gap exists because sustainability metrics live in the finance and ESG silo, not in operations. A plant manager optimizing for throughput and cost sees sustainability as a reporting checkbox, not a real-time constraint. So they make production calls in a vacuum. Corporate discovers the damage when it hits the scorecard.
+
+The reframe: treat emissions and energy the same way you treat scrap rate or OEE. Visibility at decision time, not audit time.
+
+When a scheduler sees their carbon footprint for a production sequence before they commit to it, the incentives flip. Sustainability becomes baked into daily trade-offs instead of bolted on after the fact. You don't need a perfect carbon accounting model to start. You need the number at the moment it matters.
+
+Real-time operational transparency is the missing link between sustainability targets and actual results.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/a5290268afcf.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/a5290268afcf.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your digitalization roadmap sits in a drawer</title>
 <guid isPermaLink="false">157a3003025a</guid>
