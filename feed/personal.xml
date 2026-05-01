@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 01 May 2026 06:58:37 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 06:59:50 +0000</lastBuildDate>
+<item>
+<title>Why your inference latency collapses at scale</title>
+<guid isPermaLink="false">a1b497350096</guid>
+<pubDate>Fri, 01 May 2026 06:59:30 +0000</pubDate>
+<description><![CDATA[You nail the model. Validation metrics look good. You deploy to production. Then real traffic hits and latency goes from 200ms to 2 seconds. You didn't change the model. The problem is batching.
+
+Most inference setups batch requests to maximize GPU throughput. That's correct. But batching introduces queueing delay. A request arriving when the batch is full waits for the entire batch to execute before it even starts. At low traffic this is invisible. At realistic traffic—especially in industrial systems with bursty demand—this dynamic latency floor dominates your p99.
+
+The mechanism: you're optimizing for throughput (requests per second) instead of latency percentiles. A batch size of 32 at 100% GPU utilization sounds efficient on a spreadsheet. In practice, you're trading steady-state throughput for tail latency that makes real applications unusable.
+
+The fix is explicit: tune your batch size and queue timeout as a trade-off, not separately. Run load tests that measure both p50 and p99 latency while varying batch size. Find where p99 stops improving per unit of throughput gained. That's your actual operating point. Usually it's smaller than you think.
+
+Latency and throughput are not free variables—know which one your application actually needs.]]></description>
+<content:encoded><![CDATA[You nail the model. Validation metrics look good. You deploy to production. Then real traffic hits and latency goes from 200ms to 2 seconds. You didn't change the model. The problem is batching.
+
+Most inference setups batch requests to maximize GPU throughput. That's correct. But batching introduces queueing delay. A request arriving when the batch is full waits for the entire batch to execute before it even starts. At low traffic this is invisible. At realistic traffic—especially in industrial systems with bursty demand—this dynamic latency floor dominates your p99.
+
+The mechanism: you're optimizing for throughput (requests per second) instead of latency percentiles. A batch size of 32 at 100% GPU utilization sounds efficient on a spreadsheet. In practice, you're trading steady-state throughput for tail latency that makes real applications unusable.
+
+The fix is explicit: tune your batch size and queue timeout as a trade-off, not separately. Run load tests that measure both p50 and p99 latency while varying batch size. Find where p99 stops improving per unit of throughput gained. That's your actual operating point. Usually it's smaller than you think.
+
+Latency and throughput are not free variables—know which one your application actually needs.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/a1b497350096.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/a1b497350096.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your sustainability plan dies at the supply tier</title>
 <guid isPermaLink="false">e1ef89addabc</guid>

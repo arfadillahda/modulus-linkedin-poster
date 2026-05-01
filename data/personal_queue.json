@@ -50,5 +50,15 @@
     "body": "You've mapped your own emissions. You know your Scope 1 and 2 cold. Then you ask your suppliers for their data and hit a wall—spreadsheets that don't match, estimates that vary by 40%, or silence.\n\nThis isn't laziness. Your suppliers have no incentive to measure what they can't monetize yet. They're running on margin, not climate targets. Asking them to instrument their operations without showing them ROI is like asking someone to install a security system in a building they're about to leave.\n\nHere's the move: stop asking for data. Start designing backwards from their constraint.\n\nPick ONE material or process that moves your needle—maybe the steel in your product, or the coating process. Find the efficiency play that also cuts their cost. Lower energy consumption, less waste, faster cycle time. Something they already want to do. Then propose a joint measurement pilot: you fund the metering, they get the operational savings.\n\nMeasurement becomes a byproduct of a deal that works for both of you.\n\nSupply chain decarbonization moves when you align incentives, not when you align spreadsheets.",
     "image_url": "",
     "image_prompt": ""
+  },
+  {
+    "id": "a1b497350096",
+    "ts": "2026-05-01T06:59:30.453126+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why your inference latency collapses at scale",
+    "body": "You nail the model. Validation metrics look good. You deploy to production. Then real traffic hits and latency goes from 200ms to 2 seconds. You didn't change the model. The problem is batching.\n\nMost inference setups batch requests to maximize GPU throughput. That's correct. But batching introduces queueing delay. A request arriving when the batch is full waits for the entire batch to execute before it even starts. At low traffic this is invisible. At realistic traffic—especially in industrial systems with bursty demand—this dynamic latency floor dominates your p99.\n\nThe mechanism: you're optimizing for throughput (requests per second) instead of latency percentiles. A batch size of 32 at 100% GPU utilization sounds efficient on a spreadsheet. In practice, you're trading steady-state throughput for tail latency that makes real applications unusable.\n\nThe fix is explicit: tune your batch size and queue timeout as a trade-off, not separately. Run load tests that measure both p50 and p99 latency while varying batch size. Find where p99 stops improving per unit of throughput gained. That's your actual operating point. Usually it's smaller than you think.\n\nLatency and throughput are not free variables—know which one your application actually needs.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/a1b497350096.png",
+    "image_prompt": "A narrow hallway with people standing in a single-file queue, shot from above in harsh fluorescent light, everyone frozen mid-wait, tension visible in their posture. Shot on color film with shallow depth of field on the nearest person's face."
   }
 ]
