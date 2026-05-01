@@ -4,7 +4,28 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 01 May 2026 06:18:52 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 06:31:53 +0000</lastBuildDate>
+<item>
+<title>Most AI projects fail because of bad data, not bad models</title>
+<guid isPermaLink="false">df50c382829f</guid>
+<pubDate>Fri, 01 May 2026 06:31:53 +0000</pubDate>
+<description><![CDATA[Here's what nobody talks about: the companies winning with AI aren't winning because they bought better models. They're winning because they have cleaner data pipelines.
+
+Your data is probably a mess. Factory sensors that drift. Missing timestamps. Inconsistent labeling across shifts. Outliers nobody bothered to flag. A model trained on garbage will confidently produce garbage.
+
+The unsexy truth is that 80% of an AI project is data work. Standardization. Validation. Finding what's actually broken in your existing systems. Most teams want to skip to the fun part—training models—and wonder why nothing works in production.
+
+The real competitive advantage isn't in the algorithm. It's in the discipline to treat your data like infrastructure, not an afterthought.]]></description>
+<content:encoded><![CDATA[Here's what nobody talks about: the companies winning with AI aren't winning because they bought better models. They're winning because they have cleaner data pipelines.
+
+Your data is probably a mess. Factory sensors that drift. Missing timestamps. Inconsistent labeling across shifts. Outliers nobody bothered to flag. A model trained on garbage will confidently produce garbage.
+
+The unsexy truth is that 80% of an AI project is data work. Standardization. Validation. Finding what's actually broken in your existing systems. Most teams want to skip to the fun part—training models—and wonder why nothing works in production.
+
+The real competitive advantage isn't in the algorithm. It's in the discipline to treat your data like infrastructure, not an afterthought.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why most digitalization projects fail before they start</title>
 <guid isPermaLink="false">7bdb6d2bd7c1</guid>

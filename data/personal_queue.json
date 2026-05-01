@@ -14,5 +14,13 @@
     "stage": "TOF",
     "title": "Why most digitalization projects fail before they start",
     "body": "Most manufacturers treat digitalization like a software upgrade. They buy the platform, train the team, declare victory. Then nothing changes.\n\nThe real problem: they're digitizing broken processes.\n\nYou can't automate a mess and expect a miracle. If your maintenance team keeps records in three different systems, moving to a digital tool just means three systems in the cloud. If your production scheduling relies on tribal knowledge and email chains, an MES won't fix that—it'll just make the chaos more visible.\n\nDigitalization only works when you've first clarified what you're actually trying to do. That means sitting down and mapping the real workflow, not the org chart version. It means asking uncomfortable questions about why things are done a certain way.\n\nThe companies that actually succeed at this treat digitalization as a consequence of process clarity, not the other way around.\n\nBuilding a digital system on top of analog chaos just makes you expensively confused."
+  },
+  {
+    "id": "df50c382829f",
+    "ts": "2026-05-01T06:31:53.764846+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Most AI projects fail because of bad data, not bad models",
+    "body": "Here's what nobody talks about: the companies winning with AI aren't winning because they bought better models. They're winning because they have cleaner data pipelines.\n\nYour data is probably a mess. Factory sensors that drift. Missing timestamps. Inconsistent labeling across shifts. Outliers nobody bothered to flag. A model trained on garbage will confidently produce garbage.\n\nThe unsexy truth is that 80% of an AI project is data work. Standardization. Validation. Finding what's actually broken in your existing systems. Most teams want to skip to the fun part—training models—and wonder why nothing works in production.\n\nThe real competitive advantage isn't in the algorithm. It's in the discipline to treat your data like infrastructure, not an afterthought."
   }
 ]
