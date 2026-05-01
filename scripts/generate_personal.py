@@ -223,54 +223,81 @@ FiveThirtyEight, and Bloomberg Businessweek graphic explainers. You output \
 ONLY one self-contained <svg> element — nothing before it, nothing after. \
 No prose. No code fences. No markdown. The SVG IS your entire response."""
 
-SVG_USER_TMPL = """Design a square 1024x1024 editorial infographic that \
-communicates the core idea of this LinkedIn post.
+SVG_USER_TMPL = """Design a square 1024x1024 LinkedIn cover graphic in the \
+"numbered slide tiles" Instagram-carousel-cover style — a single canvas \
+that distills the post into 3-5 numbered slide-style tiles, all visible \
+at once.
 
 POST TITLE: {title}
 
 POST BODY:
 {body}
 
-DESIGN BRIEF:
-- Pick ONE of these layouts that best fits the post's structure (do not \
-mix them):
-  (a) 3-step framework — three vertical cards in a row, each numbered 01/02/03
-  (b) Problem vs Solution — two columns with sharp typographic contrast
-  (c) Hero stat — one large display number/percentage with a single \
-supporting line of context underneath
-  (d) Mechanism diagram — 2-3 connected nodes showing how something works
-  (e) Comparison table — 2 columns x 3-4 rows with concise labels
-- Decide which layout makes the post's insight clearest. Be opinionated.
-- Total on-canvas text MUST be short, specific, and pulled from the post's \
-actual ideas. No filler. No lorem ipsum. Total word count on canvas: \
-between 12 and 60 words including the title.
-- Include a small kicker label at the top (one of: AI / SUSTAINABILITY / \
-DIGITALIZATION — match the post's topic) in tracked-out small caps.
-- Include a tight headline (5-9 words) that captures the insight.
+LAYOUT (mandatory):
+
+  Top band (top ~22% of canvas):
+    - Tiny kicker label, tracked-out uppercase small caps, in the accent
+      color: one of "AI", "SUSTAINABILITY", or "DIGITALIZATION" — must
+      match the post topic.
+    - Bold display headline beneath it, max 2 lines, 5-9 words total.
+      Distill the post's core insight in conversational language.
+      DO NOT reuse the post title verbatim.
+
+  Middle band (~62% of canvas):
+    - A grid of numbered tiles, each rendered as a soft tonal card.
+      Pick the count that fits 3-5 distinct points pulled from the body:
+        * 3 points -> single row of 3 wide tiles
+        * 4 points -> 2x2 grid
+        * 5 points -> top row of 2 tall tiles, bottom row of 3 short
+          tiles (or 3+2)
+    - Each tile contains:
+        - A large bold numeral 01 / 02 / 03 ... in the accent color,
+          top-left of the tile.
+        - A 2-4 word tile title in bold ink directly under the numeral.
+        - A single line caption (max 10 words) in body ink under the
+          title.
+    - Tiles share consistent height + 16px corner radius, ~16px gap.
+
+  Bottom band (~16% of canvas):
+    - One closing line — the post's takeaway, max 10 words, centered,
+      smaller than the headline but still confident. Optional 1px
+      hairline rule above it.
+
+CONTENT RULES:
+- Pull every word from the post's actual ideas. No filler, no lorem
+  ipsum, no invented data, no fake stats.
+- Total on-canvas word count: 35-90 words across headline + tiles +
+  closing line. Tight. If a tile caption goes long, cut adjectives.
+- The N tiles must be distinct points — not restatements. If the post
+  doesn't naturally surface 3+ distinct points, pick 3 and treat each
+  as a facet of the insight (e.g. cause / mechanism / fix).
 
 VISUAL SYSTEM (strict):
 - viewBox="0 0 1024 1024"
-- Background: warm off-white (#F5F1EA or similar bone tone)
-- Ink: near-black (#111111) for headlines, slightly lighter (#3A3A3A) for body
-- ONE single restrained accent — pick exactly one of these and use it \
-sparingly: muted electric blue (#2D5BFF), forest green (#1F5C3D), or burnt \
-orange (#C24A1F)
-- Typography stack: font-family="Inter, 'Helvetica Neue', Arial, \
-sans-serif". Use font-weight 800 for display, 600 for kickers, 400 for \
-body. Letter-spacing tight on display, tracked-out on small caps.
-- Optional: 1px hairline rules in #11111122, subtle 2-3% drop shadows on \
-cards, soft tonal cards in #EFEAE0.
-- Generous whitespace. Deliberate alignment to a 12-column or 8-column grid.
+- Background: warm off-white (#F5F1EA bone)
+- Tile cards: soft tonal #EFEAE0 OR #FFFFFF, 16px rounded corners,
+  optional 1px hairline border #11111118. No harsh shadows.
+- Ink: #111111 for headline + tile titles, #3A3A3A for captions and
+  closing line. Kicker is in the accent color.
+- ONE accent color — pick exactly one and use it ONLY on: kicker,
+  tile numerals, and (optionally) one tiny underline rule under the
+  headline. Choose: muted electric blue #2D5BFF, forest green #1F5C3D,
+  or burnt orange #C24A1F.
+- Typography: font-family="Inter, 'Helvetica Neue', Arial, sans-serif".
+  Weights: 800 display + numerals, 700 tile titles, 600 kicker
+  (uppercase, letter-spacing 0.18em), 400 body. Tight letter-spacing
+  on display headline.
+- Generous outer padding (~64px). Deliberate grid alignment.
 
-HARD BANS — do NOT include:
-- No clipart, no emoji, no cartoon icons, no isometric scenes
-- No PowerPoint SmartArt or free-Canva aesthetic
-- No rainbow gradients, no glowing neon, no cyber/circuit imagery
-- No raster <image>, no <foreignObject>, no external font URLs (@import \
-or <link>) — pure SVG primitives only (rect, line, text, path, g, defs, \
-filter, clipPath, mask)
-- No human figures, no faces, no hands, no logos
-- No filler text, no decorative latin, no fake brand names
+HARD BANS:
+- No emoji, clipart, cartoon icons, isometric scenes, PowerPoint
+  SmartArt, free-Canva aesthetic.
+- No rainbow gradients, glowing neon, cyber/circuit imagery,
+  AI-default starscape.
+- No raster <image>, no <foreignObject>, no external @import or <link>.
+  Pure SVG primitives only (rect, line, text, tspan, path, g, defs,
+  filter, clipPath, mask).
+- No humans, faces, hands, logos, fake brand names, decorative latin.
 
 Output the complete <svg>...</svg> element and nothing else."""
 
