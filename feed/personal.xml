@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 01 May 2026 08:23:15 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 11:58:55 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization feels disconnected from reality</title>
+<guid isPermaLink="false">a3b80dcc4d5f</guid>
+<pubDate>Fri, 01 May 2026 11:58:30 +0000</pubDate>
+<description><![CDATA[Most industrial companies treat digitalization as a technology project instead of a process redesign project. You buy sensors, hire data engineers, build dashboards—and six months in, the floor is still making decisions the old way.
+
+This happens because digitalization roadmaps are written by people who don't spend time on the shop floor. They optimize for data completeness and system elegance, not for whether a shift supervisor can actually *use* the information to make a faster or safer decision. The gap between "we have the data" and "we changed behavior" is where digitalization dies.
+
+Here's the reframe: digitalization isn't about collecting more truth. It's about shortening the feedback loop between a process change and its measurable outcome. Start there instead of the database schema. Ask: what decision is actually stuck right now because information moves too slowly? Then build backward from that single decision to the minimal data pipeline that serves it.
+
+You'll end up with less infrastructure, faster adoption, and something that actually moves the needle.
+
+Digitalization succeeds when it answers a question someone on the floor is already asking.]]></description>
+<content:encoded><![CDATA[Most industrial companies treat digitalization as a technology project instead of a process redesign project. You buy sensors, hire data engineers, build dashboards—and six months in, the floor is still making decisions the old way.
+
+This happens because digitalization roadmaps are written by people who don't spend time on the shop floor. They optimize for data completeness and system elegance, not for whether a shift supervisor can actually *use* the information to make a faster or safer decision. The gap between "we have the data" and "we changed behavior" is where digitalization dies.
+
+Here's the reframe: digitalization isn't about collecting more truth. It's about shortening the feedback loop between a process change and its measurable outcome. Start there instead of the database schema. Ask: what decision is actually stuck right now because information moves too slowly? Then build backward from that single decision to the minimal data pipeline that serves it.
+
+You'll end up with less infrastructure, faster adoption, and something that actually moves the needle.
+
+Digitalization succeeds when it answers a question someone on the floor is already asking.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/a3b80dcc4d5f.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/a3b80dcc4d5f.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your AI pilot never scales past the pilot</title>
 <guid isPermaLink="false">39c8c4772d21</guid>
