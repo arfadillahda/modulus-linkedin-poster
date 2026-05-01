@@ -1,0 +1,104 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="106%" height="106%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#111111" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- Top hairline rule -->
+  <line x1="64" y1="64" x2="960" y2="64" stroke="#11111122" stroke-width="1"/>
+  <!-- Bottom hairline rule -->
+  <line x1="64" y1="960" x2="960" y2="960" stroke="#11111122" stroke-width="1"/>
+
+  <!-- Kicker label -->
+  <text x="64" y="100" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="11" fill="#1F5C3D" letter-spacing="4">SUSTAINABILITY</text>
+
+  <!-- Headline -->
+  <text x="64" y="176" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="58" fill="#111111" letter-spacing="-1.5">Static baselines</text>
+  <text x="64" y="244" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="58" fill="#111111" letter-spacing="-1.5">lie to you every winter.</text>
+
+  <!-- Divider under headline -->
+  <line x1="64" y1="272" x2="960" y2="272" stroke="#11111122" stroke-width="1"/>
+
+  <!-- TWO COLUMN LAYOUT: Problem | Solution -->
+  <!-- Column headers -->
+  <!-- Problem column card -->
+  <rect x="64" y="300" width="422" height="560" rx="6" fill="#EFEAE0" filter="url(#shadow)"/>
+  <!-- Solution column card -->
+  <rect x="538" y="300" width="422" height="560" rx="6" fill="#EFEAE0" filter="url(#shadow)"/>
+
+  <!-- Problem Header bar -->
+  <rect x="64" y="300" width="422" height="52" rx="6" fill="#111111"/>
+  <rect x="64" y="330" width="422" height="22" fill="#111111"/>
+  <text x="275" y="333" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="13" fill="#F5F1EA" text-anchor="middle" letter-spacing="3">THE PROBLEM</text>
+
+  <!-- Solution Header bar -->
+  <rect x="538" y="300" width="422" height="52" rx="6" fill="#1F5C3D"/>
+  <rect x="538" y="330" width="422" height="22" fill="#1F5C3D"/>
+  <text x="749" y="333" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="13" fill="#F5F1EA" text-anchor="middle" letter-spacing="3">THE FIX</text>
+
+  <!-- Problem row 1 -->
+  <line x1="96" y1="412" x2="454" y2="412" stroke="#11111122" stroke-width="1"/>
+  <text x="90" y="388" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="12" fill="#1F5C3D" letter-spacing="2.5">BASELINE SET</text>
+  <text x="90" y="410" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="17" fill="#3A3A3A">Once. Fixed. Never updated.</text>
+
+  <!-- Problem row 2 -->
+  <line x1="96" y1="496" x2="454" y2="496" stroke="#11111122" stroke-width="1"/>
+  <text x="90" y="472" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="12" fill="#1F5C3D" letter-spacing="2.5">COMPARISON</text>
+  <text x="90" y="494" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="17" fill="#3A3A3A">July vs. January. Apples vs. oranges.</text>
+
+  <!-- Problem row 3 -->
+  <line x1="96" y1="580" x2="454" y2="580" stroke="#11111122" stroke-width="1"/>
+  <text x="90" y="556" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="12" fill="#1F5C3D" letter-spacing="2.5">ROOT CAUSE</text>
+  <text x="90" y="576" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="17" fill="#3A3A3A">Temperature, schedule &amp; aging shift together.</text>
+
+  <!-- Problem row 4 -->
+  <text x="90" y="634" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="12" fill="#1F5C3D" letter-spacing="2.5">RESULT</text>
+  <text x="90" y="656" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="17" fill="#3A3A3A">Phantom savings. Real confusion.</text>
+
+  <!-- Big problem callout -->
+  <rect x="80" y="700" width="390" height="136" rx="4" fill="#11111108"/>
+  <text x="275" y="752" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="48" fill="#111111" text-anchor="middle" letter-spacing="-1">Static</text>
+  <text x="275" y="796" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="14" fill="#3A3A3A" text-anchor="middle" letter-spacing="0.2">baseline assumes a fixed operational world</text>
+  <text x="275" y="820" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="14" fill="#3A3A3A" text-anchor="middle" letter-spacing="0.2">Real factories don't work that way.</text>
+
+  <!-- Solution row 1 -->
+  <line x1="568" y1="412" x2="928" y2="412" stroke="#11111122" stroke-width="1"/>
+  <text x="562" y="388" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="12" fill="#1F5C3D" letter-spacing="2.5">BASELINE TYPE</text>
+  <text x="562" y="410" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="17" fill="#3A3A3A">Rolling 12-month, recalculated quarterly.</text>
+
+  <!-- Solution row 2 -->
+  <line x1="568" y1="496" x2="928" y2="496" stroke="#11111122" stroke-width="1"/>
+  <text x="562" y="472" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="12" fill="#1F5C3D" letter-spacing="2.5">WEIGHTING</text>
+  <text x="562" y="494" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="17" fill="#3A3A3A">Production volume × heating/cooling degree days.</text>
+
+  <!-- Solution row 3 -->
+  <line x1="568" y1="580" x2="928" y2="580" stroke="#11111122" stroke-width="1"/>
+  <text x="562" y="556" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="12" fill="#1F5C3D" letter-spacing="2.5">MEASURE AGAINST</text>
+  <text x="562" y="576" font-family="Inter, 'Helvetica Ohne', Arial, sans-serif" font-weight="400" font-size="17" fill="#3A3A3A">The adjusted baseline. Not the original.</text>
+
+  <!-- Solution row 4 -->
+  <text x="562" y="634" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="12" fill="#1F5C3D" letter-spacing="2.5">RESULT</text>
+  <text x="562" y="656" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="17" fill="#3A3A3A">Real signal. No seasonal noise.</text>
+
+  <!-- Solution big callout -->
+  <rect x="554" y="700" width="390" height="136" rx="4" fill="#1F5C3D1A"/>
+  <text x="749" y="752" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="48" fill="#1F5C3D" text-anchor="middle" letter-spacing="-1">Drifting</text>
+  <text x="749" y="796" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="14" fill="#3A3A3A" text-anchor="middle" letter-spacing="0.2">baseline reveals when something real changed —</text>
+  <text x="749" y="820" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="14" fill="#3A3A3A" text-anchor="middle" letter-spacing="0.2">a new compressor, a schedule shift, a tweak.</text>
+
+  <!-- VS divider -->
+  <circle cx="512" cy="580" r="26" fill="#F5F1EA" stroke="#11111122" stroke-width="1"/>
+  <text x="512" y="585" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="14" fill="#111111" text-anchor="middle" letter-spacing="-0.5">VS</text>
+
+  <!-- Footer rule -->
+  <line x1="64" y1="900" x2="960" y2="900" stroke="#11111122" stroke-width="1"/>
+
+  <!-- Footer tagline -->
+  <text x="64" y="934" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="22" fill="#111111" letter-spacing="-0.4">Your baseline should move</text>
+  <text x="64" y="958" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="22" fill="#1F5C3D" letter-spacing="-0.4">so your insight doesn't have to.</text>
+
+</svg>

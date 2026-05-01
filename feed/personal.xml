@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 01 May 2026 12:33:49 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 12:35:08 +0000</lastBuildDate>
+<item>
+<title>Why your factory's energy baseline shifts every winter</title>
+<guid isPermaLink="false">5ed133474312</guid>
+<pubDate>Fri, 01 May 2026 12:34:42 +0000</pubDate>
+<description><![CDATA[Most sustainability teams set a production energy intensity baseline once, then benchmark against it for five years. It breaks in month two when the factory starts running night shifts in winter to meet demand.
+
+The problem isn't measurement. It's that energy consumption correlates with ambient temperature, production schedule, and equipment aging simultaneously. Your baseline assumes a static operational envelope. Real factories don't operate that way. You're comparing apples in July to oranges in January and calling it progress.
+
+Here's the fix: build a rolling 12-month baseline that recalculates quarterly, weighted by production volume and heating/cooling degree days. Don't set it once. Let it drift with the calendar and operational reality. Then measure improvement *against that adjusted baseline*, not against the original number.
+
+This kills two problems at once. You stop blaming the sustainability team for phantom savings that were just seasonal variance. And you actually see when something real changes—a new compressor, a process tweak, a schedule shift.
+
+Your baseline should move so your insight doesn't have to.]]></description>
+<content:encoded><![CDATA[Most sustainability teams set a production energy intensity baseline once, then benchmark against it for five years. It breaks in month two when the factory starts running night shifts in winter to meet demand.
+
+The problem isn't measurement. It's that energy consumption correlates with ambient temperature, production schedule, and equipment aging simultaneously. Your baseline assumes a static operational envelope. Real factories don't operate that way. You're comparing apples in July to oranges in January and calling it progress.
+
+Here's the fix: build a rolling 12-month baseline that recalculates quarterly, weighted by production volume and heating/cooling degree days. Don't set it once. Let it drift with the calendar and operational reality. Then measure improvement *against that adjusted baseline*, not against the original number.
+
+This kills two problems at once. You stop blaming the sustainability team for phantom savings that were just seasonal variance. And you actually see when something real changes—a new compressor, a process tweak, a schedule shift.
+
+Your baseline should move so your insight doesn't have to.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/5ed133474312.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/5ed133474312.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your model performs differently in production than in testing</title>
 <guid isPermaLink="false">a52c608dc7c3</guid>
