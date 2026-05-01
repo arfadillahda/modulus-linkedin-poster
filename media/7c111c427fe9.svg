@@ -1,0 +1,177 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- TOP BAND (~22% = 0–225px) -->
+  <!-- ═══════════════════════════════════════════════ -->
+
+  <!-- Kicker -->
+  <text
+    x="64" y="96"
+    font-size="13" font-weight="600"
+    fill="#2D5BFF"
+    letter-spacing="0.18em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">AI</text>
+
+  <!-- Display headline line 1 -->
+  <text
+    x="64" y="148"
+    font-size="54" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.025em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Stop measuring AI</text>
+
+  <!-- Display headline line 2 -->
+  <text
+    x="64" y="210"
+    font-size="54" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.025em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">against budget.</text>
+
+  <!-- Accent underline rule under headline -->
+  <rect x="64" y="222" width="200" height="3" rx="1.5" fill="#2D5BFF"/>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- MIDDLE BAND (~62% = 245–880px) -->
+  <!-- 4 tiles in 2×2 grid                           -->
+  <!-- gap=16, padding=64                            -->
+  <!-- tile width = (1024 - 64*2 - 16) / 2 = 440    -->
+  <!-- tile height = (635 - 16) / 2 = 309.5 ≈ 308   -->
+  <!-- Row1 top=245, Row2 top=245+308+16=569          -->
+  <!-- ═══════════════════════════════════════════════ -->
+
+  <!-- TILE 01 — top-left -->
+  <rect x="64" y="248" width="440" height="308" rx="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <text x="92" y="308"
+        font-size="48" font-weight="800"
+        fill="#2D5BFF"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+
+  <text x="92" y="356"
+        font-size="22" font-weight="700"
+        fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The Broken Formula</text>
+
+  <text x="92" y="390"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Cost saved ÷ spend misses</text>
+  <text x="92" y="410"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">phantom and misattributed gains.</text>
+
+  <!-- Decorative rule inside tile 01 -->
+  <rect x="92" y="438" width="48" height="2" rx="1" fill="#2D5BFF" opacity="0.4"/>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- TILE 02 — top-right -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="520" y="248" width="440" height="308" rx="16"
+        fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+
+  <text x="548" y="308"
+        font-size="48" font-weight="800"
+        fill="#2D5BFF"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+
+  <text x="548" y="356"
+        font-size="22" font-weight="700"
+        fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Why It Compounds</text>
+
+  <text x="548" y="390"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">AI shifts decision speed and</text>
+  <text x="548" y="410"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">quality — not line-item labor.</text>
+
+  <!-- Decorative rule inside tile 02 -->
+  <rect x="548" y="438" width="48" height="2" rx="1" fill="#2D5BFF" opacity="0.4"/>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- TILE 03 — bottom-left -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="64" y="572" width="440" height="308" rx="16"
+        fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+
+  <text x="92" y="632"
+        font-size="48" font-weight="800"
+        fill="#2D5BFF"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+
+  <text x="92" y="680"
+        font-size="22" font-weight="700"
+        fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The Real Unit</text>
+
+  <text x="92" y="714"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Value lives in defects prevented,</text>
+  <text x="92" y="734"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">not invoiceable hours saved.</text>
+
+  <!-- Decorative rule inside tile 03 -->
+  <rect x="92" y="762" width="48" height="2" rx="1" fill="#2D5BFF" opacity="0.4"/>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- TILE 04 — bottom-right -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="520" y="572" width="440" height="308" rx="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <text x="548" y="632"
+        font-size="48" font-weight="800"
+        fill="#2D5BFF"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+
+  <text x="548" y="680"
+        font-size="22" font-weight="700"
+        fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The Honest Reframe</text>
+
+  <text x="548" y="714"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Measure AI against the decision</text>
+  <text x="548" y="734"
+        font-size="15" font-weight="400"
+        fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">you'd make without it.</text>
+
+  <!-- Decorative rule inside tile 04 -->
+  <rect x="548" y="762" width="48" height="2" rx="1" fill="#2D5BFF" opacity="0.4"/>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- BOTTOM BAND (~16% = 896–1024px) -->
+  <!-- ═══════════════════════════════════════════════ -->
+
+  <!-- Hairline rule above closing line -->
+  <line x1="64" y1="906" x2="960" y2="906" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512" y="972"
+    font-size="21" font-weight="400"
+    fill="#3A3A3A"
+    text-anchor="middle"
+    letter-spacing="-0.01em"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Know the decision. Then the ROI math gets honest.</text>
+
+</svg>
