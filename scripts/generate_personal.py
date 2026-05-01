@@ -32,7 +32,7 @@ MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5-20251001")
 
 OPENAI_IMAGE_URL = "https://api.openai.com/v1/images/generations"
 OPENAI_IMAGE_MODEL = os.environ.get("OPENAI_IMAGE_MODEL", "gpt-image-1")
-OPENAI_IMAGE_QUALITY = os.environ.get("OPENAI_IMAGE_QUALITY", "medium")
+OPENAI_IMAGE_QUALITY = os.environ.get("OPENAI_IMAGE_QUALITY", "high")
 OPENAI_IMAGE_SIZE = os.environ.get("OPENAI_IMAGE_SIZE", "1024x1024")
 
 # Public base URL where the repo's media/ folder is served from.
@@ -187,13 +187,37 @@ def call_claude(topic: str, stage: str, queue: list[dict]) -> dict:
     if r.status_code >= 300:
         raise RuntimeError(f"Anthropic {r.status_code}: {r.text}")
     text = r.json()["content"][0]["text"].strip()
-    # Strip code fences if the model added them despite instructions.
-    if text.startswith("```"):
-        text = text.strip("`")
-        if text.lower().startswith("json"):
-            text = text[4:]
-        text = text.strip()
-    return json.loads(text)
+    return parse_json_loose(text)
+
+
+def parse_json_loose(text: str) -> dict:
+    """Tolerant JSON parser for LLM output.
+
+    Handles: code fences, leading prose, trailing prose, trailing commas
+    before } or ]. Falls back to slicing from first { to last }.
+    """
+    s = text.strip()
+    if s.startswith("```"):
+        s = s.strip("`")
+        if s.lower().startswith("json"):
+            s = s[4:]
+        s = s.strip()
+    try:
+        return json.loads(s)
+    except json.JSONDecodeError:
+        pass
+    # Slice from first { to last } in case model wrapped the JSON in prose.
+    start, end = s.find("{"), s.rfind("}")
+    if start != -1 and end != -1 and end > start:
+        candidate = s[start:end + 1]
+        try:
+            return json.loads(candidate)
+        except json.JSONDecodeError:
+            # Strip trailing commas before } or ]
+            import re
+            cleaned = re.sub(r",(\s*[}\]])", r"\1", candidate)
+            return json.loads(cleaned)
+    raise json.JSONDecodeError("Could not extract JSON object", s, 0)
 
 
 IMAGE_STYLE_SUFFIX = (
