@@ -54,6 +54,19 @@ def main() -> int:
         # Many RSS-to-LinkedIn integrations prefer `content:encoded` for
         # the long body. Provide both for compatibility.
         parts.append(f"<content:encoded><![CDATA[{body}]]></content:encoded>")
+        # When the post has an image, expose it as an <enclosure> (most
+        # RSS->LinkedIn tools, including Make.com, read this) and also as
+        # a <media:content> for tools that prefer the Media RSS namespace.
+        image_url = (it.get("image_url") or "").strip()
+        if image_url:
+            parts.append(
+                f'<enclosure url="{escape(image_url)}" '
+                f'type="image/png" length="0"/>'
+            )
+            parts.append(
+                f'<media:content url="{escape(image_url)}" '
+                f'medium="image" type="image/png"/>'
+            )
         parts.append(f"<category>{escape(it.get('topic', ''))}</category>")
         parts.append(f"<category>{escape(it.get('stage', ''))}</category>")
         parts.append("</item>")
@@ -61,10 +74,12 @@ def main() -> int:
     parts.append("</channel>")
     parts.append("</rss>")
 
-    # Inject the content namespace at the top-level <rss>
+    # Inject namespaces at the top-level <rss>
     xml = "\n".join(parts).replace(
         '<rss version="2.0">',
-        '<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">',
+        '<rss version="2.0" '
+        'xmlns:content="http://purl.org/rss/1.0/modules/content/" '
+        'xmlns:media="http://search.yahoo.com/mrss/">',
     )
 
     OUT.parent.mkdir(exist_ok=True)

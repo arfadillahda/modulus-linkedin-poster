@@ -12,6 +12,7 @@ posts that build a long-term voice rather than reactive commentary.
 """
 from __future__ import annotations
 
+import base64
 import datetime as dt
 import hashlib
 import json
@@ -24,9 +25,22 @@ import requests
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "data" / "personal_queue.json"
+MEDIA_DIR = ROOT / "media"
 
 ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
 MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5-20251001")
+
+OPENAI_IMAGE_URL = "https://api.openai.com/v1/images/generations"
+OPENAI_IMAGE_MODEL = os.environ.get("OPENAI_IMAGE_MODEL", "gpt-image-1")
+OPENAI_IMAGE_QUALITY = os.environ.get("OPENAI_IMAGE_QUALITY", "medium")
+OPENAI_IMAGE_SIZE = os.environ.get("OPENAI_IMAGE_SIZE", "1024x1024")
+
+# Public base URL where the repo's media/ folder is served from.
+# GitHub Pages on this repo: <user>.github.io/<repo>/media/<id>.png
+PUBLIC_BASE = os.environ.get(
+    "PUBLIC_BASE",
+    "https://arfadillahda.github.io/modulus-linkedin-poster",
+)
 
 TOPICS = [
     "artificial intelligence",
@@ -106,8 +120,9 @@ Internal checklist (do not output, just verify before returning):
 
 Return STRICT JSON only, no preamble:
 {{
-  "title": "<8-12 word headline summarizing the post angle, used as RSS item title>",
-  "body":  "<the full LinkedIn post text, ready to publish>"
+  "title":        "<8-12 word headline summarizing the post angle, used as RSS item title>",
+  "body":         "<the full LinkedIn post text, ready to publish>",
+  "image_prompt": "<one-sentence visual brief for an editorial illustration that matches the post's core idea — no text in the image, no people's faces, abstract conceptual / minimalist editorial style; this is only used when an image is generated>"
 }}"""
 
 
@@ -181,6 +196,51 @@ def call_claude(topic: str, stage: str, queue: list[dict]) -> dict:
     return json.loads(text)
 
 
+IMAGE_STYLE_SUFFIX = (
+    " Editorial conceptual illustration. Minimalist, sparse composition, "
+    "matte finish, soft directional light, muted palette (off-white, ink "
+    "black, one restrained accent color). No text, no logos, no human "
+    "faces, no UI screenshots. Subtle film grain. 16:9-feeling balance."
+)
+
+
+def should_attach_image(queue: list[dict]) -> bool:
+    """Alternate: if the previous post had no image, this one gets one."""
+    if not queue:
+        return True
+    return not bool(queue[-1].get("image_url"))
+
+
+def call_openai_image(prompt: str) -> bytes:
+    api_key = os.environ["OPENAI_API_KEY"]
+    body = {
+        "model": OPENAI_IMAGE_MODEL,
+        "prompt": prompt + IMAGE_STYLE_SUFFIX,
+        "size": OPENAI_IMAGE_SIZE,
+        "quality": OPENAI_IMAGE_QUALITY,
+        "n": 1,
+    }
+    r = requests.post(
+        OPENAI_IMAGE_URL,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        },
+        json=body,
+        timeout=120,
+    )
+    if r.status_code >= 300:
+        raise RuntimeError(f"OpenAI image {r.status_code}: {r.text}")
+    data = r.json()["data"][0]
+    if "b64_json" in data:
+        return base64.b64decode(data["b64_json"])
+    if "url" in data:
+        img = requests.get(data["url"], timeout=60)
+        img.raise_for_status()
+        return img.content
+    raise RuntimeError(f"OpenAI image: no b64_json or url in response: {data}")
+
+
 def main() -> int:
     if not os.environ.get("ANTHROPIC_API_KEY"):
         print("ERROR: ANTHROPIC_API_KEY missing", file=sys.stderr)
@@ -193,9 +253,29 @@ def main() -> int:
     out = call_claude(topic, stage, queue)
     title = out["title"].strip()
     body = out["body"].strip()
+    image_prompt = (out.get("image_prompt") or "").strip()
 
     now = dt.datetime.now(dt.timezone.utc).isoformat()
     item_id = hashlib.sha1(f"{now}-{title}".encode()).hexdigest()[:12]
+
+    image_url = ""
+    attach_image = should_attach_image(queue)
+    if attach_image and image_prompt and os.environ.get("OPENAI_API_KEY"):
+        try:
+            print(f"Generating image: {image_prompt[:80]}...")
+            png_bytes = call_openai_image(image_prompt)
+            MEDIA_DIR.mkdir(exist_ok=True)
+            (MEDIA_DIR / f"{item_id}.png").write_bytes(png_bytes)
+            image_url = f"{PUBLIC_BASE}/media/{item_id}.png"
+            print(f"Wrote media/{item_id}.png ({len(png_bytes)} bytes)")
+        except Exception as e:
+            # Don't block the post if image generation fails.
+            print(f"WARN: image generation failed, posting text-only: {e}",
+                  file=sys.stderr)
+    elif attach_image:
+        print("Image day, but OPENAI_API_KEY missing — posting text-only.")
+    else:
+        print("Text-only day (alternating).")
 
     queue.append({
         "id": item_id,
@@ -204,11 +284,13 @@ def main() -> int:
         "stage": stage,
         "title": title,
         "body": body,
+        "image_url": image_url,
+        "image_prompt": image_prompt if image_url else "",
     })
     # Cap queue at last 200 entries
     queue = queue[-200:]
     save_queue(queue)
-    print(f"Appended id={item_id} title={title!r}")
+    print(f"Appended id={item_id} title={title!r} image={'yes' if image_url else 'no'}")
     return 0
 
 

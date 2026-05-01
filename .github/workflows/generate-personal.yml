@@ -21,20 +21,21 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Generate next post
+      - name: Generate next post (+ image on alternating days)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY:    ${{ secrets.OPENAI_API_KEY }}
         run: python scripts/generate_personal.py
 
       - name: Rebuild RSS feed
         run: python scripts/build_rss.py
 
-      - name: Commit queue + feed
+      - name: Commit queue + feed + media
         run: |
-          if [ -n "$(git status --porcelain data/ feed/)" ]; then
+          if [ -n "$(git status --porcelain data/ feed/ media/)" ]; then
             git config user.name  "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add data/ feed/
+            git add data/ feed/ media/
             git commit -m "chore: new personal post + rss rebuild"
             git push
           fi
