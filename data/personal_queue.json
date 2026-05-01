@@ -194,5 +194,14 @@
     "title": "Why your AI ROI calculation is mathematically broken",
     "body": "Most companies measure AI value the same way they measure software: cost saved divided by implementation spend. It doesn't work. You end up comparing a one-time expense against benefits that are either phantom (efficiency gains that don't materialize) or misattributed (gains that came from process changes, not the model).\n\nThe trap is structural. AI systems don't reduce cost in a linear, auditable way like traditional software. They shift decision speed or quality, which compounds unpredictably. An AI-assisted inspection system doesn't \"save labor hours\" in a way you can invoice—it prevents defects that would have cost you later, or it helps your team catch edge cases that manual workflows would have missed anyway.\n\nHere's the reframe: stop measuring AI against budget. Measure it against the alternative decision you'd make without it. If the model helps you avoid one bad decision per quarter that would have cost $50K, that's your actual baseline. Not hours saved. Not FTE reduction. The value of a better decision in your specific context.\n\nOnce you know what decision you're actually improving, the ROI math becomes honest.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/7c111c427fe9.png"
+  },
+  {
+    "id": "280d7deb9de2",
+    "ts": "2026-05-01T13:38:56.492849+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why your digitalization roadmap ignores the actual bottleneck",
+    "body": "You've mapped out three years of digitalization. New MES. Cloud analytics. Real-time dashboards. Then six months in, adoption stalls because nobody told the night shift supervisor the system was coming, and the data you're collecting doesn't match what matters to production scheduling.\n\nThis happens because digitalization gets sold as a technology problem, so teams treat it like one. You pick the shiniest tool, hire the integration firm, wire it to your existing systems. But the real bottleneck isn't the infrastructure—it's that you've never actually named what decisions your organization needs to make faster or better. You're digitizing workflows before you've clarified what you're optimizing for.\n\nHere's the move: before you spec any platform, sit with production, maintenance, and planning for half a day. Ask three things: What decision do you make today that takes too long? What information would change that decision? What happens if you get it wrong? Write down the answers. Specifics only—no abstractions.\n\nThen build backward from the decision, not forward from the data.\n\nYour digitalization roadmap should read like a sequence of decisions you're accelerating, not a list of tools you're buying.",
+    "image_url": ""
   }
 ]

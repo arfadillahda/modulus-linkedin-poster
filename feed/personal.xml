@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 01 May 2026 13:28:17 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 13:38:56 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization roadmap ignores the actual bottleneck</title>
+<guid isPermaLink="false">280d7deb9de2</guid>
+<pubDate>Fri, 01 May 2026 13:38:56 +0000</pubDate>
+<description><![CDATA[You've mapped out three years of digitalization. New MES. Cloud analytics. Real-time dashboards. Then six months in, adoption stalls because nobody told the night shift supervisor the system was coming, and the data you're collecting doesn't match what matters to production scheduling.
+
+This happens because digitalization gets sold as a technology problem, so teams treat it like one. You pick the shiniest tool, hire the integration firm, wire it to your existing systems. But the real bottleneck isn't the infrastructure—it's that you've never actually named what decisions your organization needs to make faster or better. You're digitizing workflows before you've clarified what you're optimizing for.
+
+Here's the move: before you spec any platform, sit with production, maintenance, and planning for half a day. Ask three things: What decision do you make today that takes too long? What information would change that decision? What happens if you get it wrong? Write down the answers. Specifics only—no abstractions.
+
+Then build backward from the decision, not forward from the data.
+
+Your digitalization roadmap should read like a sequence of decisions you're accelerating, not a list of tools you're buying.]]></description>
+<content:encoded><![CDATA[You've mapped out three years of digitalization. New MES. Cloud analytics. Real-time dashboards. Then six months in, adoption stalls because nobody told the night shift supervisor the system was coming, and the data you're collecting doesn't match what matters to production scheduling.
+
+This happens because digitalization gets sold as a technology problem, so teams treat it like one. You pick the shiniest tool, hire the integration firm, wire it to your existing systems. But the real bottleneck isn't the infrastructure—it's that you've never actually named what decisions your organization needs to make faster or better. You're digitizing workflows before you've clarified what you're optimizing for.
+
+Here's the move: before you spec any platform, sit with production, maintenance, and planning for half a day. Ask three things: What decision do you make today that takes too long? What information would change that decision? What happens if you get it wrong? Write down the answers. Specifics only—no abstractions.
+
+Then build backward from the decision, not forward from the data.
+
+Your digitalization roadmap should read like a sequence of decisions you're accelerating, not a list of tools you're buying.]]></content:encoded>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your AI ROI calculation is mathematically broken</title>
 <guid isPermaLink="false">7c111c427fe9</guid>
