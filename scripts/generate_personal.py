@@ -40,22 +40,24 @@ TOPICS = [
 # expertise without ever saying "hire me" or naming a service.
 STAGES = {
     "TOF": (
-        "Awareness / curiosity hook. Open with an observation, contrarian "
-        "framing, or trend the reader probably hasn't noticed. No CTA. No "
-        "self-reference. End with a thought-provoking line, not a question."
+        "Awareness stage. The PROBLEM should be a widely-felt pain point or "
+        "common misconception in the field. The SOLUTION is a reframe — a "
+        "different way to see the problem that points toward a better path "
+        "without fully prescribing it. Builds curiosity for future posts."
     ),
     "MOF": (
-        "Personal point of view. Lay out a small framework, mental model, "
-        "or 2-3 step way of thinking about the topic. First-person voice "
-        "is fine. Still no CTA, still no pitch."
+        "Consideration stage. The PROBLEM should be a specific, recurring "
+        "failure mode the reader has likely hit. The SOLUTION is a small "
+        "framework, mental model, or 2-3 step way of thinking through it. "
+        "First-person voice is fine."
     ),
     "BOF": (
-        "Quiet competence signal. Share ONE specific technical detail, "
+        "Decision stage. The PROBLEM should be a sharp, technical edge case "
+        "most people overlook. The SOLUTION is ONE concrete technical detail, "
         "constraint, trade-off, or methodology that only someone who has "
-        "actually done this work would know. The post should leave the "
-        "reader thinking 'this person knows what they're doing' WITHOUT "
-        "ever saying 'hire me', 'DM me', 'work with me', mentioning a "
-        "service, or naming a company. Absolutely no CTA."
+        "actually done this work would know. Should leave the reader thinking "
+        "'this person knows what they're doing' WITHOUT ever saying 'hire me', "
+        "'DM me', 'work with me', mentioning a service, or naming a company."
     ),
 }
 
@@ -67,9 +69,25 @@ Never corporate. Never hashtag-spammy. Never uses the words \"unlock\", \
 \"leverage\", \"game-changer\", \"revolutionize\", \"in today's \
 fast-paced world\", or any em-dashes that feel AI-generated. Short \
 paragraphs. Plain language. No bullet lists unless genuinely needed. \
-LinkedIn-native length (120-220 words)."""
+LinkedIn-native length (120-220 words).
 
-USER_TMPL = """Write ONE LinkedIn post.
+EVERY post MUST follow a Problem -> Solution structure:
+1. Open with a SPECIFIC problem (concrete, named, recognizable). Do NOT \
+   start with 'Most people...' or other generic openings — name the actual \
+   failure mode in the first 1-2 sentences so a scrolling reader stops.
+2. Spend ~40% of the post characterizing WHY the problem exists (the \
+   underlying mechanism, not symptoms).
+3. Resolve with a SOLUTION — a reframe (TOF), a framework (MOF), or a \
+   concrete technical move (BOF). The solution must be actionable enough \
+   that a reader walks away with something they can use, not just an \
+   opinion. This is what separates a useful post from a rant.
+4. Close with a single line that crystallizes the insight. Not a \
+   question. Not a CTA. A statement worth screenshotting.
+
+Never end on the problem alone — that reads as a rant. Always land on \
+the solution side."""
+
+USER_TMPL = """Write ONE LinkedIn post in Problem -> Solution structure.
 
 Topic: {topic}
 Funnel stage: {stage}
@@ -77,6 +95,14 @@ Stage instruction: {stage_instruction}
 
 Recent angles to AVOID repeating (last few posts):
 {recent}
+
+Internal checklist (do not output, just verify before returning):
+- [ ] First 1-2 sentences name a SPECIFIC problem, not a generic opener
+- [ ] Body explains WHY the problem exists (the mechanism)
+- [ ] A clear SOLUTION appears in the second half
+- [ ] The reader walks away with something usable, not just a vibe
+- [ ] Closes on the solution side, never on the problem
+- [ ] No em-dashes, no banned words, 120-220 words
 
 Return STRICT JSON only, no preamble:
 {{
