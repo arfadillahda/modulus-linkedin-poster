@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 01 May 2026 12:35:08 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 13:09:27 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization dashboard lies about equipment health</title>
+<guid isPermaLink="false">4d871e5e3e64</guid>
+<pubDate>Fri, 01 May 2026 13:09:26 +0000</pubDate>
+<description><![CDATA[You build a monitoring system, wire up ten sensors, get real-time dashboards running. Three weeks in, maintenance tells you the system flagged a bearing as degrading when it was actually fine. You lost trust in the whole thing.
+
+The problem isn't the sensors or the math. It's that you're applying statistical thresholds tuned for laboratory conditions to equipment running in an actual factory. A bearing that drifts slowly over six months while production ramps up looks like degradation in your model but is actually normal wear under higher load. Your system has no context for operating conditions.
+
+Here's the technical move: build a state-machine layer between your raw sensor stream and your alerting logic. Define equipment states (idle, low-load run, high-load run, thermal stabilization) using easily observable signals—current draw, ambient temp, production schedule. Then apply different threshold rules to each state. That bearing alert only fires if drift happens *within* a state, not across state transitions.
+
+Your dashboard stops crying wolf when the factory runs hotter in summer or ramps production for a big order.
+
+Context is what separates signal from noise.]]></description>
+<content:encoded><![CDATA[You build a monitoring system, wire up ten sensors, get real-time dashboards running. Three weeks in, maintenance tells you the system flagged a bearing as degrading when it was actually fine. You lost trust in the whole thing.
+
+The problem isn't the sensors or the math. It's that you're applying statistical thresholds tuned for laboratory conditions to equipment running in an actual factory. A bearing that drifts slowly over six months while production ramps up looks like degradation in your model but is actually normal wear under higher load. Your system has no context for operating conditions.
+
+Here's the technical move: build a state-machine layer between your raw sensor stream and your alerting logic. Define equipment states (idle, low-load run, high-load run, thermal stabilization) using easily observable signals—current draw, ambient temp, production schedule. Then apply different threshold rules to each state. That bearing alert only fires if drift happens *within* a state, not across state transitions.
+
+Your dashboard stops crying wolf when the factory runs hotter in summer or ramps production for a big order.
+
+Context is what separates signal from noise.]]></content:encoded>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your factory's energy baseline shifts every winter</title>
 <guid isPermaLink="false">5ed133474312</guid>
