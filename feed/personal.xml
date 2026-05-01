@@ -4,7 +4,28 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 01 May 2026 06:59:50 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 07:06:10 +0000</lastBuildDate>
+<item>
+<title>Why your Scope 3 baseline is mathematically indefensible</title>
+<guid isPermaLink="false">c7de1a29e4af</guid>
+<pubDate>Fri, 01 May 2026 07:06:10 +0000</pubDate>
+<description><![CDATA[You've measured your supply chain emissions. You've set a reduction target. Then an auditor asks: what was your baseline year's methodology, and why is 2019 comparable to 2024 given supplier consolidation, product mix shift, and geographic sourcing changes? You can't answer cleanly. This is the edge case that kills most corporate sustainability claims.
+
+The problem isn't laziness. It's that Scope 3 baselines require you to retroactively apply *today's* supplier data to *yesterday's* spend patterns—but suppliers change composition, efficiency, and coverage every year. You're forced to either lock in a defensible-but-obsolete baseline or keep recalculating it (which violates the whole point of a baseline). Most teams pick one and don't disclose the choice.
+
+The solution: establish your baseline using a *fixed supplier roster snapshot* from your chosen year, then separately track two streams—actual emissions (moving suppliers) and like-for-like emissions (frozen supplier set). The gap between them isn't noise; it's structural change. Report both. Your target applies to the frozen set; the delta tells you what's being driven by decisions versus circumstances.
+
+It's not elegant. It's honest.]]></description>
+<content:encoded><![CDATA[You've measured your supply chain emissions. You've set a reduction target. Then an auditor asks: what was your baseline year's methodology, and why is 2019 comparable to 2024 given supplier consolidation, product mix shift, and geographic sourcing changes? You can't answer cleanly. This is the edge case that kills most corporate sustainability claims.
+
+The problem isn't laziness. It's that Scope 3 baselines require you to retroactively apply *today's* supplier data to *yesterday's* spend patterns—but suppliers change composition, efficiency, and coverage every year. You're forced to either lock in a defensible-but-obsolete baseline or keep recalculating it (which violates the whole point of a baseline). Most teams pick one and don't disclose the choice.
+
+The solution: establish your baseline using a *fixed supplier roster snapshot* from your chosen year, then separately track two streams—actual emissions (moving suppliers) and like-for-like emissions (frozen supplier set). The gap between them isn't noise; it's structural change. Report both. Your target applies to the frozen set; the delta tells you what's being driven by decisions versus circumstances.
+
+It's not elegant. It's honest.]]></content:encoded>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your inference latency collapses at scale</title>
 <guid isPermaLink="false">a1b497350096</guid>

@@ -60,5 +60,15 @@
     "body": "You nail the model. Validation metrics look good. You deploy to production. Then real traffic hits and latency goes from 200ms to 2 seconds. You didn't change the model. The problem is batching.\n\nMost inference setups batch requests to maximize GPU throughput. That's correct. But batching introduces queueing delay. A request arriving when the batch is full waits for the entire batch to execute before it even starts. At low traffic this is invisible. At realistic traffic—especially in industrial systems with bursty demand—this dynamic latency floor dominates your p99.\n\nThe mechanism: you're optimizing for throughput (requests per second) instead of latency percentiles. A batch size of 32 at 100% GPU utilization sounds efficient on a spreadsheet. In practice, you're trading steady-state throughput for tail latency that makes real applications unusable.\n\nThe fix is explicit: tune your batch size and queue timeout as a trade-off, not separately. Run load tests that measure both p50 and p99 latency while varying batch size. Find where p99 stops improving per unit of throughput gained. That's your actual operating point. Usually it's smaller than you think.\n\nLatency and throughput are not free variables—know which one your application actually needs.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/a1b497350096.png",
     "image_prompt": "A narrow hallway with people standing in a single-file queue, shot from above in harsh fluorescent light, everyone frozen mid-wait, tension visible in their posture. Shot on color film with shallow depth of field on the nearest person's face."
+  },
+  {
+    "id": "c7de1a29e4af",
+    "ts": "2026-05-01T07:06:10.106190+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why your Scope 3 baseline is mathematically indefensible",
+    "body": "You've measured your supply chain emissions. You've set a reduction target. Then an auditor asks: what was your baseline year's methodology, and why is 2019 comparable to 2024 given supplier consolidation, product mix shift, and geographic sourcing changes? You can't answer cleanly. This is the edge case that kills most corporate sustainability claims.\n\nThe problem isn't laziness. It's that Scope 3 baselines require you to retroactively apply *today's* supplier data to *yesterday's* spend patterns—but suppliers change composition, efficiency, and coverage every year. You're forced to either lock in a defensible-but-obsolete baseline or keep recalculating it (which violates the whole point of a baseline). Most teams pick one and don't disclose the choice.\n\nThe solution: establish your baseline using a *fixed supplier roster snapshot* from your chosen year, then separately track two streams—actual emissions (moving suppliers) and like-for-like emissions (frozen supplier set). The gap between them isn't noise; it's structural change. Report both. Your target applies to the frozen set; the delta tells you what's being driven by decisions versus circumstances.\n\nIt's not elegant. It's honest.",
+    "image_url": "",
+    "image_prompt": ""
   }
 ]
