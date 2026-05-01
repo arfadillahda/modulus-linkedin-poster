@@ -122,7 +122,7 @@ Return STRICT JSON only, no preamble:
 {{
   "title":        "<8-12 word headline summarizing the post angle, used as RSS item title>",
   "body":         "<the full LinkedIn post text, ready to publish>",
-  "image_prompt": "<a single-sentence visual brief for ONE arresting image that captures the post's CORE METAPHOR — not the post's contents. Think like a New Yorker / MIT Tech Review / Bloomberg Businessweek op-ed illustrator: pick ONE concrete physical object, architectural detail, scene, or natural phenomenon that emotionally evokes the insight, then describe it cinematically (lighting, material, mood, time of day, lens feel). DO NOT include any people, human figures, hands, silhouettes, crowds, or anything anthropomorphic. DO NOT describe a diagram, dashboard, chart, split-screen, before/after, factory icon, monitor, gauge, spreadsheet, checkmark, arrow, or any infographic element. DO NOT describe the post — describe ONE still image. Example good: 'A single weathered wooden door standing alone in a misty open field, early morning light raking from the left, photographed on medium format film.' Example good: 'An empty corridor of identical mailroom slots stretching into vanishing point, harsh overhead fluorescents, faint dust visible in the air.' Example bad: 'A factory split into two halves, one with a spreadsheet and one with a dashboard.' Example bad: 'People standing in a queue in a hallway.'>"
+  "image_prompt": "<a structured infographic brief that visualizes the post's core idea as a premium editorial infographic — Stripe / Linear / Notion / The Pudding design system, NOT PowerPoint clipart, NOT free-Canva-template aesthetic. Pick ONE of these structures that best fits the post: (a) a 3-step labeled framework (numbered cards in a row), (b) a problem-vs-solution side-by-side with sharp typographic contrast, (c) a single hero stat or percentage with one supporting line of context, (d) a clean labeled diagram of how the mechanism works (flow with 2-3 nodes), (e) a tight comparison table (2 columns, 3-4 rows). Specify the exact short labels/numbers/words that should appear (kept to 3-7 words per label, max 10 words of body text per node — gpt-image-1 renders text imperfectly so keep it sparse and unambiguous). Be opinionated about layout: where the title goes, what's centered vs grid, what's the accent color. Example good: 'A 3-step horizontal framework titled DATA AS INFRASTRUCTURE. Three numbered cards left-to-right: 01 STANDARDIZE / one-line caption sensor schemas, units, timestamps; 02 VALIDATE / one-line caption catch drift before training; 03 INSTRUMENT / one-line caption treat pipelines as production code. Off-white card on bone background, ink-black sans-serif, single accent of muted electric blue on the numerals.' Example bad: 'A factory next to a dashboard with a checkmark.'>"
 }}"""
 
 
@@ -197,19 +197,28 @@ def call_claude(topic: str, stage: str, queue: list[dict]) -> dict:
 
 
 IMAGE_STYLE_SUFFIX = (
-    " || STYLE: Premium editorial photograph in the visual language of "
-    "The New Yorker, MIT Technology Review, or Bloomberg Businessweek. "
-    "ONE subject, centered or rule-of-thirds, generous negative space. "
-    "Cinematic directional light, deep soft shadows, shallow depth of "
-    "field. Muted palette: bone, ink, slate, with at most one restrained "
-    "accent. Medium-format film aesthetic, fine grain. "
-    "|| HARD CONSTRAINTS — DO NOT GENERATE: no text of any kind, no "
-    "letters, no numbers, no logos, no watermarks, no human faces, no "
-    "diagrams, no charts, no dashboards, no gauges, no spreadsheets, no "
-    "checkmarks, no arrows, no split-frames, no before/after panels, no "
-    "icons, no flat vector clipart, no infographic style, no PowerPoint "
-    "aesthetic, no AI-default neon gradient, no glowing brain, no "
-    "circuit-board, no holographic UI."
+    " || RENDER AS: a premium editorial infographic in the visual language "
+    "of Stripe.com, Linear.app, Notion, Vercel, The Pudding, FiveThirtyEight, "
+    "or a Bloomberg Businessweek graphic explainer. Clean structural grid, "
+    "generous whitespace, deliberate alignment. Typography is the hero: "
+    "premium geometric sans-serif (Inter, Söhne, GT America, or Neue "
+    "Haas Grotesk feeling), tight letter-spacing on titles, very high "
+    "contrast hierarchy between display numerals and body labels. "
+    "Palette: bone or warm off-white background, near-black ink, ONE "
+    "single restrained accent (muted electric blue OR forest green OR "
+    "burnt orange — pick one). Optional: 1-pixel hairline rules, subtle "
+    "drop shadows, soft tonal cards. Square 1024x1024, framed for "
+    "LinkedIn feed. "
+    "|| HARD CONSTRAINTS — DO NOT GENERATE: no clipart, no flat "
+    "cartoon icons, no smiling 3D characters, no isometric scenes, no "
+    "free-Canva-template aesthetic, no PowerPoint smartart, no rainbow "
+    "gradients, no glowing neon, no cyber-circuit-brain imagery, no "
+    "stock-photo factory silhouettes, no checkmarks-and-arrows soup, "
+    "no humans, no hands, no faces, no logos, no watermarks. Text in "
+    "the image must be limited to the EXACT short labels specified in "
+    "the brief above — do not invent additional copy or filler latin. "
+    "If text would be illegible at small size, omit it rather than "
+    "render gibberish."
 )
 
 
