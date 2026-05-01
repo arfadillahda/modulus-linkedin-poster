@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "d3b6da5dd802",
+    "ts": "2026-05-01T06:18:14.731626+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "How I think about AI adoption in manufacturing",
+    "body": "Most manufacturing leaders I talk to frame AI as a cost-cutting play. Cheaper labor, faster throughput, fewer mistakes. That's not wrong, but it's incomplete.\n\nHere's how I think about it instead:\n\nFirst, map where your actual constraints are. Usually it's not where you think. I was working with a client convinced they needed AI for quality detection. Turned out their real bottleneck was scheduling—people spending two days a week figuring out production sequences.\n\nSecond, start there. Not with the sexiest problem. With the one that's actually costing you time or margin right now.\n\nThird, measure what changes. Not just the obvious metric. Track what gets freed up when a process gets faster. Often it's not the labor cost—it's the fact that your best person can finally focus on the thing they actually want to do.\n\nAI adoption in heavy industry isn't about being first. It's about being precise about what you're solving for, then patient enough to let the actual impact emerge.\n\nThe companies winning at this aren't the ones with the fanciest models. They're the ones who stopped trying to automate everything and got honest about what actually matters."
+  }
+]
