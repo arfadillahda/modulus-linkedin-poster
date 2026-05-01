@@ -12,15 +12,17 @@ posts that build a long-term voice rather than reactive commentary.
 """
 from __future__ import annotations
 
-import base64
 import datetime as dt
 import hashlib
+import io
 import json
 import os
 import pathlib
 import random
+import re
 import sys
 
+import cairosvg
 import requests
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -29,11 +31,7 @@ MEDIA_DIR = ROOT / "media"
 
 ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
 MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5-20251001")
-
-OPENAI_IMAGE_URL = "https://api.openai.com/v1/images/generations"
-OPENAI_IMAGE_MODEL = os.environ.get("OPENAI_IMAGE_MODEL", "gpt-image-1")
-OPENAI_IMAGE_QUALITY = os.environ.get("OPENAI_IMAGE_QUALITY", "high")
-OPENAI_IMAGE_SIZE = os.environ.get("OPENAI_IMAGE_SIZE", "1024x1024")
+SVG_MODEL = os.environ.get("ANTHROPIC_SVG_MODEL", "claude-sonnet-4-6")
 
 # Public base URL where the repo's media/ folder is served from.
 # GitHub Pages on this repo: <user>.github.io/<repo>/media/<id>.png
@@ -120,9 +118,8 @@ Internal checklist (do not output, just verify before returning):
 
 Return STRICT JSON only, no preamble:
 {{
-  "title":        "<8-12 word headline summarizing the post angle, used as RSS item title>",
-  "body":         "<the full LinkedIn post text, ready to publish>",
-  "image_prompt": "<a structured infographic brief that visualizes the post's core idea as a premium editorial infographic — Stripe / Linear / Notion / The Pudding design system, NOT PowerPoint clipart, NOT free-Canva-template aesthetic. Pick ONE of these structures that best fits the post: (a) a 3-step labeled framework (numbered cards in a row), (b) a problem-vs-solution side-by-side with sharp typographic contrast, (c) a single hero stat or percentage with one supporting line of context, (d) a clean labeled diagram of how the mechanism works (flow with 2-3 nodes), (e) a tight comparison table (2 columns, 3-4 rows). Specify the exact short labels/numbers/words that should appear (kept to 3-7 words per label, max 10 words of body text per node — gpt-image-1 renders text imperfectly so keep it sparse and unambiguous). Be opinionated about layout: where the title goes, what's centered vs grid, what's the accent color. Example good: 'A 3-step horizontal framework titled DATA AS INFRASTRUCTURE. Three numbered cards left-to-right: 01 STANDARDIZE / one-line caption sensor schemas, units, timestamps; 02 VALIDATE / one-line caption catch drift before training; 03 INSTRUMENT / one-line caption treat pipelines as production code. Off-white card on bone background, ink-black sans-serif, single accent of muted electric blue on the numerals.' Example bad: 'A factory next to a dashboard with a checkmark.'>"
+  "title": "<8-12 word headline summarizing the post angle, used as RSS item title>",
+  "body":  "<the full LinkedIn post text, ready to publish>"
 }}"""
 
 
@@ -220,30 +217,62 @@ def parse_json_loose(text: str) -> dict:
     raise json.JSONDecodeError("Could not extract JSON object", s, 0)
 
 
-IMAGE_STYLE_SUFFIX = (
-    " || RENDER AS: a premium editorial infographic in the visual language "
-    "of Stripe.com, Linear.app, Notion, Vercel, The Pudding, FiveThirtyEight, "
-    "or a Bloomberg Businessweek graphic explainer. Clean structural grid, "
-    "generous whitespace, deliberate alignment. Typography is the hero: "
-    "premium geometric sans-serif (Inter, Söhne, GT America, or Neue "
-    "Haas Grotesk feeling), tight letter-spacing on titles, very high "
-    "contrast hierarchy between display numerals and body labels. "
-    "Palette: bone or warm off-white background, near-black ink, ONE "
-    "single restrained accent (muted electric blue OR forest green OR "
-    "burnt orange — pick one). Optional: 1-pixel hairline rules, subtle "
-    "drop shadows, soft tonal cards. Square 1024x1024, framed for "
-    "LinkedIn feed. "
-    "|| HARD CONSTRAINTS — DO NOT GENERATE: no clipart, no flat "
-    "cartoon icons, no smiling 3D characters, no isometric scenes, no "
-    "free-Canva-template aesthetic, no PowerPoint smartart, no rainbow "
-    "gradients, no glowing neon, no cyber-circuit-brain imagery, no "
-    "stock-photo factory silhouettes, no checkmarks-and-arrows soup, "
-    "no humans, no hands, no faces, no logos, no watermarks. Text in "
-    "the image must be limited to the EXACT short labels specified in "
-    "the brief above — do not invent additional copy or filler latin. "
-    "If text would be illegible at small size, omit it rather than "
-    "render gibberish."
-)
+SVG_SYSTEM = """You are a senior editorial-infographic designer working in \
+the visual language of Stripe.com, Linear.app, Notion, Vercel, The Pudding, \
+FiveThirtyEight, and Bloomberg Businessweek graphic explainers. You output \
+ONLY one self-contained <svg> element — nothing before it, nothing after. \
+No prose. No code fences. No markdown. The SVG IS your entire response."""
+
+SVG_USER_TMPL = """Design a square 1024x1024 editorial infographic that \
+communicates the core idea of this LinkedIn post.
+
+POST TITLE: {title}
+
+POST BODY:
+{body}
+
+DESIGN BRIEF:
+- Pick ONE of these layouts that best fits the post's structure (do not \
+mix them):
+  (a) 3-step framework — three vertical cards in a row, each numbered 01/02/03
+  (b) Problem vs Solution — two columns with sharp typographic contrast
+  (c) Hero stat — one large display number/percentage with a single \
+supporting line of context underneath
+  (d) Mechanism diagram — 2-3 connected nodes showing how something works
+  (e) Comparison table — 2 columns x 3-4 rows with concise labels
+- Decide which layout makes the post's insight clearest. Be opinionated.
+- Total on-canvas text MUST be short, specific, and pulled from the post's \
+actual ideas. No filler. No lorem ipsum. Total word count on canvas: \
+between 12 and 60 words including the title.
+- Include a small kicker label at the top (one of: AI / SUSTAINABILITY / \
+DIGITALIZATION — match the post's topic) in tracked-out small caps.
+- Include a tight headline (5-9 words) that captures the insight.
+
+VISUAL SYSTEM (strict):
+- viewBox="0 0 1024 1024"
+- Background: warm off-white (#F5F1EA or similar bone tone)
+- Ink: near-black (#111111) for headlines, slightly lighter (#3A3A3A) for body
+- ONE single restrained accent — pick exactly one of these and use it \
+sparingly: muted electric blue (#2D5BFF), forest green (#1F5C3D), or burnt \
+orange (#C24A1F)
+- Typography stack: font-family="Inter, 'Helvetica Neue', Arial, \
+sans-serif". Use font-weight 800 for display, 600 for kickers, 400 for \
+body. Letter-spacing tight on display, tracked-out on small caps.
+- Optional: 1px hairline rules in #11111122, subtle 2-3% drop shadows on \
+cards, soft tonal cards in #EFEAE0.
+- Generous whitespace. Deliberate alignment to a 12-column or 8-column grid.
+
+HARD BANS — do NOT include:
+- No clipart, no emoji, no cartoon icons, no isometric scenes
+- No PowerPoint SmartArt or free-Canva aesthetic
+- No rainbow gradients, no glowing neon, no cyber/circuit imagery
+- No raster <image>, no <foreignObject>, no external font URLs (@import \
+or <link>) — pure SVG primitives only (rect, line, text, path, g, defs, \
+filter, clipPath, mask)
+- No human figures, no faces, no hands, no logos
+- No filler text, no decorative latin, no fake brand names
+
+Output the complete <svg>...</svg> element and nothing else."""
 
 
 def should_attach_image(queue: list[dict]) -> bool:
@@ -253,34 +282,51 @@ def should_attach_image(queue: list[dict]) -> bool:
     return not bool(queue[-1].get("image_url"))
 
 
-def call_openai_image(prompt: str) -> bytes:
-    api_key = os.environ["OPENAI_API_KEY"]
-    body = {
-        "model": OPENAI_IMAGE_MODEL,
-        "prompt": prompt + IMAGE_STYLE_SUFFIX,
-        "size": OPENAI_IMAGE_SIZE,
-        "quality": OPENAI_IMAGE_QUALITY,
-        "n": 1,
+def call_claude_svg(title: str, body: str) -> str:
+    api_key = os.environ["ANTHROPIC_API_KEY"]
+    payload = {
+        "model": SVG_MODEL,
+        "max_tokens": 8000,
+        "system": SVG_SYSTEM,
+        "messages": [{
+            "role": "user",
+            "content": SVG_USER_TMPL.format(title=title, body=body),
+        }],
     }
     r = requests.post(
-        OPENAI_IMAGE_URL,
+        ANTHROPIC_URL,
         headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
+            "x-api-key": api_key,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json",
         },
-        json=body,
+        json=payload,
         timeout=120,
     )
     if r.status_code >= 300:
-        raise RuntimeError(f"OpenAI image {r.status_code}: {r.text}")
-    data = r.json()["data"][0]
-    if "b64_json" in data:
-        return base64.b64decode(data["b64_json"])
-    if "url" in data:
-        img = requests.get(data["url"], timeout=60)
-        img.raise_for_status()
-        return img.content
-    raise RuntimeError(f"OpenAI image: no b64_json or url in response: {data}")
+        raise RuntimeError(f"Anthropic SVG {r.status_code}: {r.text}")
+    text = r.json()["content"][0]["text"].strip()
+    # Tolerate accidental code fences.
+    if text.startswith("```"):
+        text = re.sub(r"^```[a-zA-Z]*\s*", "", text)
+        text = re.sub(r"\s*```$", "", text)
+        text = text.strip()
+    # Slice to the <svg>...</svg> bounds in case the model added prose.
+    start = text.find("<svg")
+    end = text.rfind("</svg>")
+    if start == -1 or end == -1:
+        raise RuntimeError(f"No <svg> element in response. Got: {text[:200]!r}")
+    return text[start:end + len("</svg>")]
+
+
+def rasterize_svg(svg_markup: str, out_path: pathlib.Path, size: int = 1024) -> None:
+    """Render SVG to PNG at the requested square size."""
+    png_bytes = cairosvg.svg2png(
+        bytestring=svg_markup.encode("utf-8"),
+        output_width=size,
+        output_height=size,
+    )
+    out_path.write_bytes(png_bytes)
 
 
 def main() -> int:
@@ -295,27 +341,28 @@ def main() -> int:
     out = call_claude(topic, stage, queue)
     title = out["title"].strip()
     body = out["body"].strip()
-    image_prompt = (out.get("image_prompt") or "").strip()
 
     now = dt.datetime.now(dt.timezone.utc).isoformat()
     item_id = hashlib.sha1(f"{now}-{title}".encode()).hexdigest()[:12]
 
     image_url = ""
     attach_image = should_attach_image(queue)
-    if attach_image and image_prompt and os.environ.get("OPENAI_API_KEY"):
+    if attach_image:
         try:
-            print(f"Generating image: {image_prompt[:80]}...")
-            png_bytes = call_openai_image(image_prompt)
+            print(f"Generating SVG infographic via {SVG_MODEL}...")
+            svg = call_claude_svg(title, body)
             MEDIA_DIR.mkdir(exist_ok=True)
-            (MEDIA_DIR / f"{item_id}.png").write_bytes(png_bytes)
+            png_path = MEDIA_DIR / f"{item_id}.png"
+            svg_path = MEDIA_DIR / f"{item_id}.svg"
+            svg_path.write_text(svg, encoding="utf-8")
+            rasterize_svg(svg, png_path)
             image_url = f"{PUBLIC_BASE}/media/{item_id}.png"
-            print(f"Wrote media/{item_id}.png ({len(png_bytes)} bytes)")
+            print(f"Wrote media/{item_id}.png ({png_path.stat().st_size} bytes) "
+                  f"+ media/{item_id}.svg ({len(svg)} chars)")
         except Exception as e:
             # Don't block the post if image generation fails.
-            print(f"WARN: image generation failed, posting text-only: {e}",
+            print(f"WARN: SVG generation failed, posting text-only: {e}",
                   file=sys.stderr)
-    elif attach_image:
-        print("Image day, but OPENAI_API_KEY missing — posting text-only.")
     else:
         print("Text-only day (alternating).")
 
@@ -327,7 +374,6 @@ def main() -> int:
         "title": title,
         "body": body,
         "image_url": image_url,
-        "image_prompt": image_prompt if image_url else "",
     })
     # Cap queue at last 200 entries
     queue = queue[-200:]

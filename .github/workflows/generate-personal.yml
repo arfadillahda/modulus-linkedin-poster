@@ -19,12 +19,18 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install Inter font + libcairo for SVG rasterization
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends \
+            fonts-inter libcairo2 fontconfig
+          fc-cache -f
+
       - run: pip install -r requirements.txt
 
-      - name: Generate next post (+ image on alternating days)
+      - name: Generate next post (+ SVG infographic on alternating days)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          OPENAI_API_KEY:    ${{ secrets.OPENAI_API_KEY }}
         run: python scripts/generate_personal.py
 
       - name: Rebuild RSS feed
