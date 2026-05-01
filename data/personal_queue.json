@@ -167,5 +167,14 @@
     "title": "Why your digitalization dashboard lies about equipment health",
     "body": "You build a monitoring system, wire up ten sensors, get real-time dashboards running. Three weeks in, maintenance tells you the system flagged a bearing as degrading when it was actually fine. You lost trust in the whole thing.\n\nThe problem isn't the sensors or the math. It's that you're applying statistical thresholds tuned for laboratory conditions to equipment running in an actual factory. A bearing that drifts slowly over six months while production ramps up looks like degradation in your model but is actually normal wear under higher load. Your system has no context for operating conditions.\n\nHere's the technical move: build a state-machine layer between your raw sensor stream and your alerting logic. Define equipment states (idle, low-load run, high-load run, thermal stabilization) using easily observable signals—current draw, ambient temp, production schedule. Then apply different threshold rules to each state. That bearing alert only fires if drift happens *within* a state, not across state transitions.\n\nYour dashboard stops crying wolf when the factory runs hotter in summer or ramps production for a big order.\n\nContext is what separates signal from noise.",
     "image_url": ""
+  },
+  {
+    "id": "62a8ab288743",
+    "ts": "2026-05-01T13:11:13.413846+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why your AI vendor won't commit to a timeline",
+    "body": "You ask for a delivery date. They say 'it depends on your data quality.' You push back. They mention 'iterative validation.' Six months later you're still in discovery.\n\nThis isn't evasion. It's honest uncertainty dressed up badly.\n\nAI projects genuinely do depend on unknowns — data distribution shifts, domain complexity, whether your problem is actually solvable with your constraints. A vendor who gives you a fixed timeline upfront is either lying or doesn't understand the work.\n\nBut that doesn't mean you're helpless.\n\nInstead of asking 'when will this be done,' ask 'what do we need to learn first, and how will we know we've learned it.' Break the engagement into assumption-testing gates. Before building the model, validate that your data actually contains the signal you need. Before tuning performance, confirm the business metric you're optimizing for is the one that matters.\n\nEach gate should have a specific success criterion and a real go/no-go decision.\n\nThis shifts the conversation from timeline (unknowable) to clarity (achievable). You stop waiting for promises and start building the evidence you need to commit.\n\nA good AI partner will embrace this frame immediately.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/62a8ab288743.png"
   }
 ]

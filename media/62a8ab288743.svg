@@ -1,0 +1,109 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-2%" y="-2%" width="106%" height="106%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#111111" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- Kicker label -->
+  <text x="512" y="88" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="13" fill="#3A3A3A" letter-spacing="4">AI</text>
+
+  <!-- Hairline under kicker -->
+  <line x1="80" y1="108" x2="944" y2="108" stroke="#11111122" stroke-width="1"/>
+
+  <!-- Main headline -->
+  <text x="512" y="178" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="52" fill="#111111" letter-spacing="-1.5">Stop asking when.</text>
+  <text x="512" y="240" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="52" fill="#111111" letter-spacing="-1.5">Start asking what.</text>
+
+  <!-- Subline -->
+  <text x="512" y="292" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="18" fill="#3A3A3A" letter-spacing="0">AI timelines are unknowable. Clarity is not.</text>
+
+  <!-- Hairline -->
+  <line x1="80" y1="322" x2="944" y2="322" stroke="#11111122" stroke-width="1"/>
+
+  <!-- THREE CARDS -->
+
+  <!-- CARD 1 -->
+  <rect x="80" y="352" width="262" height="380" rx="6" fill="#EFEAE0" filter="url(#shadow)"/>
+  <!-- Card 1 number -->
+  <text x="112" y="412" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="13" fill="#2D5BFF" letter-spacing="3">01</text>
+  <!-- Card 1 headline -->
+  <text x="112" y="456" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="24" fill="#111111" letter-spacing="-0.5">Validate</text>
+  <text x="112" y="484" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="24" fill="#111111" letter-spacing="-0.5">the signal</text>
+  <!-- Accent rule -->
+  <rect x="112" y="504" width="40" height="3" rx="1.5" fill="#2D5BFF"/>
+  <!-- Card 1 body -->
+  <text x="112" y="540" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">Before building a model,</text>
+  <text x="112" y="560" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">confirm your data actually</text>
+  <text x="112" y="580" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">contains the signal you need.</text>
+  <!-- Gate label -->
+  <rect x="112" y="676" width="104" height="30" rx="4" fill="#2D5BFF" opacity="0.10"/>
+  <text x="164" y="696" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="12" fill="#2D5BFF" letter-spacing="2">GATE 1</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="362" y1="542" x2="402" y2="542" stroke="#11111133" stroke-width="1.5"/>
+  <polygon points="402,537 412,542 402,547" fill="#11111133"/>
+
+  <!-- CARD 2 -->
+  <rect x="381" y="352" width="262" height="380" rx="6" fill="#EFEAE0" filter="url(#shadow)"/>
+  <!-- Card 2 number -->
+  <text x="413" y="412" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="13" fill="#2D5BFF" letter-spacing="3">02</text>
+  <!-- Card 2 headline -->
+  <text x="413" y="456" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="24" fill="#111111" letter-spacing="-0.5">Confirm</text>
+  <text x="413" y="484" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="24" fill="#111111" letter-spacing="-0.5">the metric</text>
+  <!-- Accent rule -->
+  <rect x="413" y="504" width="40" height="3" rx="1.5" fill="#2D5BFF"/>
+  <!-- Card 2 body -->
+  <text x="413" y="540" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">Before tuning performance,</text>
+  <text x="413" y="560" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">verify the business metric</text>
+  <text x="413" y="580" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">is the one that matters.</text>
+  <!-- Gate label -->
+  <rect x="413" y="676" width="104" height="30" rx="4" fill="#2D5BFF" opacity="0.10"/>
+  <text x="465" y="696" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="12" fill="#2D5BFF" letter-spacing="2">GATE 2</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="663" y1="542" x2="703" y2="542" stroke="#11111133" stroke-width="1.5"/>
+  <polygon points="703,537 713,542 703,547" fill="#11111133"/>
+
+  <!-- CARD 3 -->
+  <rect x="682" y="352" width="262" height="380" rx="6" fill="#EFEAE0" filter="url(#shadow)"/>
+  <!-- Card 3 number -->
+  <text x="714" y="412" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="13" fill="#2D5BFF" letter-spacing="3">03</text>
+  <!-- Card 3 headline -->
+  <text x="714" y="456" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="24" fill="#111111" letter-spacing="-0.5">Decide</text>
+  <text x="714" y="484" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="24" fill="#111111" letter-spacing="-0.5">go / no-go</text>
+  <!-- Accent rule -->
+  <rect x="714" y="504" width="40" height="3" rx="1.5" fill="#2D5BFF"/>
+  <!-- Card 3 body -->
+  <text x="714" y="540" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">Each gate needs a specific</text>
+  <text x="714" y="560" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">success criterion and a</text>
+  <text x="714" y="580" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="15" fill="#3A3A3A">real commitment decision.</text>
+  <!-- Gate label -->
+  <rect x="714" y="676" width="104" height="30" rx="4" fill="#2D5BFF" opacity="0.10"/>
+  <text x="766" y="696" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="12" fill="#2D5BFF" letter-spacing="2">GATE 3</text>
+
+  <!-- Hairline -->
+  <line x1="80" y1="770" x2="944" y2="770" stroke="#11111122" stroke-width="1"/>
+
+  <!-- Bottom contrast row: OLD WAY vs NEW WAY -->
+  <text x="80" y="822" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="13" fill="#3A3A3A" letter-spacing="3">OLD QUESTION</text>
+  <text x="80" y="856" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="22" fill="#111111" letter-spacing="-0.3">"When will this be done?"</text>
+
+  <!-- Divider center -->
+  <line x1="512" y1="800" x2="512" y2="880" stroke="#11111133" stroke-width="1"/>
+
+  <!-- Arrow center -->
+  <text x="512" y="846" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="22" fill="#2D5BFF">→</text>
+
+  <text x="944" y="822" text-anchor="end" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="13" fill="#2D5BFF" letter-spacing="3">BETTER QUESTION</text>
+  <text x="944" y="856" text-anchor="end" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="22" fill="#111111" letter-spacing="-0.3">"What do we need to learn first?"</text>
+
+  <!-- Footer hairline -->
+  <line x1="80" y1="900" x2="944" y2="900" stroke="#11111122" stroke-width="1"/>
+
+  <!-- Footer note -->
+  <text x="512" y="952" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="14" fill="#3A3A3A" letter-spacing="0.2">A good AI partner will embrace this frame immediately.</text>
+</svg>

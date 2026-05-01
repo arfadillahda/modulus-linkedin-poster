@@ -4,7 +4,46 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 01 May 2026 13:09:27 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 13:11:39 +0000</lastBuildDate>
+<item>
+<title>Why your AI vendor won't commit to a timeline</title>
+<guid isPermaLink="false">62a8ab288743</guid>
+<pubDate>Fri, 01 May 2026 13:11:13 +0000</pubDate>
+<description><![CDATA[You ask for a delivery date. They say 'it depends on your data quality.' You push back. They mention 'iterative validation.' Six months later you're still in discovery.
+
+This isn't evasion. It's honest uncertainty dressed up badly.
+
+AI projects genuinely do depend on unknowns — data distribution shifts, domain complexity, whether your problem is actually solvable with your constraints. A vendor who gives you a fixed timeline upfront is either lying or doesn't understand the work.
+
+But that doesn't mean you're helpless.
+
+Instead of asking 'when will this be done,' ask 'what do we need to learn first, and how will we know we've learned it.' Break the engagement into assumption-testing gates. Before building the model, validate that your data actually contains the signal you need. Before tuning performance, confirm the business metric you're optimizing for is the one that matters.
+
+Each gate should have a specific success criterion and a real go/no-go decision.
+
+This shifts the conversation from timeline (unknowable) to clarity (achievable). You stop waiting for promises and start building the evidence you need to commit.
+
+A good AI partner will embrace this frame immediately.]]></description>
+<content:encoded><![CDATA[You ask for a delivery date. They say 'it depends on your data quality.' You push back. They mention 'iterative validation.' Six months later you're still in discovery.
+
+This isn't evasion. It's honest uncertainty dressed up badly.
+
+AI projects genuinely do depend on unknowns — data distribution shifts, domain complexity, whether your problem is actually solvable with your constraints. A vendor who gives you a fixed timeline upfront is either lying or doesn't understand the work.
+
+But that doesn't mean you're helpless.
+
+Instead of asking 'when will this be done,' ask 'what do we need to learn first, and how will we know we've learned it.' Break the engagement into assumption-testing gates. Before building the model, validate that your data actually contains the signal you need. Before tuning performance, confirm the business metric you're optimizing for is the one that matters.
+
+Each gate should have a specific success criterion and a real go/no-go decision.
+
+This shifts the conversation from timeline (unknowable) to clarity (achievable). You stop waiting for promises and start building the evidence you need to commit.
+
+A good AI partner will embrace this frame immediately.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/62a8ab288743.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/62a8ab288743.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your digitalization dashboard lies about equipment health</title>
 <guid isPermaLink="false">4d871e5e3e64</guid>
