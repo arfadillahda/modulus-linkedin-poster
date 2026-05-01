@@ -40,5 +40,15 @@
     "body": "Most manufacturers report their emissions to corporate HQ using spreadsheets compiled weeks after month-end close. By then, the production decisions that created those emissions are already locked in.\n\nThe gap exists because sustainability metrics live in the finance and ESG silo, not in operations. A plant manager optimizing for throughput and cost sees sustainability as a reporting checkbox, not a real-time constraint. So they make production calls in a vacuum. Corporate discovers the damage when it hits the scorecard.\n\nThe reframe: treat emissions and energy the same way you treat scrap rate or OEE. Visibility at decision time, not audit time.\n\nWhen a scheduler sees their carbon footprint for a production sequence before they commit to it, the incentives flip. Sustainability becomes baked into daily trade-offs instead of bolted on after the fact. You don't need a perfect carbon accounting model to start. You need the number at the moment it matters.\n\nReal-time operational transparency is the missing link between sustainability targets and actual results.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/a5290268afcf.png",
     "image_prompt": "Minimalist illustration of a factory floor split into two halves: left side shows a timeline arrow moving left (past) with a spreadsheet and checkmark, right side shows a live dashboard with green and red gauges in real-time, representing the shift from retrospective reporting to operational visibility."
+  },
+  {
+    "id": "e1ef89addabc",
+    "ts": "2026-05-01T06:58:37.251379+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why your sustainability plan dies at the supply tier",
+    "body": "You've mapped your own emissions. You know your Scope 1 and 2 cold. Then you ask your suppliers for their data and hit a wall—spreadsheets that don't match, estimates that vary by 40%, or silence.\n\nThis isn't laziness. Your suppliers have no incentive to measure what they can't monetize yet. They're running on margin, not climate targets. Asking them to instrument their operations without showing them ROI is like asking someone to install a security system in a building they're about to leave.\n\nHere's the move: stop asking for data. Start designing backwards from their constraint.\n\nPick ONE material or process that moves your needle—maybe the steel in your product, or the coating process. Find the efficiency play that also cuts their cost. Lower energy consumption, less waste, faster cycle time. Something they already want to do. Then propose a joint measurement pilot: you fund the metering, they get the operational savings.\n\nMeasurement becomes a byproduct of a deal that works for both of you.\n\nSupply chain decarbonization moves when you align incentives, not when you align spreadsheets.",
+    "image_url": "",
+    "image_prompt": ""
   }
 ]
