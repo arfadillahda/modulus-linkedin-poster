@@ -122,7 +122,7 @@ Return STRICT JSON only, no preamble:
 {{
   "title":        "<8-12 word headline summarizing the post angle, used as RSS item title>",
   "body":         "<the full LinkedIn post text, ready to publish>",
-  "image_prompt": "<one-sentence visual brief for an editorial illustration that matches the post's core idea — no text in the image, no people's faces, abstract conceptual / minimalist editorial style; this is only used when an image is generated>"
+  "image_prompt": "<a single-sentence visual brief for ONE arresting image that captures the post's CORE METAPHOR — not the post's contents. Think like a New Yorker / MIT Tech Review / Bloomberg Businessweek op-ed illustrator: pick ONE concrete physical object, scene, or natural phenomenon that emotionally evokes the insight, then describe it cinematically (lighting, material, mood). DO NOT describe a diagram, dashboard, chart, split-screen, before/after, factory icon, monitor, gauge, spreadsheet, checkmark, arrow, or any infographic element. DO NOT describe the post — describe ONE image. Example good: 'A single weathered wooden door standing alone in a misty open field, early morning light raking from the left, photographed on medium format film.' Example bad: 'A factory split into two halves, one with a spreadsheet and one with a dashboard.'>"
 }}"""
 
 
@@ -197,10 +197,19 @@ def call_claude(topic: str, stage: str, queue: list[dict]) -> dict:
 
 
 IMAGE_STYLE_SUFFIX = (
-    " Editorial conceptual illustration. Minimalist, sparse composition, "
-    "matte finish, soft directional light, muted palette (off-white, ink "
-    "black, one restrained accent color). No text, no logos, no human "
-    "faces, no UI screenshots. Subtle film grain. 16:9-feeling balance."
+    " || STYLE: Premium editorial photograph in the visual language of "
+    "The New Yorker, MIT Technology Review, or Bloomberg Businessweek. "
+    "ONE subject, centered or rule-of-thirds, generous negative space. "
+    "Cinematic directional light, deep soft shadows, shallow depth of "
+    "field. Muted palette: bone, ink, slate, with at most one restrained "
+    "accent. Medium-format film aesthetic, fine grain. "
+    "|| HARD CONSTRAINTS — DO NOT GENERATE: no text of any kind, no "
+    "letters, no numbers, no logos, no watermarks, no human faces, no "
+    "diagrams, no charts, no dashboards, no gauges, no spreadsheets, no "
+    "checkmarks, no arrows, no split-frames, no before/after panels, no "
+    "icons, no flat vector clipart, no infographic style, no PowerPoint "
+    "aesthetic, no AI-default neon gradient, no glowing brain, no "
+    "circuit-board, no holographic UI."
 )
 
 
