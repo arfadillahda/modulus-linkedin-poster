@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 01 May 2026 12:18:11 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 12:33:49 +0000</lastBuildDate>
+<item>
+<title>Why your model performs differently in production than in testing</title>
+<guid isPermaLink="false">a52c608dc7c3</guid>
+<pubDate>Fri, 01 May 2026 12:33:49 +0000</pubDate>
+<description><![CDATA[You train a classification model on 10,000 labeled examples. Validation accuracy: 94%. You deploy it. Six months later, the prediction distribution has drifted so far that your decision thresholds are useless.
+
+This happens because most teams treat the training set as a fixed snapshot of reality. In practice, your input distribution shifts constantly—new equipment, seasonal patterns, customer behavior changes, data collection bugs that cascade slowly. Your model doesn't degrade. The world does.
+
+The fix is deceptively simple: track feature statistics in production, not just model performance. Log the mean and percentiles of your input features every day. When you see a 15% shift in a critical input distribution, you know to retrain or investigate—before your accuracy tanks. This is monitoring, not metrics.
+
+Most teams only look at precision/recall on holdout sets. That's backward-looking. Feature drift is forward-looking.
+
+You can't prevent distribution shift. But you can see it coming.]]></description>
+<content:encoded><![CDATA[You train a classification model on 10,000 labeled examples. Validation accuracy: 94%. You deploy it. Six months later, the prediction distribution has drifted so far that your decision thresholds are useless.
+
+This happens because most teams treat the training set as a fixed snapshot of reality. In practice, your input distribution shifts constantly—new equipment, seasonal patterns, customer behavior changes, data collection bugs that cascade slowly. Your model doesn't degrade. The world does.
+
+The fix is deceptively simple: track feature statistics in production, not just model performance. Log the mean and percentiles of your input features every day. When you see a 15% shift in a critical input distribution, you know to retrain or investigate—before your accuracy tanks. This is monitoring, not metrics.
+
+Most teams only look at precision/recall on holdout sets. That's backward-looking. Feature drift is forward-looking.
+
+You can't prevent distribution shift. But you can see it coming.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your sustainability team measures the wrong factory metric</title>
 <guid isPermaLink="false">86b54f7984a4</guid>
