@@ -6,5 +6,13 @@
     "stage": "MOF",
     "title": "How I think about AI adoption in manufacturing",
     "body": "Most manufacturing leaders I talk to frame AI as a cost-cutting play. Cheaper labor, faster throughput, fewer mistakes. That's not wrong, but it's incomplete.\n\nHere's how I think about it instead:\n\nFirst, map where your actual constraints are. Usually it's not where you think. I was working with a client convinced they needed AI for quality detection. Turned out their real bottleneck was scheduling—people spending two days a week figuring out production sequences.\n\nSecond, start there. Not with the sexiest problem. With the one that's actually costing you time or margin right now.\n\nThird, measure what changes. Not just the obvious metric. Track what gets freed up when a process gets faster. Often it's not the labor cost—it's the fact that your best person can finally focus on the thing they actually want to do.\n\nAI adoption in heavy industry isn't about being first. It's about being precise about what you're solving for, then patient enough to let the actual impact emerge.\n\nThe companies winning at this aren't the ones with the fanciest models. They're the ones who stopped trying to automate everything and got honest about what actually matters."
+  },
+  {
+    "id": "7bdb6d2bd7c1",
+    "ts": "2026-05-01T06:18:52.755112+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why most digitalization projects fail before they start",
+    "body": "Most manufacturers treat digitalization like a software upgrade. They buy the platform, train the team, declare victory. Then nothing changes.\n\nThe real problem: they're digitizing broken processes.\n\nYou can't automate a mess and expect a miracle. If your maintenance team keeps records in three different systems, moving to a digital tool just means three systems in the cloud. If your production scheduling relies on tribal knowledge and email chains, an MES won't fix that—it'll just make the chaos more visible.\n\nDigitalization only works when you've first clarified what you're actually trying to do. That means sitting down and mapping the real workflow, not the org chart version. It means asking uncomfortable questions about why things are done a certain way.\n\nThe companies that actually succeed at this treat digitalization as a consequence of process clarity, not the other way around.\n\nBuilding a digital system on top of analog chaos just makes you expensively confused."
   }
 ]
