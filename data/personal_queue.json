@@ -120,5 +120,15 @@
     "body": "You get the pilot working. Three months in, the sensor data flows, the model trains, stakeholders nod. Then you try to roll it to the second production line and everything fractures.\n\nThis happens because pilots optimize for proof, not pattern. You hand-tune data pipelines for one environment, hard-code thresholds for one machine, build dashboards for one audience. It all works because you're close to it. Scale demands abstraction — and most teams don't abstract until they have to, which is already too late.\n\nThe fix is simple: treat your pilot as a template, not a prototype. Before you celebrate, force yourself to document three things: What assumptions did you bake in? What would break if you moved to a different line? What would a stranger need to know to rebuild this from scratch?\n\nThen actually rebuild it on paper first, using only that documentation. If you can't, you're not ready to scale.\n\nPilots that abstract early don't stall.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/54a40df5e83b.png",
     "image_prompt": "A problem-vs-solution side-by-side infographic. LEFT SIDE titled PILOT MINDSET in muted red: three short lines stacked — 'Hand-tune for one machine', 'Optimize for proof', 'Hard-code thresholds'. RIGHT SIDE titled TEMPLATE MINDSET in muted forest green: three corresponding lines — 'Parameterize across variants', 'Optimize for pattern', 'Config-driven logic'. Dividing line in the center, clean sans-serif (Inter or similar), all-caps section headers, bone background, no icons, spare layout. Both sides left-aligned, equal white space. Text in dark charcoal, 6-8 words per line maximum."
+  },
+  {
+    "id": "866f7c87936c",
+    "ts": "2026-05-01T12:17:21.618487+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why sustainability reporting divorces from factory reality",
+    "body": "Your sustainability team publishes a carbon report. Your plant manager has never read it. This isn't laziness — it's because sustainability metrics are almost always built for compliance, not operation.\n\nThe mechanism: corporate sustainability lives in annual reporting cycles and stakeholder disclosure. Factory operations live in daily yield, cost, and schedule. A carbon intensity number that looks good in a PDF tells a plant operator nothing about *what to actually do differently tomorrow*. There's no feedback loop. No ownership. The report lands, gets filed, and operations continue exactly as before.\n\nHere's the reframe: stop treating sustainability as a reporting problem. Treat it as an operational visibility problem. The plants that move the needle aren't the ones with better scorecards — they're the ones where carbon (or waste, or energy) is monitored like OEE. Real-time. By shift. Tied to incentives. Visible on the floor.\n\nWhen you flip the perspective from \"what data do we need for disclosure\" to \"what visibility would actually change behavior,\" the metrics change completely.\n\nSustainability scales when operators can see it, own it, and act on it.",
+    "image_url": "",
+    "image_prompt": ""
   }
 ]
