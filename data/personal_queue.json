@@ -80,5 +80,15 @@
     "body": "You've wired up condition monitoring on your production line. Sensors are firing. Data's flowing into your historian. Then around 10,000 data points per second, your aggregation layer starts dropping packets and you lose visibility into the exact moment a bearing went marginal.\n\nThe culprit isn't your database. It's the buffering strategy between sensor ingestion and storage. Most teams default to in-memory queues with a fixed window size, assuming steady-state throughput. But production lines aren't steady. A sensor malfunction, a network blip, or a legitimate spike in sampling rate fills that buffer faster than your consumer can drain it. Once it's full, new data gets discarded—not logged, just gone.\n\nThe fix is stupidly simple but requires thinking ahead: implement a bounded disk-backed queue with overflow-to-disk semantics before you need it. Size it for 5x your peak observed throughput, not your average. The I/O cost is negligible on modern infrastructure. What you gain is a guarantee that you'll never silently lose the data that tells you something went wrong.\n\nBuffer depth is a non-negotiable constraint, not a nice-to-have config.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/96d4968e569a.png",
     "image_prompt": "A narrow concrete culvert or drainage channel running downhill, water flowing steadily but with sudden turbulent waves backing up against an invisible bottleneck ahead, shot at dusk with cool blue-grey light, shallow depth of field on the surface tension where smooth meets chaotic."
+  },
+  {
+    "id": "39c8c4772d21",
+    "ts": "2026-05-01T08:23:14.574588+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why your AI pilot never scales past the pilot",
+    "body": "You train a model in isolation. It works. You move it to production. Latency is fine, accuracy drops 8 points, and suddenly the business team questions the whole thing.\n\nThis happens because pilots live in a sandbox. You control the data distribution, the inference cadence, the hardware. Production is a river. Your model saw still water.\n\nThe gap isn't invisible—it's just not measured during development. You're optimizing for lab metrics (F1, AUC) while the real failure mode is data drift, class imbalance in live traffic, or a dependency on a feature that's only 87% reliable in production. The model was never wrong. The assumptions were.\n\nStart by mapping your dependencies before you train anything. What data sources feed your features? Which ones can go stale? How does traffic distribution shift hourly or seasonally? Build a small instrumentation layer that tracks these in your pilot—not after launch.\n\nYou're not building a model. You're building a system that stays coherent when the world changes.",
+    "image_url": "",
+    "image_prompt": ""
   }
 ]
