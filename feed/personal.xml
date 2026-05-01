@@ -4,7 +4,30 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 01 May 2026 07:06:10 +0000</lastBuildDate>
+<lastBuildDate>Fri, 01 May 2026 07:06:49 +0000</lastBuildDate>
+<item>
+<title>Why your sensor data pipeline breaks at scale</title>
+<guid isPermaLink="false">96d4968e569a</guid>
+<pubDate>Fri, 01 May 2026 07:06:32 +0000</pubDate>
+<description><![CDATA[You've wired up condition monitoring on your production line. Sensors are firing. Data's flowing into your historian. Then around 10,000 data points per second, your aggregation layer starts dropping packets and you lose visibility into the exact moment a bearing went marginal.
+
+The culprit isn't your database. It's the buffering strategy between sensor ingestion and storage. Most teams default to in-memory queues with a fixed window size, assuming steady-state throughput. But production lines aren't steady. A sensor malfunction, a network blip, or a legitimate spike in sampling rate fills that buffer faster than your consumer can drain it. Once it's full, new data gets discarded—not logged, just gone.
+
+The fix is stupidly simple but requires thinking ahead: implement a bounded disk-backed queue with overflow-to-disk semantics before you need it. Size it for 5x your peak observed throughput, not your average. The I/O cost is negligible on modern infrastructure. What you gain is a guarantee that you'll never silently lose the data that tells you something went wrong.
+
+Buffer depth is a non-negotiable constraint, not a nice-to-have config.]]></description>
+<content:encoded><![CDATA[You've wired up condition monitoring on your production line. Sensors are firing. Data's flowing into your historian. Then around 10,000 data points per second, your aggregation layer starts dropping packets and you lose visibility into the exact moment a bearing went marginal.
+
+The culprit isn't your database. It's the buffering strategy between sensor ingestion and storage. Most teams default to in-memory queues with a fixed window size, assuming steady-state throughput. But production lines aren't steady. A sensor malfunction, a network blip, or a legitimate spike in sampling rate fills that buffer faster than your consumer can drain it. Once it's full, new data gets discarded—not logged, just gone.
+
+The fix is stupidly simple but requires thinking ahead: implement a bounded disk-backed queue with overflow-to-disk semantics before you need it. Size it for 5x your peak observed throughput, not your average. The I/O cost is negligible on modern infrastructure. What you gain is a guarantee that you'll never silently lose the data that tells you something went wrong.
+
+Buffer depth is a non-negotiable constraint, not a nice-to-have config.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/96d4968e569a.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/96d4968e569a.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your Scope 3 baseline is mathematically indefensible</title>
 <guid isPermaLink="false">c7de1a29e4af</guid>

@@ -70,5 +70,15 @@
     "body": "You've measured your supply chain emissions. You've set a reduction target. Then an auditor asks: what was your baseline year's methodology, and why is 2019 comparable to 2024 given supplier consolidation, product mix shift, and geographic sourcing changes? You can't answer cleanly. This is the edge case that kills most corporate sustainability claims.\n\nThe problem isn't laziness. It's that Scope 3 baselines require you to retroactively apply *today's* supplier data to *yesterday's* spend patterns—but suppliers change composition, efficiency, and coverage every year. You're forced to either lock in a defensible-but-obsolete baseline or keep recalculating it (which violates the whole point of a baseline). Most teams pick one and don't disclose the choice.\n\nThe solution: establish your baseline using a *fixed supplier roster snapshot* from your chosen year, then separately track two streams—actual emissions (moving suppliers) and like-for-like emissions (frozen supplier set). The gap between them isn't noise; it's structural change. Report both. Your target applies to the frozen set; the delta tells you what's being driven by decisions versus circumstances.\n\nIt's not elegant. It's honest.",
     "image_url": "",
     "image_prompt": ""
+  },
+  {
+    "id": "96d4968e569a",
+    "ts": "2026-05-01T07:06:32.416739+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why your sensor data pipeline breaks at scale",
+    "body": "You've wired up condition monitoring on your production line. Sensors are firing. Data's flowing into your historian. Then around 10,000 data points per second, your aggregation layer starts dropping packets and you lose visibility into the exact moment a bearing went marginal.\n\nThe culprit isn't your database. It's the buffering strategy between sensor ingestion and storage. Most teams default to in-memory queues with a fixed window size, assuming steady-state throughput. But production lines aren't steady. A sensor malfunction, a network blip, or a legitimate spike in sampling rate fills that buffer faster than your consumer can drain it. Once it's full, new data gets discarded—not logged, just gone.\n\nThe fix is stupidly simple but requires thinking ahead: implement a bounded disk-backed queue with overflow-to-disk semantics before you need it. Size it for 5x your peak observed throughput, not your average. The I/O cost is negligible on modern infrastructure. What you gain is a guarantee that you'll never silently lose the data that tells you something went wrong.\n\nBuffer depth is a non-negotiable constraint, not a nice-to-have config.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/96d4968e569a.png",
+    "image_prompt": "A narrow concrete culvert or drainage channel running downhill, water flowing steadily but with sudden turbulent waves backing up against an invisible bottleneck ahead, shot at dusk with cool blue-grey light, shallow depth of field on the surface tension where smooth meets chaotic."
   }
 ]
