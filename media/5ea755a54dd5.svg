@@ -1,0 +1,112 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════
+       TOP BAND (~22% = 225px)
+  ════════════════════════════════════════════ -->
+
+  <!-- Kicker -->
+  <text
+    x="64" y="96"
+    font-size="13"
+    font-weight="600"
+    fill="#1F5C3D"
+    letter-spacing="0.18em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">SUSTAINABILITY</text>
+
+  <!-- Display headline line 1 -->
+  <text
+    x="64" y="152"
+    font-size="52"
+    font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.025em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Translate KPIs into the</text>
+
+  <!-- Display headline line 2 -->
+  <text
+    x="64" y="210"
+    font-size="52"
+    font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.025em"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">language factories speak</text>
+
+  <!-- Accent underline rule beneath headline -->
+  <rect x="64" y="222" width="180" height="3" rx="1.5" fill="#1F5C3D"/>
+
+  <!-- ═══════════════════════════════════════════
+       MIDDLE BAND (~62% = 635px tall, y=247 to y=882)
+       5 tiles: top row of 2 tall tiles, bottom row of 3 short tiles
+       Outer padding 64px, gap 16px
+       Canvas width usable: 1024 - 64 - 64 = 896px
+  ════════════════════════════════════════════ -->
+
+  <!-- TOP ROW: 2 tall tiles -->
+  <!-- Each tile width = (896 - 16) / 2 = 440px -->
+  <!-- Tile height top row = 290px -->
+  <!-- y start = 247 -->
+
+  <!-- TILE 01 -->
+  <rect x="64" y="247" width="440" height="290" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="88" y="300" font-size="42" font-weight="800" fill="#1F5C3D" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="88" y="344" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Corporate vs. Floor</text>
+  <text x="88" y="378" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Metrics optimized for reports</text>
+  <text x="88" y="398" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">don't map to factory priorities.</text>
+
+  <!-- TILE 02 -->
+  <rect x="520" y="247" width="440" height="290" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="544" y="300" font-size="42" font-weight="800" fill="#1F5C3D" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="544" y="344" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">The Noise Problem</text>
+  <text x="544" y="378" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Stable monthly metrics feel invisible</text>
+  <text x="544" y="398" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">inside hourly operational chaos.</text>
+
+  <!-- BOTTOM ROW: 3 short tiles -->
+  <!-- y start = 247 + 290 + 16 = 553 -->
+  <!-- Each tile width = (896 - 32) / 3 = 288px -->
+  <!-- Tile height bottom row = 270px -->
+
+  <!-- TILE 03 -->
+  <rect x="64" y="553" width="288" height="270" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="88" y="603" font-size="38" font-weight="800" fill="#1F5C3D" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="88" y="643" font-size="19" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Mirror Obsession</text>
+  <text x="88" y="672" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Sticky KPIs reflect what</text>
+  <text x="88" y="691" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">the plant already tracks.</text>
+
+  <!-- TILE 04 -->
+  <rect x="368" y="553" width="288" height="270" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="392" y="603" font-size="38" font-weight="800" fill="#1F5C3D" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="392" y="643" font-size="19" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Reverse-Engineer</text>
+  <text x="392" y="672" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Build into OEE, changeover,</text>
+  <text x="392" y="691" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">or peak-shaving — not above.</text>
+
+  <!-- TILE 05 -->
+  <rect x="672" y="553" width="288" height="270" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="696" y="603" font-size="38" font-weight="800" fill="#1F5C3D" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">05</text>
+  <text x="696" y="643" font-size="19" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Real Lever</text>
+  <text x="696" y="672" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Translation ends compliance</text>
+  <text x="696" y="691" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">theater. Operations begin.</text>
+
+  <!-- ═══════════════════════════════════════════
+       BOTTOM BAND (~16% = 164px, y=840 to y=1024)
+  ════════════════════════════════════════════ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="856" x2="960" y2="856" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512" y="928"
+    font-size="22"
+    font-weight="600"
+    fill="#3A3A3A"
+    letter-spacing="-0.01em"
+    text-anchor="middle"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Sustainability sticks when it speaks the factory's language.</text>
+
+</svg>
