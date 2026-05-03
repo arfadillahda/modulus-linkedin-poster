@@ -4,7 +4,30 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Sun, 03 May 2026 05:11:46 +0000</lastBuildDate>
+<lastBuildDate>Sun, 03 May 2026 05:14:10 +0000</lastBuildDate>
+<item>
+<title>Why your inference latency suddenly spikes in week three</title>
+<guid isPermaLink="false">bd1e11fc3089</guid>
+<pubDate>Sun, 03 May 2026 05:13:55 +0000</pubDate>
+<description><![CDATA[You ship an LLM integration to production. Response times sit at 340ms for the first two weeks. Then they creep to 890ms. Then 2.1 seconds. You haven't changed the model. You haven't added users. What happened?
+
+Token cache fragmentation. Every time you run inference, the KV cache—the thing that lets transformers avoid recomputing every prior token—gets allocated in memory. Most frameworks don't defragment it between requests. After days of traffic, your cache becomes scattered across RAM like a hard drive in 2005. The GPU has to chase fragments instead of reading sequentially, and your latency tanks.
+
+The fix: implement explicit cache eviction between request batches. Don't rely on garbage collection to clean up old KV tensors. Allocate a fixed pool, reuse it, zero it between inference cycles. Some frameworks let you set `cache_max_seqlen` or use a ring buffer for the KV state. Others require you to manually call `torch.cuda.empty_cache()` (crude but effective). The exact syntax depends on your stack, but the principle is identical.
+
+If your production latency curve trends upward with zero code changes, you're looking at memory fragmentation, not a load problem.]]></description>
+<content:encoded><![CDATA[You ship an LLM integration to production. Response times sit at 340ms for the first two weeks. Then they creep to 890ms. Then 2.1 seconds. You haven't changed the model. You haven't added users. What happened?
+
+Token cache fragmentation. Every time you run inference, the KV cache—the thing that lets transformers avoid recomputing every prior token—gets allocated in memory. Most frameworks don't defragment it between requests. After days of traffic, your cache becomes scattered across RAM like a hard drive in 2005. The GPU has to chase fragments instead of reading sequentially, and your latency tanks.
+
+The fix: implement explicit cache eviction between request batches. Don't rely on garbage collection to clean up old KV tensors. Allocate a fixed pool, reuse it, zero it between inference cycles. Some frameworks let you set `cache_max_seqlen` or use a ring buffer for the KV state. Others require you to manually call `torch.cuda.empty_cache()` (crude but effective). The exact syntax depends on your stack, but the principle is identical.
+
+If your production latency curve trends upward with zero code changes, you're looking at memory fragmentation, not a load problem.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/bd1e11fc3089.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/bd1e11fc3089.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your sustainability project fails after month six</title>
 <guid isPermaLink="false">7c803104cc10</guid>

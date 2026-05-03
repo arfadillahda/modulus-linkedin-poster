@@ -1,0 +1,56 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- TOP BAND -->
+  <!-- Kicker -->
+  <text x="64" y="100" font-size="13" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">AI</text>
+
+  <!-- Display Headline -->
+  <text x="64" y="148" font-size="48" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Your latency spike is a</text>
+  <text x="64" y="202" font-size="48" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">memory problem, not load.</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="216" width="220" height="3" rx="1.5" fill="#2D5BFF"/>
+
+  <!-- MIDDLE BAND — 4 tiles in 2x2 grid -->
+  <!-- Tile dimensions: col width = (1024 - 64 - 64 - 16) / 2 = 440, height = 220 -->
+  <!-- Row 1 starts at y=248, Row 2 at y=484 -->
+
+  <!-- Tile 01 — top left -->
+  <rect x="64" y="248" width="440" height="220" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="300" font-size="42" font-weight="800" fill="#2D5BFF">01</text>
+  <text x="92" y="338" font-size="20" font-weight="700" fill="#111111">KV Cache Fills Up</text>
+  <text x="92" y="368" font-size="15" font-weight="400" fill="#3A3A3A">Transformers store prior tokens in GPU memory.</text>
+  <text x="92" y="390" font-size="15" font-weight="400" fill="#3A3A3A">After days of traffic, it never fully clears.</text>
+
+  <!-- Tile 02 — top right -->
+  <rect x="520" y="248" width="440" height="220" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="300" font-size="42" font-weight="800" fill="#2D5BFF">02</text>
+  <text x="548" y="338" font-size="20" font-weight="700" fill="#111111">Fragmentation Slows Reads</text>
+  <text x="548" y="368" font-size="15" font-weight="400" fill="#3A3A3A">Cache scatters across RAM. GPU chases</text>
+  <text x="548" y="390" font-size="15" font-weight="400" fill="#3A3A3A">fragments instead of reading sequentially.</text>
+
+  <!-- Tile 03 — bottom left -->
+  <rect x="64" y="484" width="440" height="220" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="536" font-size="42" font-weight="800" fill="#2D5BFF">03</text>
+  <text x="92" y="574" font-size="20" font-weight="700" fill="#111111">Allocate a Fixed Pool</text>
+  <text x="92" y="604" font-size="15" font-weight="400" fill="#3A3A3A">Reuse one memory pool. Zero it between</text>
+  <text x="92" y="626" font-size="15" font-weight="400" fill="#3A3A3A">inference cycles. Never rely on GC.</text>
+
+  <!-- Tile 04 — bottom right -->
+  <rect x="520" y="484" width="440" height="220" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="536" font-size="42" font-weight="800" fill="#2D5BFF">04</text>
+  <text x="548" y="574" font-size="20" font-weight="700" fill="#111111">Force Explicit Eviction</text>
+  <text x="548" y="604" font-size="15" font-weight="400" fill="#3A3A3A">Use cache_max_seqlen, ring buffers,</text>
+  <text x="548" y="626" font-size="15" font-weight="400" fill="#3A3A3A">or torch.cuda.empty_cache() between batches.</text>
+
+  <!-- BOTTOM BAND -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="752" x2="960" y2="752" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="820" font-size="22" font-weight="600" fill="#3A3A3A" text-anchor="middle" letter-spacing="-0.01em">Upward latency drift with no code changes means fragmentation.</text>
+
+</svg>

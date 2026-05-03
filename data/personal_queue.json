@@ -221,5 +221,14 @@
     "title": "Why your sustainability project fails after month six",
     "body": "You launch a factory energy reduction program. Three months in, it's humming. Six months later, the gains flatten or reverse. The project owner gets reassigned. The equipment vendor stops showing up. No one owns it anymore.\n\nThis happens because sustainability improvements get treated like capital projects—they have a start date and an assumed end date. Once the ROI spreadsheet closes, leadership assumes the work is done. But energy efficiency isn't a destination. It's a decay curve. The moment you stop paying attention, operators revert to old habits, equipment drifts out of tune, and setpoints creep back.\n\nHere's the fix: treat sustained energy reduction like you treat preventive maintenance. Assign a specific person (not a committee) a recurring monthly review—consumption trending, equipment logs, operator feedback. Give them authority to adjust one thing per quarter without asking permission. Budget for it. Show the CFO that month 18 always outperforms month 7 if you staff the vigilance.\n\nSustainability that sticks isn't about heroic sprints. It's about boring, continuous attention.",
     "image_url": ""
+  },
+  {
+    "id": "bd1e11fc3089",
+    "ts": "2026-05-03T05:13:55.938182+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why your inference latency suddenly spikes in week three",
+    "body": "You ship an LLM integration to production. Response times sit at 340ms for the first two weeks. Then they creep to 890ms. Then 2.1 seconds. You haven't changed the model. You haven't added users. What happened?\n\nToken cache fragmentation. Every time you run inference, the KV cache—the thing that lets transformers avoid recomputing every prior token—gets allocated in memory. Most frameworks don't defragment it between requests. After days of traffic, your cache becomes scattered across RAM like a hard drive in 2005. The GPU has to chase fragments instead of reading sequentially, and your latency tanks.\n\nThe fix: implement explicit cache eviction between request batches. Don't rely on garbage collection to clean up old KV tensors. Allocate a fixed pool, reuse it, zero it between inference cycles. Some frameworks let you set `cache_max_seqlen` or use a ring buffer for the KV state. Others require you to manually call `torch.cuda.empty_cache()` (crude but effective). The exact syntax depends on your stack, but the principle is identical.\n\nIf your production latency curve trends upward with zero code changes, you're looking at memory fragmentation, not a load problem.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/bd1e11fc3089.png"
   }
 ]
