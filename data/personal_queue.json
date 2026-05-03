@@ -230,5 +230,14 @@
     "title": "Why your inference latency suddenly spikes in week three",
     "body": "You ship an LLM integration to production. Response times sit at 340ms for the first two weeks. Then they creep to 890ms. Then 2.1 seconds. You haven't changed the model. You haven't added users. What happened?\n\nToken cache fragmentation. Every time you run inference, the KV cache—the thing that lets transformers avoid recomputing every prior token—gets allocated in memory. Most frameworks don't defragment it between requests. After days of traffic, your cache becomes scattered across RAM like a hard drive in 2005. The GPU has to chase fragments instead of reading sequentially, and your latency tanks.\n\nThe fix: implement explicit cache eviction between request batches. Don't rely on garbage collection to clean up old KV tensors. Allocate a fixed pool, reuse it, zero it between inference cycles. Some frameworks let you set `cache_max_seqlen` or use a ring buffer for the KV state. Others require you to manually call `torch.cuda.empty_cache()` (crude but effective). The exact syntax depends on your stack, but the principle is identical.\n\nIf your production latency curve trends upward with zero code changes, you're looking at memory fragmentation, not a load problem.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/bd1e11fc3089.png"
+  },
+  {
+    "id": "3a51637f5054",
+    "ts": "2026-05-03T08:10:02.021195+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why your Scope 3 carbon math breaks at scale",
+    "body": "You calculate Scope 3 emissions by multiplying supplier spend by an industry-average carbon intensity factor. It works fine until you hit 50+ suppliers. Then it collapses.\n\nThe problem: those factors are national or sectoral averages. They assume your suppliers operate like the median player in their industry. But a specialty steel mill in Germany runs at 0.8 tCO2/tonne. One in Poland runs at 2.1. Same product code, different physics. Your spreadsheet can't see that.\n\nMost teams know this is wrong and do nothing. Some try to get primary data from every supplier—which works until supplier 47 ghosts your sustainability questionnaire.\n\nThe fix is narrower: segment suppliers by geography and process technology before you apply factors. Not perfect, but it cuts your model error in half without requiring a full supplier audit. Germany-based, electric arc furnace? Use the 0.8. Coal-heavy region, integrated mill? Use the 2.1. It takes an afternoon to build and it actually reflects reality.\n\nYou can't fix what you can't see, and you can't see supplier carbon without looking inside their process, not just their balance sheet.",
+    "image_url": ""
   }
 ]

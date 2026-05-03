@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Sun, 03 May 2026 05:14:10 +0000</lastBuildDate>
+<lastBuildDate>Sun, 03 May 2026 08:10:02 +0000</lastBuildDate>
+<item>
+<title>Why your Scope 3 carbon math breaks at scale</title>
+<guid isPermaLink="false">3a51637f5054</guid>
+<pubDate>Sun, 03 May 2026 08:10:02 +0000</pubDate>
+<description><![CDATA[You calculate Scope 3 emissions by multiplying supplier spend by an industry-average carbon intensity factor. It works fine until you hit 50+ suppliers. Then it collapses.
+
+The problem: those factors are national or sectoral averages. They assume your suppliers operate like the median player in their industry. But a specialty steel mill in Germany runs at 0.8 tCO2/tonne. One in Poland runs at 2.1. Same product code, different physics. Your spreadsheet can't see that.
+
+Most teams know this is wrong and do nothing. Some try to get primary data from every supplier—which works until supplier 47 ghosts your sustainability questionnaire.
+
+The fix is narrower: segment suppliers by geography and process technology before you apply factors. Not perfect, but it cuts your model error in half without requiring a full supplier audit. Germany-based, electric arc furnace? Use the 0.8. Coal-heavy region, integrated mill? Use the 2.1. It takes an afternoon to build and it actually reflects reality.
+
+You can't fix what you can't see, and you can't see supplier carbon without looking inside their process, not just their balance sheet.]]></description>
+<content:encoded><![CDATA[You calculate Scope 3 emissions by multiplying supplier spend by an industry-average carbon intensity factor. It works fine until you hit 50+ suppliers. Then it collapses.
+
+The problem: those factors are national or sectoral averages. They assume your suppliers operate like the median player in their industry. But a specialty steel mill in Germany runs at 0.8 tCO2/tonne. One in Poland runs at 2.1. Same product code, different physics. Your spreadsheet can't see that.
+
+Most teams know this is wrong and do nothing. Some try to get primary data from every supplier—which works until supplier 47 ghosts your sustainability questionnaire.
+
+The fix is narrower: segment suppliers by geography and process technology before you apply factors. Not perfect, but it cuts your model error in half without requiring a full supplier audit. Germany-based, electric arc furnace? Use the 0.8. Coal-heavy region, integrated mill? Use the 2.1. It takes an afternoon to build and it actually reflects reality.
+
+You can't fix what you can't see, and you can't see supplier carbon without looking inside their process, not just their balance sheet.]]></content:encoded>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your inference latency suddenly spikes in week three</title>
 <guid isPermaLink="false">bd1e11fc3089</guid>
