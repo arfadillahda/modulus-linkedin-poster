@@ -4,7 +4,30 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Sun, 03 May 2026 08:10:02 +0000</lastBuildDate>
+<lastBuildDate>Mon, 04 May 2026 08:40:30 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization data pipeline stops at the edge</title>
+<guid isPermaLink="false">44a8793e1f4f</guid>
+<pubDate>Mon, 04 May 2026 08:40:15 +0000</pubDate>
+<description><![CDATA[You've got sensors feeding real-time data into your cloud platform. Everything works in the demo. Then you try to ingest six months of historical data from the plant floor—and the system chokes. Or you discover the timestamps don't align across devices. Or the schema changes between batches and breaks your downstream models.
+
+This happens because most teams treat the edge and the cloud as separate worlds. They assume "digitalization" means moving data uphill. But industrial devices weren't designed for that. They log inconsistently. They have local time drift. They buffer data in ways that destroy sequence integrity. Your platform expects clean, normalized inputs. Reality sends chaos.
+
+The fix is unglamorous: build a local buffer layer—even if it's just a Raspberry Pi or industrial PC running Node-RED. Let it normalize, timestamp-correct, and batch the data before it leaves the plant. This adds latency (which you probably don't care about), but it kills schema mismatches, handles device dropout gracefully, and lets you replay historical data without corruption.
+
+It sounds like overhead. It's actually the load-bearing wall between a pilot that works and a system that scales.]]></description>
+<content:encoded><![CDATA[You've got sensors feeding real-time data into your cloud platform. Everything works in the demo. Then you try to ingest six months of historical data from the plant floor—and the system chokes. Or you discover the timestamps don't align across devices. Or the schema changes between batches and breaks your downstream models.
+
+This happens because most teams treat the edge and the cloud as separate worlds. They assume "digitalization" means moving data uphill. But industrial devices weren't designed for that. They log inconsistently. They have local time drift. They buffer data in ways that destroy sequence integrity. Your platform expects clean, normalized inputs. Reality sends chaos.
+
+The fix is unglamorous: build a local buffer layer—even if it's just a Raspberry Pi or industrial PC running Node-RED. Let it normalize, timestamp-correct, and batch the data before it leaves the plant. This adds latency (which you probably don't care about), but it kills schema mismatches, handles device dropout gracefully, and lets you replay historical data without corruption.
+
+It sounds like overhead. It's actually the load-bearing wall between a pilot that works and a system that scales.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/44a8793e1f4f.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/44a8793e1f4f.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your Scope 3 carbon math breaks at scale</title>
 <guid isPermaLink="false">3a51637f5054</guid>

@@ -1,0 +1,52 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- TOP BAND: ~0 to 225px -->
+  <!-- Kicker -->
+  <text x="64" y="96" font-size="13" font-weight="600" fill="#C24A1F" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">DIGITALIZATION</text>
+
+  <!-- Headline -->
+  <text x="64" y="148" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Edge chaos breaks your</text>
+  <text x="64" y="207" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">pipeline before the cloud</text>
+
+  <!-- Accent underline beneath headline -->
+  <line x1="64" y1="220" x2="320" y2="220" stroke="#C24A1F" stroke-width="2.5"/>
+
+  <!-- MIDDLE BAND: tiles from ~245 to 870px -->
+  <!-- 4 tiles in 2x2 grid, gap 16px, outer padding 64px -->
+  <!-- Each tile: width = (1024 - 64 - 64 - 16) / 2 = 440px, height = (870-245-16)/2 = 304.5 ~304px -->
+
+  <!-- Tile 01 — top-left: x=64, y=245, w=440, h=304 -->
+  <rect x="64" y="245" width="440" height="304" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="310" font-size="42" font-weight="800" fill="#C24A1F" letter-spacing="-0.01em">01</text>
+  <text x="96" y="355" font-size="22" font-weight="700" fill="#111111">Historical Data Chokes</text>
+  <text x="96" y="388" font-size="15" font-weight="400" fill="#3A3A3A">Six months of plant data breaks the ingest pipeline.</text>
+
+  <!-- Tile 02 — top-right: x=520, y=245, w=440, h=304 -->
+  <rect x="520" y="245" width="440" height="304" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="310" font-size="42" font-weight="800" fill="#C24A1F" letter-spacing="-0.01em">02</text>
+  <text x="552" y="355" font-size="22" font-weight="700" fill="#111111">Devices Weren't Designed</text>
+  <text x="552" y="388" font-size="15" font-weight="400" fill="#3A3A3A">Sensors drift, log inconsistently, destroy sequence order.</text>
+
+  <!-- Tile 03 — bottom-left: x=64, y=565, w=440, h=304 -->
+  <rect x="64" y="565" width="440" height="304" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="630" font-size="42" font-weight="800" fill="#C24A1F" letter-spacing="-0.01em">03</text>
+  <text x="96" y="675" font-size="22" font-weight="700" fill="#111111">Build a Local Buffer Layer</text>
+  <text x="96" y="708" font-size="15" font-weight="400" fill="#3A3A3A">A Raspberry Pi running Node-RED normalizes the chaos.</text>
+
+  <!-- Tile 04 — bottom-right: x=520, y=565, w=440, h=304 -->
+  <rect x="520" y="565" width="440" height="304" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="630" font-size="42" font-weight="800" fill="#C24A1F" letter-spacing="-0.01em">04</text>
+  <text x="552" y="675" font-size="22" font-weight="700" fill="#111111">Overhead That Load-Bears</text>
+  <text x="552" y="708" font-size="15" font-weight="400" fill="#3A3A3A">Latency you won't notice. Schema breaks you won't survive.</text>
+
+  <!-- BOTTOM BAND: ~885 to 1024px -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="892" x2="960" y2="892" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="958" font-size="20" font-weight="600" fill="#3A3A3A" text-anchor="middle" letter-spacing="0.01em">The buffer layer is the load-bearing wall between pilot and scale.</text>
+
+</svg>

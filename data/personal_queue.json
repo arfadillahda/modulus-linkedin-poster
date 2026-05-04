@@ -239,5 +239,14 @@
     "title": "Why your Scope 3 carbon math breaks at scale",
     "body": "You calculate Scope 3 emissions by multiplying supplier spend by an industry-average carbon intensity factor. It works fine until you hit 50+ suppliers. Then it collapses.\n\nThe problem: those factors are national or sectoral averages. They assume your suppliers operate like the median player in their industry. But a specialty steel mill in Germany runs at 0.8 tCO2/tonne. One in Poland runs at 2.1. Same product code, different physics. Your spreadsheet can't see that.\n\nMost teams know this is wrong and do nothing. Some try to get primary data from every supplier—which works until supplier 47 ghosts your sustainability questionnaire.\n\nThe fix is narrower: segment suppliers by geography and process technology before you apply factors. Not perfect, but it cuts your model error in half without requiring a full supplier audit. Germany-based, electric arc furnace? Use the 0.8. Coal-heavy region, integrated mill? Use the 2.1. It takes an afternoon to build and it actually reflects reality.\n\nYou can't fix what you can't see, and you can't see supplier carbon without looking inside their process, not just their balance sheet.",
     "image_url": ""
+  },
+  {
+    "id": "44a8793e1f4f",
+    "ts": "2026-05-04T08:40:15.451823+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why your digitalization data pipeline stops at the edge",
+    "body": "You've got sensors feeding real-time data into your cloud platform. Everything works in the demo. Then you try to ingest six months of historical data from the plant floor—and the system chokes. Or you discover the timestamps don't align across devices. Or the schema changes between batches and breaks your downstream models.\n\nThis happens because most teams treat the edge and the cloud as separate worlds. They assume \"digitalization\" means moving data uphill. But industrial devices weren't designed for that. They log inconsistently. They have local time drift. They buffer data in ways that destroy sequence integrity. Your platform expects clean, normalized inputs. Reality sends chaos.\n\nThe fix is unglamorous: build a local buffer layer—even if it's just a Raspberry Pi or industrial PC running Node-RED. Let it normalize, timestamp-correct, and batch the data before it leaves the plant. This adds latency (which you probably don't care about), but it kills schema mismatches, handles device dropout gracefully, and lets you replay historical data without corruption.\n\nIt sounds like overhead. It's actually the load-bearing wall between a pilot that works and a system that scales.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/44a8793e1f4f.png"
   }
 ]
