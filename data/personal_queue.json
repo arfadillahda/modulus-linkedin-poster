@@ -248,5 +248,14 @@
     "title": "Why your digitalization data pipeline stops at the edge",
     "body": "You've got sensors feeding real-time data into your cloud platform. Everything works in the demo. Then you try to ingest six months of historical data from the plant floor—and the system chokes. Or you discover the timestamps don't align across devices. Or the schema changes between batches and breaks your downstream models.\n\nThis happens because most teams treat the edge and the cloud as separate worlds. They assume \"digitalization\" means moving data uphill. But industrial devices weren't designed for that. They log inconsistently. They have local time drift. They buffer data in ways that destroy sequence integrity. Your platform expects clean, normalized inputs. Reality sends chaos.\n\nThe fix is unglamorous: build a local buffer layer—even if it's just a Raspberry Pi or industrial PC running Node-RED. Let it normalize, timestamp-correct, and batch the data before it leaves the plant. This adds latency (which you probably don't care about), but it kills schema mismatches, handles device dropout gracefully, and lets you replay historical data without corruption.\n\nIt sounds like overhead. It's actually the load-bearing wall between a pilot that works and a system that scales.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/44a8793e1f4f.png"
+  },
+  {
+    "id": "e8b0d53e9983",
+    "ts": "2026-05-05T08:22:43.179298+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why your AI proof of concept never scales to production",
+    "body": "You built an AI model that works great on 10,000 labeled examples. It hits 94% accuracy in your notebook. Then you try to deploy it across your actual product, and suddenly it's making decisions on data it's never seen before — different distributions, edge cases, real noise. The accuracy craters.\n\nThis happens because your proof of concept optimized for *pattern recognition* on clean data, not for *robustness* on messy data. You were solving the wrong problem. The gap between lab and production isn't a deployment issue. It's a design issue.\n\nHere's the reframe: before you train anything, ask three questions.\n\nFirst, what's the actual failure mode you're trying to prevent? Not the model accuracy metric — the real cost when it gets it wrong. Second, what kinds of input variations will your model actually encounter? Not the ones in your training set. The ones it will see next month. Third, how do you detect when the model is uncertain instead of confidently wrong?\n\nThen design around those constraints, not around benchmark scores. Your model should fail gracefully and visibly, not fail silently at scale.\n\nProduction robustness beats lab accuracy every time.",
+    "image_url": ""
   }
 ]
