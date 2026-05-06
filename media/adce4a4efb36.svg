@@ -1,0 +1,63 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- Top Band -->
+  <!-- Kicker -->
+  <text x="64" y="96" font-size="13" font-weight="600" fill="#C24A1F" letter-spacing="0.18em" text-anchor="start" dominant-baseline="auto">DIGITALIZATION</text>
+
+  <!-- Display Headline -->
+  <text x="64" y="148" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start" dominant-baseline="auto">Your digital metrics</text>
+  <text x="64" y="208" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start" dominant-baseline="auto">miss what actually matters</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="222" width="160" height="3" rx="1.5" fill="#C24A1F"/>
+
+  <!-- Middle Band: 4-tile 2x2 grid -->
+  <!-- Tile layout: outer padding 64px, gap 16px, canvas 1024px -->
+  <!-- Two columns: each tile width = (1024 - 64 - 64 - 16) / 2 = 440px -->
+  <!-- Two rows: each tile height = (1024*0.62 - 16) / 2 approx = 300px -->
+  <!-- Grid starts at y=252, height of middle band ~636px, so tiles from y=252 -->
+  <!-- Row 1: y=252, Row 2: y=252+300+16=568 -->
+
+  <!-- Tile 01 -->
+  <rect x="64" y="254" width="440" height="296" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="316" font-size="48" font-weight="800" fill="#C24A1F" dominant-baseline="auto">01</text>
+  <text x="96" y="360" font-size="22" font-weight="700" fill="#111111" dominant-baseline="auto">Measuring Systems,</text>
+  <text x="96" y="388" font-size="22" font-weight="700" fill="#111111" dominant-baseline="auto">Not Outcomes</text>
+  <text x="96" y="430" font-size="16" font-weight="400" fill="#3A3A3A" dominant-baseline="auto">Uptime and adoption don't prove</text>
+  <text x="96" y="452" font-size="16" font-weight="400" fill="#3A3A3A" dominant-baseline="auto">anything changed on the floor.</text>
+
+  <!-- Tile 02 -->
+  <rect x="520" y="254" width="440" height="296" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="316" font-size="48" font-weight="800" fill="#C24A1F" dominant-baseline="auto">02</text>
+  <text x="552" y="360" font-size="22" font-weight="700" fill="#111111" dominant-baseline="auto">Documented, Not</text>
+  <text x="552" y="388" font-size="22" font-weight="700" fill="#111111" dominant-baseline="auto">Digitalized</text>
+  <text x="552" y="430" font-size="16" font-weight="400" fill="#3A3A3A" dominant-baseline="auto">Instrumented lines with same output</text>
+  <text x="552" y="452" font-size="16" font-weight="400" fill="#3A3A3A" dominant-baseline="auto">are just better documented.</text>
+
+  <!-- Tile 03 -->
+  <rect x="64" y="566" width="440" height="296" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="628" font-size="48" font-weight="800" fill="#C24A1F" dominant-baseline="auto">03</text>
+  <text x="96" y="672" font-size="22" font-weight="700" fill="#111111" dominant-baseline="auto">Decisions Own</text>
+  <text x="96" y="700" font-size="22" font-weight="700" fill="#111111" dominant-baseline="auto">the Result</text>
+  <text x="96" y="742" font-size="16" font-weight="400" fill="#3A3A3A" dominant-baseline="auto">Change only happens when someone</text>
+  <text x="96" y="764" font-size="16" font-weight="400" fill="#3A3A3A" dominant-baseline="auto">decides differently than before.</text>
+
+  <!-- Tile 04 -->
+  <rect x="520" y="566" width="440" height="296" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="628" font-size="48" font-weight="800" fill="#C24A1F" dominant-baseline="auto">04</text>
+  <text x="552" y="672" font-size="22" font-weight="700" fill="#111111" dominant-baseline="auto">Name Three</text>
+  <text x="552" y="700" font-size="22" font-weight="700" fill="#111111" dominant-baseline="auto">Changed Decisions</text>
+  <text x="552" y="742" font-size="16" font-weight="400" fill="#3A3A3A" dominant-baseline="auto">If you can't name them, you're</text>
+  <text x="552" y="764" font-size="16" font-weight="400" fill="#3A3A3A" dominant-baseline="auto">still building infrastructure.</text>
+
+  <!-- Bottom Band -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="896" x2="960" y2="896" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="952" font-size="20" font-weight="600" fill="#3A3A3A" text-anchor="middle" dominant-baseline="auto" letter-spacing="-0.01em">Digitalization succeeds in operations, not in your control room.</text>
+
+</svg>

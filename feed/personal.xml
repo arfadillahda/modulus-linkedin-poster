@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Tue, 05 May 2026 08:22:43 +0000</lastBuildDate>
+<lastBuildDate>Wed, 06 May 2026 08:38:50 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization team is measuring the wrong success</title>
+<guid isPermaLink="false">adce4a4efb36</guid>
+<pubDate>Wed, 06 May 2026 08:38:33 +0000</pubDate>
+<description><![CDATA[You're tracking adoption rates, system uptime, data freshness. Your digitalization project looks healthy by every internal metric. Then production still grinds to a halt because nobody flagged the real constraint.
+
+The problem: we measure digitalization health by system behavior, not by whether it changed what actually matters in the plant. A beautifully instrumented line that produces the same number of good parts per shift hasn't been digitalized—it's been documented.
+
+This happens because digitalization gets owned by IT or engineering, who naturally measure what their systems do: collect data, move data, display data. But digitalization only works when it changes a decision that someone was making badly before. That decision lives somewhere else—in scheduling, maintenance planning, quality calls, customer negotiations.
+
+The reframe: stop asking "is our digital infrastructure sound?" Start asking "which three decisions are we making differently now, and why?" If you can't name them, you're still building infrastructure, not driving change.
+
+Digitalization succeeds or fails in operations, not in your control room.]]></description>
+<content:encoded><![CDATA[You're tracking adoption rates, system uptime, data freshness. Your digitalization project looks healthy by every internal metric. Then production still grinds to a halt because nobody flagged the real constraint.
+
+The problem: we measure digitalization health by system behavior, not by whether it changed what actually matters in the plant. A beautifully instrumented line that produces the same number of good parts per shift hasn't been digitalized—it's been documented.
+
+This happens because digitalization gets owned by IT or engineering, who naturally measure what their systems do: collect data, move data, display data. But digitalization only works when it changes a decision that someone was making badly before. That decision lives somewhere else—in scheduling, maintenance planning, quality calls, customer negotiations.
+
+The reframe: stop asking "is our digital infrastructure sound?" Start asking "which three decisions are we making differently now, and why?" If you can't name them, you're still building infrastructure, not driving change.
+
+Digitalization succeeds or fails in operations, not in your control room.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/adce4a4efb36.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/adce4a4efb36.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your AI proof of concept never scales to production</title>
 <guid isPermaLink="false">e8b0d53e9983</guid>
