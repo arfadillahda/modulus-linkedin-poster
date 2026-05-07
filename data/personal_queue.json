@@ -266,5 +266,14 @@
     "title": "Why your digitalization team is measuring the wrong success",
     "body": "You're tracking adoption rates, system uptime, data freshness. Your digitalization project looks healthy by every internal metric. Then production still grinds to a halt because nobody flagged the real constraint.\n\nThe problem: we measure digitalization health by system behavior, not by whether it changed what actually matters in the plant. A beautifully instrumented line that produces the same number of good parts per shift hasn't been digitalized—it's been documented.\n\nThis happens because digitalization gets owned by IT or engineering, who naturally measure what their systems do: collect data, move data, display data. But digitalization only works when it changes a decision that someone was making badly before. That decision lives somewhere else—in scheduling, maintenance planning, quality calls, customer negotiations.\n\nThe reframe: stop asking \"is our digital infrastructure sound?\" Start asking \"which three decisions are we making differently now, and why?\" If you can't name them, you're still building infrastructure, not driving change.\n\nDigitalization succeeds or fails in operations, not in your control room.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/adce4a4efb36.png"
+  },
+  {
+    "id": "05f78232dda3",
+    "ts": "2026-05-07T08:45:23.653693+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why your AI team keeps building the wrong thing",
+    "body": "Most AI projects fail not because the model is bad, but because nobody asked what problem it's actually solving.\n\nYou hire a data scientist. She builds something clever. Six months later you realize it optimizes for a metric that doesn't matter to your business. The model works. The business impact is zero.\n\nThis happens because AI teams and business teams speak different languages. Engineers optimize for accuracy, F1 score, latency. Business cares about revenue, cost, customer retention. There's no translation layer between them, so the model drifts toward technical elegance instead of business outcome.\n\nThe fix isn't better communication (that's corporate speak). It's reframing the problem before you touch any code.\n\nInstead of asking \"What model should we build?\" ask: \"What decision does this model enable that we can't make today?\" Then work backward. Define the decision first. Define what 'better' looks like in business terms. Only then does the technical architecture become obvious.\n\nA model optimized for the wrong outcome is just expensive noise.",
+    "image_url": ""
   }
 ]

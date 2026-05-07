@@ -4,7 +4,36 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Wed, 06 May 2026 08:38:50 +0000</lastBuildDate>
+<lastBuildDate>Thu, 07 May 2026 08:45:23 +0000</lastBuildDate>
+<item>
+<title>Why your AI team keeps building the wrong thing</title>
+<guid isPermaLink="false">05f78232dda3</guid>
+<pubDate>Thu, 07 May 2026 08:45:23 +0000</pubDate>
+<description><![CDATA[Most AI projects fail not because the model is bad, but because nobody asked what problem it's actually solving.
+
+You hire a data scientist. She builds something clever. Six months later you realize it optimizes for a metric that doesn't matter to your business. The model works. The business impact is zero.
+
+This happens because AI teams and business teams speak different languages. Engineers optimize for accuracy, F1 score, latency. Business cares about revenue, cost, customer retention. There's no translation layer between them, so the model drifts toward technical elegance instead of business outcome.
+
+The fix isn't better communication (that's corporate speak). It's reframing the problem before you touch any code.
+
+Instead of asking "What model should we build?" ask: "What decision does this model enable that we can't make today?" Then work backward. Define the decision first. Define what 'better' looks like in business terms. Only then does the technical architecture become obvious.
+
+A model optimized for the wrong outcome is just expensive noise.]]></description>
+<content:encoded><![CDATA[Most AI projects fail not because the model is bad, but because nobody asked what problem it's actually solving.
+
+You hire a data scientist. She builds something clever. Six months later you realize it optimizes for a metric that doesn't matter to your business. The model works. The business impact is zero.
+
+This happens because AI teams and business teams speak different languages. Engineers optimize for accuracy, F1 score, latency. Business cares about revenue, cost, customer retention. There's no translation layer between them, so the model drifts toward technical elegance instead of business outcome.
+
+The fix isn't better communication (that's corporate speak). It's reframing the problem before you touch any code.
+
+Instead of asking "What model should we build?" ask: "What decision does this model enable that we can't make today?" Then work backward. Define the decision first. Define what 'better' looks like in business terms. Only then does the technical architecture become obvious.
+
+A model optimized for the wrong outcome is just expensive noise.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your digitalization team is measuring the wrong success</title>
 <guid isPermaLink="false">adce4a4efb36</guid>
