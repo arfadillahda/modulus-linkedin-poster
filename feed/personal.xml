@@ -4,7 +4,30 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Thu, 07 May 2026 08:45:23 +0000</lastBuildDate>
+<lastBuildDate>Fri, 08 May 2026 07:52:22 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization pilot never scales to production</title>
+<guid isPermaLink="false">2f4403dc6bf0</guid>
+<pubDate>Fri, 08 May 2026 07:52:01 +0000</pubDate>
+<description><![CDATA[You build a proof-of-concept. It works beautifully in one facility, one production line, one shift. Then you try to roll it out across five plants and it breaks. Different equipment vintages, different operator training, different network stability, different maintenance schedules. Suddenly the thing that worked at 95% accuracy in isolation drops to 73% in the wild.
+
+This happens because pilots are built for *consistency*. You control variables. You pre-clean the data. You tune hyperparameters against known failure modes. The real factory is the opposite: it's variance. Unplanned stoppages, parameter drift, human workarounds that nobody documented.
+
+Stop thinking about scaling as a copy-paste problem. Think about it as *variance absorption*. Before you go multisite, map the five biggest sources of drift at your pilot location—equipment age spread, shift-to-shift process variation, network latency, undocumented standard work, seasonal demand swings. Build your system to tolerate those, not eliminate them. Test it by deliberately breaking one variable at a time.
+
+A solution that handles variance from day one will scale. One built for perfection won't.]]></description>
+<content:encoded><![CDATA[You build a proof-of-concept. It works beautifully in one facility, one production line, one shift. Then you try to roll it out across five plants and it breaks. Different equipment vintages, different operator training, different network stability, different maintenance schedules. Suddenly the thing that worked at 95% accuracy in isolation drops to 73% in the wild.
+
+This happens because pilots are built for *consistency*. You control variables. You pre-clean the data. You tune hyperparameters against known failure modes. The real factory is the opposite: it's variance. Unplanned stoppages, parameter drift, human workarounds that nobody documented.
+
+Stop thinking about scaling as a copy-paste problem. Think about it as *variance absorption*. Before you go multisite, map the five biggest sources of drift at your pilot location—equipment age spread, shift-to-shift process variation, network latency, undocumented standard work, seasonal demand swings. Build your system to tolerate those, not eliminate them. Test it by deliberately breaking one variable at a time.
+
+A solution that handles variance from day one will scale. One built for perfection won't.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/2f4403dc6bf0.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/2f4403dc6bf0.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your AI team keeps building the wrong thing</title>
 <guid isPermaLink="false">05f78232dda3</guid>

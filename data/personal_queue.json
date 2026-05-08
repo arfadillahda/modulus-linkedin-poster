@@ -275,5 +275,14 @@
     "title": "Why your AI team keeps building the wrong thing",
     "body": "Most AI projects fail not because the model is bad, but because nobody asked what problem it's actually solving.\n\nYou hire a data scientist. She builds something clever. Six months later you realize it optimizes for a metric that doesn't matter to your business. The model works. The business impact is zero.\n\nThis happens because AI teams and business teams speak different languages. Engineers optimize for accuracy, F1 score, latency. Business cares about revenue, cost, customer retention. There's no translation layer between them, so the model drifts toward technical elegance instead of business outcome.\n\nThe fix isn't better communication (that's corporate speak). It's reframing the problem before you touch any code.\n\nInstead of asking \"What model should we build?\" ask: \"What decision does this model enable that we can't make today?\" Then work backward. Define the decision first. Define what 'better' looks like in business terms. Only then does the technical architecture become obvious.\n\nA model optimized for the wrong outcome is just expensive noise.",
     "image_url": ""
+  },
+  {
+    "id": "2f4403dc6bf0",
+    "ts": "2026-05-08T07:52:01.491363+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why your digitalization pilot never scales to production",
+    "body": "You build a proof-of-concept. It works beautifully in one facility, one production line, one shift. Then you try to roll it out across five plants and it breaks. Different equipment vintages, different operator training, different network stability, different maintenance schedules. Suddenly the thing that worked at 95% accuracy in isolation drops to 73% in the wild.\n\nThis happens because pilots are built for *consistency*. You control variables. You pre-clean the data. You tune hyperparameters against known failure modes. The real factory is the opposite: it's variance. Unplanned stoppages, parameter drift, human workarounds that nobody documented.\n\nStop thinking about scaling as a copy-paste problem. Think about it as *variance absorption*. Before you go multisite, map the five biggest sources of drift at your pilot location—equipment age spread, shift-to-shift process variation, network latency, undocumented standard work, seasonal demand swings. Build your system to tolerate those, not eliminate them. Test it by deliberately breaking one variable at a time.\n\nA solution that handles variance from day one will scale. One built for perfection won't.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/2f4403dc6bf0.png"
   }
 ]
