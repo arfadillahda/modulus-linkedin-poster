@@ -284,5 +284,14 @@
     "title": "Why your digitalization pilot never scales to production",
     "body": "You build a proof-of-concept. It works beautifully in one facility, one production line, one shift. Then you try to roll it out across five plants and it breaks. Different equipment vintages, different operator training, different network stability, different maintenance schedules. Suddenly the thing that worked at 95% accuracy in isolation drops to 73% in the wild.\n\nThis happens because pilots are built for *consistency*. You control variables. You pre-clean the data. You tune hyperparameters against known failure modes. The real factory is the opposite: it's variance. Unplanned stoppages, parameter drift, human workarounds that nobody documented.\n\nStop thinking about scaling as a copy-paste problem. Think about it as *variance absorption*. Before you go multisite, map the five biggest sources of drift at your pilot location—equipment age spread, shift-to-shift process variation, network latency, undocumented standard work, seasonal demand swings. Build your system to tolerate those, not eliminate them. Test it by deliberately breaking one variable at a time.\n\nA solution that handles variance from day one will scale. One built for perfection won't.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/2f4403dc6bf0.png"
+  },
+  {
+    "id": "4cb41211ab6d",
+    "ts": "2026-05-09T08:05:39.091337+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why your sustainability roadmap ignores what actually matters",
+    "body": "Most manufacturing sustainability plans start with a list of technologies: solar, heat recovery, compressed air audits, LED retrofits. Then they fail because nobody asked whether those fixes address the actual waste in your operation.\n\nYou end up optimizing the wrong thing. A factory burning money on oversized compressed air systems gets a shiny new compressor controller. Another bleeds product quality because nobody mapped how much scrap correlates to energy use. A third has 40% spare production capacity but keeps investing in efficiency per unit instead of utilization.\n\nThe problem isn't the technologies. It's that sustainability planning borrowed its playbook from energy consultants, not from operations. It treats the factory as a black box with an energy bill, not as a system where material flow, quality, and throughput all drive carbon intensity.\n\nStart by asking: which inefficiency costs you the most money AND carbon? Usually it's not the thing with the biggest megawatt number. When you tie carbon reduction to the operating expense that already bothers your CFO, suddenly the roadmap funds itself.\n\nYour biggest sustainability wins hide inside your existing business problem.",
+    "image_url": ""
   }
 ]
