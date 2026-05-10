@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- Top Band -->
+  <g>
+    <!-- Kicker -->
+    <text x="64" y="96" font-size="13" font-weight="600" fill="#1F5C3D" letter-spacing="0.18em" text-anchor="start" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">SUSTAINABILITY</text>
+
+    <!-- Display Headline -->
+    <text x="64" y="152" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Generic metrics steer</text>
+    <text x="64" y="210" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">your business wrong.</text>
+
+    <!-- Accent underline -->
+    <line x1="64" y1="222" x2="480" y2="222" stroke="#1F5C3D" stroke-width="2"/>
+  </g>
+
+  <!-- Middle Band: 4 tiles in 2x2 grid -->
+  <!-- Tile dimensions: col width = (1024 - 64 - 64 - 16) / 2 = 440, row height = (632 - 16) / 2 = 308 -->
+  <!-- Grid starts at y=248, ends at y=248+308+16+308=880, but bottom band at y=856 -->
+  <!-- Recalculate: Middle band 22%-78% => y=225 to y=800. Height=575. 2 rows: (575-16)/2=279.5 ~279 -->
+  <!-- Tile cols: x=64, width=440, gap=16, second col x=520 -->
+  <!-- Tile rows: y=248, height=279, gap=16, second row y=543 -->
+
+  <!-- Tile 01 -->
+  <rect x="64" y="248" width="440" height="279" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="306" font-size="48" font-weight="800" fill="#1F5C3D" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="92" y="348" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Vendor Default Metric</text>
+  <text x="92" y="382" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Energy per unit: sector-agnostic,</text>
+  <text x="92" y="402" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">defensible, and generic.</text>
+
+  <!-- Tile 02 -->
+  <rect x="520" y="248" width="440" height="279" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="306" font-size="48" font-weight="800" fill="#1F5C3D" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="548" y="348" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Why It Fails You</text>
+  <text x="548" y="382" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Optimized for comparability, not your</text>
+  <text x="548" y="402" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">actual cost or constraint.</text>
+
+  <!-- Tile 03 -->
+  <rect x="64" y="543" width="440" height="279" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="601" font-size="48" font-weight="800" fill="#1F5C3D" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="92" y="643" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Find Your Constraint</text>
+  <text x="92" y="677" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Ask: is it capex, throughput,</text>
+  <text x="92" y="697" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">or regulatory risk?</text>
+
+  <!-- Tile 04 -->
+  <rect x="520" y="543" width="440" height="279" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="601" font-size="48" font-weight="800" fill="#1F5C3D" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="548" y="643" font-size="22" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Build the Right KPI</text>
+  <text x="548" y="677" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Map metric to your bottleneck.</text>
+  <text x="548" y="697" font-size="16" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Carbon per liter beats carbon per ton.</text>
+
+  <!-- Bottom Band -->
+  <line x1="64" y1="858" x2="960" y2="858" stroke="#11111118" stroke-width="1"/>
+  <text x="512" y="900" font-size="19" font-weight="400" fill="#3A3A3A" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Strategy should flow from your constraints, not a dashboard.</text>
+
+</svg>

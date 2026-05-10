@@ -293,5 +293,14 @@
     "title": "Why your sustainability roadmap ignores what actually matters",
     "body": "Most manufacturing sustainability plans start with a list of technologies: solar, heat recovery, compressed air audits, LED retrofits. Then they fail because nobody asked whether those fixes address the actual waste in your operation.\n\nYou end up optimizing the wrong thing. A factory burning money on oversized compressed air systems gets a shiny new compressor controller. Another bleeds product quality because nobody mapped how much scrap correlates to energy use. A third has 40% spare production capacity but keeps investing in efficiency per unit instead of utilization.\n\nThe problem isn't the technologies. It's that sustainability planning borrowed its playbook from energy consultants, not from operations. It treats the factory as a black box with an energy bill, not as a system where material flow, quality, and throughput all drive carbon intensity.\n\nStart by asking: which inefficiency costs you the most money AND carbon? Usually it's not the thing with the biggest megawatt number. When you tie carbon reduction to the operating expense that already bothers your CFO, suddenly the roadmap funds itself.\n\nYour biggest sustainability wins hide inside your existing business problem.",
     "image_url": ""
+  },
+  {
+    "id": "2e991bffa401",
+    "ts": "2026-05-10T08:19:49.141161+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why your sustainability vendor picked the wrong metric",
+    "body": "You hired a consulting firm or software platform to track your factory's environmental impact. Three months in, you realize their standard KPI (usually energy per unit or carbon per dollar revenue) doesn't match how your actual costs or constraints work. The metric looks right on a spreadsheet but steers you toward decisions that don't move your business.\n\nThis happens because vendors optimize for comparability across industries. A single metric needs to work for food, chemicals, automotive, and textiles at once. So they default to something sector-agnostic and defensible—which means it's generic enough to be useless for your specific operation.\n\nInstead of accepting their framework, reverse-engineer what actually matters to *you*. Ask: What's the constraint that kills a project? Is it capex? Throughput loss? Regulatory risk? Map your sustainability goals to that constraint first. Then pick or build a metric that reflects it. If your bottleneck is water, carbon per liter shipped beats carbon per ton every time.\n\nYour sustainability strategy should flow from your business constraints, not from someone's standardized dashboard.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/2e991bffa401.png"
   }
 ]
