@@ -302,5 +302,14 @@
     "title": "Why your sustainability vendor picked the wrong metric",
     "body": "You hired a consulting firm or software platform to track your factory's environmental impact. Three months in, you realize their standard KPI (usually energy per unit or carbon per dollar revenue) doesn't match how your actual costs or constraints work. The metric looks right on a spreadsheet but steers you toward decisions that don't move your business.\n\nThis happens because vendors optimize for comparability across industries. A single metric needs to work for food, chemicals, automotive, and textiles at once. So they default to something sector-agnostic and defensible—which means it's generic enough to be useless for your specific operation.\n\nInstead of accepting their framework, reverse-engineer what actually matters to *you*. Ask: What's the constraint that kills a project? Is it capex? Throughput loss? Regulatory risk? Map your sustainability goals to that constraint first. Then pick or build a metric that reflects it. If your bottleneck is water, carbon per liter shipped beats carbon per ton every time.\n\nYour sustainability strategy should flow from your business constraints, not from someone's standardized dashboard.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/2e991bffa401.png"
+  },
+  {
+    "id": "d67f6c0478aa",
+    "ts": "2026-05-11T09:56:03.792051+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why your model's confidence scores are completely unreliable",
+    "body": "Your classifier says it's 94% confident. Then it's wrong. This happens because most teams train on balanced datasets, validate on balanced test sets, and never stress-test what happens when class distributions shift in production.\n\nThe mechanism is simple: neural networks don't actually output probabilities. They output activation energies. When you apply softmax to those energies, you get a number between 0 and 1, but that number is only calibrated relative to the distribution it saw during training. Feed it skewed data in the wild—fewer positive cases, say—and the confidence scores stay high even as accuracy plummets. The model hasn't learned to be uncertain. It's learned the training distribution.\n\nFix this before deployment: run temperature scaling on your validation set. Find the single scalar that minimizes expected calibration error between predicted confidence and actual correctness. Apply that scalar to all inference. It takes an hour.\n\nCalibration isn't a post-hoc nicety. It's the only honest way to know when your model is guessing.",
+    "image_url": ""
   }
 ]

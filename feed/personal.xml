@@ -4,7 +4,28 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Sun, 10 May 2026 08:20:11 +0000</lastBuildDate>
+<lastBuildDate>Mon, 11 May 2026 09:56:03 +0000</lastBuildDate>
+<item>
+<title>Why your model's confidence scores are completely unreliable</title>
+<guid isPermaLink="false">d67f6c0478aa</guid>
+<pubDate>Mon, 11 May 2026 09:56:03 +0000</pubDate>
+<description><![CDATA[Your classifier says it's 94% confident. Then it's wrong. This happens because most teams train on balanced datasets, validate on balanced test sets, and never stress-test what happens when class distributions shift in production.
+
+The mechanism is simple: neural networks don't actually output probabilities. They output activation energies. When you apply softmax to those energies, you get a number between 0 and 1, but that number is only calibrated relative to the distribution it saw during training. Feed it skewed data in the wild—fewer positive cases, say—and the confidence scores stay high even as accuracy plummets. The model hasn't learned to be uncertain. It's learned the training distribution.
+
+Fix this before deployment: run temperature scaling on your validation set. Find the single scalar that minimizes expected calibration error between predicted confidence and actual correctness. Apply that scalar to all inference. It takes an hour.
+
+Calibration isn't a post-hoc nicety. It's the only honest way to know when your model is guessing.]]></description>
+<content:encoded><![CDATA[Your classifier says it's 94% confident. Then it's wrong. This happens because most teams train on balanced datasets, validate on balanced test sets, and never stress-test what happens when class distributions shift in production.
+
+The mechanism is simple: neural networks don't actually output probabilities. They output activation energies. When you apply softmax to those energies, you get a number between 0 and 1, but that number is only calibrated relative to the distribution it saw during training. Feed it skewed data in the wild—fewer positive cases, say—and the confidence scores stay high even as accuracy plummets. The model hasn't learned to be uncertain. It's learned the training distribution.
+
+Fix this before deployment: run temperature scaling on your validation set. Find the single scalar that minimizes expected calibration error between predicted confidence and actual correctness. Apply that scalar to all inference. It takes an hour.
+
+Calibration isn't a post-hoc nicety. It's the only honest way to know when your model is guessing.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your sustainability vendor picked the wrong metric</title>
 <guid isPermaLink="false">2e991bffa401</guid>
