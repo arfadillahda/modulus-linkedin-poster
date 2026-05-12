@@ -311,5 +311,14 @@
     "title": "Why your model's confidence scores are completely unreliable",
     "body": "Your classifier says it's 94% confident. Then it's wrong. This happens because most teams train on balanced datasets, validate on balanced test sets, and never stress-test what happens when class distributions shift in production.\n\nThe mechanism is simple: neural networks don't actually output probabilities. They output activation energies. When you apply softmax to those energies, you get a number between 0 and 1, but that number is only calibrated relative to the distribution it saw during training. Feed it skewed data in the wild—fewer positive cases, say—and the confidence scores stay high even as accuracy plummets. The model hasn't learned to be uncertain. It's learned the training distribution.\n\nFix this before deployment: run temperature scaling on your validation set. Find the single scalar that minimizes expected calibration error between predicted confidence and actual correctness. Apply that scalar to all inference. It takes an hour.\n\nCalibration isn't a post-hoc nicety. It's the only honest way to know when your model is guessing.",
     "image_url": ""
+  },
+  {
+    "id": "cb63b1d692aa",
+    "ts": "2026-05-12T08:50:19.734697+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why your emissions baseline shifts every audit",
+    "body": "You nail your Scope 1 and 2 baseline in Q1. By Q4, the same factory reports 12% lower emissions using the same meter data. Your auditor signs off both numbers. Both are technically correct.\n\nThis happens because most facilities calculate their baseline against a rolling 12-month average, not a fixed reference year. When you anchor to a moving window, seasonal swings, production volume changes, and equipment efficiency gains all shift your denominator. You're not tracking progress—you're chasing a target that moves.\n\nFix it: lock your baseline to a specific calendar year (typically the year before your program launches) and hold it constant for the full commitment period. Yes, this means your early wins look smaller. But it also means your board reads the same number in month 6 and month 36.\n\nThe uncomfortable truth: a fixed baseline makes your program harder to win at early on, which is exactly why it's the only number worth tracking.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/cb63b1d692aa.png"
   }
 ]

@@ -4,7 +4,30 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Mon, 11 May 2026 09:56:03 +0000</lastBuildDate>
+<lastBuildDate>Tue, 12 May 2026 08:50:40 +0000</lastBuildDate>
+<item>
+<title>Why your emissions baseline shifts every audit</title>
+<guid isPermaLink="false">cb63b1d692aa</guid>
+<pubDate>Tue, 12 May 2026 08:50:19 +0000</pubDate>
+<description><![CDATA[You nail your Scope 1 and 2 baseline in Q1. By Q4, the same factory reports 12% lower emissions using the same meter data. Your auditor signs off both numbers. Both are technically correct.
+
+This happens because most facilities calculate their baseline against a rolling 12-month average, not a fixed reference year. When you anchor to a moving window, seasonal swings, production volume changes, and equipment efficiency gains all shift your denominator. You're not tracking progress—you're chasing a target that moves.
+
+Fix it: lock your baseline to a specific calendar year (typically the year before your program launches) and hold it constant for the full commitment period. Yes, this means your early wins look smaller. But it also means your board reads the same number in month 6 and month 36.
+
+The uncomfortable truth: a fixed baseline makes your program harder to win at early on, which is exactly why it's the only number worth tracking.]]></description>
+<content:encoded><![CDATA[You nail your Scope 1 and 2 baseline in Q1. By Q4, the same factory reports 12% lower emissions using the same meter data. Your auditor signs off both numbers. Both are technically correct.
+
+This happens because most facilities calculate their baseline against a rolling 12-month average, not a fixed reference year. When you anchor to a moving window, seasonal swings, production volume changes, and equipment efficiency gains all shift your denominator. You're not tracking progress—you're chasing a target that moves.
+
+Fix it: lock your baseline to a specific calendar year (typically the year before your program launches) and hold it constant for the full commitment period. Yes, this means your early wins look smaller. But it also means your board reads the same number in month 6 and month 36.
+
+The uncomfortable truth: a fixed baseline makes your program harder to win at early on, which is exactly why it's the only number worth tracking.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/cb63b1d692aa.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/cb63b1d692aa.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your model's confidence scores are completely unreliable</title>
 <guid isPermaLink="false">d67f6c0478aa</guid>
