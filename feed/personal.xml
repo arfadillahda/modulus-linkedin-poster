@@ -4,7 +4,28 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Tue, 12 May 2026 08:50:40 +0000</lastBuildDate>
+<lastBuildDate>Wed, 13 May 2026 08:54:26 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization breaks at the sensor layer</title>
+<guid isPermaLink="false">25b597c86590</guid>
+<pubDate>Wed, 13 May 2026 08:54:26 +0000</pubDate>
+<description><![CDATA[Most industrial digitalization projects fail not at the cloud layer or the dashboard—they fail at the sensor. You buy a shiny MES, wire it to your historian, then discover the sensor doesn't actually output what you thought it did, or it drifts 3% per month, or it only reports integers when you need decimals.
+
+The root cause: sensor specs are written for hardware engineers, not data pipelines. A "±2% accuracy" spec tells you nothing about calibration drift, sampling rate jitter, or what happens when you ask for 1-second resolution on a device designed for 10-second polling. Your integrator didn't ask. Your equipment vendor didn't offer the detail. And by the time you're six months into the project, you're retrofitting firmware that wasn't designed to be touched.
+
+Here's what actually works: Before you spec anything upstream, run a two-week characterization test on every sensor you plan to use. Not a datasheet review. Actual logging under your operating conditions. Log raw output, timestamps, and environmental context. Plot the drift. Find the noise floor. Only then design your pipeline around what the sensor actually gives you, not what the brochure promised.
+
+Digitalization fails at resolution, not at architecture.]]></description>
+<content:encoded><![CDATA[Most industrial digitalization projects fail not at the cloud layer or the dashboard—they fail at the sensor. You buy a shiny MES, wire it to your historian, then discover the sensor doesn't actually output what you thought it did, or it drifts 3% per month, or it only reports integers when you need decimals.
+
+The root cause: sensor specs are written for hardware engineers, not data pipelines. A "±2% accuracy" spec tells you nothing about calibration drift, sampling rate jitter, or what happens when you ask for 1-second resolution on a device designed for 10-second polling. Your integrator didn't ask. Your equipment vendor didn't offer the detail. And by the time you're six months into the project, you're retrofitting firmware that wasn't designed to be touched.
+
+Here's what actually works: Before you spec anything upstream, run a two-week characterization test on every sensor you plan to use. Not a datasheet review. Actual logging under your operating conditions. Log raw output, timestamps, and environmental context. Plot the drift. Find the noise floor. Only then design your pipeline around what the sensor actually gives you, not what the brochure promised.
+
+Digitalization fails at resolution, not at architecture.]]></content:encoded>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your emissions baseline shifts every audit</title>
 <guid isPermaLink="false">cb63b1d692aa</guid>
