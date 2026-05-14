@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Wed, 13 May 2026 08:54:26 +0000</lastBuildDate>
+<lastBuildDate>Thu, 14 May 2026 08:48:44 +0000</lastBuildDate>
+<item>
+<title>Why your AI vendor keeps missing your actual constraint</title>
+<guid isPermaLink="false">fcc22f803b7c</guid>
+<pubDate>Thu, 14 May 2026 08:48:20 +0000</pubDate>
+<description><![CDATA[You brief an AI vendor on your problem. They come back with a solution that technically works but solves the wrong bottleneck. Six weeks later you realize the real friction wasn't in model accuracy—it was data freshness, or API response time, or the fact that your operators won't use anything that changes their workflow.
+
+This happens because vendors (and internal teams) optimize for what's measurable first. Model performance is easy to benchmark. But your actual constraint often lives in the layer below—infrastructure, human adoption, integration cost. You don't know what it is until you've already spent the money.
+
+I've started asking one question before any AI work begins: "What has to be true for this to actually get used?" Not "What's the technical win?" but "What specific behavior changes, and what blocks that behavior today?"
+
+Then I work backwards. If adoption is the constraint, model precision beyond 92% doesn't matter. If latency is the constraint, a 2% accuracy gain in batch processing is wasted effort. You name the real bottleneck first, then size the AI solution to match it.
+
+Your AI is only as good as the constraint it actually removes.]]></description>
+<content:encoded><![CDATA[You brief an AI vendor on your problem. They come back with a solution that technically works but solves the wrong bottleneck. Six weeks later you realize the real friction wasn't in model accuracy—it was data freshness, or API response time, or the fact that your operators won't use anything that changes their workflow.
+
+This happens because vendors (and internal teams) optimize for what's measurable first. Model performance is easy to benchmark. But your actual constraint often lives in the layer below—infrastructure, human adoption, integration cost. You don't know what it is until you've already spent the money.
+
+I've started asking one question before any AI work begins: "What has to be true for this to actually get used?" Not "What's the technical win?" but "What specific behavior changes, and what blocks that behavior today?"
+
+Then I work backwards. If adoption is the constraint, model precision beyond 92% doesn't matter. If latency is the constraint, a 2% accuracy gain in batch processing is wasted effort. You name the real bottleneck first, then size the AI solution to match it.
+
+Your AI is only as good as the constraint it actually removes.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/fcc22f803b7c.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/fcc22f803b7c.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your digitalization breaks at the sensor layer</title>
 <guid isPermaLink="false">25b597c86590</guid>

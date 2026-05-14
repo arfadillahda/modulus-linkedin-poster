@@ -329,5 +329,14 @@
     "title": "Why your digitalization breaks at the sensor layer",
     "body": "Most industrial digitalization projects fail not at the cloud layer or the dashboard—they fail at the sensor. You buy a shiny MES, wire it to your historian, then discover the sensor doesn't actually output what you thought it did, or it drifts 3% per month, or it only reports integers when you need decimals.\n\nThe root cause: sensor specs are written for hardware engineers, not data pipelines. A \"±2% accuracy\" spec tells you nothing about calibration drift, sampling rate jitter, or what happens when you ask for 1-second resolution on a device designed for 10-second polling. Your integrator didn't ask. Your equipment vendor didn't offer the detail. And by the time you're six months into the project, you're retrofitting firmware that wasn't designed to be touched.\n\nHere's what actually works: Before you spec anything upstream, run a two-week characterization test on every sensor you plan to use. Not a datasheet review. Actual logging under your operating conditions. Log raw output, timestamps, and environmental context. Plot the drift. Find the noise floor. Only then design your pipeline around what the sensor actually gives you, not what the brochure promised.\n\nDigitalization fails at resolution, not at architecture.",
     "image_url": ""
+  },
+  {
+    "id": "fcc22f803b7c",
+    "ts": "2026-05-14T08:48:20.053084+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why your AI vendor keeps missing your actual constraint",
+    "body": "You brief an AI vendor on your problem. They come back with a solution that technically works but solves the wrong bottleneck. Six weeks later you realize the real friction wasn't in model accuracy—it was data freshness, or API response time, or the fact that your operators won't use anything that changes their workflow.\n\nThis happens because vendors (and internal teams) optimize for what's measurable first. Model performance is easy to benchmark. But your actual constraint often lives in the layer below—infrastructure, human adoption, integration cost. You don't know what it is until you've already spent the money.\n\nI've started asking one question before any AI work begins: \"What has to be true for this to actually get used?\" Not \"What's the technical win?\" but \"What specific behavior changes, and what blocks that behavior today?\"\n\nThen I work backwards. If adoption is the constraint, model precision beyond 92% doesn't matter. If latency is the constraint, a 2% accuracy gain in batch processing is wasted effort. You name the real bottleneck first, then size the AI solution to match it.\n\nYour AI is only as good as the constraint it actually removes.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/fcc22f803b7c.png"
   }
 ]
