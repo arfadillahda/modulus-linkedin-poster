@@ -338,5 +338,14 @@
     "title": "Why your AI vendor keeps missing your actual constraint",
     "body": "You brief an AI vendor on your problem. They come back with a solution that technically works but solves the wrong bottleneck. Six weeks later you realize the real friction wasn't in model accuracy—it was data freshness, or API response time, or the fact that your operators won't use anything that changes their workflow.\n\nThis happens because vendors (and internal teams) optimize for what's measurable first. Model performance is easy to benchmark. But your actual constraint often lives in the layer below—infrastructure, human adoption, integration cost. You don't know what it is until you've already spent the money.\n\nI've started asking one question before any AI work begins: \"What has to be true for this to actually get used?\" Not \"What's the technical win?\" but \"What specific behavior changes, and what blocks that behavior today?\"\n\nThen I work backwards. If adoption is the constraint, model precision beyond 92% doesn't matter. If latency is the constraint, a 2% accuracy gain in batch processing is wasted effort. You name the real bottleneck first, then size the AI solution to match it.\n\nYour AI is only as good as the constraint it actually removes.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/fcc22f803b7c.png"
+  },
+  {
+    "id": "11442b784fef",
+    "ts": "2026-05-15T09:19:58.538388+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why your digitalization investment keeps hitting the same wall",
+    "body": "Most digitalization projects fail because they treat the factory floor like a data center. You install sensors, build dashboards, set up real-time monitoring—and then nobody uses it. The equipment operators never asked for it. The maintenance team didn't help design it. The production schedulers have three other systems they're already ignoring.\n\nThe real problem: you've been solving for *visibility* when the actual constraint is *decision-making*. A sensor that tells you a bearing is hot is worthless if the person who fixes bearings doesn't know what to do with that signal, or if the decision to replace it takes three approval layers.\n\nDigitalization fails not because your tech is weak. It fails because you're asking existing humans to change their workflow without redesigning the workflow itself. You're adding information to a broken process instead of fixing the process first.\n\nBefore you build another dashboard, map how decisions actually get made on your floor. What friction stops an operator from acting on new data? What approval chains exist that shouldn't? That's where you start.\n\nTechnology follows workflow design, not the other way around.",
+    "image_url": ""
   }
 ]

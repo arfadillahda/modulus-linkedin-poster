@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Thu, 14 May 2026 08:48:44 +0000</lastBuildDate>
+<lastBuildDate>Fri, 15 May 2026 09:19:58 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization investment keeps hitting the same wall</title>
+<guid isPermaLink="false">11442b784fef</guid>
+<pubDate>Fri, 15 May 2026 09:19:58 +0000</pubDate>
+<description><![CDATA[Most digitalization projects fail because they treat the factory floor like a data center. You install sensors, build dashboards, set up real-time monitoring—and then nobody uses it. The equipment operators never asked for it. The maintenance team didn't help design it. The production schedulers have three other systems they're already ignoring.
+
+The real problem: you've been solving for *visibility* when the actual constraint is *decision-making*. A sensor that tells you a bearing is hot is worthless if the person who fixes bearings doesn't know what to do with that signal, or if the decision to replace it takes three approval layers.
+
+Digitalization fails not because your tech is weak. It fails because you're asking existing humans to change their workflow without redesigning the workflow itself. You're adding information to a broken process instead of fixing the process first.
+
+Before you build another dashboard, map how decisions actually get made on your floor. What friction stops an operator from acting on new data? What approval chains exist that shouldn't? That's where you start.
+
+Technology follows workflow design, not the other way around.]]></description>
+<content:encoded><![CDATA[Most digitalization projects fail because they treat the factory floor like a data center. You install sensors, build dashboards, set up real-time monitoring—and then nobody uses it. The equipment operators never asked for it. The maintenance team didn't help design it. The production schedulers have three other systems they're already ignoring.
+
+The real problem: you've been solving for *visibility* when the actual constraint is *decision-making*. A sensor that tells you a bearing is hot is worthless if the person who fixes bearings doesn't know what to do with that signal, or if the decision to replace it takes three approval layers.
+
+Digitalization fails not because your tech is weak. It fails because you're asking existing humans to change their workflow without redesigning the workflow itself. You're adding information to a broken process instead of fixing the process first.
+
+Before you build another dashboard, map how decisions actually get made on your floor. What friction stops an operator from acting on new data? What approval chains exist that shouldn't? That's where you start.
+
+Technology follows workflow design, not the other way around.]]></content:encoded>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your AI vendor keeps missing your actual constraint</title>
 <guid isPermaLink="false">fcc22f803b7c</guid>
