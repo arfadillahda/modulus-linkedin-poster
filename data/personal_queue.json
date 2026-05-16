@@ -347,5 +347,14 @@
     "title": "Why your digitalization investment keeps hitting the same wall",
     "body": "Most digitalization projects fail because they treat the factory floor like a data center. You install sensors, build dashboards, set up real-time monitoring—and then nobody uses it. The equipment operators never asked for it. The maintenance team didn't help design it. The production schedulers have three other systems they're already ignoring.\n\nThe real problem: you've been solving for *visibility* when the actual constraint is *decision-making*. A sensor that tells you a bearing is hot is worthless if the person who fixes bearings doesn't know what to do with that signal, or if the decision to replace it takes three approval layers.\n\nDigitalization fails not because your tech is weak. It fails because you're asking existing humans to change their workflow without redesigning the workflow itself. You're adding information to a broken process instead of fixing the process first.\n\nBefore you build another dashboard, map how decisions actually get made on your floor. What friction stops an operator from acting on new data? What approval chains exist that shouldn't? That's where you start.\n\nTechnology follows workflow design, not the other way around.",
     "image_url": ""
+  },
+  {
+    "id": "512416d15e25",
+    "ts": "2026-05-16T08:13:40.739656+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why your AI accuracy metric is measuring the wrong thing",
+    "body": "You've built a model that's 94% accurate on your test set. Your stakeholders ask why it's still making bad decisions in production. The problem isn't the accuracy number—it's that you're optimizing for a metric that doesn't match what actually breaks your business.\n\nThis happens because accuracy treats all errors as equal. A false positive costs you differently than a false negative. A prediction that's wrong at scale destroys trust differently than one that's wrong on edge cases. But most teams pick accuracy first, then wonder why a model that \"works\" on paper fails in the field.\n\nThe reframe: Stop thinking of a single metric as your north star. Instead, map what failure actually costs you—operationally, financially, reputationally. Then choose metrics that measure those specific failure modes. False positive rate matters more for spam filtering. Recall matters more for safety systems. Precision matters more for high-stakes recommendations.\n\nYour test set accuracy was never the problem. You just weren't measuring what matters.",
+    "image_url": ""
   }
 ]

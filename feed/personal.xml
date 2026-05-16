@@ -4,7 +4,28 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 15 May 2026 09:19:58 +0000</lastBuildDate>
+<lastBuildDate>Sat, 16 May 2026 08:15:41 +0000</lastBuildDate>
+<item>
+<title>Why your AI accuracy metric is measuring the wrong thing</title>
+<guid isPermaLink="false">512416d15e25</guid>
+<pubDate>Sat, 16 May 2026 08:13:40 +0000</pubDate>
+<description><![CDATA[You've built a model that's 94% accurate on your test set. Your stakeholders ask why it's still making bad decisions in production. The problem isn't the accuracy number—it's that you're optimizing for a metric that doesn't match what actually breaks your business.
+
+This happens because accuracy treats all errors as equal. A false positive costs you differently than a false negative. A prediction that's wrong at scale destroys trust differently than one that's wrong on edge cases. But most teams pick accuracy first, then wonder why a model that "works" on paper fails in the field.
+
+The reframe: Stop thinking of a single metric as your north star. Instead, map what failure actually costs you—operationally, financially, reputationally. Then choose metrics that measure those specific failure modes. False positive rate matters more for spam filtering. Recall matters more for safety systems. Precision matters more for high-stakes recommendations.
+
+Your test set accuracy was never the problem. You just weren't measuring what matters.]]></description>
+<content:encoded><![CDATA[You've built a model that's 94% accurate on your test set. Your stakeholders ask why it's still making bad decisions in production. The problem isn't the accuracy number—it's that you're optimizing for a metric that doesn't match what actually breaks your business.
+
+This happens because accuracy treats all errors as equal. A false positive costs you differently than a false negative. A prediction that's wrong at scale destroys trust differently than one that's wrong on edge cases. But most teams pick accuracy first, then wonder why a model that "works" on paper fails in the field.
+
+The reframe: Stop thinking of a single metric as your north star. Instead, map what failure actually costs you—operationally, financially, reputationally. Then choose metrics that measure those specific failure modes. False positive rate matters more for spam filtering. Recall matters more for safety systems. Precision matters more for high-stakes recommendations.
+
+Your test set accuracy was never the problem. You just weren't measuring what matters.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your digitalization investment keeps hitting the same wall</title>
 <guid isPermaLink="false">11442b784fef</guid>
