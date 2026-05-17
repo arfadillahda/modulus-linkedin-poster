@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Sat, 16 May 2026 08:15:41 +0000</lastBuildDate>
+<lastBuildDate>Sun, 17 May 2026 08:30:39 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization roadmap ignores the operator</title>
+<guid isPermaLink="false">adbb29c39cdd</guid>
+<pubDate>Sun, 17 May 2026 08:30:21 +0000</pubDate>
+<description><![CDATA[You've got the sensors. You've got the cloud infrastructure. You've got buy-in from the C-suite. But six months in, the shop floor team is still writing production logs in a notebook because your digital system doesn't speak their language.
+
+This happens because digitalization teams design for data flow, not for work. We optimize around what *we* can measure—uptime, throughput, anomaly detection—instead of asking what the person actually running the machine needs to do their job faster or safer. The operator gets a dashboard that updates every five minutes when they need to make a decision right now. Or they get alerts so noisy they learn to ignore them. So they go back to the notebook.
+
+Here's the move: before you build anything, spend a day watching one operator complete their shift without interrupting them. Write down every decision they make, every constraint that trips them up, every time they hunt for information. That's your actual problem statement.
+
+Then design your system to *precede* those decisions, not report after them.
+
+If your operator isn't using it, you didn't digitalize—you just added a parallel system.]]></description>
+<content:encoded><![CDATA[You've got the sensors. You've got the cloud infrastructure. You've got buy-in from the C-suite. But six months in, the shop floor team is still writing production logs in a notebook because your digital system doesn't speak their language.
+
+This happens because digitalization teams design for data flow, not for work. We optimize around what *we* can measure—uptime, throughput, anomaly detection—instead of asking what the person actually running the machine needs to do their job faster or safer. The operator gets a dashboard that updates every five minutes when they need to make a decision right now. Or they get alerts so noisy they learn to ignore them. So they go back to the notebook.
+
+Here's the move: before you build anything, spend a day watching one operator complete their shift without interrupting them. Write down every decision they make, every constraint that trips them up, every time they hunt for information. That's your actual problem statement.
+
+Then design your system to *precede* those decisions, not report after them.
+
+If your operator isn't using it, you didn't digitalize—you just added a parallel system.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/adbb29c39cdd.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/adbb29c39cdd.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your AI accuracy metric is measuring the wrong thing</title>
 <guid isPermaLink="false">512416d15e25</guid>
