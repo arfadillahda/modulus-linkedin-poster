@@ -4,7 +4,38 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Mon, 18 May 2026 10:21:02 +0000</lastBuildDate>
+<lastBuildDate>Tue, 19 May 2026 10:00:12 +0000</lastBuildDate>
+<item>
+<title>Why your sustainability pilot never scales to production</title>
+<guid isPermaLink="false">67fe55762e62</guid>
+<pubDate>Tue, 19 May 2026 09:59:57 +0000</pubDate>
+<description><![CDATA[You ran a carbon reduction pilot in one facility. Cut emissions 18%. Now you're trying to roll it out across your network and nothing sticks.
+
+The reason: pilots succeed on heroic effort and local knowledge. One plant manager who cares, one engineer who debugs the process daily, one sustainability lead who shows up every week. When you scale, that heroic layer vanishes. You're left with written procedures that nobody follows because they don't match how the facility actually works.
+
+Here's what works instead: Before scaling, separate the *principle* from the *implementation*.
+
+The principle is what actually cuts emissions—maybe it's "don't start cold in winter" or "batch low-viscosity runs together." That's portable. The implementation is how you achieved it in one context with one team.
+
+Document the principle, then have each facility design their own implementation that fits their constraints. Don't copy the playbook. Copy the logic.
+
+Your facility managers will follow a rule they designed. They won't follow someone else's.]]></description>
+<content:encoded><![CDATA[You ran a carbon reduction pilot in one facility. Cut emissions 18%. Now you're trying to roll it out across your network and nothing sticks.
+
+The reason: pilots succeed on heroic effort and local knowledge. One plant manager who cares, one engineer who debugs the process daily, one sustainability lead who shows up every week. When you scale, that heroic layer vanishes. You're left with written procedures that nobody follows because they don't match how the facility actually works.
+
+Here's what works instead: Before scaling, separate the *principle* from the *implementation*.
+
+The principle is what actually cuts emissions—maybe it's "don't start cold in winter" or "batch low-viscosity runs together." That's portable. The implementation is how you achieved it in one context with one team.
+
+Document the principle, then have each facility design their own implementation that fits their constraints. Don't copy the playbook. Copy the logic.
+
+Your facility managers will follow a rule they designed. They won't follow someone else's.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/67fe55762e62.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/67fe55762e62.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your sustainability team reports to the wrong person</title>
 <guid isPermaLink="false">0b6f261f03b0</guid>

@@ -1,0 +1,66 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- Top Band -->
+  <g>
+    <!-- Kicker -->
+    <text x="64" y="92" font-size="13" font-weight="600" fill="#1F5C3D" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">SUSTAINABILITY</text>
+
+    <!-- Headline -->
+    <text x="64" y="148" font-size="48" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">
+      <tspan x="64" dy="0">Pilots thrive on heroics.</tspan>
+      <tspan x="64" dy="56">Scale demands systems.</tspan>
+    </text>
+
+    <!-- Accent underline -->
+    <line x1="64" y1="218" x2="320" y2="218" stroke="#1F5C3D" stroke-width="2"/>
+  </g>
+
+  <!-- Middle Band: 2x2 grid of 4 tiles -->
+  <!-- Tile dimensions: gap=16, outer pad=64 -->
+  <!-- Tile width = (1024 - 64 - 64 - 16) / 2 = 440 -->
+  <!-- Tile top = 240, height = 290, row 2 top = 240+290+16 = 546 -->
+
+  <!-- Tile 01: top-left -->
+  <g>
+    <rect x="64" y="240" width="440" height="290" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+    <text x="92" y="298" font-size="40" font-weight="800" fill="#1F5C3D">01</text>
+    <text x="92" y="336" font-size="20" font-weight="700" fill="#111111">Heroic Effort</text>
+    <text x="92" y="368" font-size="16" font-weight="400" fill="#3A3A3A">One manager, one engineer, one lead.</text>
+    <text x="92" y="392" font-size="16" font-weight="400" fill="#3A3A3A">Pilots run on people, not process.</text>
+  </g>
+
+  <!-- Tile 02: top-right -->
+  <g>
+    <rect x="520" y="240" width="440" height="290" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+    <text x="548" y="298" font-size="40" font-weight="800" fill="#1F5C3D">02</text>
+    <text x="548" y="336" font-size="20" font-weight="700" fill="#111111">The Vanishing Layer</text>
+    <text x="548" y="368" font-size="16" font-weight="400" fill="#3A3A3A">Scale removes the heroics. Procedures</text>
+    <text x="548" y="392" font-size="16" font-weight="400" fill="#3A3A3A">don't match how facilities actually work.</text>
+  </g>
+
+  <!-- Tile 03: bottom-left -->
+  <g>
+    <rect x="64" y="546" width="440" height="290" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+    <text x="92" y="604" font-size="40" font-weight="800" fill="#1F5C3D">03</text>
+    <text x="92" y="642" font-size="20" font-weight="700" fill="#111111">Principle vs. Playbook</text>
+    <text x="92" y="674" font-size="16" font-weight="400" fill="#3A3A3A">Separate what cuts emissions</text>
+    <text x="92" y="698" font-size="16" font-weight="400" fill="#3A3A3A">from how you achieved it once.</text>
+  </g>
+
+  <!-- Tile 04: bottom-right -->
+  <g>
+    <rect x="520" y="546" width="440" height="290" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+    <text x="548" y="604" font-size="40" font-weight="800" fill="#1F5C3D">04</text>
+    <text x="548" y="642" font-size="20" font-weight="700" fill="#111111">Copy the Logic</text>
+    <text x="548" y="674" font-size="16" font-weight="400" fill="#3A3A3A">Let each facility design its own</text>
+    <text x="548" y="698" font-size="16" font-weight="400" fill="#3A3A3A">implementation. They'll follow rules they built.</text>
+  </g>
+
+  <!-- Bottom Band -->
+  <line x1="64" y1="884" x2="960" y2="884" stroke="#11111130" stroke-width="1"/>
+  <text x="512" y="940" font-size="22" font-weight="700" fill="#3A3A3A" text-anchor="middle" letter-spacing="-0.01em">Don't copy the playbook. Copy the logic.</text>
+
+</svg>
