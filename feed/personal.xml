@@ -4,7 +4,28 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Tue, 19 May 2026 10:00:12 +0000</lastBuildDate>
+<lastBuildDate>Wed, 20 May 2026 09:49:56 +0000</lastBuildDate>
+<item>
+<title>Why your AI model degrades faster than you think</title>
+<guid isPermaLink="false">b75e162bb8f1</guid>
+<pubDate>Wed, 20 May 2026 09:49:56 +0000</pubDate>
+<description><![CDATA[Most production AI systems hit a wall around month four or five. The model trained on Q1 data starts making worse predictions by Q2, even though nothing obvious broke. Your team blames data quality. Your vendor blames your data pipeline. Everyone's partly right, but nobody's looking at the actual culprit: feature distribution shift in the training set itself.
+
+Here's what happens. Your model learned patterns from historical data that were stationary during training. But the world doesn't stand still. Customer behavior changes. Market conditions shift. Your features—the inputs the model uses—start representing different things than they did six months ago. A feature that predicted churn in 2023 might be a noise signal by 2024. The model has no way to know.
+
+The fix isn't retraining every quarter. It's monitoring your training data distribution continuously, not just your predictions. Track drift in the features themselves, not just model output. When you see feature drift, that's your early warning that the model's assumptions are rotting. Rebuild the training set first. Retrain second. Most teams do it backwards.
+
+Drift in the training set kills models before drift in the real world ever gets a chance.]]></description>
+<content:encoded><![CDATA[Most production AI systems hit a wall around month four or five. The model trained on Q1 data starts making worse predictions by Q2, even though nothing obvious broke. Your team blames data quality. Your vendor blames your data pipeline. Everyone's partly right, but nobody's looking at the actual culprit: feature distribution shift in the training set itself.
+
+Here's what happens. Your model learned patterns from historical data that were stationary during training. But the world doesn't stand still. Customer behavior changes. Market conditions shift. Your features—the inputs the model uses—start representing different things than they did six months ago. A feature that predicted churn in 2023 might be a noise signal by 2024. The model has no way to know.
+
+The fix isn't retraining every quarter. It's monitoring your training data distribution continuously, not just your predictions. Track drift in the features themselves, not just model output. When you see feature drift, that's your early warning that the model's assumptions are rotting. Rebuild the training set first. Retrain second. Most teams do it backwards.
+
+Drift in the training set kills models before drift in the real world ever gets a chance.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your sustainability pilot never scales to production</title>
 <guid isPermaLink="false">67fe55762e62</guid>

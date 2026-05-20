@@ -383,5 +383,14 @@
     "title": "Why your sustainability pilot never scales to production",
     "body": "You ran a carbon reduction pilot in one facility. Cut emissions 18%. Now you're trying to roll it out across your network and nothing sticks.\n\nThe reason: pilots succeed on heroic effort and local knowledge. One plant manager who cares, one engineer who debugs the process daily, one sustainability lead who shows up every week. When you scale, that heroic layer vanishes. You're left with written procedures that nobody follows because they don't match how the facility actually works.\n\nHere's what works instead: Before scaling, separate the *principle* from the *implementation*.\n\nThe principle is what actually cuts emissions—maybe it's \"don't start cold in winter\" or \"batch low-viscosity runs together.\" That's portable. The implementation is how you achieved it in one context with one team.\n\nDocument the principle, then have each facility design their own implementation that fits their constraints. Don't copy the playbook. Copy the logic.\n\nYour facility managers will follow a rule they designed. They won't follow someone else's.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/67fe55762e62.png"
+  },
+  {
+    "id": "b75e162bb8f1",
+    "ts": "2026-05-20T09:49:56.264837+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why your AI model degrades faster than you think",
+    "body": "Most production AI systems hit a wall around month four or five. The model trained on Q1 data starts making worse predictions by Q2, even though nothing obvious broke. Your team blames data quality. Your vendor blames your data pipeline. Everyone's partly right, but nobody's looking at the actual culprit: feature distribution shift in the training set itself.\n\nHere's what happens. Your model learned patterns from historical data that were stationary during training. But the world doesn't stand still. Customer behavior changes. Market conditions shift. Your features—the inputs the model uses—start representing different things than they did six months ago. A feature that predicted churn in 2023 might be a noise signal by 2024. The model has no way to know.\n\nThe fix isn't retraining every quarter. It's monitoring your training data distribution continuously, not just your predictions. Track drift in the features themselves, not just model output. When you see feature drift, that's your early warning that the model's assumptions are rotting. Rebuild the training set first. Retrain second. Most teams do it backwards.\n\nDrift in the training set kills models before drift in the real world ever gets a chance.",
+    "image_url": ""
   }
 ]
