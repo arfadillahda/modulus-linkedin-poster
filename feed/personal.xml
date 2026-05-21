@@ -4,7 +4,30 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Wed, 20 May 2026 09:49:56 +0000</lastBuildDate>
+<lastBuildDate>Thu, 21 May 2026 09:58:06 +0000</lastBuildDate>
+<item>
+<title>Why your carbon accounting breaks at scale</title>
+<guid isPermaLink="false">5914c356ac69</guid>
+<pubDate>Thu, 21 May 2026 09:57:43 +0000</pubDate>
+<description><![CDATA[Your emissions inventory works fine for your pilot facility. Then you add a second plant, a contract manufacturer, and a co-packer—and suddenly your baseline number shifts by 15% for reasons nobody can fully explain.
+
+This happens because most sustainability teams build their first carbon model around direct measurement: meters on equipment, fuel receipts, utility bills. That works when you control the asset. The moment you outsource production or share a facility, you lose the meter. Now you're estimating based on industry averages, supplier declarations, or activity proxies (tons produced, hours run). Each data source has different boundaries, seasonal variance, and reporting lag. You average them all together and call it a number.
+
+The fix is uglier than people want: stop treating your baseline as a single number. Build it as a range with documented assumptions for each source. When you add a new contract manufacturer, don't revise your baseline downward to make the math cleaner. Track the assumption change separately so you can actually see what drove the shift—was it a real reduction, or did you just switch to a lower-emitting supplier whose data quality is worse?
+
+Your emissions number is only useful if everyone reading it understands what assumptions are holding it up.]]></description>
+<content:encoded><![CDATA[Your emissions inventory works fine for your pilot facility. Then you add a second plant, a contract manufacturer, and a co-packer—and suddenly your baseline number shifts by 15% for reasons nobody can fully explain.
+
+This happens because most sustainability teams build their first carbon model around direct measurement: meters on equipment, fuel receipts, utility bills. That works when you control the asset. The moment you outsource production or share a facility, you lose the meter. Now you're estimating based on industry averages, supplier declarations, or activity proxies (tons produced, hours run). Each data source has different boundaries, seasonal variance, and reporting lag. You average them all together and call it a number.
+
+The fix is uglier than people want: stop treating your baseline as a single number. Build it as a range with documented assumptions for each source. When you add a new contract manufacturer, don't revise your baseline downward to make the math cleaner. Track the assumption change separately so you can actually see what drove the shift—was it a real reduction, or did you just switch to a lower-emitting supplier whose data quality is worse?
+
+Your emissions number is only useful if everyone reading it understands what assumptions are holding it up.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/5914c356ac69.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/5914c356ac69.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your AI model degrades faster than you think</title>
 <guid isPermaLink="false">b75e162bb8f1</guid>

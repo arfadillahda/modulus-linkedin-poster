@@ -1,0 +1,129 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ═══════════════════════════════════════════════
+       TOP BAND  (0 – 225px)
+  ════════════════════════════════════════════════ -->
+
+  <!-- Kicker -->
+  <text x="64" y="88"
+        font-size="12" font-weight="600" fill="#1F5C3D"
+        letter-spacing="0.18em" text-anchor="start"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+    SUSTAINABILITY
+  </text>
+
+  <!-- Display Headline — line 1 -->
+  <text x="64" y="142"
+        font-size="52" font-weight="800" fill="#111111"
+        letter-spacing="-0.025em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+    Scale breaks your
+  </text>
+
+  <!-- Display Headline — line 2 -->
+  <text x="64" y="202"
+        font-size="52" font-weight="800" fill="#111111"
+        letter-spacing="-0.025em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+    carbon baseline
+  </text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="215" width="148" height="3" rx="1.5" fill="#1F5C3D"/>
+
+
+  <!-- ═══════════════════════════════════════════════
+       MIDDLE BAND — 4-tile 2×2 grid  (241 – 805px)
+       Outer padding 64px. Gap 16px.
+       Col width = (1024 - 64 - 64 - 16) / 2 = 440px
+       Row height = (805 - 241 - 16) / 2 = 274px
+  ════════════════════════════════════════════════ -->
+
+  <!-- TILE 01 — top-left  x=64, y=241 -->
+  <rect x="64" y="241" width="440" height="274" rx="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <text x="96" y="307"
+        font-size="44" font-weight="800" fill="#1F5C3D"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+
+  <text x="96" y="352"
+        font-size="20" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Direct Measurement</text>
+
+  <text x="96" y="382"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Works only when you control the asset</text>
+
+  <!-- TILE 02 — top-right  x=520, y=241 -->
+  <rect x="520" y="241" width="440" height="274" rx="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <text x="552" y="307"
+        font-size="44" font-weight="800" fill="#1F5C3D"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+
+  <text x="552" y="352"
+        font-size="20" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Outsourcing Loses the Meter</text>
+
+  <text x="552" y="382"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Proxies and averages replace real data</text>
+
+  <!-- TILE 03 — bottom-left  x=64, y=531 -->
+  <rect x="64" y="531" width="440" height="274" rx="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <text x="96" y="597"
+        font-size="44" font-weight="800" fill="#1F5C3D"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+
+  <text x="96" y="642"
+        font-size="20" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Mixed Sources, Hidden Drift</text>
+
+  <text x="96" y="672"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Different boundaries and lag blur your number</text>
+
+  <!-- TILE 04 — bottom-right  x=520, y=531 -->
+  <rect x="520" y="531" width="440" height="274" rx="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+
+  <text x="552" y="597"
+        font-size="44" font-weight="800" fill="#1F5C3D"
+        letter-spacing="-0.02em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+
+  <text x="552" y="642"
+        font-size="20" font-weight="700" fill="#111111"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Build a Range, Not a Point</text>
+
+  <text x="552" y="672"
+        font-size="15" font-weight="400" fill="#3A3A3A"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Document each assumption, track changes separately</text>
+
+
+  <!-- ═══════════════════════════════════════════════
+       BOTTOM BAND  (821 – 1024px)
+  ════════════════════════════════════════════════ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="833" x2="960" y2="833" stroke="#11111128" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="896"
+        font-size="19" font-weight="400" fill="#3A3A3A"
+        text-anchor="middle" letter-spacing="0.005em"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+    Your number is only useful if the assumptions are visible.
+  </text>
+
+</svg>

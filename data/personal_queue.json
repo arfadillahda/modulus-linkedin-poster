@@ -392,5 +392,14 @@
     "title": "Why your AI model degrades faster than you think",
     "body": "Most production AI systems hit a wall around month four or five. The model trained on Q1 data starts making worse predictions by Q2, even though nothing obvious broke. Your team blames data quality. Your vendor blames your data pipeline. Everyone's partly right, but nobody's looking at the actual culprit: feature distribution shift in the training set itself.\n\nHere's what happens. Your model learned patterns from historical data that were stationary during training. But the world doesn't stand still. Customer behavior changes. Market conditions shift. Your features—the inputs the model uses—start representing different things than they did six months ago. A feature that predicted churn in 2023 might be a noise signal by 2024. The model has no way to know.\n\nThe fix isn't retraining every quarter. It's monitoring your training data distribution continuously, not just your predictions. Track drift in the features themselves, not just model output. When you see feature drift, that's your early warning that the model's assumptions are rotting. Rebuild the training set first. Retrain second. Most teams do it backwards.\n\nDrift in the training set kills models before drift in the real world ever gets a chance.",
     "image_url": ""
+  },
+  {
+    "id": "5914c356ac69",
+    "ts": "2026-05-21T09:57:43.869449+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why your carbon accounting breaks at scale",
+    "body": "Your emissions inventory works fine for your pilot facility. Then you add a second plant, a contract manufacturer, and a co-packer—and suddenly your baseline number shifts by 15% for reasons nobody can fully explain.\n\nThis happens because most sustainability teams build their first carbon model around direct measurement: meters on equipment, fuel receipts, utility bills. That works when you control the asset. The moment you outsource production or share a facility, you lose the meter. Now you're estimating based on industry averages, supplier declarations, or activity proxies (tons produced, hours run). Each data source has different boundaries, seasonal variance, and reporting lag. You average them all together and call it a number.\n\nThe fix is uglier than people want: stop treating your baseline as a single number. Build it as a range with documented assumptions for each source. When you add a new contract manufacturer, don't revise your baseline downward to make the math cleaner. Track the assumption change separately so you can actually see what drove the shift—was it a real reduction, or did you just switch to a lower-emitting supplier whose data quality is worse?\n\nYour emissions number is only useful if everyone reading it understands what assumptions are holding it up.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/5914c356ac69.png"
   }
 ]
