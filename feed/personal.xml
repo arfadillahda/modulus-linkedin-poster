@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Thu, 21 May 2026 09:58:06 +0000</lastBuildDate>
+<lastBuildDate>Sun, 24 May 2026 08:40:55 +0000</lastBuildDate>
+<item>
+<title>Why your digital twin siloes real-time from batch</title>
+<guid isPermaLink="false">2538482e0d20</guid>
+<pubDate>Sun, 24 May 2026 08:40:55 +0000</pubDate>
+<description><![CDATA[Most digital twins work fine until you need to make a decision. Then they fall apart.
+
+The problem: you're treating your simulation layer and your operational data layer as separate systems that sync daily or weekly. Your twin runs on yesterday's asset state. Your control system runs on live sensor data. They're never the same version of the truth.
+
+Why this happens is simple: building a unified state machine that tolerates both real-time streaming and batch historical corrections is harder than bolting two systems together. Streaming systems want low latency and eventual consistency. Historical systems want correctness and retroactive updates. They have opposite design constraints.
+
+The move: commit to a single source of time. Not wall-clock time—event-sequence time. Every asset state change (sensor reading, maintenance record, setpoint adjustment) gets a sequence number. Your twin subscribes to that sequence. Your control logic always queries against a specific sequence point, not "the latest." You can replay, audit, and reconcile without the two systems ever being out of sync.
+
+Your digital twin stops being a pretty visualization and becomes a decision engine.]]></description>
+<content:encoded><![CDATA[Most digital twins work fine until you need to make a decision. Then they fall apart.
+
+The problem: you're treating your simulation layer and your operational data layer as separate systems that sync daily or weekly. Your twin runs on yesterday's asset state. Your control system runs on live sensor data. They're never the same version of the truth.
+
+Why this happens is simple: building a unified state machine that tolerates both real-time streaming and batch historical corrections is harder than bolting two systems together. Streaming systems want low latency and eventual consistency. Historical systems want correctness and retroactive updates. They have opposite design constraints.
+
+The move: commit to a single source of time. Not wall-clock time—event-sequence time. Every asset state change (sensor reading, maintenance record, setpoint adjustment) gets a sequence number. Your twin subscribes to that sequence. Your control logic always queries against a specific sequence point, not "the latest." You can replay, audit, and reconcile without the two systems ever being out of sync.
+
+Your digital twin stops being a pretty visualization and becomes a decision engine.]]></content:encoded>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your carbon accounting breaks at scale</title>
 <guid isPermaLink="false">5914c356ac69</guid>

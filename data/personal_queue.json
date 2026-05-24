@@ -401,5 +401,14 @@
     "title": "Why your carbon accounting breaks at scale",
     "body": "Your emissions inventory works fine for your pilot facility. Then you add a second plant, a contract manufacturer, and a co-packer—and suddenly your baseline number shifts by 15% for reasons nobody can fully explain.\n\nThis happens because most sustainability teams build their first carbon model around direct measurement: meters on equipment, fuel receipts, utility bills. That works when you control the asset. The moment you outsource production or share a facility, you lose the meter. Now you're estimating based on industry averages, supplier declarations, or activity proxies (tons produced, hours run). Each data source has different boundaries, seasonal variance, and reporting lag. You average them all together and call it a number.\n\nThe fix is uglier than people want: stop treating your baseline as a single number. Build it as a range with documented assumptions for each source. When you add a new contract manufacturer, don't revise your baseline downward to make the math cleaner. Track the assumption change separately so you can actually see what drove the shift—was it a real reduction, or did you just switch to a lower-emitting supplier whose data quality is worse?\n\nYour emissions number is only useful if everyone reading it understands what assumptions are holding it up.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/5914c356ac69.png"
+  },
+  {
+    "id": "2538482e0d20",
+    "ts": "2026-05-24T08:40:55.659117+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why your digital twin siloes real-time from batch",
+    "body": "Most digital twins work fine until you need to make a decision. Then they fall apart.\n\nThe problem: you're treating your simulation layer and your operational data layer as separate systems that sync daily or weekly. Your twin runs on yesterday's asset state. Your control system runs on live sensor data. They're never the same version of the truth.\n\nWhy this happens is simple: building a unified state machine that tolerates both real-time streaming and batch historical corrections is harder than bolting two systems together. Streaming systems want low latency and eventual consistency. Historical systems want correctness and retroactive updates. They have opposite design constraints.\n\nThe move: commit to a single source of time. Not wall-clock time—event-sequence time. Every asset state change (sensor reading, maintenance record, setpoint adjustment) gets a sequence number. Your twin subscribes to that sequence. Your control logic always queries against a specific sequence point, not \"the latest.\" You can replay, audit, and reconcile without the two systems ever being out of sync.\n\nYour digital twin stops being a pretty visualization and becomes a decision engine.",
+    "image_url": ""
   }
 ]
