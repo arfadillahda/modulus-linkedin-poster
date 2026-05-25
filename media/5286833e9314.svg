@@ -1,0 +1,53 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ── TOP BAND ── -->
+  <!-- Kicker -->
+  <text x="64" y="88" font-size="13" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">AI</text>
+
+  <!-- Display Headline -->
+  <text x="64" y="138" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Your POC works because</text>
+  <text x="64" y="196" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">you haven't tested it honestly.</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="208" width="180" height="3" rx="1.5" fill="#2D5BFF"/>
+
+  <!-- ── MIDDLE BAND — 4-tile 2x2 grid ── -->
+  <!-- Tile dimensions: each tile 436px wide, 252px tall, gap 16px, starts y=240 -->
+  <!-- Column 1 x=64, Column 2 x=524 -->
+  <!-- Row 1 y=240, Row 2 y=508 -->
+
+  <!-- Tile 01 — Top Left -->
+  <rect x="64" y="240" width="436" height="252" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="296" font-size="40" font-weight="800" fill="#2D5BFF">01</text>
+  <text x="92" y="336" font-size="22" font-weight="700" fill="#111111">Distribution Mismatch</text>
+  <text x="92" y="366" font-size="16" font-weight="400" fill="#3A3A3A">Training data never mirrors real production data.</text>
+
+  <!-- Tile 02 — Top Right -->
+  <rect x="524" y="240" width="436" height="252" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="296" font-size="40" font-weight="800" fill="#2D5BFF">02</text>
+  <text x="552" y="336" font-size="22" font-weight="700" fill="#111111">Recognition Failure</text>
+  <text x="552" y="366" font-size="16" font-weight="400" fill="#3A3A3A">Model learned patterns, not the underlying problem.</text>
+
+  <!-- Tile 03 — Bottom Left -->
+  <rect x="64" y="508" width="436" height="252" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="564" font-size="40" font-weight="800" fill="#2D5BFF">03</text>
+  <text x="92" y="604" font-size="22" font-weight="700" fill="#111111">Measure the Gap</text>
+  <text x="92" y="634" font-size="16" font-weight="400" fill="#3A3A3A">KL divergence reveals out-of-distribution data share.</text>
+
+  <!-- Tile 04 — Bottom Right -->
+  <rect x="524" y="508" width="436" height="252" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="564" font-size="40" font-weight="800" fill="#2D5BFF">04</text>
+  <text x="552" y="604" font-size="22" font-weight="700" fill="#111111">Build Guardrails</text>
+  <text x="552" y="634" font-size="16" font-weight="400" fill="#3A3A3A">Flag low-confidence predictions before they reach users.</text>
+
+  <!-- ── BOTTOM BAND ── -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="804" x2="960" y2="804" stroke="#11111118" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="870" font-size="22" font-weight="400" fill="#3A3A3A" text-anchor="middle" letter-spacing="-0.01em">94% accurate in-sample means nothing out of distribution.</text>
+
+</svg>

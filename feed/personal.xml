@@ -4,7 +4,30 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Sun, 24 May 2026 08:40:55 +0000</lastBuildDate>
+<lastBuildDate>Mon, 25 May 2026 10:24:58 +0000</lastBuildDate>
+<item>
+<title>Why your AI proof-of-concept never scales to production</title>
+<guid isPermaLink="false">5286833e9314</guid>
+<pubDate>Mon, 25 May 2026 10:24:43 +0000</pubDate>
+<description><![CDATA[You've built something that works in a notebook. 94% accurate on your test set. Then you try to run it on real data, and it collapses. The gap between POC and production isn't about engineering rigor—it's about data distribution.
+
+A POC trains and validates on the same dataset, often curated or recent. Production data is messier: older records, edge cases your team never saw, domain drift from seasonal patterns or market shifts. Your model learned the *training data*, not the underlying problem. It's a recognition failure, not a capability one.
+
+Here's the frame I use: separate "in-sample confidence" from "out-of-distribution readiness." Before scaling, ask three things: (1) What percentage of production data falls outside your training distribution? Run a simple statistical test—KL divergence, or even just histogram comparison on key features. (2) Where does the model fail on that out-of-distribution data? Don't assume accuracy; test it. (3) Can you gather more diverse training data, or do you need to build guardrails that catch low-confidence predictions before they hit users?
+
+The POC works because you haven't tested it honestly yet.]]></description>
+<content:encoded><![CDATA[You've built something that works in a notebook. 94% accurate on your test set. Then you try to run it on real data, and it collapses. The gap between POC and production isn't about engineering rigor—it's about data distribution.
+
+A POC trains and validates on the same dataset, often curated or recent. Production data is messier: older records, edge cases your team never saw, domain drift from seasonal patterns or market shifts. Your model learned the *training data*, not the underlying problem. It's a recognition failure, not a capability one.
+
+Here's the frame I use: separate "in-sample confidence" from "out-of-distribution readiness." Before scaling, ask three things: (1) What percentage of production data falls outside your training distribution? Run a simple statistical test—KL divergence, or even just histogram comparison on key features. (2) Where does the model fail on that out-of-distribution data? Don't assume accuracy; test it. (3) Can you gather more diverse training data, or do you need to build guardrails that catch low-confidence predictions before they hit users?
+
+The POC works because you haven't tested it honestly yet.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/5286833e9314.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/5286833e9314.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your digital twin siloes real-time from batch</title>
 <guid isPermaLink="false">2538482e0d20</guid>

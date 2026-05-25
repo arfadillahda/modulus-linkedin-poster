@@ -410,5 +410,14 @@
     "title": "Why your digital twin siloes real-time from batch",
     "body": "Most digital twins work fine until you need to make a decision. Then they fall apart.\n\nThe problem: you're treating your simulation layer and your operational data layer as separate systems that sync daily or weekly. Your twin runs on yesterday's asset state. Your control system runs on live sensor data. They're never the same version of the truth.\n\nWhy this happens is simple: building a unified state machine that tolerates both real-time streaming and batch historical corrections is harder than bolting two systems together. Streaming systems want low latency and eventual consistency. Historical systems want correctness and retroactive updates. They have opposite design constraints.\n\nThe move: commit to a single source of time. Not wall-clock time—event-sequence time. Every asset state change (sensor reading, maintenance record, setpoint adjustment) gets a sequence number. Your twin subscribes to that sequence. Your control logic always queries against a specific sequence point, not \"the latest.\" You can replay, audit, and reconcile without the two systems ever being out of sync.\n\nYour digital twin stops being a pretty visualization and becomes a decision engine.",
     "image_url": ""
+  },
+  {
+    "id": "5286833e9314",
+    "ts": "2026-05-25T10:24:43.213745+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why your AI proof-of-concept never scales to production",
+    "body": "You've built something that works in a notebook. 94% accurate on your test set. Then you try to run it on real data, and it collapses. The gap between POC and production isn't about engineering rigor—it's about data distribution.\n\nA POC trains and validates on the same dataset, often curated or recent. Production data is messier: older records, edge cases your team never saw, domain drift from seasonal patterns or market shifts. Your model learned the *training data*, not the underlying problem. It's a recognition failure, not a capability one.\n\nHere's the frame I use: separate \"in-sample confidence\" from \"out-of-distribution readiness.\" Before scaling, ask three things: (1) What percentage of production data falls outside your training distribution? Run a simple statistical test—KL divergence, or even just histogram comparison on key features. (2) Where does the model fail on that out-of-distribution data? Don't assume accuracy; test it. (3) Can you gather more diverse training data, or do you need to build guardrails that catch low-confidence predictions before they hit users?\n\nThe POC works because you haven't tested it honestly yet.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/5286833e9314.png"
   }
 ]
