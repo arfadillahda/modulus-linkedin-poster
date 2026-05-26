@@ -419,5 +419,14 @@
     "title": "Why your AI proof-of-concept never scales to production",
     "body": "You've built something that works in a notebook. 94% accurate on your test set. Then you try to run it on real data, and it collapses. The gap between POC and production isn't about engineering rigor—it's about data distribution.\n\nA POC trains and validates on the same dataset, often curated or recent. Production data is messier: older records, edge cases your team never saw, domain drift from seasonal patterns or market shifts. Your model learned the *training data*, not the underlying problem. It's a recognition failure, not a capability one.\n\nHere's the frame I use: separate \"in-sample confidence\" from \"out-of-distribution readiness.\" Before scaling, ask three things: (1) What percentage of production data falls outside your training distribution? Run a simple statistical test—KL divergence, or even just histogram comparison on key features. (2) Where does the model fail on that out-of-distribution data? Don't assume accuracy; test it. (3) Can you gather more diverse training data, or do you need to build guardrails that catch low-confidence predictions before they hit users?\n\nThe POC works because you haven't tested it honestly yet.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/5286833e9314.png"
+  },
+  {
+    "id": "0cfc17d729c6",
+    "ts": "2026-05-26T10:12:29.624790+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why your digitalization data won't talk to your business metrics",
+    "body": "You built the sensors. You built the dashboards. You have real-time visibility into machine state, energy consumption, cycle time—everything. And yet your CFO still can't answer whether digitalization actually improved margin.\n\nThis happens because digitalization teams optimize for data completeness. Engineers measure success by uptime, latency, data fidelity. Business measures success by money. These aren't connected by default—they're two separate languages running in parallel.\n\nThe gap isn't technical. It's conceptual. Most digital initiatives treat business metrics as an afterthought: \"Let's capture what we can, and finance will figure out what matters.\" But finance doesn't know what's in your data lake. And your data engineers don't know which machines actually drive margin.\n\nStop treating them as separate problems. The question isn't \"How do I digitalize better?\" It's \"Which operational variables actually move my unit economics?\" Start there. Name them. Then work backward to what you need to measure.\n\nDigitalization without business anchors is just expensive monitoring.",
+    "image_url": ""
   }
 ]

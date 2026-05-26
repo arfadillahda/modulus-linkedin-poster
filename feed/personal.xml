@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Mon, 25 May 2026 10:24:58 +0000</lastBuildDate>
+<lastBuildDate>Tue, 26 May 2026 10:12:29 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization data won't talk to your business metrics</title>
+<guid isPermaLink="false">0cfc17d729c6</guid>
+<pubDate>Tue, 26 May 2026 10:12:29 +0000</pubDate>
+<description><![CDATA[You built the sensors. You built the dashboards. You have real-time visibility into machine state, energy consumption, cycle time—everything. And yet your CFO still can't answer whether digitalization actually improved margin.
+
+This happens because digitalization teams optimize for data completeness. Engineers measure success by uptime, latency, data fidelity. Business measures success by money. These aren't connected by default—they're two separate languages running in parallel.
+
+The gap isn't technical. It's conceptual. Most digital initiatives treat business metrics as an afterthought: "Let's capture what we can, and finance will figure out what matters." But finance doesn't know what's in your data lake. And your data engineers don't know which machines actually drive margin.
+
+Stop treating them as separate problems. The question isn't "How do I digitalize better?" It's "Which operational variables actually move my unit economics?" Start there. Name them. Then work backward to what you need to measure.
+
+Digitalization without business anchors is just expensive monitoring.]]></description>
+<content:encoded><![CDATA[You built the sensors. You built the dashboards. You have real-time visibility into machine state, energy consumption, cycle time—everything. And yet your CFO still can't answer whether digitalization actually improved margin.
+
+This happens because digitalization teams optimize for data completeness. Engineers measure success by uptime, latency, data fidelity. Business measures success by money. These aren't connected by default—they're two separate languages running in parallel.
+
+The gap isn't technical. It's conceptual. Most digital initiatives treat business metrics as an afterthought: "Let's capture what we can, and finance will figure out what matters." But finance doesn't know what's in your data lake. And your data engineers don't know which machines actually drive margin.
+
+Stop treating them as separate problems. The question isn't "How do I digitalize better?" It's "Which operational variables actually move my unit economics?" Start there. Name them. Then work backward to what you need to measure.
+
+Digitalization without business anchors is just expensive monitoring.]]></content:encoded>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your AI proof-of-concept never scales to production</title>
 <guid isPermaLink="false">5286833e9314</guid>
