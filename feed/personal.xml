@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Tue, 26 May 2026 10:12:29 +0000</lastBuildDate>
+<lastBuildDate>Thu, 28 May 2026 10:19:24 +0000</lastBuildDate>
+<item>
+<title>Why your AI team and operations team speak different languages</title>
+<guid isPermaLink="false">678273fd7fab</guid>
+<pubDate>Thu, 28 May 2026 10:18:52 +0000</pubDate>
+<description><![CDATA[Your ML team built a model that predicts equipment failure with 94% accuracy. Operations won't use it. They're not stupid — they're operating under a constraint your model doesn't know exists.
+
+The disconnect happens because ML teams optimize for statistical performance (minimizing error across a test set) while operations teams optimize for decision-making under risk. A 6% error rate sounds small until you realize it means 600 false alarms per 10,000 assets, and each false alarm costs four hours of unplanned maintenance. Your model is mathematically correct but operationally unusable.
+
+The mechanism is simpler than we think: ML accuracy is symmetric (it treats false positives and false negatives equally) but operations cost is asymmetric (the cost of a missed failure is wildly different from the cost of a false alarm). Nobody told the model this.
+
+Here's the reframe: stop asking "what accuracy does my model need?" Start asking "what asymmetry does my operation have?" Once you know that false alarms cost 10x more than missed failures in your context, you can rebuild the entire decision threshold around that reality.
+
+The gap between model performance and model adoption is almost never about better algorithms. It's about aligning optimization targets.]]></description>
+<content:encoded><![CDATA[Your ML team built a model that predicts equipment failure with 94% accuracy. Operations won't use it. They're not stupid — they're operating under a constraint your model doesn't know exists.
+
+The disconnect happens because ML teams optimize for statistical performance (minimizing error across a test set) while operations teams optimize for decision-making under risk. A 6% error rate sounds small until you realize it means 600 false alarms per 10,000 assets, and each false alarm costs four hours of unplanned maintenance. Your model is mathematically correct but operationally unusable.
+
+The mechanism is simpler than we think: ML accuracy is symmetric (it treats false positives and false negatives equally) but operations cost is asymmetric (the cost of a missed failure is wildly different from the cost of a false alarm). Nobody told the model this.
+
+Here's the reframe: stop asking "what accuracy does my model need?" Start asking "what asymmetry does my operation have?" Once you know that false alarms cost 10x more than missed failures in your context, you can rebuild the entire decision threshold around that reality.
+
+The gap between model performance and model adoption is almost never about better algorithms. It's about aligning optimization targets.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/678273fd7fab.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/678273fd7fab.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your digitalization data won't talk to your business metrics</title>
 <guid isPermaLink="false">0cfc17d729c6</guid>
