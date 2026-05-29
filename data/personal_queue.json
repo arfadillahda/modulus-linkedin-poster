@@ -437,5 +437,14 @@
     "title": "Why your AI team and operations team speak different languages",
     "body": "Your ML team built a model that predicts equipment failure with 94% accuracy. Operations won't use it. They're not stupid — they're operating under a constraint your model doesn't know exists.\n\nThe disconnect happens because ML teams optimize for statistical performance (minimizing error across a test set) while operations teams optimize for decision-making under risk. A 6% error rate sounds small until you realize it means 600 false alarms per 10,000 assets, and each false alarm costs four hours of unplanned maintenance. Your model is mathematically correct but operationally unusable.\n\nThe mechanism is simpler than we think: ML accuracy is symmetric (it treats false positives and false negatives equally) but operations cost is asymmetric (the cost of a missed failure is wildly different from the cost of a false alarm). Nobody told the model this.\n\nHere's the reframe: stop asking \"what accuracy does my model need?\" Start asking \"what asymmetry does my operation have?\" Once you know that false alarms cost 10x more than missed failures in your context, you can rebuild the entire decision threshold around that reality.\n\nThe gap between model performance and model adoption is almost never about better algorithms. It's about aligning optimization targets.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/678273fd7fab.png"
+  },
+  {
+    "id": "9199f202ffb0",
+    "ts": "2026-05-29T10:08:28.731845+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why your digitalization pilot never scales to production",
+    "body": "You build a beautiful proof of concept in a controlled environment. It works. Then you try to roll it out across three plants and it collapses.\n\nThis happens because pilots optimize for signal-to-noise. You pick clean data, stable conditions, ideal operators. Production is the opposite: messy sensors, process drift, people cutting corners. The gap between \"this works in the lab\" and \"this works when Linda's on the night shift\" kills most digitalization efforts before they're called failures.\n\nThe fix is to test your digital solution against friction, not cleanliness. Before you scale, deliberately introduce three real-world conditions: a sensor that drifts 15%, an operator who skips a step, and a communication lag. If your system breaks, you've found your actual problem early. If it bends but holds, you're ready to move.\n\nDigital solutions don't fail because the technology is weak. They fail because we mistake a working prototype for a resilient one.",
+    "image_url": ""
   }
 ]

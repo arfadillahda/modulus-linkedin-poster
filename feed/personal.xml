@@ -4,7 +4,28 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Thu, 28 May 2026 10:19:24 +0000</lastBuildDate>
+<lastBuildDate>Fri, 29 May 2026 10:08:28 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization pilot never scales to production</title>
+<guid isPermaLink="false">9199f202ffb0</guid>
+<pubDate>Fri, 29 May 2026 10:08:28 +0000</pubDate>
+<description><![CDATA[You build a beautiful proof of concept in a controlled environment. It works. Then you try to roll it out across three plants and it collapses.
+
+This happens because pilots optimize for signal-to-noise. You pick clean data, stable conditions, ideal operators. Production is the opposite: messy sensors, process drift, people cutting corners. The gap between "this works in the lab" and "this works when Linda's on the night shift" kills most digitalization efforts before they're called failures.
+
+The fix is to test your digital solution against friction, not cleanliness. Before you scale, deliberately introduce three real-world conditions: a sensor that drifts 15%, an operator who skips a step, and a communication lag. If your system breaks, you've found your actual problem early. If it bends but holds, you're ready to move.
+
+Digital solutions don't fail because the technology is weak. They fail because we mistake a working prototype for a resilient one.]]></description>
+<content:encoded><![CDATA[You build a beautiful proof of concept in a controlled environment. It works. Then you try to roll it out across three plants and it collapses.
+
+This happens because pilots optimize for signal-to-noise. You pick clean data, stable conditions, ideal operators. Production is the opposite: messy sensors, process drift, people cutting corners. The gap between "this works in the lab" and "this works when Linda's on the night shift" kills most digitalization efforts before they're called failures.
+
+The fix is to test your digital solution against friction, not cleanliness. Before you scale, deliberately introduce three real-world conditions: a sensor that drifts 15%, an operator who skips a step, and a communication lag. If your system breaks, you've found your actual problem early. If it bends but holds, you're ready to move.
+
+Digital solutions don't fail because the technology is weak. They fail because we mistake a working prototype for a resilient one.]]></content:encoded>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your AI team and operations team speak different languages</title>
 <guid isPermaLink="false">678273fd7fab</guid>
