@@ -446,5 +446,14 @@
     "title": "Why your digitalization pilot never scales to production",
     "body": "You build a beautiful proof of concept in a controlled environment. It works. Then you try to roll it out across three plants and it collapses.\n\nThis happens because pilots optimize for signal-to-noise. You pick clean data, stable conditions, ideal operators. Production is the opposite: messy sensors, process drift, people cutting corners. The gap between \"this works in the lab\" and \"this works when Linda's on the night shift\" kills most digitalization efforts before they're called failures.\n\nThe fix is to test your digital solution against friction, not cleanliness. Before you scale, deliberately introduce three real-world conditions: a sensor that drifts 15%, an operator who skips a step, and a communication lag. If your system breaks, you've found your actual problem early. If it bends but holds, you're ready to move.\n\nDigital solutions don't fail because the technology is weak. They fail because we mistake a working prototype for a resilient one.",
     "image_url": ""
+  },
+  {
+    "id": "36b5649bb77f",
+    "ts": "2026-05-30T08:36:32.807124+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why your sustainability roadmap ignores the actual constraint",
+    "body": "Most companies build sustainability plans around what's easy to measure: energy use, waste streams, supply chain emissions. Then they hit a wall when they try to move the needle on any of it.\n\nThe constraint isn't measurement. It's capital allocation. You can't decarbonize a factory without equipment swaps or process redesigns. You can't shift sourcing without renegotiating contracts. You can't electrify a fleet without balance sheet approval. But sustainability teams rarely own the budget or the business case for these moves.\n\nSo the roadmap stays theoretical while operations stay unchanged.\n\nThe reframe: stop treating sustainability as a compliance or reporting problem. Treat it as a capital efficiency problem. Map which emissions reductions require capex, which ones have payback periods under five years, which ones unlock secondary benefits (waste heat recovery = lower energy costs; lighter materials = lower shipping weight).\n\nWhen sustainability is framed as a capital decision, it moves to the table where money actually gets allocated. That's where change happens.\n\nYour roadmap shouldn't start with carbon targets. It should start with where capital is moving anyway.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/36b5649bb77f.png"
   }
 ]

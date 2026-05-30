@@ -1,0 +1,81 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ─── TOP BAND ─── -->
+  <!-- Kicker -->
+  <text x="64" y="96" font-size="13" font-weight="600" fill="#1F5C3D" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">SUSTAINABILITY</text>
+
+  <!-- Headline line 1 -->
+  <text x="64" y="152" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.025em">Capital moves first.</text>
+  <!-- Headline line 2 -->
+  <text x="64" y="208" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.025em">Roadmaps follow.</text>
+
+  <!-- Accent underline rule -->
+  <rect x="64" y="222" width="180" height="3" rx="1.5" fill="#1F5C3D"/>
+
+  <!-- ─── MIDDLE BAND: 2×2 + 1 wide = 5-tile layout (3 top + 2 bottom) ─── -->
+
+  <!-- ROW 1: tiles 01, 02, 03 -->
+  <!-- Tile dimensions: top row 3 tiles, each ~284px wide, 230px tall, 16px gap, 64px margin -->
+  <!-- width = (1024 - 128 - 32) / 3 = 288px each -->
+
+  <!-- TILE 01 -->
+  <rect x="64" y="256" width="288" height="230" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="88" y="306" font-size="42" font-weight="800" fill="#1F5C3D">01</text>
+  <text x="88" y="337" font-size="17" font-weight="700" fill="#111111">Measure the wrong thing</text>
+  <text x="88" y="362" font-size="14" font-weight="400" fill="#3A3A3A">Energy and waste data don't unlock action.</text>
+  <line x1="88" y1="382" x2="330" y2="382" stroke="#1F5C3D" stroke-width="1" opacity="0.3"/>
+  <text x="88" y="402" font-size="13" font-weight="400" fill="#3A3A3A" font-style="italic">The real wall is elsewhere.</text>
+
+  <!-- TILE 02 -->
+  <rect x="368" y="256" width="288" height="230" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="392" y="306" font-size="42" font-weight="800" fill="#1F5C3D">02</text>
+  <text x="392" y="337" font-size="17" font-weight="700" fill="#111111">Capital is the constraint</text>
+  <text x="392" y="362" font-size="14" font-weight="400" fill="#3A3A3A">No capex, no equipment swaps, no change.</text>
+  <line x1="392" y1="382" x2="634" y2="382" stroke="#1F5C3D" stroke-width="1" opacity="0.3"/>
+  <text x="392" y="402" font-size="13" font-weight="400" fill="#3A3A3A" font-style="italic">Teams lack budget and business case.</text>
+
+  <!-- TILE 03 -->
+  <rect x="672" y="256" width="288" height="230" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="696" y="306" font-size="42" font-weight="800" fill="#1F5C3D">03</text>
+  <text x="696" y="337" font-size="17" font-weight="700" fill="#111111">Roadmaps stay theoretical</text>
+  <text x="696" y="362" font-size="14" font-weight="400" fill="#3A3A3A">Plans exist. Operations stay unchanged.</text>
+  <line x1="696" y1="382" x2="938" y2="382" stroke="#1F5C3D" stroke-width="1" opacity="0.3"/>
+  <text x="696" y="402" font-size="13" font-weight="400" fill="#3A3A3A" font-style="italic">Compliance framing misses the lever.</text>
+
+  <!-- ROW 2: tiles 04, 05 — 2 wide tiles -->
+  <!-- each = (1024 - 128 - 16) / 2 = 440px wide, 200px tall -->
+
+  <!-- TILE 04 -->
+  <rect x="64" y="502" width="440" height="210" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="88" y="552" font-size="42" font-weight="800" fill="#1F5C3D">04</text>
+  <text x="88" y="583" font-size="17" font-weight="700" fill="#111111">Reframe as capital efficiency</text>
+  <text x="88" y="608" font-size="14" font-weight="400" fill="#3A3A3A">Map payback periods under five years.</text>
+  <line x1="88" y1="626" x2="480" y2="626" stroke="#1F5C3D" stroke-width="1" opacity="0.3"/>
+  <text x="88" y="648" font-size="13" font-weight="400" fill="#3A3A3A" font-style="italic">Secondary benefits: lower energy, lower freight.</text>
+  <text x="88" y="668" font-size="13" font-weight="400" fill="#3A3A3A" font-style="italic">Efficiency unlocks the finance conversation.</text>
+  <text x="88" y="692" font-size="13" font-weight="400" fill="#3A3A3A" font-style="italic">Waste heat recovery = real savings.</text>
+
+  <!-- TILE 05 -->
+  <rect x="520" y="502" width="440" height="210" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="544" y="552" font-size="42" font-weight="800" fill="#1F5C3D">05</text>
+  <text x="544" y="583" font-size="17" font-weight="700" fill="#111111">Follow the capital flow</text>
+  <text x="544" y="608" font-size="14" font-weight="400" fill="#3A3A3A">Start where money is already moving.</text>
+  <line x1="544" y1="626" x2="936" y2="626" stroke="#1F5C3D" stroke-width="1" opacity="0.3"/>
+  <text x="544" y="648" font-size="13" font-weight="400" fill="#3A3A3A" font-style="italic">Attach sustainability to approved investments.</text>
+  <text x="544" y="668" font-size="13" font-weight="400" fill="#3A3A3A" font-style="italic">That's where decisions actually get made.</text>
+  <text x="544" y="692" font-size="13" font-weight="400" fill="#3A3A3A" font-style="italic">Change happens at the allocation table.</text>
+
+  <!-- ─── BOTTOM BAND ─── -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="748" x2="960" y2="748" stroke="#11111122" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="810" font-size="22" font-weight="700" fill="#3A3A3A" text-anchor="middle" letter-spacing="-0.01em">Carbon targets follow capital. Not the other way.</text>
+
+  <!-- Secondary attribution line -->
+  <text x="512" y="848" font-size="13" font-weight="400" fill="#3A3A3A" text-anchor="middle" opacity="0.6" letter-spacing="0.04em">SUSTAINABILITY AS CAPITAL STRATEGY</text>
+
+</svg>
