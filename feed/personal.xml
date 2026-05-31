@@ -4,7 +4,28 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Sat, 30 May 2026 08:37:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 31 May 2026 08:57:20 +0000</lastBuildDate>
+<item>
+<title>Why your sustainability metrics contradict each other</title>
+<guid isPermaLink="false">1355d7816b8d</guid>
+<pubDate>Sun, 31 May 2026 08:57:20 +0000</pubDate>
+<description><![CDATA[You measure energy intensity per unit produced. Your supplier measures absolute emissions. Your customer asks for carbon per dollar revenue. Three different numbers, all technically correct, all telling you something different about whether you're actually improving.
+
+This happens because sustainability metrics are derivatives of business metrics, and business metrics don't talk to each other. Production volume goes up, intensity goes down, but absolute emissions stay flat. Revenue grows faster than emissions fall, so carbon-per-dollar looks great while your facility's energy bill climbs. You optimize for the metric your board cares about and accidentally optimize away from what matters.
+
+Here's the fix: pick one anchor metric that can't be gamed—usually absolute emissions or absolute energy consumption for your facility—and derive everything else from it. Intensity metrics and ratio metrics are useful for diagnostics. But your north star has to be the thing that actually reduces the burden on the system. Everything else hangs off that.
+
+The metric you can't manipulate is the one worth reporting on.]]></description>
+<content:encoded><![CDATA[You measure energy intensity per unit produced. Your supplier measures absolute emissions. Your customer asks for carbon per dollar revenue. Three different numbers, all technically correct, all telling you something different about whether you're actually improving.
+
+This happens because sustainability metrics are derivatives of business metrics, and business metrics don't talk to each other. Production volume goes up, intensity goes down, but absolute emissions stay flat. Revenue grows faster than emissions fall, so carbon-per-dollar looks great while your facility's energy bill climbs. You optimize for the metric your board cares about and accidentally optimize away from what matters.
+
+Here's the fix: pick one anchor metric that can't be gamed—usually absolute emissions or absolute energy consumption for your facility—and derive everything else from it. Intensity metrics and ratio metrics are useful for diagnostics. But your north star has to be the thing that actually reduces the burden on the system. Everything else hangs off that.
+
+The metric you can't manipulate is the one worth reporting on.]]></content:encoded>
+<category>sustainability</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your sustainability roadmap ignores the actual constraint</title>
 <guid isPermaLink="false">36b5649bb77f</guid>
@@ -1251,39 +1272,6 @@ The companies that actually succeed at this treat digitalization as a consequenc
 Building a digital system on top of analog chaos just makes you expensively confused.]]></content:encoded>
 <category>digitalization</category>
 <category>TOF</category>
-</item>
-<item>
-<title>How I think about AI adoption in manufacturing</title>
-<guid isPermaLink="false">d3b6da5dd802</guid>
-<pubDate>Fri, 01 May 2026 06:18:14 +0000</pubDate>
-<description><![CDATA[Most manufacturing leaders I talk to frame AI as a cost-cutting play. Cheaper labor, faster throughput, fewer mistakes. That's not wrong, but it's incomplete.
-
-Here's how I think about it instead:
-
-First, map where your actual constraints are. Usually it's not where you think. I was working with a client convinced they needed AI for quality detection. Turned out their real bottleneck was scheduling—people spending two days a week figuring out production sequences.
-
-Second, start there. Not with the sexiest problem. With the one that's actually costing you time or margin right now.
-
-Third, measure what changes. Not just the obvious metric. Track what gets freed up when a process gets faster. Often it's not the labor cost—it's the fact that your best person can finally focus on the thing they actually want to do.
-
-AI adoption in heavy industry isn't about being first. It's about being precise about what you're solving for, then patient enough to let the actual impact emerge.
-
-The companies winning at this aren't the ones with the fanciest models. They're the ones who stopped trying to automate everything and got honest about what actually matters.]]></description>
-<content:encoded><![CDATA[Most manufacturing leaders I talk to frame AI as a cost-cutting play. Cheaper labor, faster throughput, fewer mistakes. That's not wrong, but it's incomplete.
-
-Here's how I think about it instead:
-
-First, map where your actual constraints are. Usually it's not where you think. I was working with a client convinced they needed AI for quality detection. Turned out their real bottleneck was scheduling—people spending two days a week figuring out production sequences.
-
-Second, start there. Not with the sexiest problem. With the one that's actually costing you time or margin right now.
-
-Third, measure what changes. Not just the obvious metric. Track what gets freed up when a process gets faster. Often it's not the labor cost—it's the fact that your best person can finally focus on the thing they actually want to do.
-
-AI adoption in heavy industry isn't about being first. It's about being precise about what you're solving for, then patient enough to let the actual impact emerge.
-
-The companies winning at this aren't the ones with the fanciest models. They're the ones who stopped trying to automate everything and got honest about what actually matters.]]></content:encoded>
-<category>artificial intelligence</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>

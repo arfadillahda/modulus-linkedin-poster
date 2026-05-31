@@ -455,5 +455,14 @@
     "title": "Why your sustainability roadmap ignores the actual constraint",
     "body": "Most companies build sustainability plans around what's easy to measure: energy use, waste streams, supply chain emissions. Then they hit a wall when they try to move the needle on any of it.\n\nThe constraint isn't measurement. It's capital allocation. You can't decarbonize a factory without equipment swaps or process redesigns. You can't shift sourcing without renegotiating contracts. You can't electrify a fleet without balance sheet approval. But sustainability teams rarely own the budget or the business case for these moves.\n\nSo the roadmap stays theoretical while operations stay unchanged.\n\nThe reframe: stop treating sustainability as a compliance or reporting problem. Treat it as a capital efficiency problem. Map which emissions reductions require capex, which ones have payback periods under five years, which ones unlock secondary benefits (waste heat recovery = lower energy costs; lighter materials = lower shipping weight).\n\nWhen sustainability is framed as a capital decision, it moves to the table where money actually gets allocated. That's where change happens.\n\nYour roadmap shouldn't start with carbon targets. It should start with where capital is moving anyway.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/36b5649bb77f.png"
+  },
+  {
+    "id": "1355d7816b8d",
+    "ts": "2026-05-31T08:57:20.365417+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why your sustainability metrics contradict each other",
+    "body": "You measure energy intensity per unit produced. Your supplier measures absolute emissions. Your customer asks for carbon per dollar revenue. Three different numbers, all technically correct, all telling you something different about whether you're actually improving.\n\nThis happens because sustainability metrics are derivatives of business metrics, and business metrics don't talk to each other. Production volume goes up, intensity goes down, but absolute emissions stay flat. Revenue grows faster than emissions fall, so carbon-per-dollar looks great while your facility's energy bill climbs. You optimize for the metric your board cares about and accidentally optimize away from what matters.\n\nHere's the fix: pick one anchor metric that can't be gamed—usually absolute emissions or absolute energy consumption for your facility—and derive everything else from it. Intensity metrics and ratio metrics are useful for diagnostics. But your north star has to be the thing that actually reduces the burden on the system. Everything else hangs off that.\n\nThe metric you can't manipulate is the one worth reporting on.",
+    "image_url": ""
   }
 ]
