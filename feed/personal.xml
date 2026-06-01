@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Sun, 31 May 2026 08:57:20 +0000</lastBuildDate>
+<lastBuildDate>Mon, 01 Jun 2026 11:51:00 +0000</lastBuildDate>
+<item>
+<title>Why your AI model fails on edge cases you never tested</title>
+<guid isPermaLink="false">4769c780f1b9</guid>
+<pubDate>Mon, 01 Jun 2026 11:50:40 +0000</pubDate>
+<description><![CDATA[You train your model on 10,000 clean samples. Test it on 1,000 held-out samples. Get 94% accuracy. Deploy it. Then it breaks on Tuesday when someone feeds it data from a different sensor, a different factory floor, or a different season.
+
+This happens because training and test data come from the same distribution. Your model learned the statistical fingerprint of your specific dataset, not the underlying problem. The real world has infinite distributions.
+
+The fix: synthetic distribution shift testing. Before deployment, deliberately corrupt your test set—change lighting, add noise, shift the sensor calibration, introduce missing values in patterns that don't appear in training. Run your model against each corrupted variant. You're not looking for perfect accuracy. You're looking for *graceful degradation*—does it fail predictably, or does it confidently hallucinate?
+
+If your model collapses on mild corruption, it's not ready. If it degrades linearly, you know your safety margin. If it stays stable, you've found something rare.
+
+Robustness isn't measured on clean test data. It's measured on everything your model will never see.]]></description>
+<content:encoded><![CDATA[You train your model on 10,000 clean samples. Test it on 1,000 held-out samples. Get 94% accuracy. Deploy it. Then it breaks on Tuesday when someone feeds it data from a different sensor, a different factory floor, or a different season.
+
+This happens because training and test data come from the same distribution. Your model learned the statistical fingerprint of your specific dataset, not the underlying problem. The real world has infinite distributions.
+
+The fix: synthetic distribution shift testing. Before deployment, deliberately corrupt your test set—change lighting, add noise, shift the sensor calibration, introduce missing values in patterns that don't appear in training. Run your model against each corrupted variant. You're not looking for perfect accuracy. You're looking for *graceful degradation*—does it fail predictably, or does it confidently hallucinate?
+
+If your model collapses on mild corruption, it's not ready. If it degrades linearly, you know your safety margin. If it stays stable, you've found something rare.
+
+Robustness isn't measured on clean test data. It's measured on everything your model will never see.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/4769c780f1b9.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/4769c780f1b9.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your sustainability metrics contradict each other</title>
 <guid isPermaLink="false">1355d7816b8d</guid>
@@ -1242,35 +1269,6 @@ The unsexy truth is that 80% of an AI project is data work. Standardization. Val
 
 The real competitive advantage isn't in the algorithm. It's in the discipline to treat your data like infrastructure, not an afterthought.]]></content:encoded>
 <category>artificial intelligence</category>
-<category>TOF</category>
-</item>
-<item>
-<title>Why most digitalization projects fail before they start</title>
-<guid isPermaLink="false">7bdb6d2bd7c1</guid>
-<pubDate>Fri, 01 May 2026 06:18:52 +0000</pubDate>
-<description><![CDATA[Most manufacturers treat digitalization like a software upgrade. They buy the platform, train the team, declare victory. Then nothing changes.
-
-The real problem: they're digitizing broken processes.
-
-You can't automate a mess and expect a miracle. If your maintenance team keeps records in three different systems, moving to a digital tool just means three systems in the cloud. If your production scheduling relies on tribal knowledge and email chains, an MES won't fix that—it'll just make the chaos more visible.
-
-Digitalization only works when you've first clarified what you're actually trying to do. That means sitting down and mapping the real workflow, not the org chart version. It means asking uncomfortable questions about why things are done a certain way.
-
-The companies that actually succeed at this treat digitalization as a consequence of process clarity, not the other way around.
-
-Building a digital system on top of analog chaos just makes you expensively confused.]]></description>
-<content:encoded><![CDATA[Most manufacturers treat digitalization like a software upgrade. They buy the platform, train the team, declare victory. Then nothing changes.
-
-The real problem: they're digitizing broken processes.
-
-You can't automate a mess and expect a miracle. If your maintenance team keeps records in three different systems, moving to a digital tool just means three systems in the cloud. If your production scheduling relies on tribal knowledge and email chains, an MES won't fix that—it'll just make the chaos more visible.
-
-Digitalization only works when you've first clarified what you're actually trying to do. That means sitting down and mapping the real workflow, not the org chart version. It means asking uncomfortable questions about why things are done a certain way.
-
-The companies that actually succeed at this treat digitalization as a consequence of process clarity, not the other way around.
-
-Building a digital system on top of analog chaos just makes you expensively confused.]]></content:encoded>
-<category>digitalization</category>
 <category>TOF</category>
 </item>
 </channel>

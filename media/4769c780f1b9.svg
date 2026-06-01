@@ -1,0 +1,57 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- Top band: ~22% = 225px -->
+  <!-- Kicker -->
+  <text x="64" y="96" font-size="13" font-weight="600" letter-spacing="0.18em" fill="#2D5BFF" text-anchor="start" dominant-baseline="auto">AI</text>
+
+  <!-- Headline -->
+  <text x="64" y="148" font-size="54" font-weight="800" fill="#111111" letter-spacing="-0.025em" text-anchor="start" dominant-baseline="auto">Clean test data</text>
+  <text x="64" y="206" font-size="54" font-weight="800" fill="#111111" letter-spacing="-0.025em" text-anchor="start" dominant-baseline="auto">is a false promise.</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="218" width="220" height="3" rx="1.5" fill="#2D5BFF"/>
+
+  <!-- Middle band: tiles start ~y=250, height ~620px, ends ~y=870 -->
+  <!-- 4 tiles in 2x2 grid. Gap=16, padding=64. -->
+  <!-- Each tile: width = (1024 - 64*2 - 16) / 2 = (896-16)/2 = 440 -->
+  <!-- Each tile: height = (620 - 16) / 2 = 302 -->
+
+  <!-- Tile 01 — top-left: x=64, y=252, w=440, h=302 -->
+  <rect x="64" y="252" width="440" height="302" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="312" font-size="42" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em">01</text>
+  <text x="92" y="358" font-size="22" font-weight="700" fill="#111111">Same-Distribution Trap</text>
+  <text x="92" y="392" font-size="16" font-weight="400" fill="#3A3A3A">Train and test share one statistical fingerprint.</text>
+  <text x="92" y="414" font-size="16" font-weight="400" fill="#3A3A3A">Real-world data is infinitely more varied.</text>
+
+  <!-- Tile 02 — top-right: x=520, y=252, w=440, h=302 -->
+  <rect x="520" y="252" width="440" height="302" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="312" font-size="42" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em">02</text>
+  <text x="548" y="358" font-size="22" font-weight="700" fill="#111111">Deployment Breaks First</text>
+  <text x="548" y="392" font-size="16" font-weight="400" fill="#3A3A3A">New sensor, season, or floor exposes</text>
+  <text x="548" y="414" font-size="16" font-weight="400" fill="#3A3A3A">what accuracy never measured.</text>
+
+  <!-- Tile 03 — bottom-left: x=64, y=570, w=440, h=302 -->
+  <rect x="64" y="570" width="440" height="302" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="630" font-size="42" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em">03</text>
+  <text x="92" y="676" font-size="22" font-weight="700" fill="#111111">Synthetic Shift Testing</text>
+  <text x="92" y="710" font-size="16" font-weight="400" fill="#3A3A3A">Deliberately corrupt the test set before</text>
+  <text x="92" y="732" font-size="16" font-weight="400" fill="#3A3A3A">deployment — noise, drift, missing values.</text>
+
+  <!-- Tile 04 — bottom-right: x=520, y=570, w=440, h=302 -->
+  <rect x="520" y="570" width="440" height="302" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="630" font-size="42" font-weight="800" fill="#2D5BFF" letter-spacing="-0.02em">04</text>
+  <text x="548" y="676" font-size="22" font-weight="700" fill="#111111">Graceful Degradation</text>
+  <text x="548" y="710" font-size="16" font-weight="400" fill="#3A3A3A">Linear failure = known margin. Collapse</text>
+  <text x="548" y="732" font-size="16" font-weight="400" fill="#3A3A3A">= not ready. Stability = something rare.</text>
+
+  <!-- Bottom band: y=872 to y=1024 (~152px) -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="892" x2="960" y2="892" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="958" font-size="22" font-weight="600" fill="#3A3A3A" text-anchor="middle" letter-spacing="-0.01em">Robustness is measured on data you never tested.</text>
+
+</svg>

@@ -464,5 +464,14 @@
     "title": "Why your sustainability metrics contradict each other",
     "body": "You measure energy intensity per unit produced. Your supplier measures absolute emissions. Your customer asks for carbon per dollar revenue. Three different numbers, all technically correct, all telling you something different about whether you're actually improving.\n\nThis happens because sustainability metrics are derivatives of business metrics, and business metrics don't talk to each other. Production volume goes up, intensity goes down, but absolute emissions stay flat. Revenue grows faster than emissions fall, so carbon-per-dollar looks great while your facility's energy bill climbs. You optimize for the metric your board cares about and accidentally optimize away from what matters.\n\nHere's the fix: pick one anchor metric that can't be gamed—usually absolute emissions or absolute energy consumption for your facility—and derive everything else from it. Intensity metrics and ratio metrics are useful for diagnostics. But your north star has to be the thing that actually reduces the burden on the system. Everything else hangs off that.\n\nThe metric you can't manipulate is the one worth reporting on.",
     "image_url": ""
+  },
+  {
+    "id": "4769c780f1b9",
+    "ts": "2026-06-01T11:50:40.541782+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why your AI model fails on edge cases you never tested",
+    "body": "You train your model on 10,000 clean samples. Test it on 1,000 held-out samples. Get 94% accuracy. Deploy it. Then it breaks on Tuesday when someone feeds it data from a different sensor, a different factory floor, or a different season.\n\nThis happens because training and test data come from the same distribution. Your model learned the statistical fingerprint of your specific dataset, not the underlying problem. The real world has infinite distributions.\n\nThe fix: synthetic distribution shift testing. Before deployment, deliberately corrupt your test set—change lighting, add noise, shift the sensor calibration, introduce missing values in patterns that don't appear in training. Run your model against each corrupted variant. You're not looking for perfect accuracy. You're looking for *graceful degradation*—does it fail predictably, or does it confidently hallucinate?\n\nIf your model collapses on mild corruption, it's not ready. If it degrades linearly, you know your safety margin. If it stays stable, you've found something rare.\n\nRobustness isn't measured on clean test data. It's measured on everything your model will never see.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/4769c780f1b9.png"
   }
 ]
