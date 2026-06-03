@@ -1,0 +1,57 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ─── TOP BAND ─── -->
+  <!-- Kicker -->
+  <text x="64" y="90" font-size="13" font-weight="600" fill="#C24A1F" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">DIGITALIZATION</text>
+
+  <!-- Display Headline -->
+  <text x="64" y="148" font-size="54" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Historians record.</text>
+  <text x="64" y="208" font-size="54" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">MES decides. No one translates.</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="222" width="180" height="3" rx="1.5" fill="#C24A1F"/>
+
+  <!-- ─── MIDDLE BAND — 4-tile 2×2 grid ─── -->
+
+  <!-- TILE 01 — top-left -->
+  <rect x="64" y="258" width="424" height="332" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <!-- Numeral -->
+  <text x="96" y="320" font-size="48" font-weight="800" fill="#C24A1F" letter-spacing="-0.02em">01</text>
+  <!-- Title -->
+  <text x="96" y="362" font-size="22" font-weight="700" fill="#111111">Different Native Languages</text>
+  <!-- Caption line 1 -->
+  <text x="96" y="395" font-size="16" font-weight="400" fill="#3A3A3A">Historian logs raw sensor data</text>
+  <text x="96" y="418" font-size="16" font-weight="400" fill="#3A3A3A">at 100ms. MES tracks intent.</text>
+
+  <!-- TILE 02 — top-right -->
+  <rect x="536" y="258" width="424" height="332" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="568" y="320" font-size="48" font-weight="800" fill="#C24A1F" letter-spacing="-0.02em">02</text>
+  <text x="568" y="362" font-size="22" font-weight="700" fill="#111111">Physics vs. Intent</text>
+  <text x="568" y="395" font-size="16" font-weight="400" fill="#3A3A3A">One records reality. One records</text>
+  <text x="568" y="418" font-size="16" font-weight="400" fill="#3A3A3A">decisions. Nobody owns the gap.</text>
+
+  <!-- TILE 03 — bottom-left -->
+  <rect x="64" y="606" width="424" height="332" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="668" font-size="48" font-weight="800" fill="#C24A1F" letter-spacing="-0.02em">03</text>
+  <text x="96" y="710" font-size="22" font-weight="700" fill="#111111">Fire Hose ≠ Analytics</text>
+  <text x="96" y="743" font-size="16" font-weight="400" fill="#3A3A3A">Piping historian data in without</text>
+  <text x="96" y="766" font-size="16" font-weight="400" fill="#3A3A3A">semantic mapping solves nothing.</text>
+
+  <!-- TILE 04 — bottom-right -->
+  <rect x="536" y="606" width="424" height="332" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="568" y="668" font-size="48" font-weight="800" fill="#C24A1F" letter-spacing="-0.02em">04</text>
+  <text x="568" y="710" font-size="22" font-weight="700" fill="#111111">Timestamp-Anchor Fix</text>
+  <text x="568" y="743" font-size="16" font-weight="400" fill="#3A3A3A">Match MES events to historian</text>
+  <text x="568" y="766" font-size="16" font-weight="400" fill="#3A3A3A">state changes (±5s). Define "start."</text>
+
+  <!-- ─── BOTTOM BAND ─── -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="966" x2="960" y2="966" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="1002" font-size="20" font-weight="400" fill="#3A3A3A" text-anchor="middle" letter-spacing="0.01em">They stop fighting when you stop pretending they agree.</text>
+
+</svg>
