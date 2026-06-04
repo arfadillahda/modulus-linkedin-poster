@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Wed, 03 Jun 2026 11:18:26 +0000</lastBuildDate>
+<lastBuildDate>Thu, 04 Jun 2026 10:08:23 +0000</lastBuildDate>
+<item>
+<title>Why your AI vendor keeps overselling what their model can do</title>
+<guid isPermaLink="false">b675950ab6f5</guid>
+<pubDate>Thu, 04 Jun 2026 10:08:23 +0000</pubDate>
+<description><![CDATA[You ask a vendor how their AI handles your specific industrial process. They show you a benchmark on a public dataset. You deploy it. Six weeks in, it fails on your actual data in ways the benchmark never hinted at.
+
+This isn't dishonesty—it's a structural problem. Vendors train on static datasets that are, by definition, representative of past conditions. Your process drifts. Your equipment ages. Your raw material supplier changes. The model's training data now lives in a ghost world that doesn't match what you're feeding it anymore.
+
+The vendor's benchmark was real. It just wasn't predictive of *your* operational entropy.
+
+Here's the move: before you evaluate any AI solution, run a small degradation test. Take the vendor's model. Feed it data from three different time windows in your own process—last month, three months ago, six months ago. Watch the accuracy drop. Ask them why. If they can't explain the drift mechanism or propose a retraining cadence that fits your budget, the benchmark doesn't matter.
+
+The vendor's confidence should match their ability to explain failure, not their test-set F1 score.]]></description>
+<content:encoded><![CDATA[You ask a vendor how their AI handles your specific industrial process. They show you a benchmark on a public dataset. You deploy it. Six weeks in, it fails on your actual data in ways the benchmark never hinted at.
+
+This isn't dishonesty—it's a structural problem. Vendors train on static datasets that are, by definition, representative of past conditions. Your process drifts. Your equipment ages. Your raw material supplier changes. The model's training data now lives in a ghost world that doesn't match what you're feeding it anymore.
+
+The vendor's benchmark was real. It just wasn't predictive of *your* operational entropy.
+
+Here's the move: before you evaluate any AI solution, run a small degradation test. Take the vendor's model. Feed it data from three different time windows in your own process—last month, three months ago, six months ago. Watch the accuracy drop. Ask them why. If they can't explain the drift mechanism or propose a retraining cadence that fits your budget, the benchmark doesn't matter.
+
+The vendor's confidence should match their ability to explain failure, not their test-set F1 score.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your OT historians won't talk to your MES</title>
 <guid isPermaLink="false">cf23ffd81ae0</guid>
@@ -1233,33 +1258,6 @@ Measurement becomes a byproduct of a deal that works for both of you.
 Supply chain decarbonization moves when you align incentives, not when you align spreadsheets.]]></content:encoded>
 <category>sustainability</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why sustainability scorecards fail at the plant level</title>
-<guid isPermaLink="false">a5290268afcf</guid>
-<pubDate>Fri, 01 May 2026 06:51:23 +0000</pubDate>
-<description><![CDATA[Most manufacturers report their emissions to corporate HQ using spreadsheets compiled weeks after month-end close. By then, the production decisions that created those emissions are already locked in.
-
-The gap exists because sustainability metrics live in the finance and ESG silo, not in operations. A plant manager optimizing for throughput and cost sees sustainability as a reporting checkbox, not a real-time constraint. So they make production calls in a vacuum. Corporate discovers the damage when it hits the scorecard.
-
-The reframe: treat emissions and energy the same way you treat scrap rate or OEE. Visibility at decision time, not audit time.
-
-When a scheduler sees their carbon footprint for a production sequence before they commit to it, the incentives flip. Sustainability becomes baked into daily trade-offs instead of bolted on after the fact. You don't need a perfect carbon accounting model to start. You need the number at the moment it matters.
-
-Real-time operational transparency is the missing link between sustainability targets and actual results.]]></description>
-<content:encoded><![CDATA[Most manufacturers report their emissions to corporate HQ using spreadsheets compiled weeks after month-end close. By then, the production decisions that created those emissions are already locked in.
-
-The gap exists because sustainability metrics live in the finance and ESG silo, not in operations. A plant manager optimizing for throughput and cost sees sustainability as a reporting checkbox, not a real-time constraint. So they make production calls in a vacuum. Corporate discovers the damage when it hits the scorecard.
-
-The reframe: treat emissions and energy the same way you treat scrap rate or OEE. Visibility at decision time, not audit time.
-
-When a scheduler sees their carbon footprint for a production sequence before they commit to it, the incentives flip. Sustainability becomes baked into daily trade-offs instead of bolted on after the fact. You don't need a perfect carbon accounting model to start. You need the number at the moment it matters.
-
-Real-time operational transparency is the missing link between sustainability targets and actual results.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/a5290268afcf.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/a5290268afcf.png" medium="image" type="image/png"/>
-<category>sustainability</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>

@@ -491,5 +491,14 @@
     "title": "Why your OT historians won't talk to your MES",
     "body": "Most digitalization projects assume OT historians (Wonderware, FactoryTalk) and MES systems speak the same language. They don't. The historian logs raw sensor data at 100ms intervals. The MES needs business-state transitions—when a batch actually starts, completes, fails. One is physics. One is intent. Nobody owns the translation layer.\n\nThis gap exists because historians were built to *record everything*. MES platforms were built to *act on intent*. Adding a historian as a data source without mapping the semantic difference is like plugging a fire hose into a dashboard and calling it analytics.\n\nThe fix: timestamp-anchor your MES events to historian windows, not the other way around. When your MES records \"Batch 447 started,\" find the historian datapoint (±5 seconds) where your flow rate and temperature actually changed state together. That intersection point becomes your source of truth. It forces you to define what \"started\" actually means in physics, not just in the database.\n\nHistorians and MES systems stop fighting when you stop pretending they answer the same questions.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/cf23ffd81ae0.png"
+  },
+  {
+    "id": "b675950ab6f5",
+    "ts": "2026-06-04T10:08:23.531441+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why your AI vendor keeps overselling what their model can do",
+    "body": "You ask a vendor how their AI handles your specific industrial process. They show you a benchmark on a public dataset. You deploy it. Six weeks in, it fails on your actual data in ways the benchmark never hinted at.\n\nThis isn't dishonesty—it's a structural problem. Vendors train on static datasets that are, by definition, representative of past conditions. Your process drifts. Your equipment ages. Your raw material supplier changes. The model's training data now lives in a ghost world that doesn't match what you're feeding it anymore.\n\nThe vendor's benchmark was real. It just wasn't predictive of *your* operational entropy.\n\nHere's the move: before you evaluate any AI solution, run a small degradation test. Take the vendor's model. Feed it data from three different time windows in your own process—last month, three months ago, six months ago. Watch the accuracy drop. Ask them why. If they can't explain the drift mechanism or propose a retraining cadence that fits your budget, the benchmark doesn't matter.\n\nThe vendor's confidence should match their ability to explain failure, not their test-set F1 score.",
+    "image_url": ""
   }
 ]
