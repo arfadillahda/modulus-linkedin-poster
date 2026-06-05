@@ -500,5 +500,14 @@
     "title": "Why your AI vendor keeps overselling what their model can do",
     "body": "You ask a vendor how their AI handles your specific industrial process. They show you a benchmark on a public dataset. You deploy it. Six weeks in, it fails on your actual data in ways the benchmark never hinted at.\n\nThis isn't dishonesty—it's a structural problem. Vendors train on static datasets that are, by definition, representative of past conditions. Your process drifts. Your equipment ages. Your raw material supplier changes. The model's training data now lives in a ghost world that doesn't match what you're feeding it anymore.\n\nThe vendor's benchmark was real. It just wasn't predictive of *your* operational entropy.\n\nHere's the move: before you evaluate any AI solution, run a small degradation test. Take the vendor's model. Feed it data from three different time windows in your own process—last month, three months ago, six months ago. Watch the accuracy drop. Ask them why. If they can't explain the drift mechanism or propose a retraining cadence that fits your budget, the benchmark doesn't matter.\n\nThe vendor's confidence should match their ability to explain failure, not their test-set F1 score.",
     "image_url": ""
+  },
+  {
+    "id": "4850f54a4791",
+    "ts": "2026-06-05T10:05:34.065013+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why your digitalization budget goes to the wrong layer",
+    "body": "Most manufacturing digitalization spending flows upward—cloud platforms, analytics dashboards, enterprise software. But the real friction lives lower: at the sensors, controllers, and PLCs where data gets born. That's where your signal degrades, timestamps become unreliable, and half your instrumentation still runs on proprietary protocols from 2003.\n\nWhy? Because those lower layers are invisible to the people writing checks. A VP of operations sees a shiny BI tool and understands it. Nobody gets excited about replacing a corroded RTU or standardizing how a sensor broadcasts its readings.\n\nBut here's the reframe: stop thinking of digitalization as a pyramid where you build from the cloud down. Think of it as a chain where the weakest link—usually the bottom—determines what the whole thing can do.\n\nBefore your next platform purchase, audit what's actually feeding it. If your foundation is noisy or disconnected, no dashboard will fix it.\n\nClean data at the edge beats polished reports on dirty inputs.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/4850f54a4791.png"
   }
 ]

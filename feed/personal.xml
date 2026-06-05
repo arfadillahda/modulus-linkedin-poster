@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Thu, 04 Jun 2026 10:08:23 +0000</lastBuildDate>
+<lastBuildDate>Fri, 05 Jun 2026 10:05:51 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization budget goes to the wrong layer</title>
+<guid isPermaLink="false">4850f54a4791</guid>
+<pubDate>Fri, 05 Jun 2026 10:05:34 +0000</pubDate>
+<description><![CDATA[Most manufacturing digitalization spending flows upward—cloud platforms, analytics dashboards, enterprise software. But the real friction lives lower: at the sensors, controllers, and PLCs where data gets born. That's where your signal degrades, timestamps become unreliable, and half your instrumentation still runs on proprietary protocols from 2003.
+
+Why? Because those lower layers are invisible to the people writing checks. A VP of operations sees a shiny BI tool and understands it. Nobody gets excited about replacing a corroded RTU or standardizing how a sensor broadcasts its readings.
+
+But here's the reframe: stop thinking of digitalization as a pyramid where you build from the cloud down. Think of it as a chain where the weakest link—usually the bottom—determines what the whole thing can do.
+
+Before your next platform purchase, audit what's actually feeding it. If your foundation is noisy or disconnected, no dashboard will fix it.
+
+Clean data at the edge beats polished reports on dirty inputs.]]></description>
+<content:encoded><![CDATA[Most manufacturing digitalization spending flows upward—cloud platforms, analytics dashboards, enterprise software. But the real friction lives lower: at the sensors, controllers, and PLCs where data gets born. That's where your signal degrades, timestamps become unreliable, and half your instrumentation still runs on proprietary protocols from 2003.
+
+Why? Because those lower layers are invisible to the people writing checks. A VP of operations sees a shiny BI tool and understands it. Nobody gets excited about replacing a corroded RTU or standardizing how a sensor broadcasts its readings.
+
+But here's the reframe: stop thinking of digitalization as a pyramid where you build from the cloud down. Think of it as a chain where the weakest link—usually the bottom—determines what the whole thing can do.
+
+Before your next platform purchase, audit what's actually feeding it. If your foundation is noisy or disconnected, no dashboard will fix it.
+
+Clean data at the edge beats polished reports on dirty inputs.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/4850f54a4791.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/4850f54a4791.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your AI vendor keeps overselling what their model can do</title>
 <guid isPermaLink="false">b675950ab6f5</guid>
@@ -1229,35 +1256,6 @@ Latency and throughput are not free variables—know which one your application 
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/a1b497350096.png" medium="image" type="image/png"/>
 <category>artificial intelligence</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why your sustainability plan dies at the supply tier</title>
-<guid isPermaLink="false">e1ef89addabc</guid>
-<pubDate>Fri, 01 May 2026 06:58:37 +0000</pubDate>
-<description><![CDATA[You've mapped your own emissions. You know your Scope 1 and 2 cold. Then you ask your suppliers for their data and hit a wall—spreadsheets that don't match, estimates that vary by 40%, or silence.
-
-This isn't laziness. Your suppliers have no incentive to measure what they can't monetize yet. They're running on margin, not climate targets. Asking them to instrument their operations without showing them ROI is like asking someone to install a security system in a building they're about to leave.
-
-Here's the move: stop asking for data. Start designing backwards from their constraint.
-
-Pick ONE material or process that moves your needle—maybe the steel in your product, or the coating process. Find the efficiency play that also cuts their cost. Lower energy consumption, less waste, faster cycle time. Something they already want to do. Then propose a joint measurement pilot: you fund the metering, they get the operational savings.
-
-Measurement becomes a byproduct of a deal that works for both of you.
-
-Supply chain decarbonization moves when you align incentives, not when you align spreadsheets.]]></description>
-<content:encoded><![CDATA[You've mapped your own emissions. You know your Scope 1 and 2 cold. Then you ask your suppliers for their data and hit a wall—spreadsheets that don't match, estimates that vary by 40%, or silence.
-
-This isn't laziness. Your suppliers have no incentive to measure what they can't monetize yet. They're running on margin, not climate targets. Asking them to instrument their operations without showing them ROI is like asking someone to install a security system in a building they're about to leave.
-
-Here's the move: stop asking for data. Start designing backwards from their constraint.
-
-Pick ONE material or process that moves your needle—maybe the steel in your product, or the coating process. Find the efficiency play that also cuts their cost. Lower energy consumption, less waste, faster cycle time. Something they already want to do. Then propose a joint measurement pilot: you fund the metering, they get the operational savings.
-
-Measurement becomes a byproduct of a deal that works for both of you.
-
-Supply chain decarbonization moves when you align incentives, not when you align spreadsheets.]]></content:encoded>
-<category>sustainability</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>
