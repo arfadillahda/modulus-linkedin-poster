@@ -509,5 +509,14 @@
     "title": "Why your digitalization budget goes to the wrong layer",
     "body": "Most manufacturing digitalization spending flows upward—cloud platforms, analytics dashboards, enterprise software. But the real friction lives lower: at the sensors, controllers, and PLCs where data gets born. That's where your signal degrades, timestamps become unreliable, and half your instrumentation still runs on proprietary protocols from 2003.\n\nWhy? Because those lower layers are invisible to the people writing checks. A VP of operations sees a shiny BI tool and understands it. Nobody gets excited about replacing a corroded RTU or standardizing how a sensor broadcasts its readings.\n\nBut here's the reframe: stop thinking of digitalization as a pyramid where you build from the cloud down. Think of it as a chain where the weakest link—usually the bottom—determines what the whole thing can do.\n\nBefore your next platform purchase, audit what's actually feeding it. If your foundation is noisy or disconnected, no dashboard will fix it.\n\nClean data at the edge beats polished reports on dirty inputs.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/4850f54a4791.png"
+  },
+  {
+    "id": "1b308caf8781",
+    "ts": "2026-06-07T09:28:17.278404+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why your AI project costs 3x more than estimated",
+    "body": "You budget for model training. You don't budget for data cleaning, labeling, and the three rounds of retraining when your training set doesn't match production.\n\nThis happens because we treat AI projects like software projects. With software, you write code once and it works (mostly). With AI, you're building a system that learns from data. The data preparation phase isn't a checkbox—it's 60-80% of the actual work. But it's invisible work. It doesn't ship features.\n\nSo stakeholders see months of \"just\" cleaning data and assume the team is slow. Engineers feel pressure to skip steps. Then the model fails on real data and you restart.\n\nThe reframe: stop thinking of data prep as a burden you tolerate. Start thinking of it as the actual product you're building. The model is just the mechanism that uses clean data. Once you flip that lens, you staff differently, budget differently, and measure success differently.\n\nYour timeline estimates stop being fiction once you stop pretending data prep isn't work.",
+    "image_url": ""
   }
 ]

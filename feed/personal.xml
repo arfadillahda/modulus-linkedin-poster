@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 05 Jun 2026 10:05:51 +0000</lastBuildDate>
+<lastBuildDate>Sun, 07 Jun 2026 09:28:17 +0000</lastBuildDate>
+<item>
+<title>Why your AI project costs 3x more than estimated</title>
+<guid isPermaLink="false">1b308caf8781</guid>
+<pubDate>Sun, 07 Jun 2026 09:28:17 +0000</pubDate>
+<description><![CDATA[You budget for model training. You don't budget for data cleaning, labeling, and the three rounds of retraining when your training set doesn't match production.
+
+This happens because we treat AI projects like software projects. With software, you write code once and it works (mostly). With AI, you're building a system that learns from data. The data preparation phase isn't a checkbox—it's 60-80% of the actual work. But it's invisible work. It doesn't ship features.
+
+So stakeholders see months of "just" cleaning data and assume the team is slow. Engineers feel pressure to skip steps. Then the model fails on real data and you restart.
+
+The reframe: stop thinking of data prep as a burden you tolerate. Start thinking of it as the actual product you're building. The model is just the mechanism that uses clean data. Once you flip that lens, you staff differently, budget differently, and measure success differently.
+
+Your timeline estimates stop being fiction once you stop pretending data prep isn't work.]]></description>
+<content:encoded><![CDATA[You budget for model training. You don't budget for data cleaning, labeling, and the three rounds of retraining when your training set doesn't match production.
+
+This happens because we treat AI projects like software projects. With software, you write code once and it works (mostly). With AI, you're building a system that learns from data. The data preparation phase isn't a checkbox—it's 60-80% of the actual work. But it's invisible work. It doesn't ship features.
+
+So stakeholders see months of "just" cleaning data and assume the team is slow. Engineers feel pressure to skip steps. Then the model fails on real data and you restart.
+
+The reframe: stop thinking of data prep as a burden you tolerate. Start thinking of it as the actual product you're building. The model is just the mechanism that uses clean data. Once you flip that lens, you staff differently, budget differently, and measure success differently.
+
+Your timeline estimates stop being fiction once you stop pretending data prep isn't work.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your digitalization budget goes to the wrong layer</title>
 <guid isPermaLink="false">4850f54a4791</guid>
@@ -1228,33 +1253,6 @@ The solution: establish your baseline using a *fixed supplier roster snapshot* f
 
 It's not elegant. It's honest.]]></content:encoded>
 <category>sustainability</category>
-<category>BOF</category>
-</item>
-<item>
-<title>Why your inference latency collapses at scale</title>
-<guid isPermaLink="false">a1b497350096</guid>
-<pubDate>Fri, 01 May 2026 06:59:30 +0000</pubDate>
-<description><![CDATA[You nail the model. Validation metrics look good. You deploy to production. Then real traffic hits and latency goes from 200ms to 2 seconds. You didn't change the model. The problem is batching.
-
-Most inference setups batch requests to maximize GPU throughput. That's correct. But batching introduces queueing delay. A request arriving when the batch is full waits for the entire batch to execute before it even starts. At low traffic this is invisible. At realistic traffic—especially in industrial systems with bursty demand—this dynamic latency floor dominates your p99.
-
-The mechanism: you're optimizing for throughput (requests per second) instead of latency percentiles. A batch size of 32 at 100% GPU utilization sounds efficient on a spreadsheet. In practice, you're trading steady-state throughput for tail latency that makes real applications unusable.
-
-The fix is explicit: tune your batch size and queue timeout as a trade-off, not separately. Run load tests that measure both p50 and p99 latency while varying batch size. Find where p99 stops improving per unit of throughput gained. That's your actual operating point. Usually it's smaller than you think.
-
-Latency and throughput are not free variables—know which one your application actually needs.]]></description>
-<content:encoded><![CDATA[You nail the model. Validation metrics look good. You deploy to production. Then real traffic hits and latency goes from 200ms to 2 seconds. You didn't change the model. The problem is batching.
-
-Most inference setups batch requests to maximize GPU throughput. That's correct. But batching introduces queueing delay. A request arriving when the batch is full waits for the entire batch to execute before it even starts. At low traffic this is invisible. At realistic traffic—especially in industrial systems with bursty demand—this dynamic latency floor dominates your p99.
-
-The mechanism: you're optimizing for throughput (requests per second) instead of latency percentiles. A batch size of 32 at 100% GPU utilization sounds efficient on a spreadsheet. In practice, you're trading steady-state throughput for tail latency that makes real applications unusable.
-
-The fix is explicit: tune your batch size and queue timeout as a trade-off, not separately. Run load tests that measure both p50 and p99 latency while varying batch size. Find where p99 stops improving per unit of throughput gained. That's your actual operating point. Usually it's smaller than you think.
-
-Latency and throughput are not free variables—know which one your application actually needs.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/a1b497350096.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/a1b497350096.png" medium="image" type="image/png"/>
-<category>artificial intelligence</category>
 <category>BOF</category>
 </item>
 </channel>
