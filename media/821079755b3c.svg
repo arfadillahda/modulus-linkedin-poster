@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- TOP BAND: kicker + headline (~22% = 225px) -->
+  <!-- Kicker -->
+  <text x="64" y="96" font-size="13" font-weight="600" fill="#C24A1F" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">DIGITALIZATION</text>
+
+  <!-- Headline line 1 -->
+  <text x="64" y="148" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em">Start with the business</text>
+  <!-- Headline line 2 -->
+  <text x="64" y="208" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em">problem. Then digitalize.</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="222" width="200" height="3" rx="1.5" fill="#C24A1F"/>
+
+  <!-- MIDDLE BAND: 4 tiles in 2x2 grid (~62% = 635px, y from 250 to 885) -->
+  <!-- Tile dimensions: 2 cols, 2 rows, padding 64px outer, 16px gap -->
+  <!-- col width = (1024 - 64 - 64 - 16) / 2 = (880) / 2 = 440 -->
+  <!-- row height = (635 - 16) / 2 = 309 (approx) -->
+  <!-- Tile y starts: 250, ends ~885 -->
+  <!-- Row 1 y: 250, Row 2 y: 250 + 309 + 16 = 575 -->
+
+  <!-- TILE 01 — top-left: x=64, y=250, w=440, h=309 -->
+  <rect x="64" y="250" width="440" height="309" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="314" font-size="48" font-weight="800" fill="#C24A1F" letter-spacing="-0.01em">01</text>
+  <text x="96" y="358" font-size="22" font-weight="700" fill="#111111">Technical vs. Business</text>
+  <text x="96" y="390" font-size="15" font-weight="400" fill="#3A3A3A">Engineers optimize data; business tracks margin.</text>
+  <text x="96" y="412" font-size="15" font-weight="400" fill="#3A3A3A">They speak different languages.</text>
+
+  <!-- TILE 02 — top-right: x=520, y=250, w=440, h=309 -->
+  <rect x="520" y="250" width="440" height="309" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="314" font-size="48" font-weight="800" fill="#C24A1F" letter-spacing="-0.01em">02</text>
+  <text x="552" y="358" font-size="22" font-weight="700" fill="#111111">The Real Problem</text>
+  <text x="552" y="390" font-size="15" font-weight="400" fill="#3A3A3A">Pristine pipelines that answer</text>
+  <text x="552" y="412" font-size="15" font-weight="400" fill="#3A3A3A">nobody's actual question.</text>
+
+  <!-- TILE 03 — bottom-left: x=64, y=575, w=440, h=309 -->
+  <rect x="64" y="575" width="440" height="309" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="639" font-size="48" font-weight="800" fill="#C24A1F" letter-spacing="-0.01em">03</text>
+  <text x="96" y="683" font-size="22" font-weight="700" fill="#111111">Reverse the Order</text>
+  <text x="96" y="715" font-size="15" font-weight="400" fill="#3A3A3A">Pick one metric first — say,</text>
+  <text x="96" y="737" font-size="15" font-weight="400" fill="#3A3A3A">cost per unit on Line 7.</text>
+
+  <!-- TILE 04 — bottom-right: x=520, y=575, w=440, h=309 -->
+  <rect x="520" y="575" width="440" height="309" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="639" font-size="48" font-weight="800" fill="#C24A1F" letter-spacing="-0.01em">04</text>
+  <text x="552" y="683" font-size="22" font-weight="700" fill="#111111">Work Backward</text>
+  <text x="552" y="715" font-size="15" font-weight="400" fill="#3A3A3A">What data feeds that metric?</text>
+  <text x="552" y="737" font-size="15" font-weight="400" fill="#3A3A3A">Only then spec your sensors.</text>
+
+  <!-- BOTTOM BAND: hairline + closing line (~16% = 884–1024) -->
+  <line x1="64" y1="904" x2="960" y2="904" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="966" font-size="20" font-weight="600" fill="#3A3A3A" text-anchor="middle" letter-spacing="0.01em">Close the gap between what you measure and what matters.</text>
+
+</svg>

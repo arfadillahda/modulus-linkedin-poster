@@ -518,5 +518,14 @@
     "title": "Why your AI project costs 3x more than estimated",
     "body": "You budget for model training. You don't budget for data cleaning, labeling, and the three rounds of retraining when your training set doesn't match production.\n\nThis happens because we treat AI projects like software projects. With software, you write code once and it works (mostly). With AI, you're building a system that learns from data. The data preparation phase isn't a checkbox—it's 60-80% of the actual work. But it's invisible work. It doesn't ship features.\n\nSo stakeholders see months of \"just\" cleaning data and assume the team is slow. Engineers feel pressure to skip steps. Then the model fails on real data and you restart.\n\nThe reframe: stop thinking of data prep as a burden you tolerate. Start thinking of it as the actual product you're building. The model is just the mechanism that uses clean data. Once you flip that lens, you staff differently, budget differently, and measure success differently.\n\nYour timeline estimates stop being fiction once you stop pretending data prep isn't work.",
     "image_url": ""
+  },
+  {
+    "id": "821079755b3c",
+    "ts": "2026-06-08T11:12:04.117470+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why your digitalization roadmap ignores what actually matters",
+    "body": "You've mapped out three years of digitalization work. Sensors, APIs, dashboards, the works. Then six months in, the plant manager asks why none of it tells him if he's making money on that product line. And you realize: you built a technical roadmap, not a business roadmap.\n\nThis happens because digitalization teams and business teams speak different languages. Engineers optimize for data completeness and system elegance. Business cares about margin, throughput, or defect cost. So you end up with pristine data pipelines that answer nobody's actual question.\n\nThe fix is simple: reverse the order. Start with the business metric that matters (take one—say, cost per unit on Line 7). Then work backward. What operational data feeds that metric? What's missing? Only then do you spec the sensors, the historian, the schema.\n\nIt's not sexy. But it means your digitalization spend actually closes the gap between what you measure and what you care about.\n\nBuild the business problem first, then digitalize around it.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/821079755b3c.png"
   }
 ]

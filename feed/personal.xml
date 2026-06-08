@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Sun, 07 Jun 2026 09:28:17 +0000</lastBuildDate>
+<lastBuildDate>Mon, 08 Jun 2026 11:12:23 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization roadmap ignores what actually matters</title>
+<guid isPermaLink="false">821079755b3c</guid>
+<pubDate>Mon, 08 Jun 2026 11:12:04 +0000</pubDate>
+<description><![CDATA[You've mapped out three years of digitalization work. Sensors, APIs, dashboards, the works. Then six months in, the plant manager asks why none of it tells him if he's making money on that product line. And you realize: you built a technical roadmap, not a business roadmap.
+
+This happens because digitalization teams and business teams speak different languages. Engineers optimize for data completeness and system elegance. Business cares about margin, throughput, or defect cost. So you end up with pristine data pipelines that answer nobody's actual question.
+
+The fix is simple: reverse the order. Start with the business metric that matters (take one—say, cost per unit on Line 7). Then work backward. What operational data feeds that metric? What's missing? Only then do you spec the sensors, the historian, the schema.
+
+It's not sexy. But it means your digitalization spend actually closes the gap between what you measure and what you care about.
+
+Build the business problem first, then digitalize around it.]]></description>
+<content:encoded><![CDATA[You've mapped out three years of digitalization work. Sensors, APIs, dashboards, the works. Then six months in, the plant manager asks why none of it tells him if he's making money on that product line. And you realize: you built a technical roadmap, not a business roadmap.
+
+This happens because digitalization teams and business teams speak different languages. Engineers optimize for data completeness and system elegance. Business cares about margin, throughput, or defect cost. So you end up with pristine data pipelines that answer nobody's actual question.
+
+The fix is simple: reverse the order. Start with the business metric that matters (take one—say, cost per unit on Line 7). Then work backward. What operational data feeds that metric? What's missing? Only then do you spec the sensors, the historian, the schema.
+
+It's not sexy. But it means your digitalization spend actually closes the gap between what you measure and what you care about.
+
+Build the business problem first, then digitalize around it.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/821079755b3c.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/821079755b3c.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your AI project costs 3x more than estimated</title>
 <guid isPermaLink="false">1b308caf8781</guid>
@@ -1232,27 +1259,6 @@ Buffer depth is a non-negotiable constraint, not a nice-to-have config.]]></cont
 <enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/96d4968e569a.png" type="image/png" length="0"/>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/96d4968e569a.png" medium="image" type="image/png"/>
 <category>digitalization</category>
-<category>BOF</category>
-</item>
-<item>
-<title>Why your Scope 3 baseline is mathematically indefensible</title>
-<guid isPermaLink="false">c7de1a29e4af</guid>
-<pubDate>Fri, 01 May 2026 07:06:10 +0000</pubDate>
-<description><![CDATA[You've measured your supply chain emissions. You've set a reduction target. Then an auditor asks: what was your baseline year's methodology, and why is 2019 comparable to 2024 given supplier consolidation, product mix shift, and geographic sourcing changes? You can't answer cleanly. This is the edge case that kills most corporate sustainability claims.
-
-The problem isn't laziness. It's that Scope 3 baselines require you to retroactively apply *today's* supplier data to *yesterday's* spend patterns—but suppliers change composition, efficiency, and coverage every year. You're forced to either lock in a defensible-but-obsolete baseline or keep recalculating it (which violates the whole point of a baseline). Most teams pick one and don't disclose the choice.
-
-The solution: establish your baseline using a *fixed supplier roster snapshot* from your chosen year, then separately track two streams—actual emissions (moving suppliers) and like-for-like emissions (frozen supplier set). The gap between them isn't noise; it's structural change. Report both. Your target applies to the frozen set; the delta tells you what's being driven by decisions versus circumstances.
-
-It's not elegant. It's honest.]]></description>
-<content:encoded><![CDATA[You've measured your supply chain emissions. You've set a reduction target. Then an auditor asks: what was your baseline year's methodology, and why is 2019 comparable to 2024 given supplier consolidation, product mix shift, and geographic sourcing changes? You can't answer cleanly. This is the edge case that kills most corporate sustainability claims.
-
-The problem isn't laziness. It's that Scope 3 baselines require you to retroactively apply *today's* supplier data to *yesterday's* spend patterns—but suppliers change composition, efficiency, and coverage every year. You're forced to either lock in a defensible-but-obsolete baseline or keep recalculating it (which violates the whole point of a baseline). Most teams pick one and don't disclose the choice.
-
-The solution: establish your baseline using a *fixed supplier roster snapshot* from your chosen year, then separately track two streams—actual emissions (moving suppliers) and like-for-like emissions (frozen supplier set). The gap between them isn't noise; it's structural change. Report both. Your target applies to the frozen set; the delta tells you what's being driven by decisions versus circumstances.
-
-It's not elegant. It's honest.]]></content:encoded>
-<category>sustainability</category>
 <category>BOF</category>
 </item>
 </channel>
