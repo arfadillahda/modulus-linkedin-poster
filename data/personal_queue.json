@@ -527,5 +527,14 @@
     "title": "Why your digitalization roadmap ignores what actually matters",
     "body": "You've mapped out three years of digitalization work. Sensors, APIs, dashboards, the works. Then six months in, the plant manager asks why none of it tells him if he's making money on that product line. And you realize: you built a technical roadmap, not a business roadmap.\n\nThis happens because digitalization teams and business teams speak different languages. Engineers optimize for data completeness and system elegance. Business cares about margin, throughput, or defect cost. So you end up with pristine data pipelines that answer nobody's actual question.\n\nThe fix is simple: reverse the order. Start with the business metric that matters (take one—say, cost per unit on Line 7). Then work backward. What operational data feeds that metric? What's missing? Only then do you spec the sensors, the historian, the schema.\n\nIt's not sexy. But it means your digitalization spend actually closes the gap between what you measure and what you care about.\n\nBuild the business problem first, then digitalize around it.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/821079755b3c.png"
+  },
+  {
+    "id": "ce2fa0dc62db",
+    "ts": "2026-06-09T09:58:15.128640+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why your sustainability team talks past your operations team",
+    "body": "Your sustainability manager says you need to cut energy by 30%. Your plant manager says that kills throughput by 15%. Both are right, and that's the problem.\n\nThis happens because sustainability gets treated as a constraint on operations instead of a variable within it. You're asking \"how do we make this plant greener?\" when the real question is \"what does this plant actually optimize for?\" A plant optimizes for cost, uptime, and output—usually in that order. Bolt sustainability onto that system and you get friction, not progress.\n\nHere's the reframe: sustainability isn't a compliance layer. It's a design parameter that changes what \"optimal\" means. Not by adding rules—by redefining the trade-offs.\n\nInstead of asking operations to sacrifice output for emissions, ask: what if we redesigned the process so lower emissions *is* the path to better margins? Not through carbon pricing or penalties, but through real efficiency. Waste heat recovery, material consolidation, cycle time reduction—moves that shrink your footprint *and* your P&L.\n\nThe moment operations sees sustainability as profit-aligned, not profit-hostile, the conversation shifts.\n\nYour team's disagreement isn't a sustainability problem—it's a design problem.",
+    "image_url": ""
   }
 ]
