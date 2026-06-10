@@ -536,5 +536,14 @@
     "title": "Why your sustainability team talks past your operations team",
     "body": "Your sustainability manager says you need to cut energy by 30%. Your plant manager says that kills throughput by 15%. Both are right, and that's the problem.\n\nThis happens because sustainability gets treated as a constraint on operations instead of a variable within it. You're asking \"how do we make this plant greener?\" when the real question is \"what does this plant actually optimize for?\" A plant optimizes for cost, uptime, and output—usually in that order. Bolt sustainability onto that system and you get friction, not progress.\n\nHere's the reframe: sustainability isn't a compliance layer. It's a design parameter that changes what \"optimal\" means. Not by adding rules—by redefining the trade-offs.\n\nInstead of asking operations to sacrifice output for emissions, ask: what if we redesigned the process so lower emissions *is* the path to better margins? Not through carbon pricing or penalties, but through real efficiency. Waste heat recovery, material consolidation, cycle time reduction—moves that shrink your footprint *and* your P&L.\n\nThe moment operations sees sustainability as profit-aligned, not profit-hostile, the conversation shifts.\n\nYour team's disagreement isn't a sustainability problem—it's a design problem.",
     "image_url": ""
+  },
+  {
+    "id": "0ac01c263240",
+    "ts": "2026-06-10T10:16:19.110604+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why your sustainability initiative stalls after year one",
+    "body": "You launch a sustainability program with real conviction. Eighteen months later it's a compliance checkbox and everyone's moved on to the next thing.\n\nThe pattern I see: you optimize for the wrong metric early on. Usually it's either cost savings (so when the easy wins dry up, momentum dies) or pure emissions reduction (so when the effort scales, the business case collapses). You've picked a goal that doesn't align with what actually keeps your organization moving.\n\nHere's a frame that works: separate your sustainability work into three buckets by horizon. Immediate (things that cut costs or risk within 12 months). Medium-term (where emissions reduction starts unlocking new market access or regulatory advantage). Long-term (the stuff that's genuinely transformative but takes five years).\n\nThen ruthlessly staff and fund them differently. Don't ask your cost-focused finance team to champion a five-year carbon play. Don't ask your innovation team to care about a 3% energy efficiency win.\n\nDifferent time horizons need different stakeholders, or the whole thing collapses when priorities shift.\n\nAlignment on timeline beats alignment on vision every time.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/0ac01c263240.png"
   }
 ]

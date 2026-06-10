@@ -1,0 +1,77 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- Top Band -->
+  <g>
+    <!-- Kicker -->
+    <text x="64" y="96" font-size="13" font-weight="600" fill="#1F5C3D" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">SUSTAINABILITY</text>
+
+    <!-- Headline line 1 -->
+    <text x="64" y="152" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em">Sustainability stalls when</text>
+    <!-- Headline line 2 -->
+    <text x="64" y="210" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em">horizons get mixed up.</text>
+
+    <!-- Accent underline -->
+    <line x1="64" y1="222" x2="360" y2="222" stroke="#1F5C3D" stroke-width="2.5"/>
+  </g>
+
+  <!-- Middle Band: 2x2 grid of 4 tiles + 1 wide bottom tile = 5 tiles total -->
+  <!-- Layout: top row 2 tall tiles, bottom row 3 shorter tiles -->
+
+  <!-- Tile measurements:
+       Outer padding: 64px
+       Usable width: 1024 - 128 = 896px
+       Top band ends ~230px, bottom band starts ~860px
+       Middle band: 230 to 860 = 630px tall
+       Gap: 16px
+       Top row: 2 tiles, height ~295px
+       Bottom row: 3 tiles, height ~295px (630 - 16 = 614, 614/2 = 307 each, minus some)
+       Actually: 630px - 16px gap = 614px / 2 = 307px each row
+       Top row 2 tiles: width = (896 - 16) / 2 = 440px each
+       Bottom row 3 tiles: width = (896 - 32) / 3 = 288px each
+  -->
+
+  <!-- TOP ROW TILES -->
+
+  <!-- Tile 01 -->
+  <rect x="64" y="244" width="440" height="307" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="294" font-size="38" font-weight="800" fill="#1F5C3D">01</text>
+  <text x="92" y="333" font-size="20" font-weight="700" fill="#111111">Wrong Metric Early</text>
+  <text x="92" y="362" font-size="15" font-weight="400" fill="#3A3A3A">Optimizing for cost or emissions alone kills momentum.</text>
+
+  <!-- Tile 02 -->
+  <rect x="520" y="244" width="440" height="307" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="294" font-size="38" font-weight="800" fill="#1F5C3D">02</text>
+  <text x="548" y="333" font-size="20" font-weight="700" fill="#111111">Three Time Horizons</text>
+  <text x="548" y="362" font-size="15" font-weight="400" fill="#3A3A3A">Immediate, medium-term, and long-term need separation.</text>
+
+  <!-- BOTTOM ROW TILES -->
+
+  <!-- Tile 03 -->
+  <rect x="64" y="567" width="288" height="277" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="88" y="614" font-size="34" font-weight="800" fill="#1F5C3D">03</text>
+  <text x="88" y="648" font-size="18" font-weight="700" fill="#111111">Fund Them Apart</text>
+  <text x="88" y="673" font-size="14" font-weight="400" fill="#3A3A3A">Different horizons need</text>
+  <text x="88" y="692" font-size="14" font-weight="400" fill="#3A3A3A">different budgets and staff.</text>
+
+  <!-- Tile 04 -->
+  <rect x="368" y="567" width="288" height="277" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="392" y="614" font-size="34" font-weight="800" fill="#1F5C3D">04</text>
+  <text x="392" y="648" font-size="18" font-weight="700" fill="#111111">Match Stakeholders</text>
+  <text x="392" y="673" font-size="14" font-weight="400" fill="#3A3A3A">Finance owns quick wins;</text>
+  <text x="392" y="692" font-size="14" font-weight="400" fill="#3A3A3A">innovation owns the long game.</text>
+
+  <!-- Tile 05 -->
+  <rect x="672" y="567" width="288" height="277" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="696" y="614" font-size="34" font-weight="800" fill="#1F5C3D">05</text>
+  <text x="696" y="648" font-size="18" font-weight="700" fill="#111111">Timeline Over Vision</text>
+  <text x="696" y="673" font-size="14" font-weight="400" fill="#3A3A3A">Shared timelines hold teams</text>
+  <text x="696" y="692" font-size="14" font-weight="400" fill="#3A3A3A">together when priorities shift.</text>
+
+  <!-- Bottom Band -->
+  <line x1="64" y1="872" x2="960" y2="872" stroke="#11111118" stroke-width="1"/>
+  <text x="512" y="916" font-size="19" font-weight="400" fill="#3A3A3A" text-anchor="middle" letter-spacing="0.01em">Alignment on timeline beats alignment on vision.</text>
+
+</svg>
