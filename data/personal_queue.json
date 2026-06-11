@@ -545,5 +545,14 @@
     "title": "Why your sustainability initiative stalls after year one",
     "body": "You launch a sustainability program with real conviction. Eighteen months later it's a compliance checkbox and everyone's moved on to the next thing.\n\nThe pattern I see: you optimize for the wrong metric early on. Usually it's either cost savings (so when the easy wins dry up, momentum dies) or pure emissions reduction (so when the effort scales, the business case collapses). You've picked a goal that doesn't align with what actually keeps your organization moving.\n\nHere's a frame that works: separate your sustainability work into three buckets by horizon. Immediate (things that cut costs or risk within 12 months). Medium-term (where emissions reduction starts unlocking new market access or regulatory advantage). Long-term (the stuff that's genuinely transformative but takes five years).\n\nThen ruthlessly staff and fund them differently. Don't ask your cost-focused finance team to champion a five-year carbon play. Don't ask your innovation team to care about a 3% energy efficiency win.\n\nDifferent time horizons need different stakeholders, or the whole thing collapses when priorities shift.\n\nAlignment on timeline beats alignment on vision every time.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/0ac01c263240.png"
+  },
+  {
+    "id": "8512be2d280b",
+    "ts": "2026-06-11T10:50:58.740218+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why your inference latency numbers are lying to you",
+    "body": "You benchmark your model at 45ms per request in the lab. Then it hits production and suddenly you're seeing 200ms p95 latencies. You blame the infrastructure team. They blame you.\n\nThe real culprit: you measured single-request latency, not concurrent throughput under load. Most ML frameworks (PyTorch, TensorFlow) don't linearly degrade—they hit a saturation cliff where batch queuing and GPU context switching explode your tail latencies. Your 45ms becomes 200ms not because the model got slower, but because six requests are now competing for the same VRAM and scheduler.\n\nHere's what actually matters: measure p95 latency at the actual request rate you'll see in production. Not 1 req/sec. Not your peak estimate. Your 50th percentile concurrent load. Then subtract 20% as a safety margin—you'll need it.\n\nIf you only profile single-request performance, you're optimizing for a scenario that doesn't exist.\n\nMeasure what you'll actually run, not what's easiest to measure.",
+    "image_url": ""
   }
 ]

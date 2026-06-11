@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Wed, 10 Jun 2026 10:16:41 +0000</lastBuildDate>
+<lastBuildDate>Thu, 11 Jun 2026 10:50:58 +0000</lastBuildDate>
+<item>
+<title>Why your inference latency numbers are lying to you</title>
+<guid isPermaLink="false">8512be2d280b</guid>
+<pubDate>Thu, 11 Jun 2026 10:50:58 +0000</pubDate>
+<description><![CDATA[You benchmark your model at 45ms per request in the lab. Then it hits production and suddenly you're seeing 200ms p95 latencies. You blame the infrastructure team. They blame you.
+
+The real culprit: you measured single-request latency, not concurrent throughput under load. Most ML frameworks (PyTorch, TensorFlow) don't linearly degrade—they hit a saturation cliff where batch queuing and GPU context switching explode your tail latencies. Your 45ms becomes 200ms not because the model got slower, but because six requests are now competing for the same VRAM and scheduler.
+
+Here's what actually matters: measure p95 latency at the actual request rate you'll see in production. Not 1 req/sec. Not your peak estimate. Your 50th percentile concurrent load. Then subtract 20% as a safety margin—you'll need it.
+
+If you only profile single-request performance, you're optimizing for a scenario that doesn't exist.
+
+Measure what you'll actually run, not what's easiest to measure.]]></description>
+<content:encoded><![CDATA[You benchmark your model at 45ms per request in the lab. Then it hits production and suddenly you're seeing 200ms p95 latencies. You blame the infrastructure team. They blame you.
+
+The real culprit: you measured single-request latency, not concurrent throughput under load. Most ML frameworks (PyTorch, TensorFlow) don't linearly degrade—they hit a saturation cliff where batch queuing and GPU context switching explode your tail latencies. Your 45ms becomes 200ms not because the model got slower, but because six requests are now competing for the same VRAM and scheduler.
+
+Here's what actually matters: measure p95 latency at the actual request rate you'll see in production. Not 1 req/sec. Not your peak estimate. Your 50th percentile concurrent load. Then subtract 20% as a safety margin—you'll need it.
+
+If you only profile single-request performance, you're optimizing for a scenario that doesn't exist.
+
+Measure what you'll actually run, not what's easiest to measure.]]></content:encoded>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your sustainability initiative stalls after year one</title>
 <guid isPermaLink="false">0ac01c263240</guid>
@@ -1244,33 +1269,6 @@ The reframe: Stop treating the model as the unit of work. Treat the decision as 
 
 Accuracy is a technical detail. Decision quality is the product.]]></content:encoded>
 <category>artificial intelligence</category>
-<category>TOF</category>
-</item>
-<item>
-<title>Why your digitalization feels disconnected from reality</title>
-<guid isPermaLink="false">a3b80dcc4d5f</guid>
-<pubDate>Fri, 01 May 2026 11:58:30 +0000</pubDate>
-<description><![CDATA[Most industrial companies treat digitalization as a technology project instead of a process redesign project. You buy sensors, hire data engineers, build dashboards—and six months in, the floor is still making decisions the old way.
-
-This happens because digitalization roadmaps are written by people who don't spend time on the shop floor. They optimize for data completeness and system elegance, not for whether a shift supervisor can actually *use* the information to make a faster or safer decision. The gap between "we have the data" and "we changed behavior" is where digitalization dies.
-
-Here's the reframe: digitalization isn't about collecting more truth. It's about shortening the feedback loop between a process change and its measurable outcome. Start there instead of the database schema. Ask: what decision is actually stuck right now because information moves too slowly? Then build backward from that single decision to the minimal data pipeline that serves it.
-
-You'll end up with less infrastructure, faster adoption, and something that actually moves the needle.
-
-Digitalization succeeds when it answers a question someone on the floor is already asking.]]></description>
-<content:encoded><![CDATA[Most industrial companies treat digitalization as a technology project instead of a process redesign project. You buy sensors, hire data engineers, build dashboards—and six months in, the floor is still making decisions the old way.
-
-This happens because digitalization roadmaps are written by people who don't spend time on the shop floor. They optimize for data completeness and system elegance, not for whether a shift supervisor can actually *use* the information to make a faster or safer decision. The gap between "we have the data" and "we changed behavior" is where digitalization dies.
-
-Here's the reframe: digitalization isn't about collecting more truth. It's about shortening the feedback loop between a process change and its measurable outcome. Start there instead of the database schema. Ask: what decision is actually stuck right now because information moves too slowly? Then build backward from that single decision to the minimal data pipeline that serves it.
-
-You'll end up with less infrastructure, faster adoption, and something that actually moves the needle.
-
-Digitalization succeeds when it answers a question someone on the floor is already asking.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/a3b80dcc4d5f.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/a3b80dcc4d5f.png" medium="image" type="image/png"/>
-<category>digitalization</category>
 <category>TOF</category>
 </item>
 </channel>
