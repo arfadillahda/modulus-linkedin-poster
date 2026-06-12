@@ -4,7 +4,30 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Thu, 11 Jun 2026 10:50:58 +0000</lastBuildDate>
+<lastBuildDate>Fri, 12 Jun 2026 10:26:03 +0000</lastBuildDate>
+<item>
+<title>Why your sustainability KPI baseline year is corrupting your math</title>
+<guid isPermaLink="false">9513044af5c3</guid>
+<pubDate>Fri, 12 Jun 2026 10:25:42 +0000</pubDate>
+<description><![CDATA[You pick 2020 as your baseline year for carbon reduction targets, then wonder why your 2024 numbers look artificially good. The problem isn't dishonesty—it's that you're measuring against a year when your supply chain was fractured, energy prices were inverted, and half your team worked from home.
+
+Your baseline captures temporary market friction, not your actual operational footprint. When things normalize (and they do), you're comparing normalized operations against a depressed baseline. Your 30% reduction target becomes 8% when you account for that gap. The math still works on paper. The credibility doesn't.
+
+Instead, use a rolling normalization window. Measure your baseline not as a single year but as a 3-year pre-target average adjusted for production volume and energy grid carbon intensity. This kills the baseline gaming before it starts. You're no longer measuring yourself against a lucky year—you're measuring against your actual operating mode.
+
+Pick your baseline by what you can defend to an auditor, not what makes year-one targets feel achievable.]]></description>
+<content:encoded><![CDATA[You pick 2020 as your baseline year for carbon reduction targets, then wonder why your 2024 numbers look artificially good. The problem isn't dishonesty—it's that you're measuring against a year when your supply chain was fractured, energy prices were inverted, and half your team worked from home.
+
+Your baseline captures temporary market friction, not your actual operational footprint. When things normalize (and they do), you're comparing normalized operations against a depressed baseline. Your 30% reduction target becomes 8% when you account for that gap. The math still works on paper. The credibility doesn't.
+
+Instead, use a rolling normalization window. Measure your baseline not as a single year but as a 3-year pre-target average adjusted for production volume and energy grid carbon intensity. This kills the baseline gaming before it starts. You're no longer measuring yourself against a lucky year—you're measuring against your actual operating mode.
+
+Pick your baseline by what you can defend to an auditor, not what makes year-one targets feel achievable.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/9513044af5c3.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/9513044af5c3.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your inference latency numbers are lying to you</title>
 <guid isPermaLink="false">8512be2d280b</guid>
@@ -1245,31 +1268,6 @@ Pilots that abstract early don't stall.]]></content:encoded>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/54a40df5e83b.png" medium="image" type="image/png"/>
 <category>digitalization</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why your AI team keeps building the wrong thing</title>
-<guid isPermaLink="false">cfb8f0a62aff</guid>
-<pubDate>Fri, 01 May 2026 12:03:40 +0000</pubDate>
-<description><![CDATA[Most AI teams optimize for model accuracy. They run validation splits, tune hyperparameters, chase SOTA benchmarks. Then the model ships and nobody uses it.
-
-The disconnect isn't about engineering rigor. It's that accuracy measures what the model predicts well, not what the business needs predicted. A model can be 94% accurate and still worthless if it's predicting the wrong target variable or at the wrong frequency for the decision it's supposed to support.
-
-This happens because accuracy is decoupled from the actual failure cost. In manufacturing, predicting equipment failure with 90% precision might be useless if false positives trigger expensive maintenance. In supply chain, a forecast 95% accurate at weekly granularity doesn't help if you need daily decisions.
-
-The reframe: Stop treating the model as the unit of work. Treat the decision as the unit of work. Ask first: what choice does this model inform, and how wrong can it be before the choice breaks? That backwards constraint — decision first, model second — changes what you optimize for entirely.
-
-Accuracy is a technical detail. Decision quality is the product.]]></description>
-<content:encoded><![CDATA[Most AI teams optimize for model accuracy. They run validation splits, tune hyperparameters, chase SOTA benchmarks. Then the model ships and nobody uses it.
-
-The disconnect isn't about engineering rigor. It's that accuracy measures what the model predicts well, not what the business needs predicted. A model can be 94% accurate and still worthless if it's predicting the wrong target variable or at the wrong frequency for the decision it's supposed to support.
-
-This happens because accuracy is decoupled from the actual failure cost. In manufacturing, predicting equipment failure with 90% precision might be useless if false positives trigger expensive maintenance. In supply chain, a forecast 95% accurate at weekly granularity doesn't help if you need daily decisions.
-
-The reframe: Stop treating the model as the unit of work. Treat the decision as the unit of work. Ask first: what choice does this model inform, and how wrong can it be before the choice breaks? That backwards constraint — decision first, model second — changes what you optimize for entirely.
-
-Accuracy is a technical detail. Decision quality is the product.]]></content:encoded>
-<category>artificial intelligence</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>

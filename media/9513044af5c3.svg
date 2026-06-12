@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1024 1024" width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- TOP BAND -->
+  <!-- Kicker -->
+  <text x="64" y="88" font-size="13" font-weight="600" fill="#1F5C3D" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">SUSTAINABILITY</text>
+
+  <!-- Display Headline -->
+  <text x="64" y="140" font-size="46" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Your baseline year is</text>
+  <text x="64" y="193" font-size="46" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">lying to your auditors</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="205" width="180" height="3" rx="1.5" fill="#1F5C3D"/>
+
+  <!-- MIDDLE BAND: 4 tiles in 2x2 grid -->
+  <!-- Tile dimensions: 2 cols, 2 rows, outer padding 64, gap 16 -->
+  <!-- col width = (1024 - 64 - 64 - 16) / 2 = 440 -->
+  <!-- row height = ~200px each, starting y ~240 -->
+
+  <!-- Tile 01 — top left: x=64, y=240, w=440, h=200 -->
+  <rect x="64" y="240" width="440" height="200" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="288" font-size="38" font-weight="800" fill="#1F5C3D">01</text>
+  <text x="92" y="320" font-size="18" font-weight="700" fill="#111111">Broken Baseline Year</text>
+  <text x="92" y="347" font-size="14" font-weight="400" fill="#3A3A3A">2020 captured friction, not real operations</text>
+  <text x="92" y="368" font-size="14" font-weight="400" fill="#3A3A3A">— fractured supply chains, inverted energy.</text>
+  <text x="92" y="407" font-size="12" font-weight="400" fill="#3A3A3A" letter-spacing="0.02em">CAUSE</text>
+
+  <!-- Tile 02 — top right: x=520, y=240, w=440, h=200 -->
+  <rect x="520" y="240" width="440" height="200" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="288" font-size="38" font-weight="800" fill="#1F5C3D">02</text>
+  <text x="548" y="320" font-size="18" font-weight="700" fill="#111111">The Normalization Gap</text>
+  <text x="548" y="347" font-size="14" font-weight="400" fill="#3A3A3A">30% target shrinks to 8% once ops</text>
+  <text x="548" y="368" font-size="14" font-weight="400" fill="#3A3A3A">normalize. Math works. Credibility doesn't.</text>
+  <text x="548" y="407" font-size="12" font-weight="400" fill="#3A3A3A" letter-spacing="0.02em">MECHANISM</text>
+
+  <!-- Tile 03 — bottom left: x=64, y=456, w=440, h=200 -->
+  <rect x="64" y="456" width="440" height="200" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="504" font-size="38" font-weight="800" fill="#1F5C3D">03</text>
+  <text x="92" y="536" font-size="18" font-weight="700" fill="#111111">Rolling 3-Year Window</text>
+  <text x="92" y="563" font-size="14" font-weight="400" fill="#3A3A3A">Average three pre-target years, adjusted for</text>
+  <text x="92" y="584" font-size="14" font-weight="400" fill="#3A3A3A">volume and grid carbon intensity.</text>
+  <text x="92" y="623" font-size="12" font-weight="400" fill="#3A3A3A" letter-spacing="0.02em">FIX</text>
+
+  <!-- Tile 04 — bottom right: x=520, y=456, w=440, h=200 -->
+  <rect x="520" y="456" width="440" height="200" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="504" font-size="38" font-weight="800" fill="#1F5C3D">04</text>
+  <text x="548" y="536" font-size="18" font-weight="700" fill="#111111">The Auditor Test</text>
+  <text x="548" y="563" font-size="14" font-weight="400" fill="#3A3A3A">Pick the baseline you can defend,</text>
+  <text x="548" y="584" font-size="14" font-weight="400" fill="#3A3A3A">not the one that inflates year one.</text>
+  <text x="548" y="623" font-size="12" font-weight="400" fill="#3A3A3A" letter-spacing="0.02em">STANDARD</text>
+
+  <!-- BOTTOM BAND -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="700" x2="960" y2="700" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="760" font-size="22" font-weight="700" fill="#3A3A3A" text-anchor="middle" letter-spacing="-0.01em">Measure against your operating mode, not a lucky year.</text>
+
+</svg>

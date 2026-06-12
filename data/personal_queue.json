@@ -554,5 +554,14 @@
     "title": "Why your inference latency numbers are lying to you",
     "body": "You benchmark your model at 45ms per request in the lab. Then it hits production and suddenly you're seeing 200ms p95 latencies. You blame the infrastructure team. They blame you.\n\nThe real culprit: you measured single-request latency, not concurrent throughput under load. Most ML frameworks (PyTorch, TensorFlow) don't linearly degrade—they hit a saturation cliff where batch queuing and GPU context switching explode your tail latencies. Your 45ms becomes 200ms not because the model got slower, but because six requests are now competing for the same VRAM and scheduler.\n\nHere's what actually matters: measure p95 latency at the actual request rate you'll see in production. Not 1 req/sec. Not your peak estimate. Your 50th percentile concurrent load. Then subtract 20% as a safety margin—you'll need it.\n\nIf you only profile single-request performance, you're optimizing for a scenario that doesn't exist.\n\nMeasure what you'll actually run, not what's easiest to measure.",
     "image_url": ""
+  },
+  {
+    "id": "9513044af5c3",
+    "ts": "2026-06-12T10:25:42.316825+00:00",
+    "topic": "sustainability",
+    "stage": "BOF",
+    "title": "Why your sustainability KPI baseline year is corrupting your math",
+    "body": "You pick 2020 as your baseline year for carbon reduction targets, then wonder why your 2024 numbers look artificially good. The problem isn't dishonesty—it's that you're measuring against a year when your supply chain was fractured, energy prices were inverted, and half your team worked from home.\n\nYour baseline captures temporary market friction, not your actual operational footprint. When things normalize (and they do), you're comparing normalized operations against a depressed baseline. Your 30% reduction target becomes 8% when you account for that gap. The math still works on paper. The credibility doesn't.\n\nInstead, use a rolling normalization window. Measure your baseline not as a single year but as a 3-year pre-target average adjusted for production volume and energy grid carbon intensity. This kills the baseline gaming before it starts. You're no longer measuring yourself against a lucky year—you're measuring against your actual operating mode.\n\nPick your baseline by what you can defend to an auditor, not what makes year-one targets feel achievable.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/9513044af5c3.png"
   }
 ]
