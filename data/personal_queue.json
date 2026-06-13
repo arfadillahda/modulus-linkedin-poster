@@ -563,5 +563,14 @@
     "title": "Why your sustainability KPI baseline year is corrupting your math",
     "body": "You pick 2020 as your baseline year for carbon reduction targets, then wonder why your 2024 numbers look artificially good. The problem isn't dishonesty—it's that you're measuring against a year when your supply chain was fractured, energy prices were inverted, and half your team worked from home.\n\nYour baseline captures temporary market friction, not your actual operational footprint. When things normalize (and they do), you're comparing normalized operations against a depressed baseline. Your 30% reduction target becomes 8% when you account for that gap. The math still works on paper. The credibility doesn't.\n\nInstead, use a rolling normalization window. Measure your baseline not as a single year but as a 3-year pre-target average adjusted for production volume and energy grid carbon intensity. This kills the baseline gaming before it starts. You're no longer measuring yourself against a lucky year—you're measuring against your actual operating mode.\n\nPick your baseline by what you can defend to an auditor, not what makes year-one targets feel achievable.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/9513044af5c3.png"
+  },
+  {
+    "id": "5362adff1315",
+    "ts": "2026-06-13T09:27:40.997985+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why your digitalization scope creep happens at the schema layer",
+    "body": "Most digitalization projects balloon because teams define data schemas before mapping their actual decision gates. You end up collecting 47 fields when you need 3, then spending months explaining why the system feels slow and nobody trusts it.\n\nThe mechanism: engineers build schemas to capture \"everything that might matter.\" Business stakeholders don't push back because they don't understand the cost of each field—storage, latency, validation rules, audit trails. By month four, you're optimizing a bloated structure instead of solving the real problem.\n\nHere's the move: start with a decision requirement table. For each operational decision your plant actually makes (\"Do we run this shift?\" \"Is this part in spec?\" \"Should we queue this order?\"), write down the minimum data needed to make it. Only those fields go into your schema. Everything else is optional, added later if evidence justifies it.\n\nYou'll cut your schema by 60%. Your queries run faster. People trust it because it doesn't feel like a black box.\n\nDigitalization speed comes from constraint, not comprehensiveness.",
+    "image_url": ""
   }
 ]

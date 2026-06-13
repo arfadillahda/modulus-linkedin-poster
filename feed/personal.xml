@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 12 Jun 2026 10:26:03 +0000</lastBuildDate>
+<lastBuildDate>Sat, 13 Jun 2026 09:27:41 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization scope creep happens at the schema layer</title>
+<guid isPermaLink="false">5362adff1315</guid>
+<pubDate>Sat, 13 Jun 2026 09:27:40 +0000</pubDate>
+<description><![CDATA[Most digitalization projects balloon because teams define data schemas before mapping their actual decision gates. You end up collecting 47 fields when you need 3, then spending months explaining why the system feels slow and nobody trusts it.
+
+The mechanism: engineers build schemas to capture "everything that might matter." Business stakeholders don't push back because they don't understand the cost of each field—storage, latency, validation rules, audit trails. By month four, you're optimizing a bloated structure instead of solving the real problem.
+
+Here's the move: start with a decision requirement table. For each operational decision your plant actually makes ("Do we run this shift?" "Is this part in spec?" "Should we queue this order?"), write down the minimum data needed to make it. Only those fields go into your schema. Everything else is optional, added later if evidence justifies it.
+
+You'll cut your schema by 60%. Your queries run faster. People trust it because it doesn't feel like a black box.
+
+Digitalization speed comes from constraint, not comprehensiveness.]]></description>
+<content:encoded><![CDATA[Most digitalization projects balloon because teams define data schemas before mapping their actual decision gates. You end up collecting 47 fields when you need 3, then spending months explaining why the system feels slow and nobody trusts it.
+
+The mechanism: engineers build schemas to capture "everything that might matter." Business stakeholders don't push back because they don't understand the cost of each field—storage, latency, validation rules, audit trails. By month four, you're optimizing a bloated structure instead of solving the real problem.
+
+Here's the move: start with a decision requirement table. For each operational decision your plant actually makes ("Do we run this shift?" "Is this part in spec?" "Should we queue this order?"), write down the minimum data needed to make it. Only those fields go into your schema. Everything else is optional, added later if evidence justifies it.
+
+You'll cut your schema by 60%. Your queries run faster. People trust it because it doesn't feel like a black box.
+
+Digitalization speed comes from constraint, not comprehensiveness.]]></content:encoded>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your sustainability KPI baseline year is corrupting your math</title>
 <guid isPermaLink="false">9513044af5c3</guid>
@@ -1241,33 +1266,6 @@ When you flip the perspective from "what data do we need for disclosure" to "wha
 Sustainability scales when operators can see it, own it, and act on it.]]></content:encoded>
 <category>sustainability</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why your digitalization stalls between pilot and scale</title>
-<guid isPermaLink="false">54a40df5e83b</guid>
-<pubDate>Fri, 01 May 2026 12:04:14 +0000</pubDate>
-<description><![CDATA[You get the pilot working. Three months in, the sensor data flows, the model trains, stakeholders nod. Then you try to roll it to the second production line and everything fractures.
-
-This happens because pilots optimize for proof, not pattern. You hand-tune data pipelines for one environment, hard-code thresholds for one machine, build dashboards for one audience. It all works because you're close to it. Scale demands abstraction — and most teams don't abstract until they have to, which is already too late.
-
-The fix is simple: treat your pilot as a template, not a prototype. Before you celebrate, force yourself to document three things: What assumptions did you bake in? What would break if you moved to a different line? What would a stranger need to know to rebuild this from scratch?
-
-Then actually rebuild it on paper first, using only that documentation. If you can't, you're not ready to scale.
-
-Pilots that abstract early don't stall.]]></description>
-<content:encoded><![CDATA[You get the pilot working. Three months in, the sensor data flows, the model trains, stakeholders nod. Then you try to roll it to the second production line and everything fractures.
-
-This happens because pilots optimize for proof, not pattern. You hand-tune data pipelines for one environment, hard-code thresholds for one machine, build dashboards for one audience. It all works because you're close to it. Scale demands abstraction — and most teams don't abstract until they have to, which is already too late.
-
-The fix is simple: treat your pilot as a template, not a prototype. Before you celebrate, force yourself to document three things: What assumptions did you bake in? What would break if you moved to a different line? What would a stranger need to know to rebuild this from scratch?
-
-Then actually rebuild it on paper first, using only that documentation. If you can't, you're not ready to scale.
-
-Pilots that abstract early don't stall.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/54a40df5e83b.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/54a40df5e83b.png" medium="image" type="image/png"/>
-<category>digitalization</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>
