@@ -572,5 +572,14 @@
     "title": "Why your digitalization scope creep happens at the schema layer",
     "body": "Most digitalization projects balloon because teams define data schemas before mapping their actual decision gates. You end up collecting 47 fields when you need 3, then spending months explaining why the system feels slow and nobody trusts it.\n\nThe mechanism: engineers build schemas to capture \"everything that might matter.\" Business stakeholders don't push back because they don't understand the cost of each field—storage, latency, validation rules, audit trails. By month four, you're optimizing a bloated structure instead of solving the real problem.\n\nHere's the move: start with a decision requirement table. For each operational decision your plant actually makes (\"Do we run this shift?\" \"Is this part in spec?\" \"Should we queue this order?\"), write down the minimum data needed to make it. Only those fields go into your schema. Everything else is optional, added later if evidence justifies it.\n\nYou'll cut your schema by 60%. Your queries run faster. People trust it because it doesn't feel like a black box.\n\nDigitalization speed comes from constraint, not comprehensiveness.",
     "image_url": ""
+  },
+  {
+    "id": "8106e6afe27b",
+    "ts": "2026-06-14T09:49:15.512404+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why your AI proof of concept never becomes production",
+    "body": "You built an AI prototype that works great on clean data. Then you tried to ship it. Suddenly it hallucinates on real inputs, or inference costs balloon, or your data pipeline can't keep up. The prototype dies in the gap between demo and operations.\n\nThis happens because you optimized for a single metric (accuracy on a test set) instead of a system. The prototype team never talks to the infrastructure team. You pick a model based on papers, not on what your deployment environment can actually handle. You validate accuracy but never validate whether your data stays consistent month-to-month.\n\nHere's the reframe: treat your AI project as three separate problems that must work together. One: model performance (your current focus). Two: data reliability (can you feed it consistently?). Three: operational fit (can your systems actually run this?). Before you build anything, map which constraints are hardest in your environment. Then work backwards.\n\nYour prototype should fail gracefully on constraints you identify early, not in production.\n\nShip the weakest version that passes all three gates, not the smartest model that passes one.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/8106e6afe27b.png"
   }
 ]

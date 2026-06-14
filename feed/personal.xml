@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Sat, 13 Jun 2026 09:27:41 +0000</lastBuildDate>
+<lastBuildDate>Sun, 14 Jun 2026 09:49:39 +0000</lastBuildDate>
+<item>
+<title>Why your AI proof of concept never becomes production</title>
+<guid isPermaLink="false">8106e6afe27b</guid>
+<pubDate>Sun, 14 Jun 2026 09:49:15 +0000</pubDate>
+<description><![CDATA[You built an AI prototype that works great on clean data. Then you tried to ship it. Suddenly it hallucinates on real inputs, or inference costs balloon, or your data pipeline can't keep up. The prototype dies in the gap between demo and operations.
+
+This happens because you optimized for a single metric (accuracy on a test set) instead of a system. The prototype team never talks to the infrastructure team. You pick a model based on papers, not on what your deployment environment can actually handle. You validate accuracy but never validate whether your data stays consistent month-to-month.
+
+Here's the reframe: treat your AI project as three separate problems that must work together. One: model performance (your current focus). Two: data reliability (can you feed it consistently?). Three: operational fit (can your systems actually run this?). Before you build anything, map which constraints are hardest in your environment. Then work backwards.
+
+Your prototype should fail gracefully on constraints you identify early, not in production.
+
+Ship the weakest version that passes all three gates, not the smartest model that passes one.]]></description>
+<content:encoded><![CDATA[You built an AI prototype that works great on clean data. Then you tried to ship it. Suddenly it hallucinates on real inputs, or inference costs balloon, or your data pipeline can't keep up. The prototype dies in the gap between demo and operations.
+
+This happens because you optimized for a single metric (accuracy on a test set) instead of a system. The prototype team never talks to the infrastructure team. You pick a model based on papers, not on what your deployment environment can actually handle. You validate accuracy but never validate whether your data stays consistent month-to-month.
+
+Here's the reframe: treat your AI project as three separate problems that must work together. One: model performance (your current focus). Two: data reliability (can you feed it consistently?). Three: operational fit (can your systems actually run this?). Before you build anything, map which constraints are hardest in your environment. Then work backwards.
+
+Your prototype should fail gracefully on constraints you identify early, not in production.
+
+Ship the weakest version that passes all three gates, not the smartest model that passes one.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/8106e6afe27b.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/8106e6afe27b.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your digitalization scope creep happens at the schema layer</title>
 <guid isPermaLink="false">5362adff1315</guid>
@@ -1241,31 +1268,6 @@ It's messier to report. It's also the only version that survives contact with re
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/86b54f7984a4.png" medium="image" type="image/png"/>
 <category>sustainability</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why sustainability reporting divorces from factory reality</title>
-<guid isPermaLink="false">866f7c87936c</guid>
-<pubDate>Fri, 01 May 2026 12:17:21 +0000</pubDate>
-<description><![CDATA[Your sustainability team publishes a carbon report. Your plant manager has never read it. This isn't laziness — it's because sustainability metrics are almost always built for compliance, not operation.
-
-The mechanism: corporate sustainability lives in annual reporting cycles and stakeholder disclosure. Factory operations live in daily yield, cost, and schedule. A carbon intensity number that looks good in a PDF tells a plant operator nothing about *what to actually do differently tomorrow*. There's no feedback loop. No ownership. The report lands, gets filed, and operations continue exactly as before.
-
-Here's the reframe: stop treating sustainability as a reporting problem. Treat it as an operational visibility problem. The plants that move the needle aren't the ones with better scorecards — they're the ones where carbon (or waste, or energy) is monitored like OEE. Real-time. By shift. Tied to incentives. Visible on the floor.
-
-When you flip the perspective from "what data do we need for disclosure" to "what visibility would actually change behavior," the metrics change completely.
-
-Sustainability scales when operators can see it, own it, and act on it.]]></description>
-<content:encoded><![CDATA[Your sustainability team publishes a carbon report. Your plant manager has never read it. This isn't laziness — it's because sustainability metrics are almost always built for compliance, not operation.
-
-The mechanism: corporate sustainability lives in annual reporting cycles and stakeholder disclosure. Factory operations live in daily yield, cost, and schedule. A carbon intensity number that looks good in a PDF tells a plant operator nothing about *what to actually do differently tomorrow*. There's no feedback loop. No ownership. The report lands, gets filed, and operations continue exactly as before.
-
-Here's the reframe: stop treating sustainability as a reporting problem. Treat it as an operational visibility problem. The plants that move the needle aren't the ones with better scorecards — they're the ones where carbon (or waste, or energy) is monitored like OEE. Real-time. By shift. Tied to incentives. Visible on the floor.
-
-When you flip the perspective from "what data do we need for disclosure" to "what visibility would actually change behavior," the metrics change completely.
-
-Sustainability scales when operators can see it, own it, and act on it.]]></content:encoded>
-<category>sustainability</category>
-<category>TOF</category>
 </item>
 </channel>
 </rss>
