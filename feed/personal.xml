@@ -4,7 +4,28 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Sun, 14 Jun 2026 09:49:39 +0000</lastBuildDate>
+<lastBuildDate>Mon, 15 Jun 2026 12:34:37 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization team speaks a different language than manufacturing</title>
+<guid isPermaLink="false">e1419c70d2d8</guid>
+<pubDate>Mon, 15 Jun 2026 12:34:36 +0000</pubDate>
+<description><![CDATA[Your digitalization team talks about API contracts, microservices, and data schemas. Your plant manager talks about throughput, downtime, and cost per unit. They're both right. They're also both completely lost in conversation.
+
+This happens because digitalization usually starts as an IT initiative—someone gets budget, builds a system, then hands it to operations. The system works technically. It doesn't work organizationally. Your plant floor didn't ask for a better data layer. They asked for fewer line stops. The gap between those two requests is where most digitalization stalls.
+
+The reframe: stop thinking of digitalization as a technology deployment. Think of it as translation. Your job isn't to build the perfect system—it's to connect what operations actually measures (and cares about) to what data can actually tell you. Start by naming a single concrete failure in the plant. One specific cost driver. One specific loss of throughput. Then work backward to what data would change the decision about that failure.
+
+You'll find your real system lives in that conversation, not in the software stack.]]></description>
+<content:encoded><![CDATA[Your digitalization team talks about API contracts, microservices, and data schemas. Your plant manager talks about throughput, downtime, and cost per unit. They're both right. They're also both completely lost in conversation.
+
+This happens because digitalization usually starts as an IT initiative—someone gets budget, builds a system, then hands it to operations. The system works technically. It doesn't work organizationally. Your plant floor didn't ask for a better data layer. They asked for fewer line stops. The gap between those two requests is where most digitalization stalls.
+
+The reframe: stop thinking of digitalization as a technology deployment. Think of it as translation. Your job isn't to build the perfect system—it's to connect what operations actually measures (and cares about) to what data can actually tell you. Start by naming a single concrete failure in the plant. One specific cost driver. One specific loss of throughput. Then work backward to what data would change the decision about that failure.
+
+You'll find your real system lives in that conversation, not in the software stack.]]></content:encoded>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your AI proof of concept never becomes production</title>
 <guid isPermaLink="false">8106e6afe27b</guid>
@@ -1241,33 +1262,6 @@ Most teams only look at precision/recall on holdout sets. That's backward-lookin
 You can't prevent distribution shift. But you can see it coming.]]></content:encoded>
 <category>artificial intelligence</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why your sustainability team measures the wrong factory metric</title>
-<guid isPermaLink="false">86b54f7984a4</guid>
-<pubDate>Fri, 01 May 2026 12:17:49 +0000</pubDate>
-<description><![CDATA[Most manufacturing plants track energy per unit output. It's clean, benchmarkable, and wrong for the specific decision you're trying to make.
-
-Here's the trap: energy intensity (kWh per ton) tells you how efficiently the line *runs*. But it doesn't tell you whether that line should *run at all*. A factory can optimize its way to a lower intensity number while producing margin-destroying SKUs that sit in a warehouse. You've made the process leaner and the business worse.
-
-The mechanism is incentive misalignment. Your sustainability team gets measured on the metric. Operations gets measured on throughput and cost. Finance gets measured on cash. Nobody owns the question: "Is this product mix actually profitable and sustainable together?"
-
-Reframe the problem in three layers. First, measure energy intensity (you need the baseline). Second, weight it by product contribution margin. Third, track only the profitable SKU subset. Now you're not optimizing for cleanliness—you're optimizing for viable, lower-impact production.
-
-It's messier to report. It's also the only version that survives contact with reality.]]></description>
-<content:encoded><![CDATA[Most manufacturing plants track energy per unit output. It's clean, benchmarkable, and wrong for the specific decision you're trying to make.
-
-Here's the trap: energy intensity (kWh per ton) tells you how efficiently the line *runs*. But it doesn't tell you whether that line should *run at all*. A factory can optimize its way to a lower intensity number while producing margin-destroying SKUs that sit in a warehouse. You've made the process leaner and the business worse.
-
-The mechanism is incentive misalignment. Your sustainability team gets measured on the metric. Operations gets measured on throughput and cost. Finance gets measured on cash. Nobody owns the question: "Is this product mix actually profitable and sustainable together?"
-
-Reframe the problem in three layers. First, measure energy intensity (you need the baseline). Second, weight it by product contribution margin. Third, track only the profitable SKU subset. Now you're not optimizing for cleanliness—you're optimizing for viable, lower-impact production.
-
-It's messier to report. It's also the only version that survives contact with reality.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/86b54f7984a4.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/86b54f7984a4.png" medium="image" type="image/png"/>
-<category>sustainability</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>

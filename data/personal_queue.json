@@ -581,5 +581,14 @@
     "title": "Why your AI proof of concept never becomes production",
     "body": "You built an AI prototype that works great on clean data. Then you tried to ship it. Suddenly it hallucinates on real inputs, or inference costs balloon, or your data pipeline can't keep up. The prototype dies in the gap between demo and operations.\n\nThis happens because you optimized for a single metric (accuracy on a test set) instead of a system. The prototype team never talks to the infrastructure team. You pick a model based on papers, not on what your deployment environment can actually handle. You validate accuracy but never validate whether your data stays consistent month-to-month.\n\nHere's the reframe: treat your AI project as three separate problems that must work together. One: model performance (your current focus). Two: data reliability (can you feed it consistently?). Three: operational fit (can your systems actually run this?). Before you build anything, map which constraints are hardest in your environment. Then work backwards.\n\nYour prototype should fail gracefully on constraints you identify early, not in production.\n\nShip the weakest version that passes all three gates, not the smartest model that passes one.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/8106e6afe27b.png"
+  },
+  {
+    "id": "e1419c70d2d8",
+    "ts": "2026-06-15T12:34:36.940740+00:00",
+    "topic": "digitalization",
+    "stage": "TOF",
+    "title": "Why your digitalization team speaks a different language than manufacturing",
+    "body": "Your digitalization team talks about API contracts, microservices, and data schemas. Your plant manager talks about throughput, downtime, and cost per unit. They're both right. They're also both completely lost in conversation.\n\nThis happens because digitalization usually starts as an IT initiative—someone gets budget, builds a system, then hands it to operations. The system works technically. It doesn't work organizationally. Your plant floor didn't ask for a better data layer. They asked for fewer line stops. The gap between those two requests is where most digitalization stalls.\n\nThe reframe: stop thinking of digitalization as a technology deployment. Think of it as translation. Your job isn't to build the perfect system—it's to connect what operations actually measures (and cares about) to what data can actually tell you. Start by naming a single concrete failure in the plant. One specific cost driver. One specific loss of throughput. Then work backward to what data would change the decision about that failure.\n\nYou'll find your real system lives in that conversation, not in the software stack.",
+    "image_url": ""
   }
 ]
