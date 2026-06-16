@@ -1,0 +1,52 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- Top Band -->
+  <!-- Kicker -->
+  <text x="64" y="96" font-size="13" font-weight="600" fill="#2D5BFF" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">AI</text>
+
+  <!-- Display Headline -->
+  <text x="64" y="148" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Accuracy ≠ Value.</text>
+  <text x="64" y="206" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">You're measuring the wrong thing.</text>
+
+  <!-- Accent underline beneath headline -->
+  <line x1="64" y1="218" x2="340" y2="218" stroke="#2D5BFF" stroke-width="2"/>
+
+  <!-- Middle Band: 2x2 grid of 4 tiles -->
+  <!-- Tile grid: top-left x=64, top y=248, tile width=(1024-64-64-16)/2=440, tile height=~280 -->
+
+  <!-- Tile 01 — top left -->
+  <rect x="64" y="248" width="440" height="270" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="308" font-size="48" font-weight="800" fill="#2D5BFF">01</text>
+  <text x="92" y="346" font-size="22" font-weight="700" fill="#111111">The Accuracy Trap</text>
+  <text x="92" y="376" font-size="16" font-weight="400" fill="#3A3A3A">Clean metric. Optimized for papers, not people.</text>
+  <text x="92" y="398" font-size="16" font-weight="400" fill="#3A3A3A">95% accurate can still break every workflow.</text>
+
+  <!-- Tile 02 — top right -->
+  <rect x="520" y="248" width="440" height="270" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="308" font-size="48" font-weight="800" fill="#2D5BFF">02</text>
+  <text x="548" y="346" font-size="22" font-weight="700" fill="#111111">The Real Failure Mode</text>
+  <text x="548" y="376" font-size="16" font-weight="400" fill="#3A3A3A">It fails on the 5% users see every single day.</text>
+  <text x="548" y="398" font-size="16" font-weight="400" fill="#3A3A3A">Too slow or unexplainable kills trust too.</text>
+
+  <!-- Tile 03 — bottom left -->
+  <rect x="64" y="534" width="440" height="270" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="594" font-size="48" font-weight="800" fill="#2D5BFF">03</text>
+  <text x="92" y="632" font-size="22" font-weight="700" fill="#111111">Upstream, Not Equal</text>
+  <text x="92" y="662" font-size="16" font-weight="400" fill="#3A3A3A">Accuracy precedes value — it doesn't create it.</text>
+  <text x="92" y="684" font-size="16" font-weight="400" fill="#3A3A3A">Wrong in ways that don't matter? That's fine.</text>
+
+  <!-- Tile 04 — bottom right -->
+  <rect x="520" y="534" width="440" height="270" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="594" font-size="48" font-weight="800" fill="#2D5BFF">04</text>
+  <text x="548" y="632" font-size="22" font-weight="700" fill="#111111">Work Backward</text>
+  <text x="548" y="662" font-size="16" font-weight="400" fill="#3A3A3A">Start with what the user is trying to do.</text>
+  <text x="548" y="684" font-size="16" font-weight="400" fill="#3A3A3A">Failure = can't do the job. Not ≠ ground truth.</text>
+
+  <!-- Bottom Band -->
+  <line x1="64" y1="840" x2="960" y2="840" stroke="#11111130" stroke-width="1"/>
+  <text x="512" y="890" font-size="22" font-weight="400" fill="#3A3A3A" text-anchor="middle">Models that stick are built around real failure modes.</text>
+
+</svg>

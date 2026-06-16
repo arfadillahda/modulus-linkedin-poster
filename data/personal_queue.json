@@ -590,5 +590,14 @@
     "title": "Why your digitalization team speaks a different language than manufacturing",
     "body": "Your digitalization team talks about API contracts, microservices, and data schemas. Your plant manager talks about throughput, downtime, and cost per unit. They're both right. They're also both completely lost in conversation.\n\nThis happens because digitalization usually starts as an IT initiative—someone gets budget, builds a system, then hands it to operations. The system works technically. It doesn't work organizationally. Your plant floor didn't ask for a better data layer. They asked for fewer line stops. The gap between those two requests is where most digitalization stalls.\n\nThe reframe: stop thinking of digitalization as a technology deployment. Think of it as translation. Your job isn't to build the perfect system—it's to connect what operations actually measures (and cares about) to what data can actually tell you. Start by naming a single concrete failure in the plant. One specific cost driver. One specific loss of throughput. Then work backward to what data would change the decision about that failure.\n\nYou'll find your real system lives in that conversation, not in the software stack.",
     "image_url": ""
+  },
+  {
+    "id": "2e4225b2528d",
+    "ts": "2026-06-16T11:27:24.359441+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why your AI team is measuring the wrong thing",
+    "body": "You're tracking model accuracy. Your stakeholders are tracking whether the thing actually works in their hands. These are almost never the same metric, and that gap is where most AI projects die quietly.\n\nAccuracy is what your data scientist optimizes for because it's clean, computable, and shows up in papers. But a model can be 95% accurate and still break the workflow of the person using it—maybe it fails on the 5% of cases they see every single day, or maybe it's right but too slow, or right but unexplainable in a way that kills trust.\n\nThe mechanism is simple: accuracy is upstream of value, not the same thing as it. You can have high accuracy and low value. You can also have lower accuracy and higher value if you're wrong in ways that don't actually matter to the user.\n\nStart asking what the user is trying to do, then work backward. Define failure as \"user can't do their job,\" not \"model prediction ≠ ground truth.\"\n\nThe models that stick are the ones built around actual failure modes, not statistical ones.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/2e4225b2528d.png"
   }
 ]
