@@ -599,5 +599,14 @@
     "title": "Why your AI team is measuring the wrong thing",
     "body": "You're tracking model accuracy. Your stakeholders are tracking whether the thing actually works in their hands. These are almost never the same metric, and that gap is where most AI projects die quietly.\n\nAccuracy is what your data scientist optimizes for because it's clean, computable, and shows up in papers. But a model can be 95% accurate and still break the workflow of the person using it—maybe it fails on the 5% of cases they see every single day, or maybe it's right but too slow, or right but unexplainable in a way that kills trust.\n\nThe mechanism is simple: accuracy is upstream of value, not the same thing as it. You can have high accuracy and low value. You can also have lower accuracy and higher value if you're wrong in ways that don't actually matter to the user.\n\nStart asking what the user is trying to do, then work backward. Define failure as \"user can't do their job,\" not \"model prediction ≠ ground truth.\"\n\nThe models that stick are the ones built around actual failure modes, not statistical ones.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/2e4225b2528d.png"
+  },
+  {
+    "id": "3ba9791ef325",
+    "ts": "2026-06-17T11:10:43.163080+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why your digitalization pilot never scales to production",
+    "body": "You built a proof of concept. It worked in the lab. Then you tried to roll it out across five production lines and it collapsed.\n\nThis happens because pilots run on clean data, patient operators, and someone babysitting the setup. Production runs on messy data, operator turnover, and no one caring about your system until it breaks. The gap isn't technical—it's that you optimized for proof, not for operation. You proved the idea could work in isolation. You didn't prove it could survive contact with real manufacturing friction.\n\nHere's the reframe: before you scale, run a \"friction test.\" Take your pilot. Hand it to someone who wasn't involved in building it. Give them a specific production problem to solve with it—not a demo scenario, an actual problem from your backlog. Don't help them. Watch what fails.\n\nWhat fails in that friction test is what will actually kill your rollout. Fix those failure modes first. Not the elegant ones. The annoying, mundane ones—data import timing, permission workflows, the operator who refuses to use the tablet.\n\nScalability isn't about more machines. It's about friction you haven't met yet.",
+    "image_url": ""
   }
 ]

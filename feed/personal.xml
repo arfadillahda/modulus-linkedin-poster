@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Tue, 16 Jun 2026 11:27:41 +0000</lastBuildDate>
+<lastBuildDate>Wed, 17 Jun 2026 11:10:43 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization pilot never scales to production</title>
+<guid isPermaLink="false">3ba9791ef325</guid>
+<pubDate>Wed, 17 Jun 2026 11:10:43 +0000</pubDate>
+<description><![CDATA[You built a proof of concept. It worked in the lab. Then you tried to roll it out across five production lines and it collapsed.
+
+This happens because pilots run on clean data, patient operators, and someone babysitting the setup. Production runs on messy data, operator turnover, and no one caring about your system until it breaks. The gap isn't technical—it's that you optimized for proof, not for operation. You proved the idea could work in isolation. You didn't prove it could survive contact with real manufacturing friction.
+
+Here's the reframe: before you scale, run a "friction test." Take your pilot. Hand it to someone who wasn't involved in building it. Give them a specific production problem to solve with it—not a demo scenario, an actual problem from your backlog. Don't help them. Watch what fails.
+
+What fails in that friction test is what will actually kill your rollout. Fix those failure modes first. Not the elegant ones. The annoying, mundane ones—data import timing, permission workflows, the operator who refuses to use the tablet.
+
+Scalability isn't about more machines. It's about friction you haven't met yet.]]></description>
+<content:encoded><![CDATA[You built a proof of concept. It worked in the lab. Then you tried to roll it out across five production lines and it collapsed.
+
+This happens because pilots run on clean data, patient operators, and someone babysitting the setup. Production runs on messy data, operator turnover, and no one caring about your system until it breaks. The gap isn't technical—it's that you optimized for proof, not for operation. You proved the idea could work in isolation. You didn't prove it could survive contact with real manufacturing friction.
+
+Here's the reframe: before you scale, run a "friction test." Take your pilot. Hand it to someone who wasn't involved in building it. Give them a specific production problem to solve with it—not a demo scenario, an actual problem from your backlog. Don't help them. Watch what fails.
+
+What fails in that friction test is what will actually kill your rollout. Fix those failure modes first. Not the elegant ones. The annoying, mundane ones—data import timing, permission workflows, the operator who refuses to use the tablet.
+
+Scalability isn't about more machines. It's about friction you haven't met yet.]]></content:encoded>
+<category>digitalization</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your AI team is measuring the wrong thing</title>
 <guid isPermaLink="false">2e4225b2528d</guid>
@@ -1236,33 +1261,6 @@ Your dashboard stops crying wolf when the factory runs hotter in summer or ramps
 
 Context is what separates signal from noise.]]></content:encoded>
 <category>digitalization</category>
-<category>BOF</category>
-</item>
-<item>
-<title>Why your factory's energy baseline shifts every winter</title>
-<guid isPermaLink="false">5ed133474312</guid>
-<pubDate>Fri, 01 May 2026 12:34:42 +0000</pubDate>
-<description><![CDATA[Most sustainability teams set a production energy intensity baseline once, then benchmark against it for five years. It breaks in month two when the factory starts running night shifts in winter to meet demand.
-
-The problem isn't measurement. It's that energy consumption correlates with ambient temperature, production schedule, and equipment aging simultaneously. Your baseline assumes a static operational envelope. Real factories don't operate that way. You're comparing apples in July to oranges in January and calling it progress.
-
-Here's the fix: build a rolling 12-month baseline that recalculates quarterly, weighted by production volume and heating/cooling degree days. Don't set it once. Let it drift with the calendar and operational reality. Then measure improvement *against that adjusted baseline*, not against the original number.
-
-This kills two problems at once. You stop blaming the sustainability team for phantom savings that were just seasonal variance. And you actually see when something real changes—a new compressor, a process tweak, a schedule shift.
-
-Your baseline should move so your insight doesn't have to.]]></description>
-<content:encoded><![CDATA[Most sustainability teams set a production energy intensity baseline once, then benchmark against it for five years. It breaks in month two when the factory starts running night shifts in winter to meet demand.
-
-The problem isn't measurement. It's that energy consumption correlates with ambient temperature, production schedule, and equipment aging simultaneously. Your baseline assumes a static operational envelope. Real factories don't operate that way. You're comparing apples in July to oranges in January and calling it progress.
-
-Here's the fix: build a rolling 12-month baseline that recalculates quarterly, weighted by production volume and heating/cooling degree days. Don't set it once. Let it drift with the calendar and operational reality. Then measure improvement *against that adjusted baseline*, not against the original number.
-
-This kills two problems at once. You stop blaming the sustainability team for phantom savings that were just seasonal variance. And you actually see when something real changes—a new compressor, a process tweak, a schedule shift.
-
-Your baseline should move so your insight doesn't have to.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/5ed133474312.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/5ed133474312.png" medium="image" type="image/png"/>
-<category>sustainability</category>
 <category>BOF</category>
 </item>
 </channel>
