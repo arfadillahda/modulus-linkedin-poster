@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Wed, 17 Jun 2026 11:10:43 +0000</lastBuildDate>
+<lastBuildDate>Thu, 18 Jun 2026 10:42:20 +0000</lastBuildDate>
+<item>
+<title>Why your sustainability roadmap ignores your actual bottleneck</title>
+<guid isPermaLink="false">bfa42a8db088</guid>
+<pubDate>Thu, 18 Jun 2026 10:41:59 +0000</pubDate>
+<description><![CDATA[Your sustainability team is probably mapping decarbonization around what's easy to measure. Not what's actually constraining you.
+
+This happens because measurement infrastructure got built first. You have good carbon accounting tools. You have vendor databases. What you don't have is visibility into which process changes would actually stick—which ones your ops team can execute without breaking production, which ones your supply chain can absorb without doubling lead times.
+
+So you optimize for the carbon metric instead of the adoption metric. You propose the biggest wins on paper. Then watch them fail in implementation because nobody mapped whether your facility could actually run that way.
+
+Reframe it: Start by identifying the one constraint that, if removed, would let your operations team move. That might be thermal capacity. It might be raw material availability. It might be the fact that your biggest customer won't accept reformulated packaging. Find that hard limit first. Then design your decarbonization strategy inside it, not around it.
+
+The smartest sustainability move isn't the biggest carbon reduction—it's the one your business can actually execute.]]></description>
+<content:encoded><![CDATA[Your sustainability team is probably mapping decarbonization around what's easy to measure. Not what's actually constraining you.
+
+This happens because measurement infrastructure got built first. You have good carbon accounting tools. You have vendor databases. What you don't have is visibility into which process changes would actually stick—which ones your ops team can execute without breaking production, which ones your supply chain can absorb without doubling lead times.
+
+So you optimize for the carbon metric instead of the adoption metric. You propose the biggest wins on paper. Then watch them fail in implementation because nobody mapped whether your facility could actually run that way.
+
+Reframe it: Start by identifying the one constraint that, if removed, would let your operations team move. That might be thermal capacity. It might be raw material availability. It might be the fact that your biggest customer won't accept reformulated packaging. Find that hard limit first. Then design your decarbonization strategy inside it, not around it.
+
+The smartest sustainability move isn't the biggest carbon reduction—it's the one your business can actually execute.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/bfa42a8db088.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/bfa42a8db088.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your digitalization pilot never scales to production</title>
 <guid isPermaLink="false">3ba9791ef325</guid>
@@ -1237,31 +1264,6 @@ A good AI partner will embrace this frame immediately.]]></content:encoded>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/62a8ab288743.png" medium="image" type="image/png"/>
 <category>artificial intelligence</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why your digitalization dashboard lies about equipment health</title>
-<guid isPermaLink="false">4d871e5e3e64</guid>
-<pubDate>Fri, 01 May 2026 13:09:26 +0000</pubDate>
-<description><![CDATA[You build a monitoring system, wire up ten sensors, get real-time dashboards running. Three weeks in, maintenance tells you the system flagged a bearing as degrading when it was actually fine. You lost trust in the whole thing.
-
-The problem isn't the sensors or the math. It's that you're applying statistical thresholds tuned for laboratory conditions to equipment running in an actual factory. A bearing that drifts slowly over six months while production ramps up looks like degradation in your model but is actually normal wear under higher load. Your system has no context for operating conditions.
-
-Here's the technical move: build a state-machine layer between your raw sensor stream and your alerting logic. Define equipment states (idle, low-load run, high-load run, thermal stabilization) using easily observable signals—current draw, ambient temp, production schedule. Then apply different threshold rules to each state. That bearing alert only fires if drift happens *within* a state, not across state transitions.
-
-Your dashboard stops crying wolf when the factory runs hotter in summer or ramps production for a big order.
-
-Context is what separates signal from noise.]]></description>
-<content:encoded><![CDATA[You build a monitoring system, wire up ten sensors, get real-time dashboards running. Three weeks in, maintenance tells you the system flagged a bearing as degrading when it was actually fine. You lost trust in the whole thing.
-
-The problem isn't the sensors or the math. It's that you're applying statistical thresholds tuned for laboratory conditions to equipment running in an actual factory. A bearing that drifts slowly over six months while production ramps up looks like degradation in your model but is actually normal wear under higher load. Your system has no context for operating conditions.
-
-Here's the technical move: build a state-machine layer between your raw sensor stream and your alerting logic. Define equipment states (idle, low-load run, high-load run, thermal stabilization) using easily observable signals—current draw, ambient temp, production schedule. Then apply different threshold rules to each state. That bearing alert only fires if drift happens *within* a state, not across state transitions.
-
-Your dashboard stops crying wolf when the factory runs hotter in summer or ramps production for a big order.
-
-Context is what separates signal from noise.]]></content:encoded>
-<category>digitalization</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>

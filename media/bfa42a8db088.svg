@@ -1,0 +1,108 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ══════════════════════════════════════════════
+       TOP BAND  (y 0 – ~225)
+  ══════════════════════════════════════════════ -->
+
+  <!-- Kicker -->
+  <text
+    x="64" y="88"
+    font-size="13" font-weight="600"
+    fill="#1F5C3D"
+    letter-spacing="0.18em"
+    text-anchor="start"
+    font-variant="small-caps"
+    text-transform="uppercase">SUSTAINABILITY</text>
+
+  <!-- Display headline line 1 -->
+  <text
+    x="64" y="142"
+    font-size="52" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    text-anchor="start">Optimize for adoption,</text>
+
+  <!-- Display headline line 2 -->
+  <text
+    x="64" y="200"
+    font-size="52" font-weight="800"
+    fill="#111111"
+    letter-spacing="-0.02em"
+    text-anchor="start">not just carbon math.</text>
+
+  <!-- Accent underline rule -->
+  <line x1="64" y1="216" x2="420" y2="216" stroke="#1F5C3D" stroke-width="2"/>
+
+
+  <!-- ══════════════════════════════════════════════
+       MIDDLE BAND  — 2×2 grid of 4 tiles
+       Grid area: y 240 – 800  (560px tall)
+       Two columns, two rows, 16px gaps, 64px side padding
+       Col width: (1024 – 64 – 64 – 16) / 2 = 440px
+       Row height: (560 – 16) / 2 = 272px
+  ══════════════════════════════════════════════ -->
+
+  <!-- TILE 01 — top-left  x=64, y=240, w=440, h=272 -->
+  <rect x="64" y="240" width="440" height="272" rx="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="302"
+        font-size="42" font-weight="800" fill="#1F5C3D"
+        letter-spacing="-0.01em">01</text>
+  <text x="96" y="347"
+        font-size="22" font-weight="700" fill="#111111">Measure the wrong thing</text>
+  <text x="96" y="381"
+        font-size="16" font-weight="400" fill="#3A3A3A">Carbon tools exist. Adoption visibility doesn't.</text>
+
+  <!-- TILE 02 — top-right  x=520, y=240, w=440, h=272 -->
+  <rect x="520" y="240" width="440" height="272" rx="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="302"
+        font-size="42" font-weight="800" fill="#1F5C3D"
+        letter-spacing="-0.01em">02</text>
+  <text x="552" y="347"
+        font-size="22" font-weight="700" fill="#111111">Paper wins, real failures</text>
+  <text x="552" y="381"
+        font-size="16" font-weight="400" fill="#3A3A3A">Big reductions on paper stall in execution.</text>
+
+  <!-- TILE 03 — bottom-left  x=64, y=528, w=440, h=272 -->
+  <rect x="64" y="528" width="440" height="272" rx="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="96" y="590"
+        font-size="42" font-weight="800" fill="#1F5C3D"
+        letter-spacing="-0.01em">03</text>
+  <text x="96" y="635"
+        font-size="22" font-weight="700" fill="#111111">Find the hard limit first</text>
+  <text x="96" y="669"
+        font-size="16" font-weight="400" fill="#3A3A3A">Thermal, supply chain, or customer constraint.</text>
+
+  <!-- TILE 04 — bottom-right  x=520, y=528, w=440, h=272 -->
+  <rect x="520" y="528" width="440" height="272" rx="16"
+        fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="552" y="590"
+        font-size="42" font-weight="800" fill="#1F5C3D"
+        letter-spacing="-0.01em">04</text>
+  <text x="552" y="635"
+        font-size="22" font-weight="700" fill="#111111">Design inside the constraint</text>
+  <text x="552" y="669"
+        font-size="16" font-weight="400" fill="#3A3A3A">Build your roadmap around what ops can do.</text>
+
+
+  <!-- ══════════════════════════════════════════════
+       BOTTOM BAND  (y ~840 – 1024)
+  ══════════════════════════════════════════════ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="848" x2="960" y2="848" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512" y="920"
+    font-size="22" font-weight="400"
+    fill="#3A3A3A"
+    letter-spacing="0.005em"
+    text-anchor="middle">The best sustainability move is the one you can actually execute.</text>
+
+</svg>

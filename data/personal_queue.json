@@ -608,5 +608,14 @@
     "title": "Why your digitalization pilot never scales to production",
     "body": "You built a proof of concept. It worked in the lab. Then you tried to roll it out across five production lines and it collapsed.\n\nThis happens because pilots run on clean data, patient operators, and someone babysitting the setup. Production runs on messy data, operator turnover, and no one caring about your system until it breaks. The gap isn't technical—it's that you optimized for proof, not for operation. You proved the idea could work in isolation. You didn't prove it could survive contact with real manufacturing friction.\n\nHere's the reframe: before you scale, run a \"friction test.\" Take your pilot. Hand it to someone who wasn't involved in building it. Give them a specific production problem to solve with it—not a demo scenario, an actual problem from your backlog. Don't help them. Watch what fails.\n\nWhat fails in that friction test is what will actually kill your rollout. Fix those failure modes first. Not the elegant ones. The annoying, mundane ones—data import timing, permission workflows, the operator who refuses to use the tablet.\n\nScalability isn't about more machines. It's about friction you haven't met yet.",
     "image_url": ""
+  },
+  {
+    "id": "bfa42a8db088",
+    "ts": "2026-06-18T10:41:59.868630+00:00",
+    "topic": "sustainability",
+    "stage": "TOF",
+    "title": "Why your sustainability roadmap ignores your actual bottleneck",
+    "body": "Your sustainability team is probably mapping decarbonization around what's easy to measure. Not what's actually constraining you.\n\nThis happens because measurement infrastructure got built first. You have good carbon accounting tools. You have vendor databases. What you don't have is visibility into which process changes would actually stick—which ones your ops team can execute without breaking production, which ones your supply chain can absorb without doubling lead times.\n\nSo you optimize for the carbon metric instead of the adoption metric. You propose the biggest wins on paper. Then watch them fail in implementation because nobody mapped whether your facility could actually run that way.\n\nReframe it: Start by identifying the one constraint that, if removed, would let your operations team move. That might be thermal capacity. It might be raw material availability. It might be the fact that your biggest customer won't accept reformulated packaging. Find that hard limit first. Then design your decarbonization strategy inside it, not around it.\n\nThe smartest sustainability move isn't the biggest carbon reduction—it's the one your business can actually execute.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/bfa42a8db088.png"
   }
 ]
