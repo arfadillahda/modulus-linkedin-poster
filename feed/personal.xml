@@ -4,7 +4,32 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Thu, 18 Jun 2026 10:42:20 +0000</lastBuildDate>
+<lastBuildDate>Fri, 19 Jun 2026 10:51:02 +0000</lastBuildDate>
+<item>
+<title>Why your sustainability data doesn't match your supply chain reality</title>
+<guid isPermaLink="false">5900056a8569</guid>
+<pubDate>Fri, 19 Jun 2026 10:51:02 +0000</pubDate>
+<description><![CDATA[You've got emissions numbers from your Scope 3 supplier. They're reported to you quarterly, look reasonable, fit the trend. Then you visit the actual facility and realize nobody there is measuring what you're measuring.
+
+This happens because most suppliers report what they think you want to hear, not what they actually track operationally. They're guessing at allocation methods. You're comparing apples to their oranges. The gap isn't dishonesty—it's that your reporting framework and their operational reality speak different languages.
+
+Here's the fix: stop asking suppliers for emissions first. Ask them what they actually measure operationally—energy bills, production counts, waste logs, fuel records. Those are real. Then you do the emissions math on YOUR side using YOUR methodology. You own the conversion. You own the quality.
+
+Now your data is clean because it's based on stuff that has to work in their factory, not on guesswork shaped by what sounds good in a sustainability report.
+
+When your baseline is built on things people actually measure, your roadmap stops being fiction.]]></description>
+<content:encoded><![CDATA[You've got emissions numbers from your Scope 3 supplier. They're reported to you quarterly, look reasonable, fit the trend. Then you visit the actual facility and realize nobody there is measuring what you're measuring.
+
+This happens because most suppliers report what they think you want to hear, not what they actually track operationally. They're guessing at allocation methods. You're comparing apples to their oranges. The gap isn't dishonesty—it's that your reporting framework and their operational reality speak different languages.
+
+Here's the fix: stop asking suppliers for emissions first. Ask them what they actually measure operationally—energy bills, production counts, waste logs, fuel records. Those are real. Then you do the emissions math on YOUR side using YOUR methodology. You own the conversion. You own the quality.
+
+Now your data is clean because it's based on stuff that has to work in their factory, not on guesswork shaped by what sounds good in a sustainability report.
+
+When your baseline is built on things people actually measure, your roadmap stops being fiction.]]></content:encoded>
+<category>sustainability</category>
+<category>MOF</category>
+</item>
 <item>
 <title>Why your sustainability roadmap ignores your actual bottleneck</title>
 <guid isPermaLink="false">bfa42a8db088</guid>
@@ -1225,45 +1250,6 @@ Start by mapping who needs to make which decisions, and what information they ac
 Your system's ceiling is set by the least empowered person in the loop.]]></content:encoded>
 <category>digitalization</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why your AI vendor won't commit to a timeline</title>
-<guid isPermaLink="false">62a8ab288743</guid>
-<pubDate>Fri, 01 May 2026 13:11:13 +0000</pubDate>
-<description><![CDATA[You ask for a delivery date. They say 'it depends on your data quality.' You push back. They mention 'iterative validation.' Six months later you're still in discovery.
-
-This isn't evasion. It's honest uncertainty dressed up badly.
-
-AI projects genuinely do depend on unknowns — data distribution shifts, domain complexity, whether your problem is actually solvable with your constraints. A vendor who gives you a fixed timeline upfront is either lying or doesn't understand the work.
-
-But that doesn't mean you're helpless.
-
-Instead of asking 'when will this be done,' ask 'what do we need to learn first, and how will we know we've learned it.' Break the engagement into assumption-testing gates. Before building the model, validate that your data actually contains the signal you need. Before tuning performance, confirm the business metric you're optimizing for is the one that matters.
-
-Each gate should have a specific success criterion and a real go/no-go decision.
-
-This shifts the conversation from timeline (unknowable) to clarity (achievable). You stop waiting for promises and start building the evidence you need to commit.
-
-A good AI partner will embrace this frame immediately.]]></description>
-<content:encoded><![CDATA[You ask for a delivery date. They say 'it depends on your data quality.' You push back. They mention 'iterative validation.' Six months later you're still in discovery.
-
-This isn't evasion. It's honest uncertainty dressed up badly.
-
-AI projects genuinely do depend on unknowns — data distribution shifts, domain complexity, whether your problem is actually solvable with your constraints. A vendor who gives you a fixed timeline upfront is either lying or doesn't understand the work.
-
-But that doesn't mean you're helpless.
-
-Instead of asking 'when will this be done,' ask 'what do we need to learn first, and how will we know we've learned it.' Break the engagement into assumption-testing gates. Before building the model, validate that your data actually contains the signal you need. Before tuning performance, confirm the business metric you're optimizing for is the one that matters.
-
-Each gate should have a specific success criterion and a real go/no-go decision.
-
-This shifts the conversation from timeline (unknowable) to clarity (achievable). You stop waiting for promises and start building the evidence you need to commit.
-
-A good AI partner will embrace this frame immediately.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/62a8ab288743.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/62a8ab288743.png" medium="image" type="image/png"/>
-<category>artificial intelligence</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>

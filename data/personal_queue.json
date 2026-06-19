@@ -617,5 +617,14 @@
     "title": "Why your sustainability roadmap ignores your actual bottleneck",
     "body": "Your sustainability team is probably mapping decarbonization around what's easy to measure. Not what's actually constraining you.\n\nThis happens because measurement infrastructure got built first. You have good carbon accounting tools. You have vendor databases. What you don't have is visibility into which process changes would actually stick—which ones your ops team can execute without breaking production, which ones your supply chain can absorb without doubling lead times.\n\nSo you optimize for the carbon metric instead of the adoption metric. You propose the biggest wins on paper. Then watch them fail in implementation because nobody mapped whether your facility could actually run that way.\n\nReframe it: Start by identifying the one constraint that, if removed, would let your operations team move. That might be thermal capacity. It might be raw material availability. It might be the fact that your biggest customer won't accept reformulated packaging. Find that hard limit first. Then design your decarbonization strategy inside it, not around it.\n\nThe smartest sustainability move isn't the biggest carbon reduction—it's the one your business can actually execute.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/bfa42a8db088.png"
+  },
+  {
+    "id": "5900056a8569",
+    "ts": "2026-06-19T10:51:02.633746+00:00",
+    "topic": "sustainability",
+    "stage": "MOF",
+    "title": "Why your sustainability data doesn't match your supply chain reality",
+    "body": "You've got emissions numbers from your Scope 3 supplier. They're reported to you quarterly, look reasonable, fit the trend. Then you visit the actual facility and realize nobody there is measuring what you're measuring.\n\nThis happens because most suppliers report what they think you want to hear, not what they actually track operationally. They're guessing at allocation methods. You're comparing apples to their oranges. The gap isn't dishonesty—it's that your reporting framework and their operational reality speak different languages.\n\nHere's the fix: stop asking suppliers for emissions first. Ask them what they actually measure operationally—energy bills, production counts, waste logs, fuel records. Those are real. Then you do the emissions math on YOUR side using YOUR methodology. You own the conversion. You own the quality.\n\nNow your data is clean because it's based on stuff that has to work in their factory, not on guesswork shaped by what sounds good in a sustainability report.\n\nWhen your baseline is built on things people actually measure, your roadmap stops being fiction.",
+    "image_url": ""
   }
 ]
