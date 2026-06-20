@@ -626,5 +626,14 @@
     "title": "Why your sustainability data doesn't match your supply chain reality",
     "body": "You've got emissions numbers from your Scope 3 supplier. They're reported to you quarterly, look reasonable, fit the trend. Then you visit the actual facility and realize nobody there is measuring what you're measuring.\n\nThis happens because most suppliers report what they think you want to hear, not what they actually track operationally. They're guessing at allocation methods. You're comparing apples to their oranges. The gap isn't dishonesty—it's that your reporting framework and their operational reality speak different languages.\n\nHere's the fix: stop asking suppliers for emissions first. Ask them what they actually measure operationally—energy bills, production counts, waste logs, fuel records. Those are real. Then you do the emissions math on YOUR side using YOUR methodology. You own the conversion. You own the quality.\n\nNow your data is clean because it's based on stuff that has to work in their factory, not on guesswork shaped by what sounds good in a sustainability report.\n\nWhen your baseline is built on things people actually measure, your roadmap stops being fiction.",
     "image_url": ""
+  },
+  {
+    "id": "def0ad06eecb",
+    "ts": "2026-06-20T09:30:08.137001+00:00",
+    "topic": "artificial intelligence",
+    "stage": "BOF",
+    "title": "Why your fine-tuned model beats your base model in tests",
+    "body": "Your fine-tuned model scores 3 points higher on your validation set than the base model. You ship it. Six weeks later, it's performing worse in production on the same task.\n\nThis happens because fine-tuning on a narrow, curated dataset optimizes for signal that doesn't exist in production data. Your validation set is clean. Production is noisy—edge cases, distribution shift, data quality issues your team never labeled because they showed up after launch. The fine-tuned model learned spurious correlations that looked real on 500 labeled examples but collapse when you hit 50,000 production inference calls.\n\nThe fix: test your fine-tuned model against a held-out set that includes adversarial examples—not just data your team thinks is hard, but data that looks easy to humans but breaks your assumptions. Run it against the base model on this set specifically. If the fine-tuned version doesn't win convincingly, the base model is your production choice.\n\nFine-tuning is a liability until you've proven it survives contact with actual distribution.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/def0ad06eecb.png"
   }
 ]

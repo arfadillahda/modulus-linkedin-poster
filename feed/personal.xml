@@ -4,7 +4,30 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 19 Jun 2026 10:51:02 +0000</lastBuildDate>
+<lastBuildDate>Sat, 20 Jun 2026 09:30:28 +0000</lastBuildDate>
+<item>
+<title>Why your fine-tuned model beats your base model in tests</title>
+<guid isPermaLink="false">def0ad06eecb</guid>
+<pubDate>Sat, 20 Jun 2026 09:30:08 +0000</pubDate>
+<description><![CDATA[Your fine-tuned model scores 3 points higher on your validation set than the base model. You ship it. Six weeks later, it's performing worse in production on the same task.
+
+This happens because fine-tuning on a narrow, curated dataset optimizes for signal that doesn't exist in production data. Your validation set is clean. Production is noisy—edge cases, distribution shift, data quality issues your team never labeled because they showed up after launch. The fine-tuned model learned spurious correlations that looked real on 500 labeled examples but collapse when you hit 50,000 production inference calls.
+
+The fix: test your fine-tuned model against a held-out set that includes adversarial examples—not just data your team thinks is hard, but data that looks easy to humans but breaks your assumptions. Run it against the base model on this set specifically. If the fine-tuned version doesn't win convincingly, the base model is your production choice.
+
+Fine-tuning is a liability until you've proven it survives contact with actual distribution.]]></description>
+<content:encoded><![CDATA[Your fine-tuned model scores 3 points higher on your validation set than the base model. You ship it. Six weeks later, it's performing worse in production on the same task.
+
+This happens because fine-tuning on a narrow, curated dataset optimizes for signal that doesn't exist in production data. Your validation set is clean. Production is noisy—edge cases, distribution shift, data quality issues your team never labeled because they showed up after launch. The fine-tuned model learned spurious correlations that looked real on 500 labeled examples but collapse when you hit 50,000 production inference calls.
+
+The fix: test your fine-tuned model against a held-out set that includes adversarial examples—not just data your team thinks is hard, but data that looks easy to humans but breaks your assumptions. Run it against the base model on this set specifically. If the fine-tuned version doesn't win convincingly, the base model is your production choice.
+
+Fine-tuning is a liability until you've proven it survives contact with actual distribution.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/def0ad06eecb.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/def0ad06eecb.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your sustainability data doesn't match your supply chain reality</title>
 <guid isPermaLink="false">5900056a8569</guid>
@@ -1224,31 +1247,6 @@ Once you know what decision you're actually improving, the ROI math becomes hone
 <enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/7c111c427fe9.png" type="image/png" length="0"/>
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/7c111c427fe9.png" medium="image" type="image/png"/>
 <category>artificial intelligence</category>
-<category>TOF</category>
-</item>
-<item>
-<title>Why your digitalization consultant keeps missing the real constraint</title>
-<guid isPermaLink="false">318423aab616</guid>
-<pubDate>Fri, 01 May 2026 13:26:54 +0000</pubDate>
-<description><![CDATA[Your manufacturing digitalization project has perfect data architecture, a shiny MES, and a vendor who promises 30% efficiency gains. Three months in, nothing changed on the plant floor.
-
-This happens because digitalization gets sold as a technology problem. It isn't. It's a *capability problem* — your operators, maintenance teams, and floor supervisors don't have the mental models to interpret what the system is telling them, or the authority to act on it. A dashboard showing you that OEE dropped 8% means nothing if the person watching it can't diagnose *why* or call the shots to fix it.
-
-Your consultant optimized the data layer. They didn't optimize the decision-making layer.
-
-Start by mapping who needs to make which decisions, and what information they actually need (not what's technically convenient to show them). Then ask: do they have that info? Do they have permission to use it? That reframe splits digitalization into two separate problems — the tech is just one of them.
-
-Your system's ceiling is set by the least empowered person in the loop.]]></description>
-<content:encoded><![CDATA[Your manufacturing digitalization project has perfect data architecture, a shiny MES, and a vendor who promises 30% efficiency gains. Three months in, nothing changed on the plant floor.
-
-This happens because digitalization gets sold as a technology problem. It isn't. It's a *capability problem* — your operators, maintenance teams, and floor supervisors don't have the mental models to interpret what the system is telling them, or the authority to act on it. A dashboard showing you that OEE dropped 8% means nothing if the person watching it can't diagnose *why* or call the shots to fix it.
-
-Your consultant optimized the data layer. They didn't optimize the decision-making layer.
-
-Start by mapping who needs to make which decisions, and what information they actually need (not what's technically convenient to show them). Then ask: do they have that info? Do they have permission to use it? That reframe splits digitalization into two separate problems — the tech is just one of them.
-
-Your system's ceiling is set by the least empowered person in the loop.]]></content:encoded>
-<category>digitalization</category>
 <category>TOF</category>
 </item>
 </channel>
