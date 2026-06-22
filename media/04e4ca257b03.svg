@@ -1,0 +1,67 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- TOP BAND -->
+  <!-- Kicker -->
+  <text x="64" y="88" font-size="12" font-weight="600" fill="#C24A1F" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">DIGITALIZATION</text>
+
+  <!-- Display Headline -->
+  <text x="64" y="138" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Your schema is built for</text>
+  <text x="64" y="198" font-size="52" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">org charts, not factories.</text>
+
+  <!-- Accent underline rule -->
+  <rect x="64" y="213" width="220" height="3" rx="1.5" fill="#C24A1F"/>
+
+  <!-- MIDDLE BAND: 2x2 grid of 4 tiles -->
+  <!-- Tile layout: 2 columns, 2 rows -->
+  <!-- Col widths: (1024 - 64 - 64 - 16) / 2 = 440px each -->
+  <!-- Row start: y=248, tile height: (1024*0.62 - 16) / 2 ≈ 300px -->
+  <!-- Adjusted: top of grid y=248, each tile h=292, gap=16 -->
+
+  <!-- TILE 01 — top-left -->
+  <rect x="64" y="248" width="440" height="292" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="308" font-size="52" font-weight="800" fill="#C24A1F" letter-spacing="-0.02em">01</text>
+  <text x="92" y="350" font-size="22" font-weight="700" fill="#111111">Tree Schema Fails</text>
+  <text x="92" y="382" font-size="15" font-weight="400" fill="#3A3A3A">Assets move; sensors span multiple assets.</text>
+  <text x="92" y="402" font-size="15" font-weight="400" fill="#3A3A3A">Hierarchies duplicate or break queries.</text>
+
+  <!-- Subtle decorative rule inside tile 01 -->
+  <line x1="92" y1="322" x2="132" y2="322" stroke="#C24A1F" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- TILE 02 — top-right -->
+  <rect x="520" y="248" width="440" height="292" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="308" font-size="52" font-weight="800" fill="#C24A1F" letter-spacing="-0.02em">02</text>
+  <text x="548" y="350" font-size="22" font-weight="700" fill="#111111">The Factory Is a Graph</text>
+  <text x="548" y="382" font-size="15" font-weight="400" fill="#3A3A3A">Cycles, shared resources, and temporal</text>
+  <text x="548" y="402" font-size="15" font-weight="400" fill="#3A3A3A">dependencies resist parent-child models.</text>
+
+  <line x1="548" y1="322" x2="588" y2="322" stroke="#C24A1F" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- TILE 03 — bottom-left -->
+  <rect x="64" y="556" width="440" height="292" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="616" font-size="52" font-weight="800" fill="#C24A1F" letter-spacing="-0.02em">03</text>
+  <text x="92" y="658" font-size="22" font-weight="700" fill="#111111">Model the Event First</text>
+  <text x="92" y="690" font-size="15" font-weight="400" fill="#3A3A3A">Each data point carries what, where,</text>
+  <text x="92" y="710" font-size="15" font-weight="400" fill="#3A3A3A">and when — free of org assumptions.</text>
+
+  <line x1="92" y1="630" x2="132" y2="630" stroke="#C24A1F" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- TILE 04 — bottom-right -->
+  <rect x="520" y="556" width="440" height="292" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="548" y="616" font-size="52" font-weight="800" fill="#C24A1F" letter-spacing="-0.02em">04</text>
+  <text x="548" y="658" font-size="22" font-weight="700" fill="#111111">Stable Aggregations</text>
+  <text x="548" y="690" font-size="15" font-weight="400" fill="#3A3A3A">Query any dimension without schema</text>
+  <text x="548" y="710" font-size="15" font-weight="400" fill="#3A3A3A">rewrites when the floor reorganizes.</text>
+
+  <line x1="548" y1="630" x2="588" y2="630" stroke="#C24A1F" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- BOTTOM BAND -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="878" x2="960" y2="878" stroke="#11111118" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="930" font-size="19" font-weight="400" fill="#3A3A3A" letter-spacing="0.01em" text-anchor="middle">Schema rigidity is a planning problem, not a data problem.</text>
+
+</svg>

@@ -644,5 +644,14 @@
     "title": "Why your Scope 3 emissions audit is missing half the story",
     "body": "You've done the inventory. Supplier surveys, spend data, emission factors from the database. Then you compare year-on-year and the numbers don't move. Or they move wrong. The problem: you're treating Scope 3 like a snapshot when it's actually a moving target of changing supplier mixes, product specs, and sourcing geography.\n\nThis happens because most companies lock their baseline year calculation to a fixed list of suppliers and a fixed methodology. When a supplier switches their grid energy source or you shift 30% of volume to a new region, the old baseline becomes mathematically indefensible. You're comparing apples from 2022 (with Supplier A on coal) to oranges in 2024 (Supplier A on wind, Supplier B now in mix). The delta looks real but it's mostly accounting noise.\n\nHere's what works: rebuild your baseline annually using consistent methodology but allow supplier composition to drift. Calculate what 2022 emissions would have been with your current supplier slate and current grid conditions. That normalized baseline stays your anchor. Now your year-on-year changes are real—they're about actual efficiency or sourcing decisions, not just who you bought from.\n\nYour sustainability math only works if you separate real improvement from accounting fiction.",
     "image_url": ""
+  },
+  {
+    "id": "04e4ca257b03",
+    "ts": "2026-06-22T12:19:57.803617+00:00",
+    "topic": "digitalization",
+    "stage": "BOF",
+    "title": "Why your digitalization data model fails at the shop floor",
+    "body": "You've modeled your production data hierarchically: plant > line > asset > sensor. It looks clean in the diagram. Then you hit production and discover that a single asset moves between lines, or a sensor measures across multiple assets, and your schema can't handle it without either duplicating records or breaking queries.\n\nThis happens because digitalization teams build schemas from an organizational chart, not from how the physical system actually behaves. The factory isn't a tree. It's a graph with cycles, shared resources, and temporal dependencies that don't fit into \"parent-child\" thinking.\n\nStop trying to model structure first. Model the measurement event instead. Each data point should carry metadata about what it measures, where it was measured, and when—independent of your organizational assumptions. The schema follows from the event, not the other way around.\n\nOnce you're event-centric, you can query across any dimension without schema rewrites. Your aggregations stay stable even when the floor reorganizes.\n\nSchema rigidity isn't a data problem. It's a planning problem that shows up as a data problem.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/04e4ca257b03.png"
   }
 ]

@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Sun, 21 Jun 2026 10:00:14 +0000</lastBuildDate>
+<lastBuildDate>Mon, 22 Jun 2026 12:20:18 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization data model fails at the shop floor</title>
+<guid isPermaLink="false">04e4ca257b03</guid>
+<pubDate>Mon, 22 Jun 2026 12:19:57 +0000</pubDate>
+<description><![CDATA[You've modeled your production data hierarchically: plant > line > asset > sensor. It looks clean in the diagram. Then you hit production and discover that a single asset moves between lines, or a sensor measures across multiple assets, and your schema can't handle it without either duplicating records or breaking queries.
+
+This happens because digitalization teams build schemas from an organizational chart, not from how the physical system actually behaves. The factory isn't a tree. It's a graph with cycles, shared resources, and temporal dependencies that don't fit into "parent-child" thinking.
+
+Stop trying to model structure first. Model the measurement event instead. Each data point should carry metadata about what it measures, where it was measured, and when—independent of your organizational assumptions. The schema follows from the event, not the other way around.
+
+Once you're event-centric, you can query across any dimension without schema rewrites. Your aggregations stay stable even when the floor reorganizes.
+
+Schema rigidity isn't a data problem. It's a planning problem that shows up as a data problem.]]></description>
+<content:encoded><![CDATA[You've modeled your production data hierarchically: plant > line > asset > sensor. It looks clean in the diagram. Then you hit production and discover that a single asset moves between lines, or a sensor measures across multiple assets, and your schema can't handle it without either duplicating records or breaking queries.
+
+This happens because digitalization teams build schemas from an organizational chart, not from how the physical system actually behaves. The factory isn't a tree. It's a graph with cycles, shared resources, and temporal dependencies that don't fit into "parent-child" thinking.
+
+Stop trying to model structure first. Model the measurement event instead. Each data point should carry metadata about what it measures, where it was measured, and when—independent of your organizational assumptions. The schema follows from the event, not the other way around.
+
+Once you're event-centric, you can query across any dimension without schema rewrites. Your aggregations stay stable even when the floor reorganizes.
+
+Schema rigidity isn't a data problem. It's a planning problem that shows up as a data problem.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/04e4ca257b03.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/04e4ca257b03.png" medium="image" type="image/png"/>
+<category>digitalization</category>
+<category>BOF</category>
+</item>
 <item>
 <title>Why your Scope 3 emissions audit is missing half the story</title>
 <guid isPermaLink="false">36974e74e0a6</guid>
@@ -1221,31 +1248,6 @@ You're not compromising your goals. You're translating them into the language th
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/5ea755a54dd5.png" medium="image" type="image/png"/>
 <category>sustainability</category>
 <category>TOF</category>
-</item>
-<item>
-<title>Why your digitalization roadmap ignores the actual bottleneck</title>
-<guid isPermaLink="false">280d7deb9de2</guid>
-<pubDate>Fri, 01 May 2026 13:38:56 +0000</pubDate>
-<description><![CDATA[You've mapped out three years of digitalization. New MES. Cloud analytics. Real-time dashboards. Then six months in, adoption stalls because nobody told the night shift supervisor the system was coming, and the data you're collecting doesn't match what matters to production scheduling.
-
-This happens because digitalization gets sold as a technology problem, so teams treat it like one. You pick the shiniest tool, hire the integration firm, wire it to your existing systems. But the real bottleneck isn't the infrastructure—it's that you've never actually named what decisions your organization needs to make faster or better. You're digitizing workflows before you've clarified what you're optimizing for.
-
-Here's the move: before you spec any platform, sit with production, maintenance, and planning for half a day. Ask three things: What decision do you make today that takes too long? What information would change that decision? What happens if you get it wrong? Write down the answers. Specifics only—no abstractions.
-
-Then build backward from the decision, not forward from the data.
-
-Your digitalization roadmap should read like a sequence of decisions you're accelerating, not a list of tools you're buying.]]></description>
-<content:encoded><![CDATA[You've mapped out three years of digitalization. New MES. Cloud analytics. Real-time dashboards. Then six months in, adoption stalls because nobody told the night shift supervisor the system was coming, and the data you're collecting doesn't match what matters to production scheduling.
-
-This happens because digitalization gets sold as a technology problem, so teams treat it like one. You pick the shiniest tool, hire the integration firm, wire it to your existing systems. But the real bottleneck isn't the infrastructure—it's that you've never actually named what decisions your organization needs to make faster or better. You're digitizing workflows before you've clarified what you're optimizing for.
-
-Here's the move: before you spec any platform, sit with production, maintenance, and planning for half a day. Ask three things: What decision do you make today that takes too long? What information would change that decision? What happens if you get it wrong? Write down the answers. Specifics only—no abstractions.
-
-Then build backward from the decision, not forward from the data.
-
-Your digitalization roadmap should read like a sequence of decisions you're accelerating, not a list of tools you're buying.]]></content:encoded>
-<category>digitalization</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>
