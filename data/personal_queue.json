@@ -653,5 +653,14 @@
     "title": "Why your digitalization data model fails at the shop floor",
     "body": "You've modeled your production data hierarchically: plant > line > asset > sensor. It looks clean in the diagram. Then you hit production and discover that a single asset moves between lines, or a sensor measures across multiple assets, and your schema can't handle it without either duplicating records or breaking queries.\n\nThis happens because digitalization teams build schemas from an organizational chart, not from how the physical system actually behaves. The factory isn't a tree. It's a graph with cycles, shared resources, and temporal dependencies that don't fit into \"parent-child\" thinking.\n\nStop trying to model structure first. Model the measurement event instead. Each data point should carry metadata about what it measures, where it was measured, and when—independent of your organizational assumptions. The schema follows from the event, not the other way around.\n\nOnce you're event-centric, you can query across any dimension without schema rewrites. Your aggregations stay stable even when the floor reorganizes.\n\nSchema rigidity isn't a data problem. It's a planning problem that shows up as a data problem.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/04e4ca257b03.png"
+  },
+  {
+    "id": "389d57d46029",
+    "ts": "2026-06-23T09:57:40.913606+00:00",
+    "topic": "artificial intelligence",
+    "stage": "MOF",
+    "title": "Why your AI vendor keeps missing your actual constraint",
+    "body": "You brief your AI vendor on accuracy, they deliver 94% F1, and you still can't ship. This happens because vendors optimize for the metric you named, not the constraint that actually blocks production.\n\nThe mechanism is simple: accuracy is measurable and contractual. But your real blocker—latency at p99, memory footprint on edge hardware, or the cost per inference at scale—gets mentioned once in passing and then deprioritized. Vendors have no skin in that game. They hit the number on the spec sheet and move on.\n\nHere's the fix. Before you hand over a spec, write down your three hardest constraints in order: the thing that kills the project if it fails, the thing that makes it uneconomical, and the thing that breaks your deployment pipeline. Name them explicitly. Then tell your vendor: \"I care about this metric, but here's what actually has to work.\" Make the constraint non-negotiable in your eval framework.\n\nMost AI failures aren't about model quality. They're about alignment between what gets built and what gets shipped.",
+    "image_url": ""
   }
 ]
