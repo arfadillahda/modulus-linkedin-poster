@@ -4,7 +4,36 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Tue, 23 Jun 2026 09:57:41 +0000</lastBuildDate>
+<lastBuildDate>Wed, 24 Jun 2026 09:45:37 +0000</lastBuildDate>
+<item>
+<title>Why your digitalization metrics measure the wrong thing</title>
+<guid isPermaLink="false">41bd8c998a00</guid>
+<pubDate>Wed, 24 Jun 2026 09:45:05 +0000</pubDate>
+<description><![CDATA[You're tracking OEE. Your vendor is tracking API uptime. Your CFO is tracking ROI on the software license. None of you are measuring the same problem.
+
+This happens because digitalization got sold as a *technology* problem — install the right sensors, the right software, the right data pipeline — and suddenly you'll have visibility. But visibility isn't binary. A sensor can report perfectly while telling you nothing about what matters: whether your line is actually running closer to its theoretical maximum than it was last quarter.
+
+The mechanism is simple: everyone defaults to measuring what's easiest to instrument, not what's hardest to improve. Uptime is easy. Changeover loss is hard. So the system optimizes itself around the wrong metric.
+
+Here's the reframe: before you digitalize anything, ask what one thing would change your operation if you measured it weekly instead of yearly. Not what data you can collect. What would actually move the needle if you suddenly knew it cold.
+
+That question determines your entire stack, not the other way around.
+
+Your metrics should follow your constraints, not your infrastructure.]]></description>
+<content:encoded><![CDATA[You're tracking OEE. Your vendor is tracking API uptime. Your CFO is tracking ROI on the software license. None of you are measuring the same problem.
+
+This happens because digitalization got sold as a *technology* problem — install the right sensors, the right software, the right data pipeline — and suddenly you'll have visibility. But visibility isn't binary. A sensor can report perfectly while telling you nothing about what matters: whether your line is actually running closer to its theoretical maximum than it was last quarter.
+
+The mechanism is simple: everyone defaults to measuring what's easiest to instrument, not what's hardest to improve. Uptime is easy. Changeover loss is hard. So the system optimizes itself around the wrong metric.
+
+Here's the reframe: before you digitalize anything, ask what one thing would change your operation if you measured it weekly instead of yearly. Not what data you can collect. What would actually move the needle if you suddenly knew it cold.
+
+That question determines your entire stack, not the other way around.
+
+Your metrics should follow your constraints, not your infrastructure.]]></content:encoded>
+<category>digitalization</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your AI vendor keeps missing your actual constraint</title>
 <guid isPermaLink="false">389d57d46029</guid>
@@ -1221,27 +1250,6 @@ If your production latency curve trends upward with zero code changes, you're lo
 <media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/bd1e11fc3089.png" medium="image" type="image/png"/>
 <category>artificial intelligence</category>
 <category>BOF</category>
-</item>
-<item>
-<title>Why your sustainability project fails after month six</title>
-<guid isPermaLink="false">7c803104cc10</guid>
-<pubDate>Sun, 03 May 2026 05:11:45 +0000</pubDate>
-<description><![CDATA[You launch a factory energy reduction program. Three months in, it's humming. Six months later, the gains flatten or reverse. The project owner gets reassigned. The equipment vendor stops showing up. No one owns it anymore.
-
-This happens because sustainability improvements get treated like capital projects—they have a start date and an assumed end date. Once the ROI spreadsheet closes, leadership assumes the work is done. But energy efficiency isn't a destination. It's a decay curve. The moment you stop paying attention, operators revert to old habits, equipment drifts out of tune, and setpoints creep back.
-
-Here's the fix: treat sustained energy reduction like you treat preventive maintenance. Assign a specific person (not a committee) a recurring monthly review—consumption trending, equipment logs, operator feedback. Give them authority to adjust one thing per quarter without asking permission. Budget for it. Show the CFO that month 18 always outperforms month 7 if you staff the vigilance.
-
-Sustainability that sticks isn't about heroic sprints. It's about boring, continuous attention.]]></description>
-<content:encoded><![CDATA[You launch a factory energy reduction program. Three months in, it's humming. Six months later, the gains flatten or reverse. The project owner gets reassigned. The equipment vendor stops showing up. No one owns it anymore.
-
-This happens because sustainability improvements get treated like capital projects—they have a start date and an assumed end date. Once the ROI spreadsheet closes, leadership assumes the work is done. But energy efficiency isn't a destination. It's a decay curve. The moment you stop paying attention, operators revert to old habits, equipment drifts out of tune, and setpoints creep back.
-
-Here's the fix: treat sustained energy reduction like you treat preventive maintenance. Assign a specific person (not a committee) a recurring monthly review—consumption trending, equipment logs, operator feedback. Give them authority to adjust one thing per quarter without asking permission. Budget for it. Show the CFO that month 18 always outperforms month 7 if you staff the vigilance.
-
-Sustainability that sticks isn't about heroic sprints. It's about boring, continuous attention.]]></content:encoded>
-<category>sustainability</category>
-<category>MOF</category>
 </item>
 </channel>
 </rss>

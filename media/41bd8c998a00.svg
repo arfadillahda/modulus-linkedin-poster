@@ -1,0 +1,117 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- ============================================================
+       TOP BAND  (~0–226px)
+       ============================================================ -->
+
+  <!-- Kicker -->
+  <text
+    x="64" y="88"
+    font-size="13" font-weight="600"
+    letter-spacing="0.18em"
+    fill="#C24A1F"
+    text-anchor="start"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">DIGITALIZATION</text>
+
+  <!-- Display headline -->
+  <text
+    x="64" y="142"
+    font-size="52" font-weight="800"
+    letter-spacing="-0.03em"
+    fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Measure what constrains</text>
+  <text
+    x="64" y="202"
+    font-size="52" font-weight="800"
+    letter-spacing="-0.03em"
+    fill="#111111"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">you, not what's easy.</text>
+
+  <!-- Accent underline under headline -->
+  <rect x="64" y="214" width="420" height="2" rx="1" fill="#C24A1F" opacity="0.85"/>
+
+
+  <!-- ============================================================
+       MIDDLE BAND  (~226–868px)
+       Layout: top row 2 tall tiles, bottom row 3 short tiles
+       Outer padding 64px. Gap 16px.
+       Canvas inner width: 1024 - 128 = 896px
+       ============================================================ -->
+
+  <!-- ---- TOP ROW: 2 tall tiles ---- -->
+  <!-- Each tile width: (896 - 16) / 2 = 440px   height: 266px -->
+  <!-- Top of tiles: y = 238 -->
+
+  <!-- Tile 01 -->
+  <rect x="64" y="238" width="440" height="266" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="88" y="300" font-size="42" font-weight="800" fill="#C24A1F" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">01</text>
+  <text x="88" y="342" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Everyone Measures</text>
+  <text x="88" y="366" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Something Different</text>
+  <text x="88" y="406" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">OEE, uptime, license ROI — no</text>
+  <text x="88" y="426" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">one shares the same problem.</text>
+  <text x="88" y="464" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Misaligned metrics mean</text>
+  <text x="88" y="484" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">misaligned decisions.</text>
+
+  <!-- Tile 02 -->
+  <rect x="520" y="238" width="440" height="266" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="544" y="300" font-size="42" font-weight="800" fill="#C24A1F" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">02</text>
+  <text x="544" y="342" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Visibility Isn't</text>
+  <text x="544" y="366" font-size="20" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">the Outcome</text>
+  <text x="544" y="406" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Sensors report perfectly while</text>
+  <text x="544" y="426" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">telling you nothing that matters.</text>
+  <text x="544" y="464" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Data flow ≠ closing the gap</text>
+  <text x="544" y="484" font-size="15" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">to theoretical maximum.</text>
+
+
+  <!-- ---- BOTTOM ROW: 3 short tiles ---- -->
+  <!-- Each tile width: (896 - 32) / 3 = 288px   height: 226px -->
+  <!-- Top of tiles: y = 238 + 266 + 16 = 520 -->
+
+  <!-- Tile 03 -->
+  <rect x="64" y="520" width="288" height="226" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="88" y="576" font-size="38" font-weight="800" fill="#C24A1F" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">03</text>
+  <text x="88" y="612" font-size="18" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Easy to Instrument</text>
+  <text x="88" y="633" font-size="18" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Wins by Default</text>
+  <text x="88" y="668" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Uptime is easy. Changeover</text>
+  <text x="88" y="687" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">loss is hard. Systems optimize</text>
+  <text x="88" y="706" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">around the wrong metric.</text>
+
+  <!-- Tile 04 -->
+  <rect x="368" y="520" width="288" height="226" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="392" y="576" font-size="38" font-weight="800" fill="#C24A1F" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">04</text>
+  <text x="392" y="612" font-size="18" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Ask the Weekly</text>
+  <text x="392" y="633" font-size="18" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Question First</text>
+  <text x="392" y="668" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">What one thing would change</text>
+  <text x="392" y="687" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">your operation if you knew</text>
+  <text x="392" y="706" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">it weekly instead of yearly?</text>
+
+  <!-- Tile 05 -->
+  <rect x="672" y="520" width="288" height="226" rx="16" fill="#FFFFFF" stroke="#11111118" stroke-width="1"/>
+  <text x="696" y="576" font-size="38" font-weight="800" fill="#C24A1F" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">05</text>
+  <text x="696" y="612" font-size="18" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Constraints Drive</text>
+  <text x="696" y="633" font-size="18" font-weight="700" fill="#111111" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">the Stack</text>
+  <text x="696" y="668" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Your metric question defines</text>
+  <text x="696" y="687" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">your entire architecture.</text>
+  <text x="696" y="706" font-size="14" font-weight="400" fill="#3A3A3A" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Not the other way around.</text>
+
+
+  <!-- ============================================================
+       BOTTOM BAND  (~868–1024px)
+       ============================================================ -->
+
+  <!-- Hairline rule -->
+  <line x1="64" y1="876" x2="960" y2="876" stroke="#11111120" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text
+    x="512" y="942"
+    font-size="22" font-weight="600"
+    letter-spacing="-0.01em"
+    fill="#3A3A3A"
+    text-anchor="middle"
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif">Your metrics should follow your constraints, not your infrastructure.</text>
+
+</svg>
