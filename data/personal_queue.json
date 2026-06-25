@@ -671,5 +671,14 @@
     "title": "Why your digitalization metrics measure the wrong thing",
     "body": "You're tracking OEE. Your vendor is tracking API uptime. Your CFO is tracking ROI on the software license. None of you are measuring the same problem.\n\nThis happens because digitalization got sold as a *technology* problem — install the right sensors, the right software, the right data pipeline — and suddenly you'll have visibility. But visibility isn't binary. A sensor can report perfectly while telling you nothing about what matters: whether your line is actually running closer to its theoretical maximum than it was last quarter.\n\nThe mechanism is simple: everyone defaults to measuring what's easiest to instrument, not what's hardest to improve. Uptime is easy. Changeover loss is hard. So the system optimizes itself around the wrong metric.\n\nHere's the reframe: before you digitalize anything, ask what one thing would change your operation if you measured it weekly instead of yearly. Not what data you can collect. What would actually move the needle if you suddenly knew it cold.\n\nThat question determines your entire stack, not the other way around.\n\nYour metrics should follow your constraints, not your infrastructure.",
     "image_url": ""
+  },
+  {
+    "id": "f56e78570716",
+    "ts": "2026-06-25T09:36:01.782367+00:00",
+    "topic": "artificial intelligence",
+    "stage": "TOF",
+    "title": "Why your AI ROI calculation starts in the wrong place",
+    "body": "You're measuring AI's value against the cost of the model. That's the mistake.\n\nMost teams build their ROI business case by comparing model cost (or inference spend) against labor savings. Clean math. Gets approval. Then production hits and the real cost emerges: retraining cycles when data drifts, incident response when the model hallucinates on edge cases, domain expert time spent validating outputs because nobody trusts it unsupervised.\n\nThe mechanism is simple. AI ROI isn't determined by the algorithm's performance—it's determined by how much operational friction you've eliminated or created. A model that's 95% accurate but requires a human review loop on every output isn't saving labor. It's redistributing it.\n\nStart your ROI calculation with the actual workflow you're changing. Map what your domain experts actually do today. Then ask: which parts does this AI genuinely remove, and which parts does it just move?\n\nThe models that pay for themselves are the ones designed around what humans can safely ignore, not what machines can theoretically do.\n\nAI ROI is a workflow problem disguised as a model problem.",
+    "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/f56e78570716.png"
   }
 ]

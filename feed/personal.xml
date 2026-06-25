@@ -4,7 +4,38 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Wed, 24 Jun 2026 09:45:37 +0000</lastBuildDate>
+<lastBuildDate>Thu, 25 Jun 2026 09:36:22 +0000</lastBuildDate>
+<item>
+<title>Why your AI ROI calculation starts in the wrong place</title>
+<guid isPermaLink="false">f56e78570716</guid>
+<pubDate>Thu, 25 Jun 2026 09:36:01 +0000</pubDate>
+<description><![CDATA[You're measuring AI's value against the cost of the model. That's the mistake.
+
+Most teams build their ROI business case by comparing model cost (or inference spend) against labor savings. Clean math. Gets approval. Then production hits and the real cost emerges: retraining cycles when data drifts, incident response when the model hallucinates on edge cases, domain expert time spent validating outputs because nobody trusts it unsupervised.
+
+The mechanism is simple. AI ROI isn't determined by the algorithm's performance—it's determined by how much operational friction you've eliminated or created. A model that's 95% accurate but requires a human review loop on every output isn't saving labor. It's redistributing it.
+
+Start your ROI calculation with the actual workflow you're changing. Map what your domain experts actually do today. Then ask: which parts does this AI genuinely remove, and which parts does it just move?
+
+The models that pay for themselves are the ones designed around what humans can safely ignore, not what machines can theoretically do.
+
+AI ROI is a workflow problem disguised as a model problem.]]></description>
+<content:encoded><![CDATA[You're measuring AI's value against the cost of the model. That's the mistake.
+
+Most teams build their ROI business case by comparing model cost (or inference spend) against labor savings. Clean math. Gets approval. Then production hits and the real cost emerges: retraining cycles when data drifts, incident response when the model hallucinates on edge cases, domain expert time spent validating outputs because nobody trusts it unsupervised.
+
+The mechanism is simple. AI ROI isn't determined by the algorithm's performance—it's determined by how much operational friction you've eliminated or created. A model that's 95% accurate but requires a human review loop on every output isn't saving labor. It's redistributing it.
+
+Start your ROI calculation with the actual workflow you're changing. Map what your domain experts actually do today. Then ask: which parts does this AI genuinely remove, and which parts does it just move?
+
+The models that pay for themselves are the ones designed around what humans can safely ignore, not what machines can theoretically do.
+
+AI ROI is a workflow problem disguised as a model problem.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/f56e78570716.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/f56e78570716.png" medium="image" type="image/png"/>
+<category>artificial intelligence</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your digitalization metrics measure the wrong thing</title>
 <guid isPermaLink="false">41bd8c998a00</guid>
@@ -1226,29 +1257,6 @@ The fix is narrower: segment suppliers by geography and process technology befor
 
 You can't fix what you can't see, and you can't see supplier carbon without looking inside their process, not just their balance sheet.]]></content:encoded>
 <category>sustainability</category>
-<category>BOF</category>
-</item>
-<item>
-<title>Why your inference latency suddenly spikes in week three</title>
-<guid isPermaLink="false">bd1e11fc3089</guid>
-<pubDate>Sun, 03 May 2026 05:13:55 +0000</pubDate>
-<description><![CDATA[You ship an LLM integration to production. Response times sit at 340ms for the first two weeks. Then they creep to 890ms. Then 2.1 seconds. You haven't changed the model. You haven't added users. What happened?
-
-Token cache fragmentation. Every time you run inference, the KV cache—the thing that lets transformers avoid recomputing every prior token—gets allocated in memory. Most frameworks don't defragment it between requests. After days of traffic, your cache becomes scattered across RAM like a hard drive in 2005. The GPU has to chase fragments instead of reading sequentially, and your latency tanks.
-
-The fix: implement explicit cache eviction between request batches. Don't rely on garbage collection to clean up old KV tensors. Allocate a fixed pool, reuse it, zero it between inference cycles. Some frameworks let you set `cache_max_seqlen` or use a ring buffer for the KV state. Others require you to manually call `torch.cuda.empty_cache()` (crude but effective). The exact syntax depends on your stack, but the principle is identical.
-
-If your production latency curve trends upward with zero code changes, you're looking at memory fragmentation, not a load problem.]]></description>
-<content:encoded><![CDATA[You ship an LLM integration to production. Response times sit at 340ms for the first two weeks. Then they creep to 890ms. Then 2.1 seconds. You haven't changed the model. You haven't added users. What happened?
-
-Token cache fragmentation. Every time you run inference, the KV cache—the thing that lets transformers avoid recomputing every prior token—gets allocated in memory. Most frameworks don't defragment it between requests. After days of traffic, your cache becomes scattered across RAM like a hard drive in 2005. The GPU has to chase fragments instead of reading sequentially, and your latency tanks.
-
-The fix: implement explicit cache eviction between request batches. Don't rely on garbage collection to clean up old KV tensors. Allocate a fixed pool, reuse it, zero it between inference cycles. Some frameworks let you set `cache_max_seqlen` or use a ring buffer for the KV state. Others require you to manually call `torch.cuda.empty_cache()` (crude but effective). The exact syntax depends on your stack, but the principle is identical.
-
-If your production latency curve trends upward with zero code changes, you're looking at memory fragmentation, not a load problem.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/bd1e11fc3089.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/bd1e11fc3089.png" medium="image" type="image/png"/>
-<category>artificial intelligence</category>
 <category>BOF</category>
 </item>
 </channel>
