@@ -680,5 +680,14 @@
     "title": "Why your AI ROI calculation starts in the wrong place",
     "body": "You're measuring AI's value against the cost of the model. That's the mistake.\n\nMost teams build their ROI business case by comparing model cost (or inference spend) against labor savings. Clean math. Gets approval. Then production hits and the real cost emerges: retraining cycles when data drifts, incident response when the model hallucinates on edge cases, domain expert time spent validating outputs because nobody trusts it unsupervised.\n\nThe mechanism is simple. AI ROI isn't determined by the algorithm's performance—it's determined by how much operational friction you've eliminated or created. A model that's 95% accurate but requires a human review loop on every output isn't saving labor. It's redistributing it.\n\nStart your ROI calculation with the actual workflow you're changing. Map what your domain experts actually do today. Then ask: which parts does this AI genuinely remove, and which parts does it just move?\n\nThe models that pay for themselves are the ones designed around what humans can safely ignore, not what machines can theoretically do.\n\nAI ROI is a workflow problem disguised as a model problem.",
     "image_url": "https://arfadillahda.github.io/modulus-linkedin-poster/media/f56e78570716.png"
+  },
+  {
+    "id": "08a8166d8a11",
+    "ts": "2026-06-26T09:42:12.483136+00:00",
+    "topic": "digitalization",
+    "stage": "MOF",
+    "title": "Why your digitalization business case keeps falling apart",
+    "body": "You build a financial model for your digitalization project. Six months in, actual ROI doesn't match. Not because the technology failed, but because you monetized the wrong outcome.\n\nHere's what happens: you measure what's easy (operator time saved, maintenance calls reduced) instead of what actually moves the needle for your business. A ten percent efficiency gain means nothing if it doesn't translate to throughput, quality, or a decision that cuts your working capital.\n\nThe mechanism is simple. Your CFO doesn't care about operational metrics. They care about cash flow and risk. When you present \"we'll save 200 hours a month,\" they mentally convert that to salary cost. But on a factory floor with fixed labor and variable demand, those 200 hours disappear into the scheduling buffer, not your P&L.\n\nReframe this way: before you build anything, map what actually constrains your business (throughput, yield, lead time, asset utilization). Then work backward to the data that would unlock that constraint. Run the financial model against that outcome, not against the features.\n\nDigitalization ROI isn't about technology. It's about whether your data answers a question that costs you money.",
+    "image_url": ""
   }
 ]
