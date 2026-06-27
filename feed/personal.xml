@@ -4,7 +4,34 @@
 <title>Dam — AI, Sustainability, Digitalization</title>
 <link>https://github.com/arfadillahda/modulus-linkedin-poster</link>
 <description>Evergreen LinkedIn posts auto-generated for @adamaeraa.</description>
-<lastBuildDate>Fri, 26 Jun 2026 09:42:12 +0000</lastBuildDate>
+<lastBuildDate>Sat, 27 Jun 2026 08:46:37 +0000</lastBuildDate>
+<item>
+<title>Why your sustainability budget keeps funding the wrong things</title>
+<guid isPermaLink="false">cac8b4b415fa</guid>
+<pubDate>Sat, 27 Jun 2026 08:46:20 +0000</pubDate>
+<description><![CDATA[Most companies spend their sustainability money on things that feel like progress — solar panels, EV fleets, carbon offsets — while ignoring the actual cost driver sitting in their process.
+
+This happens because sustainability budgets get built from the top down. Finance approves a line item. Procurement finds vendors. Marketing announces it. Nobody actually traces where your emissions (or waste, or water) are being generated in your operations. You end up funding the visible problem, not the expensive one.
+
+The reframe: treat sustainability like you'd treat a production bottleneck. Before you spend, map the flow. Find where the system is actually leaking energy, material, or water. That's usually boring — it's not a shiny hardware purchase. It might be a process redesign, a supplier conversation, or a scheduling change.
+
+When you flip the order (find first, fund second), your money stops chasing vanity metrics and starts hitting actual return on abatement.
+
+Your budget should follow your data, not precede it.]]></description>
+<content:encoded><![CDATA[Most companies spend their sustainability money on things that feel like progress — solar panels, EV fleets, carbon offsets — while ignoring the actual cost driver sitting in their process.
+
+This happens because sustainability budgets get built from the top down. Finance approves a line item. Procurement finds vendors. Marketing announces it. Nobody actually traces where your emissions (or waste, or water) are being generated in your operations. You end up funding the visible problem, not the expensive one.
+
+The reframe: treat sustainability like you'd treat a production bottleneck. Before you spend, map the flow. Find where the system is actually leaking energy, material, or water. That's usually boring — it's not a shiny hardware purchase. It might be a process redesign, a supplier conversation, or a scheduling change.
+
+When you flip the order (find first, fund second), your money stops chasing vanity metrics and starts hitting actual return on abatement.
+
+Your budget should follow your data, not precede it.]]></content:encoded>
+<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/cac8b4b415fa.png" type="image/png" length="0"/>
+<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/cac8b4b415fa.png" medium="image" type="image/png"/>
+<category>sustainability</category>
+<category>TOF</category>
+</item>
 <item>
 <title>Why your digitalization business case keeps falling apart</title>
 <guid isPermaLink="false">08a8166d8a11</guid>
@@ -1235,29 +1262,6 @@ Then design around those constraints, not around benchmark scores. Your model sh
 Production robustness beats lab accuracy every time.]]></content:encoded>
 <category>artificial intelligence</category>
 <category>MOF</category>
-</item>
-<item>
-<title>Why your digitalization data pipeline stops at the edge</title>
-<guid isPermaLink="false">44a8793e1f4f</guid>
-<pubDate>Mon, 04 May 2026 08:40:15 +0000</pubDate>
-<description><![CDATA[You've got sensors feeding real-time data into your cloud platform. Everything works in the demo. Then you try to ingest six months of historical data from the plant floor—and the system chokes. Or you discover the timestamps don't align across devices. Or the schema changes between batches and breaks your downstream models.
-
-This happens because most teams treat the edge and the cloud as separate worlds. They assume "digitalization" means moving data uphill. But industrial devices weren't designed for that. They log inconsistently. They have local time drift. They buffer data in ways that destroy sequence integrity. Your platform expects clean, normalized inputs. Reality sends chaos.
-
-The fix is unglamorous: build a local buffer layer—even if it's just a Raspberry Pi or industrial PC running Node-RED. Let it normalize, timestamp-correct, and batch the data before it leaves the plant. This adds latency (which you probably don't care about), but it kills schema mismatches, handles device dropout gracefully, and lets you replay historical data without corruption.
-
-It sounds like overhead. It's actually the load-bearing wall between a pilot that works and a system that scales.]]></description>
-<content:encoded><![CDATA[You've got sensors feeding real-time data into your cloud platform. Everything works in the demo. Then you try to ingest six months of historical data from the plant floor—and the system chokes. Or you discover the timestamps don't align across devices. Or the schema changes between batches and breaks your downstream models.
-
-This happens because most teams treat the edge and the cloud as separate worlds. They assume "digitalization" means moving data uphill. But industrial devices weren't designed for that. They log inconsistently. They have local time drift. They buffer data in ways that destroy sequence integrity. Your platform expects clean, normalized inputs. Reality sends chaos.
-
-The fix is unglamorous: build a local buffer layer—even if it's just a Raspberry Pi or industrial PC running Node-RED. Let it normalize, timestamp-correct, and batch the data before it leaves the plant. This adds latency (which you probably don't care about), but it kills schema mismatches, handles device dropout gracefully, and lets you replay historical data without corruption.
-
-It sounds like overhead. It's actually the load-bearing wall between a pilot that works and a system that scales.]]></content:encoded>
-<enclosure url="https://arfadillahda.github.io/modulus-linkedin-poster/media/44a8793e1f4f.png" type="image/png" length="0"/>
-<media:content url="https://arfadillahda.github.io/modulus-linkedin-poster/media/44a8793e1f4f.png" medium="image" type="image/png"/>
-<category>digitalization</category>
-<category>BOF</category>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,55 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#F5F1EA"/>
+
+  <!-- TOP BAND -->
+  <!-- Kicker -->
+  <text x="64" y="96" font-size="12" font-weight="600" fill="#1F5C3D" letter-spacing="0.18em" text-anchor="start" font-variant="small-caps">SUSTAINABILITY</text>
+
+  <!-- Display Headline -->
+  <text x="64" y="152" font-size="54" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">Fund the leak, not</text>
+  <text x="64" y="212" font-size="54" font-weight="800" fill="#111111" letter-spacing="-0.02em" text-anchor="start">the announcement.</text>
+
+  <!-- Accent underline rule -->
+  <rect x="64" y="228" width="180" height="3" rx="1.5" fill="#1F5C3D"/>
+
+  <!-- MIDDLE BAND: 4 tiles in 2x2 grid -->
+  <!-- Tile dimensions: each tile ~432px wide, ~260px tall, 16px gap, starting at y=264 -->
+
+  <!-- Tile 01 (top-left) x=64, y=264 -->
+  <rect x="64" y="264" width="432" height="260" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="320" font-size="42" font-weight="800" fill="#1F5C3D" letter-spacing="-0.02em">01</text>
+  <text x="92" y="364" font-size="22" font-weight="700" fill="#111111">Visible vs. Costly</text>
+  <text x="92" y="398" font-size="15" font-weight="400" fill="#3A3A3A">Budgets chase solar panels, not actual cost drivers.</text>
+  <text x="92" y="422" font-size="15" font-weight="400" fill="#3A3A3A"> </text>
+
+  <!-- Tile 02 (top-right) x=512+16=528, y=264 -->
+  <rect x="528" y="264" width="432" height="260" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="556" y="320" font-size="42" font-weight="800" fill="#1F5C3D" letter-spacing="-0.02em">02</text>
+  <text x="556" y="364" font-size="22" font-weight="700" fill="#111111">Top-Down Blindness</text>
+  <text x="556" y="398" font-size="15" font-weight="400" fill="#3A3A3A">Finance approves. Procurement buys. Nobody maps</text>
+  <text x="556" y="420" font-size="15" font-weight="400" fill="#3A3A3A">where emissions actually originate.</text>
+
+  <!-- Tile 03 (bottom-left) x=64, y=264+260+16=540 -->
+  <rect x="64" y="540" width="432" height="260" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="92" y="596" font-size="42" font-weight="800" fill="#1F5C3D" letter-spacing="-0.02em">03</text>
+  <text x="92" y="640" font-size="22" font-weight="700" fill="#111111">Map Before You Spend</text>
+  <text x="92" y="674" font-size="15" font-weight="400" fill="#3A3A3A">Treat sustainability like a production bottleneck.</text>
+  <text x="92" y="696" font-size="15" font-weight="400" fill="#3A3A3A">Find the leak first.</text>
+
+  <!-- Tile 04 (bottom-right) x=528, y=540 -->
+  <rect x="528" y="540" width="432" height="260" rx="16" fill="#EFEAE0" stroke="#11111118" stroke-width="1"/>
+  <text x="556" y="596" font-size="42" font-weight="800" fill="#1F5C3D" letter-spacing="-0.02em">04</text>
+  <text x="556" y="640" font-size="22" font-weight="700" fill="#111111">Find First, Fund Second</text>
+  <text x="556" y="674" font-size="15" font-weight="400" fill="#3A3A3A">Data-led spending hits real return on abatement,</text>
+  <text x="556" y="696" font-size="15" font-weight="400" fill="#3A3A3A">not vanity metrics.</text>
+
+  <!-- BOTTOM BAND -->
+  <!-- Hairline rule -->
+  <line x1="64" y1="836" x2="960" y2="836" stroke="#11111130" stroke-width="1"/>
+
+  <!-- Closing line -->
+  <text x="512" y="900" font-size="22" font-weight="400" fill="#3A3A3A" text-anchor="middle" letter-spacing="0.01em">Your budget should follow your data, not precede it.</text>
+
+</svg>
